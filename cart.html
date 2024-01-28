@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.green.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/jquery.min.js">
+    </script>
+    <script src="js/owl.carousel.min.js">
+    </script>
+</head>
+
+<body>
+
+    <!-- navigation -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">All Brands</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="categories.html">Categories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Offers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="cart.html">Cart</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="whislist.html">Whislist</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="my-coupan.html">Coupons</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+                <a class="text-dark" href=""><i class="fa-solid fa-magnifying-glass p-2 fs-5"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="text-dark" href=""><i class="fa-solid fa-cart-shopping p-2 fs-5"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="text-dark" href="profile.html"><i class="fa-solid fa-user  p-2 fs-5"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      
+    <section>
+        <div class="container">
+            <div class="main-top-cart-delivery d-flex mb-3 pt-2">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img class="img-fluid rounded-circle" width="40px" src="img/delivery-cart.png" alt="">
+                    <p class="my-1 mx-2">Delivery to Vijay</p>
+                </div>
+                <div class="ms-auto">
+                    <p>Powai Mumbai</p>
+                </div>
+            </div>
+
+            <div class="cart-white-bg-section mb-3">
+                <div class="d-flex">
+                    <img class="img-fluid" width="80px" src="img/k1.webp" alt="">
+                    <div class="mx-2 cart-white-bg-body ">
+                        <h6 class="fw-bold">Peter England Casual</h6>
+                        <p>Peter Longline Pure Cotten Tshirt</p>
+                        <h5 class="pricing">$158.15 <del class="text-success">$200.10</del></h5>
+                    </div>
+                    <div class="d-flex ms-auto align-items-end plus-minus">
+                        <button class="value-button decrease-button" onclick="decreaseValue(this)"
+                            title="Azalt">-</button>
+                        <a href="" class="number">0</a>
+                        <button class="value-button increase-button" onclick="increaseValue(this, 5)"
+                            title="Arrtır">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-white-bg-section mb-3">
+                <div class="d-flex">
+                    <img class="img-fluid" width="80px" src="img/k6.webp" alt="">
+                    <div class="mx-2 cart-white-bg-body ">
+                        <h6 class="fw-bold">Peter England Casual</h6>
+                        <p>Peter Longline Pure Cotten Tshirt</p>
+                        <h5 class="pricing">$158.15 <del class="text-success">$200.10</del></h5>
+                    </div>
+                    <div class="d-flex ms-auto align-items-end plus-minus">
+                        <button class="value-button decrease-button" onclick="decreaseValue(this)"
+                            title="Azalt">-</button>
+                        <a href="" class="number">0</a>
+                        <button class="value-button increase-button" onclick="increaseValue(this, 5)"
+                            title="Arrtır">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-white-bg-section mb-3">
+                <div class="d-flex">
+                    <img class="img-fluid" width="80px" src="img/cart2.jpg" alt="">
+                    <div class="mx-2 cart-white-bg-body ">
+                        <h6 class="fw-bold">Peter England Casual</h6>
+                        <p>Peter Longline Pure Cotten Tshirt</p>
+                        <h5 class="pricing">$158.15 <del class="text-success">$200.10</del></h5>
+                    </div>
+                    <div class="d-flex ms-auto align-items-end plus-minus">
+                        <button class="value-button decrease-button" onclick="decreaseValue(this)"
+                            title="Azalt">-</button>
+                        <a href="" class="number">0</a>
+                        <button class="value-button increase-button" onclick="increaseValue(this, 5)"
+                            title="Arrtır">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-white-bg-section mb-3">
+                <div class="d-flex">
+                    <img class="img-fluid" width="80px" src="img/cart2.jpg" alt="">
+                    <div class="mx-2 cart-white-bg-body ">
+                        <h6 class="fw-bold">Peter England Casual</h6>
+                        <p>Peter Longline Pure Cotten Tshirt</p>
+                        <h5 class="pricing">$158.15 <del class="text-success">$200.10</del></h5>
+                    </div>
+                    <div class="d-flex ms-auto align-items-end plus-minus">
+                        <button class="value-button decrease-button" onclick="decreaseValue(this)"
+                            title="Azalt">-</button>
+                        <a href="" class="number">0</a>
+                        <button class="value-button increase-button" onclick="increaseValue(this, 5)"
+                            title="Arrtır">+</button>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="cart-white-bg-section mb-3">
+                <div class="d-flex">
+                    <img class="img-fluid" width="80px" src="img/k3.webp" alt="">
+                    <div class="mx-2 cart-white-bg-body ">
+                        <h6 class="fw-bold">Peter England Casual</h6>
+                        <p>Peter Longline Pure Cotten Tshirt</p>
+                        <h5 class="pricing">$158.15 <del class="text-success">$200.10</del></h5>
+                    </div>
+                    <div class="d-flex ms-auto align-items-end plus-minus">
+                        <button class="value-button decrease-button" onclick="decreaseValue(this)"
+                            title="Azalt">-</button>
+                        <a href="" class="number">0</a>
+                        <button class="value-button increase-button" onclick="increaseValue(this, 5)"
+                            title="Arrtır">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-white-bg-section mb-3">
+                <div class="d-flex">
+                    <img class="img-fluid" width="80px" src="img/k2.webp" alt="">
+                    <div class="mx-2 cart-white-bg-body ">
+                        <h6 class="fw-bold">Peter England Casual</h6>
+                        <p>Peter Longline Pure Cotten Tshirt</p>
+                        <h5 class="pricing">$158.15 <del class="text-success">$200.10</del></h5>
+                    </div>
+                    <div class="d-flex ms-auto align-items-end plus-minus">
+                        <button class="value-button decrease-button" onclick="decreaseValue(this)"
+                            title="Azalt">-</button>
+                        <a href="" class="number">0</a>
+                        <button class="value-button increase-button" onclick="increaseValue(this, 5)"
+                            title="Arrtır">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="coupan-main-body">
+                <div>
+                    <p>Have a coupon code ? enter here</p>
+                    <input type="text" name="" id="" placeholder="Enter Your Offer code">
+                </div>
+                <div class="coupan-body">
+                    <div class="coupan-name">
+                        <p>Price:</p>
+                    </div>
+                    <div class="coupan-price">
+                        <p>$135</p>
+                    </div>
+                </div>
+                <div class="coupan-body">
+                    <div class="coupan-name">
+                        <p>Tax:</p>
+                    </div>
+                    <div class="coupan-price">
+                        <p>0.7%</p>
+                    </div>
+                </div>
+                <div class="coupan-body">
+                    <div class="coupan-name">
+                        <p>Delivery Fee:</p>
+                    </div>
+                    <div class="coupan-price">
+                        <p>0.9%</p>
+                    </div>
+                </div>
+                <hr class="border-dashed">
+                <div class="coupan-body">
+                    <div class="coupan-total">
+                        <p>Total</p>
+                    </div>
+                    <div class="coupan-price">
+                        <p class="fs-5">2456&#8377;</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer-section ">
+        <div class="container">
+            <div class="row footer-top">
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="footer-left-sec">
+                        <img class="img-fluid d-block m-auto mb-3" src="/img/logo.svg" alt="">
+                        <p>
+                            Integer posuere orci sit amet feugiat pellent que. Suspendisse vel tempor justo, sit amet
+                            posuere orci dapibus auctor
+                        </p>
+                        <div class="footer-contact-details ">
+                            <div class="footer-contact-details-body">
+                                <i class="fa-solid fa-mobile"></i>
+                                <span class="footer-address-sec">CONTACT US:</span>
+                                <a href=""> +3 (523) 555 123 8745</a>
+                            </div>
+    
+                            <div class="footer-contact-details-body">
+                                <i class="fa-solid fa-message"></i>
+                                <span class="footer-address-sec">ADDRESS:</span>
+                                <a href=""> 1ST, NEW YORK, USA</a>
+                            </div>
+    
+                            <div class="footer-contact-details-body">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span class="footer-address-sec ">EMAIL: </span>
+                                <a href="">OFFICE@EXZO.COM</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3  col-md-6 col-12">
+                    <h6>QUECK LINKS</h6>
+                    <div class="row">
+                        <div class="col-lg-5 col-5 footer-column-links">
+                            <a href="">HOME</a>
+                            <a href="">ABOUT US</a>
+                            <a href="">PRODUCTS</a>
+                            <a href="">SERVICES</a>
+                            <a href="">BLOGS</a>
+                            <a href="">GALLERY</a>
+                            <a href="">CONTACT</a>
+                        </div>
+                        <div class="col-lg-5 col-6 footer-column-links">
+                            <a href="">PRIVACY POLICY</a>
+                            <a href="">WARRANTY</a>
+                            <a href="">LOGIN</a>
+                            <a href="">REGISTRATION</a>
+                            <a href="">PAGES</a>
+                            <a href="">OUR STORES</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3 col-md-6 col-12 mb-2">
+                    <h6>SOME POSTS</h6>
+                    <div class="footer-post-sec">
+                        <div>
+                            <a href=""><img class="img-fluid" src="/images/footer thumbnail-1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="ms-2">
+                            <span class="footer-date">APR 07 / 15</span>
+                            <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM SIT AMET</p>
+                        </div>
+                    </div>
+    
+                    <div class="footer-post-sec">
+                        <div>
+                            <a href=""><img class="img-fluid" src="/images/thumbnail-2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="ms-2">
+                            <span class="footer-date">APR 07 / 15</span>
+                            <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM SIT AMET</p>
+                        </div>
+                    </div>
+    
+                    <div class="footer-post-sec">
+                        <div>
+                            <img class="img-fluid" src="/images/thumbnail-3.jpg" alt="">
+                        </div>
+                        <div class="ms-2">
+                            <span class="footer-date">APR 07 / 15</span>
+                            <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM SIT AMET</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 ">
+                    <h6>POPULAR TAGS</h6>
+                    <div class="footer-column-links-tags">
+                        <a href="">HEADPHONESS</a>
+                        <a href="">ACCESSORIES</a>
+                        <a href="">NEW</a>
+                        <a href="">WIRELESS</a>
+                        <a href="">CABLES</a>
+                        <a href="">DEVICES</a>
+                        <a href="">GADGETS</a>
+                        <a href=""> BRANDS</a>
+                        <a href="">CASES</a>
+                        <a href=""> CABLES</a>
+                        <a href="">PROFESSIONAL</a>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div class="copyright-section ">
+                <div class="row text-center">
+                    <div class="col-lg-4 col-md-6 my-2 col-12">
+                        <p>
+                            © 2015 All rights reserved. Development by <a class="agency-copy" href="">UnionAgency</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4 mb-2 col-md-6 col-12">
+                        <div class="footer-social-icons">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-brands fa-google"></i>
+                            <i class="fa-solid fa-p"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 co-12 my-2">
+                        <div class="footer-payment-icons">
+                            <a class="entry"><img src="/images/footer-pay1.jpg" alt=""></a>
+                            <a class="entry"><img src="/images/footer-pay2.jpg" alt=""></a>
+                            <a class="entry"><img src="/images/footer-pay3.jpg" alt=""></a>
+                            <a class="entry"><img src="/images/footer-pay4.jpg" alt=""></a>
+                            <a class="entry"><img src="/images/footer-pay5.jpg" alt=""></a>
+                            <a class="entry"><img src="/images/footer-pay6.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        function increaseValue(button, limit) {
+            const numberInput = button.parentElement.querySelector('.number');
+            var value = parseInt(numberInput.innerHTML, 10);
+            if (isNaN(value)) value = 0;
+            if (limit && value >= limit) return;
+            numberInput.innerHTML = value + 1;
+        }
+        
+        function decreaseValue(button) {
+            const numberInput = button.parentElement.querySelector('.number');
+            var value = parseInt(numberInput.innerHTML, 10);
+            if (isNaN(value)) value = 0;
+            if (value < 1) return;
+            numberInput.innerHTML = value - 1;
+        }
+    </script>
+
+    <!-- owl.carousel -->
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                margin: 30,
+                responsive: {
+                    0: {
+                        items: 1,
+                        slideBy: 1,
+                    },
+                    768: {
+                        items: 3,
+                        slideBy: 1,
+                    }
+                },
+            });
+        })
+    </script>
+
+
+
+
+</body>
+<script src="js/script.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+
+
+</html>

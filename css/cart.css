@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EAEAEA !important;
+}
+
+
+
+
+
+
+.cart-white-bg-section {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.plus-minus a {
+  padding: 0px 10px 0px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.plus-minus button {
+  padding: 0px 5px 0px;
+  text-decoration: none;
+  border: 1px solid white;
+}
+
+.cart-white-bg-section .pricing {
+  font-size: 14px;
+}
+
+.cart-white-bg-body p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.coupan-body {
+  display: flex;
+  justify-content: space-between;
+}
+.coupan-main-body {
+  padding: 0px 0px 60px;
+}
+.coupan-price p {
+  font-weight: 600;
+}
+
+/* footer */
+
+.menubar-area {
+  background-color: #fff;
+  position: fixed !important;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  z-index: 9;
+}
+.toolbar-inner {
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  position: relative;
+  top: 0;
+}
+
+#active-fill {
+  fill: #ff586e;
+  stroke: #ff586e;
+}
+
+.menubar-area .btn {
+  padding: 7px 20px 7px;
+  color: #EAEAEA;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  background-color: #0D775E;
+  ;
+}
+
+
+.toolbar-inner .nav-link {
+  width: 25%;
+  font-size: 16px;
+  align-items: center;
+  padding: 15px 12px 15px;
+  color: rgba(0, 0, 0, 0.7);
+  position: relative;
+}

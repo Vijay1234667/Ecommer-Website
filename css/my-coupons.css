@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EAEAEA !important;
+}
+
+
+
+
+.offer-body{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 2px dashed #E3E3E3;;
+}
+.mycoupons-sale-white-bg {
+    display: flex;
+    background-color: white;
+    padding: 12px 15px;
+}
+

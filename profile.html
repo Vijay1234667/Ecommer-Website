@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/add-tocart.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.green.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/jquery.min.js">
+    </script>
+    <script src="js/owl.carousel.min.js">
+    </script>
+</head>
+
+<body>
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">All Brands</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="categories.html">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Offers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="cart.html">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="whislist.html">Whislist</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="my-coupan.html">Coupons</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="text-dark" href=""><i class="fa-solid fa-magnifying-glass p-2 fs-5"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-dark" href=""><i class="fa-solid fa-cart-shopping p-2 fs-5"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-dark" href="profile.html"><i class="fa-solid fa-user  p-2 fs-5"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main role="main">
+        <section>
+            <div class="container">
+                <div class="profile-area">
+                    <div class="main-profile">
+                        <div class="main-owner">
+                            <img class="rounded-circle" src="img/user-profile.jpg" width="100px" alt="profile-image">
+                        </div>
+                        <div class="profile-detail mx-3">
+                            <h6 class="name">Thomas Djono</h6>
+                            <span class="profile-detail-id">ID 02123141</span>
+                        </div>
+                        <a href="edit-profile.html" class="edit-profile ms-auto">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </a>
+                    </div>
+
+                    <div class="content-box">
+                        <ul class="row p-0">
+                            <li class="col-lg-3 col-md-6 col-6">
+                                <a href=""><button class="bn632-hover bn18 "><i
+                                            class="fa-solid fa-user-pen mx-2 text-success"></i>Order</button></a>
+                            </li>
+                            <li class="col-lg-3 col-md-6 mb-3 col-6 ">
+                                <a href="whislist.html"><button class="bn632-hover bn18 "><i
+                                            class="fa-solid fa-heart mx-2 text-success"></i>Wishlist</button></a>
+                            </li>
+                            <li class="col-lg-3 mb-2 col-md-12 col-12 ">
+                                <a href="my-coupan.html"><button class="bn632-hover bn18 "><i
+                                            class="fa-solid fa-headphones mx-2 text-success"></i>Coupons</button></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="title-bar">
+                        <h6 class=" fw-bold fs-5">Account Settings</h6>
+                    </div>
+                    <div class="account-setting-body">
+                        <ul class="p-0">
+                            <li class="d-flex mb-3">
+                                <div class="dz-inner">
+                                    <i class="fa-solid fa-user-pen text-dark"></i>
+                                    <span class="title">Edit Profile</span>
+                                </div>
+                                <div class="ms-auto">
+                                    <a href="edit-profile.html">
+                                        <i class="fa-solid fa-angle-right"></i></a>
+                                </div>
+                            </li>
+                            <hr>
+                            <li class="d-flex  mb-3">
+                                <div class="dz-inner">
+                                    <i class="fa-solid fa-location-dot text-dark"></i>
+                                    <span class="title">
+                                        Saved Addresses</span>
+                                </div>
+                                <div class="ms-auto">
+                                    <a href="edit-profile.html" class="edit-profil">
+                                        <i class="fa-solid fa-angle-right "></i></a>
+                                </div>
+                            </li>
+                            <hr>
+                            <li class="d-flex  mb-3">
+                                <div class="dz-inner">
+                                    <i class="fa-solid fa-t text-dark"></i>
+                                    <span class="title">
+                                        Select Language</span>
+                                </div>
+                                <div class="ms-auto">
+                                    <a href="edit-profile.html" class="edit-profil">
+                                        <i class="fa-solid fa-angle-right"></i></a>
+                                </div>
+                            </li>
+                            <hr>
+                            <li class="d-flex  mb-3">
+                                <div class="dz-inner">
+                                    <i class="fa-regular fa-bell text-dark"></i>
+                                    <span class="title">Notification Setting</span>
+                                </div>
+                                <div class="ms-auto">
+                                    <a href="edit-profile.html" class="edit-profil">
+                                        <i class="fa-solid fa-angle-right"></i> </a>
+                                </div>
+                            </li>
+                            <span class="hrtag mb-3"></span>
+                            <li class="d-flex  mb-3">
+                                <div class="dz-inner">
+                                    <i class="fa-solid fa-right-from-bracket text-dark"></i>
+                                    <span class="title">Log Out</span>
+                                </div>
+                                <div class="ms-auto">
+                                    <a href="edit-profile.html" class="edit-profil">
+                                        <i class="fa-solid fa-angle-right"></i></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- footer-section -->
+
+    <footer class="footer-section ">
+        <div class="container">
+            <div class="row footer-top">
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="footer-left-sec">
+                        <img class="img-fluid d-block m-auto mb-3" src="/img/logo.svg" alt="">
+                        <p>
+                            Integer posuere orci sit amet feugiat pellent que. Suspendisse vel tempor justo, sit amet
+                            posuere orci dapibus auctor
+                        </p>
+                        <div class="footer-contact-details ">
+                            <div class="footer-contact-details-body">
+                                <i class="fa-solid fa-mobile"></i>
+                                <span class="footer-address-sec">CONTACT US:</span>
+                                <a href=""> +3 (523) 555 123 8745</a>
+                            </div>
+    
+                            <div class="footer-contact-details-body">
+                                <i class="fa-solid fa-message"></i>
+                                <span class="footer-address-sec">ADDRESS:</span>
+                                <a href=""> 1ST, NEW YORK, USA</a>
+                            </div>
+    
+                            <div class="footer-contact-details-body">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span class="footer-address-sec ">EMAIL: </span>
+                                <a href="">OFFICE@EXZO.COM</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3  col-md-6 col-12">
+                    <h6>QUECK LINKS</h6>
+                    <div class="row">
+                        <div class="col-lg-5 col-5 footer-column-links">
+                            <a href="">HOME</a>
+                            <a href="">ABOUT US</a>
+                            <a href="">PRODUCTS</a>
+                            <a href="">SERVICES</a>
+                            <a href="">BLOGS</a>
+                            <a href="">GALLERY</a>
+                            <a href="">CONTACT</a>
+                        </div>
+                        <div class="col-lg-5 col-6 footer-column-links">
+                            <a href="">PRIVACY POLICY</a>
+                            <a href="">WARRANTY</a>
+                            <a href="">LOGIN</a>
+                            <a href="">REGISTRATION</a>
+                            <a href="">PAGES</a>
+                            <a href="">OUR STORES</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3 col-md-6 col-12 mb-2">
+                    <h6>SOME POSTS</h6>
+                    <div class="footer-post-sec">
+                        <div>
+                            <a href=""><img class="img-fluid" src="/images/footer thumbnail-1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="ms-2">
+                            <span class="footer-date">APR 07 / 15</span>
+                            <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM SIT AMET</p>
+                        </div>
+                    </div>
+    
+                    <div class="footer-post-sec">
+                        <div>
+                            <a href=""><img class="img-fluid" src="/images/thumbnail-2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="ms-2">
+                            <span class="footer-date">APR 07 / 15</span>
+                            <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM SIT AMET</p>
+                        </div>
+                    </div>
+    
+                    <div class="footer-post-sec">
+                        <div>
+                            <img class="img-fluid" src="/images/thumbnail-3.jpg" alt="">
+                        </div>
+                        <div class="ms-2">
+                            <span class="footer-date">APR 07 / 15</span>
+                            <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM SIT AMET</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 ">
+                    <h6>POPULAR TAGS</h6>
+                    <div class="footer-column-links-tags">
+                        <a href="">HEADPHONESS</a>
+                        <a href="">ACCESSORIES</a>
+                        <a href="">NEW</a>
+                        <a href="">WIRELESS</a>
+                        <a href="">CABLES</a>
+                        <a href="">DEVICES</a>
+                        <a href="">GADGETS</a>
+                        <a href=""> BRANDS</a>
+                        <a href="">CASES</a>
+                        <a href=""> CABLES</a>
+                        <a href="">PROFESSIONAL</a>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div class="copyright-section ">
+                <div class="row text-center">
+                    <div class="col-lg-4 col-md-6 my-2 col-12">
+                        <p>
+                            © 2015 All rights reserved. Development by <a class="agency-copy" href="">UnionAgency</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4 mb-2 col-md-6 col-12">
+                        <div class="footer-social-icons">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-brands fa-google"></i>
+                            <i class="fa-solid fa-p"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 co-12 my-2">
+                        <div class="footer-payment-icons">
+                            <a class="entry"><img src="/images/footer-pay1.jpg" alt=""></a>
+                            <a class="entry"><img src="/images/footer-pay2.jpg" alt=""></a>
+                            <a class="entry"><img src="/images/footer-pay3.jpg" alt=""></a>
+                            <a class="entry"><img src="/images/footer-pay4.jpg" alt=""></a>
+                            <a class="entry"><img src="/images/footer-pay5.jpg" alt=""></a>
+                            <a class="entry"><img src="/images/footer-pay6.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- owl.carousel -->
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                margin: 30,
+                autoplay: true,
+                autoplayTimeout: 3600,
+                responsive: {
+                    0: {
+                        items: 1,
+                        slideBy: 1,
+                    },
+                    768: {
+                        items: 3,
+                        slideBy: 1,
+                    }
+                },
+            });
+        })
+    </script>
+
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+
+
+</body>
+
+
+
+</html>

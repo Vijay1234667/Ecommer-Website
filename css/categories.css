@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #EAEAEA !important;
+  }
+  
+ 
+.all-cat-section{
+    padding: 10px 0px 120px;
+}
+  .categories-bg-img{
+    background-image: url(../img/men\ t\ shirt-bg.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .categories-bg-img-jacket{
+    background-image: url(../img/jackets.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .categories-bg-img-shoes{
+    background-image: url(../img/item3.webp);
+
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .categories-bg-img-Sunglasses{
+    background-image: url(../img/item4.jpg);
+
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .categories-bg-img-winter{
+    background-image: url(../img/winter.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .categories-bg-img-item-1{
+    background-image: url(../img/item2.jpg);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .categories-bg-img-item-2{
+    background-image: url(../img/item1.\(1\).jpg);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .categories-bg-img-item-3{
+    background-image: url(../img/shoes.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .categories-bg-img-item-4{
+    background-image: url(../img/Sunglasses.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .categories-bg-img-body{
+    padding: 10px ;
+  }
+  
+  
