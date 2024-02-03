@@ -18,68 +18,68 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
-    <div class="container">
-      <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">All Brands</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="categories.html">Categories</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Offers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="cart.html">Cart</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="whislist.html">Whislist</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="my-coupan.html">Coupons</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav m-auto">
-          <li class="nav-item">
-            <a class="text-dark" href=""><i class="fa-solid fa-magnifying-glass p-2 fs-5"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="text-dark" href=""><i class="fa-solid fa-cart-shopping p-2 fs-5"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="text-dark" href="profile.html"><i class="fa-solid fa-user  p-2 fs-5"></i>
-            </a>
-          </li>
-        </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">All Brands</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="categories.html">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Offers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="cart.html">Cart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="whislist.html">Whislist</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="my-coupan.html">Coupons</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a class="text-dark" href=""><i class="fa-solid fa-magnifying-glass p-2 fs-5"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="text-dark" href=""><i class="fa-solid fa-cart-shopping p-2 fs-5"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="text-dark" href="profile.html"><i class="fa-solid fa-user  p-2 fs-5"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
+
 
   <main role="main">
     <section>
-      <div class="container">
+      <div class="container-fluid">
         <div class="mb-3">
           <h5 class="pt-3 fw-bold">Discount on your sale</h5>
           <div class="owl-carousel owl-theme">
-            <div class="item">
-              <img class="img-fluid" src="images/corousel ref-nayka.jpg" alt="">
-            </div>
             <div class="item">
               <img class="img-fluid" src="images/corousel ref-nayka1.jpg" alt="">
             </div>
@@ -94,23 +94,47 @@
       </div>
     </section>
 
+
+
+
+    <section>
+      <div class="container">
+        <div class="owl-carousel owl-theme">
+          <img class="owl-lazy" data-src="https://placehold.it/350x450&text=1" data-src-retina="https://placehold.it/350x250&text=1-retina" alt="">
+          <img class="owl-lazy" data-src="https://placehold.it/350x650&text=2" data-src-retina="https://placehold.it/350x250&text=2-retina" alt="">
+        <picture>
+            <source class="owl-lazy" media="(min-width: 650px)" data-srcset="https://placehold.it/350x250&text=3-large">
+            <source class="owl-lazy" media="(min-width: 350px)" data-srcset="https://placehold.it/350x250&text=3-medium">
+            <img class="owl-lazy" data-src="https://placehold.it/350x250&text=3-fallback" alt="">
+        </picture>
+          <img class="owl-lazy" data-src="https://placehold.it/350x250&text=4" alt="">
+          <img class="owl-lazy" data-src="https://placehold.it/350x250&text=5" alt="">
+          <img class="owl-lazy" data-src="https://placehold.it/350x250&text=6" alt="">
+          <img class="owl-lazy" data-src="https://placehold.it/350x250&text=7" alt="">
+          <img class="owl-lazy" data-src="https://placehold.it/350x250&text=8" alt="">
+          <img class="owl-lazy" data-src="https://placehold.it/350x400&text=9" alt="">
+          <img class="owl-lazy" data-src="https://placehold.it/350x400&text=10" alt="">
+          <img class="owl-lazy" data-src="https://placehold.it/350x450&text=11" alt="">
+      </div>
+      </div>
+    </section>
+
     <!-- banner-product-all-categories -->
 
     <section class="banner-product-all-categories mb-2">
-      <div class="container">
-        <p class="lead fw-bold ">Discover Exciting Deals</p>
+      <div class="container-fluid">
         <div class="banner-product-all-categories-main-body mt-2">
           <div class="categories-brand">
             <a href=""><img class="img-fluid mb-2" src="img-mob/mob1.png" alt=""></a>
             <h6>Mobile & Tablets</h6>
           </div>
-          <div>
+          <div class="categories-brand">
             <a href=""><img class="img-fluid mb-2" src="img-mob/tv electronics.png" alt=""></a>
-            <h6>TVs & Electronics</h6>
+            <h6>Electronics</h6>
           </div>
           <div>
-            <a href=""><img class="img-fluid mb-2" src="img-mob/application.png" alt=""></a>
-            <h6>Application</h6>
+            <a href=""><img class="img-fluid mb-2 rounded-cricle" src="img-mob/fations.png" alt=""></a>
+            <h6>Fashion</h6>
           </div>
           <div>
             <a href=""><img class="img-fluid mb-2 rounded-cricle" src="img-mob/fations.png" alt=""></a>
@@ -124,70 +148,21 @@
             <a href=""><img class="img-fluid mb-2" src="img-mob/application.png" alt=""></a>
             <h6>Grocery</h6>
           </div>
-          <div>
-            <a href=""><img class="img-fluid mb-2" src="img-mob/grocery.png" alt=""></a>
-            <h6>Products</h6>
-          </div>
-          <div>
-            <a href=""><img class="img-fluid mb-2" src="img-mob/tv electronics.png" alt=""></a>
-            <h6>Brands</h6>
-          </div>
-          <div>
-            <a href=""><img class="img-fluid mb-2" src="img-mob/mob1.png" alt=""></a>
-            <h6>Lorem</h6>
-          </div>
         </div>
       </div>
     </section>
 
-    <!-- banner-product-all-categories-list-2 -->
 
-    <section class="banner-product-all-categories-list-2 mb-2">
-      <div class="container">
-        <div class="banner-product-all-categories-main-body-2">
-          <div>
-            <a href=""><img class="rounded-circle" src="img/k2.webp" alt=""></a>
-            <h6>Men</h6>
-          </div>
-          <div>
-            <a href=""><img class="rounded-circle" src="img-mob/kid.avif" alt=""></a>
-            <h6>Kids</h6>
-          </div>
-          <div>
-            <a href=""><img class="rounded-circle" src="img/j5.jpg" alt=""></a>
-            <h6>Footwear</h6>
-          </div>
-          <div>
-            <a href=""><img class="rounded-circle" src="img-mob/footwear.jpeg" alt=""></a>
-            <h6>Footwear</h6>
-          </div>
-          <div>
-            <a href=""><img class="rounded-circle" src="img-mob/jweelryg-rls.jpeg" alt=""></a>
-            <h6>Jewellery</h6>
-          </div>
-          <div>
-            <a href=""><img class="rounded-circle" src="img-mob/watches.jpg" alt=""></a>
-            <h6>watches</h6>
-          </div>
-          <div class="">
-            <a href=""><img class="rounded-circle " src="img/t1.jpg" alt=""></a>
-            <h6>Bags</h6>
-          </div>
-          <div class="">
-            <a href=""><img class="rounded-circle " src="img-mob/bags.jpeg" alt=""></a>
-            <h6>Bags</h6>
-          </div>
-          <div class="">
-            <a href=""><img class="rounded-circle " src="img/k1.webp" alt=""></a>
-            <h6>Bags</h6>
-          </div>
-        </div>
-      </div>
-    </section>
+
+
+
 
     <div class="payment-banner-top-img container mb-3">
-      <img class="img-fluid m-auto d-block" src="https://github.com/Vijay1234667/Ecommerce-Website/blob/master/images/add-container-fluid1.jpg?raw=true" alt="">
+      <img class="img-fluid m-auto d-block"
+        src="https://github.com/Vijay1234667/Ecommerce-Website/blob/master/images/add-container-fluid1.jpg?raw=true"
+        alt="">
     </div>
+
 
     <!-- product-banner -->
     <section class="product-caption ">
@@ -204,167 +179,142 @@
     <section class="main-wrapper-section">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-xl-3 col-12">
-            <div class="homepage-sidebar-category">
-              <div class="category-content">
-                <h2 class="cat-title">Categories</h2>
-                <ul class="">
-                  <li class="mb-1">
-                    <a href="">Men</a>
-                  </li>
-                  <li class="mb-1">
-                    <a href="">Women</a>
-                  </li>
-                  <li class="mb-1">
-                    <a href="">Juniors</a>
-                  </li>
-                  <li class="mb-1">
-                    <a href="">Accessories</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="homepage-sidebar-category-default-filter-by">
-              <div class="category-content-filter-by categeory-body">
-                <div class="cat-title">
-                  <h5>FILTER BY</h5>
-                  <button class="btn btn-filter btn-small">Clear all</button>
-                </div>
-              </div>
-
-              <div class="homepage-sidebar-category-default-filter-by-brands-price">
-                <div class="inner-title">Price</div>
-                <ul class="p-0">
-                  <li class="mb-1">
-                    <div class="checkbox">
-                      <input type="checkbox" class="checkbox" id="type1" name="type1">
-                      <label for="type1">$68.00 - $72.00<span>(02)</span></label>
-                    </div>
-
-                  </li>
-                  <li class="mb-1">
-                    <div class="checkbox">
-                      <input type="checkbox" class="checkbox" id="type1" name="type1">
-                      <label for="type1">$86.00 - $89.00<span>(13)</span></label>
-                    </div>
-                  </li>
-                  <li class="mb-1">
-                    <div class="checkbox">
-                      <input type="checkbox" class="checkbox" id="type1" name="type1">
-                      <label for="type1">$86.00 - $89.00<span>(13)</span></label>
-                    </div>
-                  </li>
-                  <li class="mb-1">
-                    <div class="checkbox">
-                      <input type="checkbox" class="checkbox" id="type1" name="type1">
-                      <label for="type1">$86.00 - $89.00<span>(13)</span></label>
-                    </div>
-                  </li>
-                  <li class="mb-1">
-                    <div class="checkbox">
-                      <input type="checkbox" class="checkbox" id="type1" name="type1">
-                      <label for="type1">$86.00 - $89.00<span>(13)</span></label>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
+          <div class="col-md-4">
             <div class="mega-sale-sidebar-image">
-              <img class="img-fluid" src="images/left-salemega.jpg" alt="">
+              <img class="img-fluid" src="images/left-salemega.jpg" alt="" width="100%">
             </div>
+            <div class="home-leftside-wrapper">
+              <div class="card border-0 ">
+                <div class="row g-0 align-items-center">
+                  <div class="col-3 text-center">
+                    <a target="_blank" href="">
+                      <img src="homepageimages/small-product5.png" class="img-fluid " alt="Fashion">
+                    </a>
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body p-0 px-2">
+                      <h5 class="mb-1"> Fashion</h5>
+                      <h6 class="font-400 font-10">Men Shirt</h6>
+                      <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
+                        <div class="rating">
+                          <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
+                              class="discount"><span>&#8377;</span>30.15</del></h6>
+                        </div>
+                        <div>
+                          <a href="" class="home-leftside-wrapper-btn">Add to Cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-0 ">
+                <div class="row g-0 align-items-center">
+                  <div class="col-3 text-center">
+                    <a target="_blank" href="">
+                      <img src="homepageimages/small-product6.png" class="img-fluid " alt="Fashion">
+                    </a>
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body p-0 px-2">
+                      <h5 class="mb-1"> Fashion</h5>
+                      <h6 class="font-400 font-10">Men Shirt</h6>
+                      <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
+                        <div class="rating">
+                          <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
+                              class="discount"><span>&#8377;</span>30.15</del></h6>
+                        </div>
+                        <div>
+                          <a href="" class="home-leftside-wrapper-btn">Add to Cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-0 ">
+                <div class="row g-0 align-items-center">
+                  <div class="col-3 text-center">
+                    <a target="_blank" href="">
+                      <img src="homepageimages/small-product3.png" class="img-fluid " alt="Fashion">
+                    </a>
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body p-0 px-2">
+                      <h5 class="mb-1"> Fashion</h5>
+                      <h6 class="font-400 font-10">Men Shirt</h6>
+                      <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
+                        <div class="rating">
+                          <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
+                              class="discount"><span>&#8377;</span>30.15</del></h6>
+                        </div>
+                        <div>
+                          <a href="" class="home-leftside-wrapper-btn">Add to Cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-0 ">
+                <div class="row g-0 align-items-center">
+                  <div class="col-3 text-center">
+                    <a target="_blank" href="">
+                      <img src="homepageimages/small-product4.png" class="img-fluid " alt="Fashion">
+                    </a>
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body p-0 px-2">
+                      <h5 class="mb-1"> Fashion</h5>
+                      <h6 class="font-400 font-10">Men Shirt</h6>
+                      <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
+                        <div class="rating">
+                          <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
+                              class="discount"><span>&#8377;</span>30.15</del></h6>
+                        </div>
+                        <div>
+                          <a href="" class="home-leftside-wrapper-btn">Add to Cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-            <div class="home-page-latest-products">
               <div>
-                <div class="media-latest-product">
-                  <img class="img-fluid" src="images/latest1.jpg" width="170px" alt="">
-                </div>
-                <div class="left-sidebar-yellow-star">
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star "></i>
-                </div>
-              </div>
-              <div class="home-product-content mx-3">
-                <a href="">Women's Cotton Plain T-Shirts</a>
-                <h5>$65.23 <span><del class="home-price-doller-left-slider">$70.00</del></span></h5>
-                <button class="btn">Add To Cart</button>
+                <img class="img-fluid" src="images/abx discount images girs.jpg" alt="" width="100%">
               </div>
             </div>
 
-            <div class="home-page-latest-products">
-              <div class="media-latest-product">
-                <img class="img-fluid" src="images/latest2.jpg" width="170px" alt="">
-              </div>
-              <div class="home-product-content mx-3">
-                <a href="">Women's Cotton Plain T-Shirts</a>
-                <h5>$65.23 <span><del class="home-price-doller-left-slider">$70.00</del></span></h5>
-                <button class="btn">Add To Cart</button>
-              </div>
-            </div>
-
-            <div class="home-page-latest-products">
-              <div class="media-latest-product">
-                <img class="img-fluid" src="images/latest3.jpg" width="170px" alt="">
-              </div>
-              <div class="home-product-content mx-3">
-                <a href="">Women's Cotton Plain T-Shirts</a>
-                <h5>$65.23 <span><del class="home-price-doller-left-slider">$70.00</del></span></h5>
-
-                <button class="btn">Add To Cart</button>
-              </div>
-            </div>
           </div>
 
-          <div class="col-12 col-lg-8 col-xl-9">
-            <section class="product-cards pt-2 mb-4">
+          <div class="col-md-8">
+            <section class="product-cards mb-4">
               <div class="container">
                 <div class="row">
+                  <!-- <div class="col-lg-12">
+                    <img class="img-fluid" src="images/add-container-fluid2.jpg" alt="">
+                  </div> -->
                   <div class="col-lg-4">
-                    <div class="card">
-                      <a href="add-to-cart.html"><img src="images/girlsitem1.png" class="card-img-top img-fluid"
-                          alt="..."></a>
-                      <a href="javascript:void(0);" class="item-bookmark"></a>
-                      <div class="card-body product-body">
+                    <div class="">
+                      <a href="add-to-cart.html"><img src="homepageimages/item7.png" class="card-img-top img-fluid"
+                          alt="...">
+                      </a>
+                      <div class="product-body text-center">
                         <span class="product-name">Jacket, Women</span>
-                        <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
                         <div class="left-sidebar-yellow-star mb-2">
-                          <i class="fa-solid fa-star text-warning"></i>
-                          <i class="fa-solid fa-star text-warning"></i>
-                          <i class="fa-solid fa-star text-warning"></i>
                           <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
                         </div>
-                        <div>
-                          <button class="add-to-cart-homepage-btn"><i
-                              class="fa-solid fa-cart-plus px-2 text-dark"></i><a href="add-to-cart.html">Add to
-                              cart</a></button>
+                        <div class="mb-2">
+                          <a class="home-card-btn" href="add-to-cart.html"><i
+                              class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                         </div>
-                        <div class="product-tag">
-                          <span class="badge badge-secondary">32% off</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
 
-                  <div class="col-lg-4 ">
-                    <div class="card">
-                      <a href=""><img src="images/item5.png" class="card-img-top img-fluid" alt="..."></a>
-                      <a href="javascript:void(0);" class="item-bookmark"></a>
-                      <div class="card-body product-body">
-                        <span class="product-name">Jacket, Women</span>
-                        <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
-                        <div class="left-sidebar-yellow-star mb-2">
-                          <i class="fa-solid fa-star text-warning"></i>
-                          <i class="fa-solid fa-star text-warning"></i>
-                          <i class="fa-solid fa-star text-warning"></i>
-                          <i class="fa-solid fa-star "></i>
-                        </div>
-                        <div>
-                          <button class="add-to-cart-homepage-btn"><i
-                              class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to cart</button>
-                        </div>
 
                         <div class="product-tag">
                           <span class="badge badge-secondary">32% off</span>
@@ -372,24 +322,26 @@
                       </div>
                     </div>
                   </div>
-
                   <div class="col-lg-4">
-                    <div class="card">
-                      <a href=""><img src="images/item7.png" class="card-img-top img-fluid" alt="..."></a>
-                      <a href="javascript:void(0);" class="item-bookmark"></a>
-                      <div class="card-body product-body">
+                    <div class="">
+                      <a href="add-to-cart.html"><img src="homepageimages/item5.png" class="card-img-top img-fluid"
+                          alt="...">
+                      </a>
+                      <div class="product-body text-center">
                         <span class="product-name">Jacket, Women</span>
-                        <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
                         <div class="left-sidebar-yellow-star mb-2">
-                          <i class="fa-solid fa-star text-warning"></i>
-                          <i class="fa-solid fa-star text-warning"></i>
-                          <i class="fa-solid fa-star text-warning"></i>
                           <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
                         </div>
-                        <div>
-                          <button class="add-to-cart-homepage-btn"><i
-                              class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to cart</button>
+                        <div class="mb-2">
+                          <a class="home-card-btn" href="add-to-cart.html"><i
+                              class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                         </div>
+
 
                         <div class="product-tag">
                           <span class="badge badge-secondary">32% off</span>
@@ -397,24 +349,26 @@
                       </div>
                     </div>
                   </div>
-
                   <div class="col-lg-4">
-                    <div class="card">
-                      <a href=""><img src="images/item4.png" class="card-img-top img-fluid" alt="..."></a>
-                      <a href="javascript:void(0);" class="item-bookmark"></a>
-                      <div class="card-body product-body">
+                    <div class="">
+                      <a href="add-to-cart.html"><img src="homepageimages/item4.png" class="card-img-top img-fluid"
+                          alt="...">
+                      </a>
+                      <div class="product-body text-center">
                         <span class="product-name">Jacket, Women</span>
-                        <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
                         <div class="left-sidebar-yellow-star mb-2">
-                          <i class="fa-solid fa-star text-warning"></i>
-                          <i class="fa-solid fa-star text-warning"></i>
-                          <i class="fa-solid fa-star text-warning"></i>
                           <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
                         </div>
-                        <div>
-                          <button class="add-to-cart-homepage-btn"><i
-                              class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to cart</button>
+                        <div class="mb-2">
+                          <a class="home-card-btn" href="add-to-cart.html"><i
+                              class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                         </div>
+
 
                         <div class="product-tag">
                           <span class="badge badge-secondary">32% off</span>
@@ -422,24 +376,26 @@
                       </div>
                     </div>
                   </div>
-
                   <div class="col-lg-4">
-                    <div class="card">
-                      <a href=""><img src="images/item6.png" class="card-img-top img-fluid" alt="..."></a>
-                      <a href="javascript:void(0);" class="item-bookmark"></a>
-                      <div class="card-body product-body">
+                    <div class="">
+                      <a href="add-to-cart.html"><img src="homepageimages/watches1.jpg" class="card-img-top img-fluid"
+                          alt="...">
+                      </a>
+                      <div class="product-body text-center">
                         <span class="product-name">Jacket, Women</span>
-                        <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
                         <div class="left-sidebar-yellow-star mb-2">
-                          <i class="fa-solid fa-star text-warning"></i>
-                          <i class="fa-solid fa-star text-warning"></i>
-                          <i class="fa-solid fa-star text-warning"></i>
                           <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
                         </div>
-                        <div>
-                          <button class="add-to-cart-homepage-btn"><i
-                              class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to cart</button>
+                        <div class="mb-2">
+                          <a class="home-card-btn" href="add-to-cart.html"><i
+                              class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                         </div>
+
 
                         <div class="product-tag">
                           <span class="badge badge-secondary">32% off</span>
@@ -447,24 +403,26 @@
                       </div>
                     </div>
                   </div>
-
                   <div class="col-lg-4">
-                    <div class="card">
-                      <a href=""><img src="images/item3.png" class="card-img-top img-fluid" alt="..."></a>
-                      <a href="javascript:void(0);" class="item-bookmark"></a>
-                      <div class="card-body product-body">
+                    <div class="">
+                      <a href="add-to-cart.html"><img src="homepageimages/bag1.jpg" class="card-img-top img-fluid"
+                          alt="...">
+                      </a>
+                      <div class="product-body text-center">
                         <span class="product-name">Jacket, Women</span>
-                        <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
                         <div class="left-sidebar-yellow-star mb-2">
-                          <i class="fa-solid fa-star text-warning"></i>
-                          <i class="fa-solid fa-star text-warning"></i>
-                          <i class="fa-solid fa-star text-warning"></i>
                           <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
                         </div>
-                        <div>
-                          <button class="add-to-cart-homepage-btn"><i
-                              class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to cart</button>
+                        <div class="mb-2">
+                          <a class="home-card-btn" href="add-to-cart.html"><i
+                              class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                         </div>
+
 
                         <div class="product-tag">
                           <span class="badge badge-secondary">32% off</span>
@@ -472,23 +430,24 @@
                       </div>
                     </div>
                   </div>
-
                   <div class="col-lg-4">
-                    <div class="card">
-                      <a href=""><img src="images/item8.jpg" class="card-img-top img-fluid" alt="..."></a>
-                      <a href="javascript:void(0);" class="item-bookmark"></a>
-                      <div class="card-body product-body">
+                    <div class="">
+                      <a href="add-to-cart.html"><img src="homepageimages/cap1.jpg" class="card-img-top img-fluid"
+                          alt="...">
+                      </a>
+                      <div class="product-body text-center">
                         <span class="product-name">Jacket, Women</span>
-                        <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
                         <div class="left-sidebar-yellow-star mb-2">
-                          <i class="fa-solid fa-star text-warning"></i>
-                          <i class="fa-solid fa-star text-warning"></i>
-                          <i class="fa-solid fa-star text-warning"></i>
                           <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
                         </div>
-                        <div>
-                          <button class="add-to-cart-homepage-btn"><i
-                              class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to cart</button>
+                        <div class="mb-2">
+                          <a class="home-card-btn" href="add-to-cart.html"><i
+                              class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                         </div>
                         <div class="product-tag">
                           <span class="badge badge-secondary">32% off</span>
@@ -496,23 +455,24 @@
                       </div>
                     </div>
                   </div>
-
                   <div class="col-lg-4">
-                    <div class="card">
-                      <a href=""><img src="images/item9.jpg" class="card-img-top img-fluid" alt="..."></a>
-                      <a href="javascript:void(0);" class="item-bookmark"></a>
-                      <div class="card-body product-body">
+                    <div class="">
+                      <a href="add-to-cart.html"><img src="homepageimages/shoes3.jpg" class="card-img-top img-fluid"
+                          alt="...">
+                      </a>
+                      <div class="product-body text-center">
                         <span class="product-name">Jacket, Women</span>
-                        <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
                         <div class="left-sidebar-yellow-star mb-2">
-                          <i class="fa-solid fa-star text-warning"></i>
-                          <i class="fa-solid fa-star text-warning"></i>
-                          <i class="fa-solid fa-star text-warning"></i>
                           <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
                         </div>
-                        <div>
-                          <button class="add-to-cart-homepage-btn"><i
-                              class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to cart</button>
+                        <div class="mb-2">
+                          <a class="home-card-btn" href="add-to-cart.html"><i
+                              class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                         </div>
                         <div class="product-tag">
                           <span class="badge badge-secondary">32% off</span>
@@ -520,23 +480,24 @@
                       </div>
                     </div>
                   </div>
-
                   <div class="col-lg-4">
-                    <div class="card">
-                      <a href=""><img src="images/item10.jpg" class="card-img-top img-fluid" alt="..."></a>
-                      <a href="javascript:void(0);" class="item-bookmark"></a>
-                      <div class="card-body product-body">
+                    <div class="">
+                      <a href="add-to-cart.html"><img src="homepageimages/shoes2.jpg" class="card-img-top img-fluid"
+                          alt="...">
+                      </a>
+                      <div class="product-body text-center">
                         <span class="product-name">Jacket, Women</span>
-                        <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
                         <div class="left-sidebar-yellow-star mb-2">
-                          <i class="fa-solid fa-star text-warning"></i>
-                          <i class="fa-solid fa-star text-warning"></i>
-                          <i class="fa-solid fa-star text-warning"></i>
                           <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
                         </div>
-                        <div>
-                          <button class="add-to-cart-homepage-btn"><i
-                              class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to cart</button>
+                        <div class="mb-2">
+                          <a class="home-card-btn" href="add-to-cart.html"><i
+                              class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                         </div>
                         <div class="product-tag">
                           <span class="badge badge-secondary">32% off</span>
@@ -544,11 +505,113 @@
                       </div>
                     </div>
                   </div>
-
+                  <div class="col-lg-4">
+                    <div class="">
+                      <a href="add-to-cart.html"><img src="homepageimages/sho.jpg" class="card-img-top img-fluid"
+                          alt="...">
+                      </a>
+                      <div class="product-body text-center">
+                        <span class="product-name">Jacket, Women</span>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
+                        <div class="left-sidebar-yellow-star mb-2">
+                          <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="mb-2">
+                          <a class="home-card-btn" href="add-to-cart.html"><i
+                              class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
+                        </div>
+                        <div class="product-tag">
+                          <span class="badge badge-secondary">32% off</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="">
+                      <a href="add-to-cart.html"><img src="homepageimages/girlscat3.jpg" class="card-img-top img-fluid"
+                          alt="...">
+                      </a>
+                      <div class="product-body text-center">
+                        <span class="product-name">Jacket, Women</span>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
+                        <div class="left-sidebar-yellow-star mb-2">
+                          <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="mb-2">
+                          <a class="home-card-btn" href="add-to-cart.html"><i
+                              class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
+                        </div>
+                        <div class="product-tag">
+                          <span class="badge badge-secondary">32% off</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="">
+                      <a href="add-to-cart.html"><img src="homepageimages/girlscat2.jpg" class="card-img-top img-fluid"
+                          alt="...">
+                      </a>
+                      <div class="product-body text-center">
+                        <span class="product-name">Jacket, Women</span>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
+                        <div class="left-sidebar-yellow-star mb-2">
+                          <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="mb-2">
+                          <a class="home-card-btn" href="add-to-cart.html"><i
+                              class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
+                        </div>
+                        <div class="product-tag">
+                          <span class="badge badge-secondary">32% off</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="">
+                      <a href="add-to-cart.html"><img src="homepageimages/girlscat1.jpg" class="card-img-top img-fluid"
+                          alt="...">
+                      </a>
+                      <div class="product-body text-center">
+                        <span class="product-name">Jacket, Women</span>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
+                        <div class="left-sidebar-yellow-star mb-2">
+                          <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="mb-2">
+                          <a class="home-card-btn" href="add-to-cart.html"><i
+                              class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
+                        </div>
+                        <div class="product-tag">
+                          <span class="badge badge-secondary">32% off</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   <div class="col-lg-12">
-                    <img class="img-fluid" src="images/add-container-fluid1.jpg" alt="">
+                    <div class="">
+                      <a href="add-to-cart.html"><img src="homepageimages/addbottom1.jpg" class="card-img-top img-fluid"
+                          alt="...">
+                      </a>
+                    </div>
                   </div>
-
                 </div>
               </div>
             </section>
@@ -558,23 +621,304 @@
     </section>
 
 
+       <!-- computer-section -->
 
-    <section>
-      <div class="container">
-        <div class="mb-3">
-          <h5 class="pt-3 fw-bold">Discount on your sale</h5>
-          <div class="owl-carousel owl-theme">
-            <div class="item">
-              <img class="img-fluid" src="images/home corousel sec2 img.jpg" alt="">
+       <section class="computer-section">
+        <div class="container">
+          <div class="computer-main-body-content">
+            <div class="row">
+              <div class="col-lg-2">
+                <img class="img-fluid" src="images/computerleft-add.jpg" alt="">
+              </div>
+              <div class="col-lg-8">
+                <img class="img-fluid" src="images/computer-offers add.jpg" alt="">
+              </div>
+              <div class="col-lg-2">
+                <img class="img-fluid" src="images/computerleft-add.jpg" alt="">
+              </div>
             </div>
-            <div class="item">
-              <img class="img-fluid" src="images/home corousel sec2 img1.jpg" alt="">
-            </div>
-            <div class="item">
-              <img class="img-fluid" src="images/home corousel sec2 img2.jpg" alt="">
+            <div class="row">
+              <div class="col-lg-2">
+                <img class="img-fluid" src="images/computerleft-add.jpg" alt="">
+              </div>
+              <div class="col-lg-2">
+                <div class="">
+                  <a href="add-to-cart.html"><img src="images/computer-item1.jpg" class="card-img-top img-fluid"
+                      alt="...">
+                  </a>
+                  <div class="product-body text-center">
+                    <span class="product-name">Jacket, Women</span>
+                    <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                        class="discount"><span>&#8377;</span>30.15</del></h6>
+                    <div class="left-sidebar-yellow-star mb-2">
+                      <i class="fa-solid fa-star "></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="mb-2">
+                      <a class="home-card-btn computer-section-btn" href="add-to-cart.html"><i
+                          class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
+                    </div>
+                    <div class="product-tag">
+                      <span class="badge badge-secondary">32% off</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="">
+                  <a href="add-to-cart.html"><img src="images/computer-item2.jpg" class="card-img-top img-fluid"
+                      alt="...">
+                  </a>
+                  <div class="product-body text-center">
+                    <span class="product-name">Jacket, Women</span>
+                    <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                        class="discount"><span>&#8377;</span>30.15</del></h6>
+                    <div class="left-sidebar-yellow-star mb-2">
+                      <i class="fa-solid fa-star "></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="mb-2">
+                      <a class="home-card-btn computer-section-btn" href="add-to-cart.html"><i
+                          class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
+                    </div>
+                    <div class="product-tag">
+                      <span class="badge badge-secondary">32% off</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="">
+                  <a href="add-to-cart.html"><img src="images/computer-item2.jpg" class="card-img-top img-fluid"
+                      alt="...">
+                  </a>
+                  <div class="product-body text-center">
+                    <span class="product-name">Jacket, Women</span>
+                    <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                        class="discount"><span>&#8377;</span>30.15</del></h6>
+                    <div class="left-sidebar-yellow-star mb-2">
+                      <i class="fa-solid fa-star "></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="mb-2">
+                      <a class="home-card-btn computer-section-btn" href="add-to-cart.html"><i
+                          class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
+                    </div>
+                    <div class="product-tag">
+                      <span class="badge badge-secondary">32% off</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="">
+                  <a href="add-to-cart.html"><img src="images/computer-item2.jpg" class="card-img-top img-fluid"
+                      alt="...">
+                  </a>
+                  <div class="product-body text-center">
+                    <span class="product-name">Jacket, Women</span>
+                    <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                        class="discount"><span>&#8377;</span>30.15</del></h6>
+                    <div class="left-sidebar-yellow-star mb-2">
+                      <i class="fa-solid fa-star "></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="mb-2">
+                      <a class="home-card-btn computer-section-btn" href="add-to-cart.html"><i
+                          class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
+                    </div>
+                    <div class="product-tag">
+                      <span class="badge badge-secondary">32% off</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="">
+                  <a href="add-to-cart.html"><img src="images/computer-item2.jpg" class="card-img-top img-fluid"
+                      alt="...">
+                  </a>
+                  <div class="product-body text-center">
+                    <span class="product-name">Jacket, Women</span>
+                    <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                        class="discount"><span>&#8377;</span>30.15</del></h6>
+                    <div class="left-sidebar-yellow-star mb-2">
+                      <i class="fa-solid fa-star "></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="mb-2">
+                      <a class="home-card-btn computer-section-btn" href="add-to-cart.html"><i
+                          class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
+                    </div>
+                    <div class="product-tag">
+                      <span class="badge badge-secondary">32% off</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+      </section>
+
+       <!-- electronic-section -->
+
+    <section class="electronic-section">
+      <div class="container">
+        <div class="electronic-section-main-body-content">
+          <div class="row">
+            <div class="col-lg-2">
+              <img class="img-fluid" src="images/electronicadd1.jpg" alt="">
+            </div>
+            <div class="col-lg-8">
+              <img class="img-fluid" src="images/electronic-offers.jpg" alt="">
+            </div>
+            <div class="col-lg-2">
+              <img class="img-fluid" src="images/electronicadd1.jpg" alt="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-2">
+              <img class="img-fluid" src="images/electronicadd1.jpg" alt="">
+            </div>
+            <div class="col-lg-2">
+              <div class="">
+                <a href="add-to-cart.html"><img src="images/electronic item1.jpg" class="card-img-top img-fluid"
+                    alt="...">
+                </a>
+                <div class="product-body text-center">
+                  <span class="product-name">Jacket, Women</span>
+                  <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                      class="discount"><span>&#8377;</span>30.15</del></h6>
+                  <div class="left-sidebar-yellow-star mb-2">
+                    <i class="fa-solid fa-star "></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="mb-2">
+                    <a class="home-card-btn electronic-section-btn" href="add-to-cart.html"><i
+                        class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
+                  </div>
+                  <div class="product-tag">
+                    <span class="badge badge-secondary">32% off</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="">
+                <a href="add-to-cart.html"><img src="images/electronic item5.jpg" class="card-img-top img-fluid"
+                    alt="...">
+                </a>
+                <div class="product-body text-center">
+                  <span class="product-name">Jacket, Women</span>
+                  <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                      class="discount"><span>&#8377;</span>30.15</del></h6>
+                  <div class="left-sidebar-yellow-star mb-2">
+                    <i class="fa-solid fa-star "></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="mb-2">
+                    <a class="home-card-btn electronic-section-btn" href="add-to-cart.html"><i
+                        class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
+                  </div>
+                  <div class="product-tag">
+                    <span class="badge badge-secondary">32% off</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="">
+                <a href="add-to-cart.html"><img src="images/electronic item3.jpg" class="card-img-top img-fluid"
+                    alt="...">
+                </a>
+                <div class="product-body text-center">
+                  <span class="product-name">Jacket, Women</span>
+                  <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                      class="discount"><span>&#8377;</span>30.15</del></h6>
+                  <div class="left-sidebar-yellow-star mb-2">
+                    <i class="fa-solid fa-star "></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="mb-2">
+                    <a class="home-card-btn electronic-section-btn" href="add-to-cart.html"><i
+                        class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
+                  </div>
+                  <div class="product-tag">
+                    <span class="badge badge-secondary">32% off</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="">
+                <a href="add-to-cart.html"><img src="images/electronic item2.jpg" class="card-img-top img-fluid"
+                    alt="...">
+                </a>
+                <div class="product-body text-center">
+                  <span class="product-name">Jacket, Women</span>
+                  <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                      class="discount"><span>&#8377;</span>30.15</del></h6>
+                  <div class="left-sidebar-yellow-star mb-2">
+                    <i class="fa-solid fa-star "></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="mb-2">
+                    <a class="home-card-btn electronic-section-btn" href="add-to-cart.html"><i
+                        class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
+                  </div>
+                  <div class="product-tag">
+                    <span class="badge badge-secondary">32% off</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="">
+                <a href="add-to-cart.html"><img src="images/electronic item4.jpg" class="card-img-top img-fluid"
+                    alt="...">
+                </a>
+                <div class="product-body text-center">
+                  <span class="product-name">Jacket, Women</span>
+                  <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                      class="discount"><span>&#8377;</span>30.15</del></h6>
+                  <div class="left-sidebar-yellow-star mb-2">
+                    <i class="fa-solid fa-star "></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="mb-2">
+                    <a class="home-card-btn electronic-section-btn" href="add-to-cart.html"><i
+                        class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
+                  </div>
+                  <div class="product-tag">
+                    <span class="badge badge-secondary">32% off</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 
@@ -588,21 +932,23 @@
         </div>
         <div class="row">
           <div class="col-lg-3">
-            <div class="card">
-              <a href=""><img src="images/tredingimg1.jpg" class="card-img-top img-fluid" alt="..."></a>
-              <a href="javascript:void(0);" class="item-bookmark"></a>
-              <div class="card-body product-body">
+            <div class="">
+              <a href="add-to-cart.html"><img src="images/tredingimg1.jpg" class="card-img-top img-fluid"
+                  alt="...">
+              </a>
+              <div class="product-body text-center">
                 <span class="product-name">Jacket, Women</span>
-                <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
+                <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                    class="discount"><span>&#8377;</span>30.15</del></h6>
                 <div class="left-sidebar-yellow-star mb-2">
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
                   <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
                 </div>
-                <div>
-                  <button class="add-to-cart-homepage-btn"><i class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to
-                    cart</button>
+                <div class="mb-2">
+                  <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
+                      class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                 </div>
                 <div class="product-tag">
                   <span class="badge badge-secondary">32% off</span>
@@ -610,123 +956,24 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-3">
-            <div class="card">
-              <a href=""><img src="images/trendimg2.jpg" class="card-img-top img-fluid" alt="..."></a>
-              <a href="javascript:void(0);" class="item-bookmark"></a>
-              <div class="card-body product-body">
+            <div class="">
+              <a href="add-to-cart.html"><img src="images/trendimg2.jpg" class="card-img-top img-fluid"
+                  alt="...">
+              </a>
+              <div class="product-body text-center">
                 <span class="product-name">Jacket, Women</span>
-                <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
+                <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                    class="discount"><span>&#8377;</span>30.15</del></h6>
                 <div class="left-sidebar-yellow-star mb-2">
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
                   <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
                 </div>
-                <div>
-                  <button class="add-to-cart-homepage-btn"><i class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to
-                    cart</button>
-                </div>
-
-                <div class="product-tag">
-                  <span class="badge badge-secondary">32% off</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3">
-            <div class="card">
-              <a href=""><img src="images/tendimg3.jpg" class="card-img-top img-fluid" alt="..."></a>
-              <a href="javascript:void(0);" class="item-bookmark"></a>
-              <div class="card-body product-body">
-                <span class="product-name">Jacket, Women</span>
-                <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
-                <div class="left-sidebar-yellow-star mb-2">
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star "></i>
-                </div>
-                <div>
-                  <button class="add-to-cart-homepage-btn"><i class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to
-                    cart</button>
-                </div>
-
-                <div class="product-tag">
-                  <span class="badge badge-secondary">32% off</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3">
-            <div class="card">
-              <a href=""><img src="images/tendimg4.jpg" class="card-img-top img-fluid" alt="..."></a>
-              <a href="javascript:void(0);" class="item-bookmark"></a>
-              <div class="card-body product-body">
-                <span class="product-name">Jacket, Women</span>
-                <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
-                <div class="left-sidebar-yellow-star mb-2">
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star "></i>
-                </div>
-                <div>
-                  <button class="add-to-cart-homepage-btn"><i class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to
-                    cart</button>
-                </div>
-
-                <div class="product-tag">
-                  <span class="badge badge-secondary">32% off</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3">
-            <div class="card">
-              <a href=""><img src="images/trendimg5.jpg" class="card-img-top img-fluid" alt="..."></a>
-              <a href="javascript:void(0);" class="item-bookmark"></a>
-              <div class="card-body product-body">
-                <span class="product-name">Jacket, Women</span>
-                <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
-                <div class="left-sidebar-yellow-star mb-2">
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star "></i>
-                </div>
-                <div>
-                  <button class="add-to-cart-homepage-btn"><i class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to
-                    cart</button>
-                </div>
-
-                <div class="product-tag">
-                  <span class="badge badge-secondary">32% off</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3">
-            <div class="card">
-              <a href=""><img src="images/trendimg6.jpg" class="card-img-top img-fluid" alt="..."></a>
-              <a href="javascript:void(0);" class="item-bookmark"></a>
-              <div class="card-body product-body">
-                <span class="product-name">Jacket, Women</span>
-                <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
-                <div class="left-sidebar-yellow-star mb-2">
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star "></i>
-                </div>
-                <div>
-                  <button class="add-to-cart-homepage-btn"><i class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to
-                    cart</button>
+                <div class="mb-2">
+                  <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
+                      class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                 </div>
                 <div class="product-tag">
                   <span class="badge badge-secondary">32% off</span>
@@ -734,23 +981,24 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-3">
-            <div class="card">
-              <a href=""><img src="images/trendimg7.jpg" class="card-img-top img-fluid" alt="..."></a>
-              <a href="javascript:void(0);" class="item-bookmark"></a>
-              <div class="card-body product-body">
+            <div class="">
+              <a href="add-to-cart.html"><img src="images/trendimg5.jpg" class="card-img-top img-fluid"
+                  alt="...">
+              </a>
+              <div class="product-body text-center">
                 <span class="product-name">Jacket, Women</span>
-                <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
+                <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                    class="discount"><span>&#8377;</span>30.15</del></h6>
                 <div class="left-sidebar-yellow-star mb-2">
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
                   <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
                 </div>
-                <div>
-                  <button class="add-to-cart-homepage-btn"><i class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to
-                    cart</button>
+                <div class="mb-2">
+                  <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
+                      class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                 </div>
                 <div class="product-tag">
                   <span class="badge badge-secondary">32% off</span>
@@ -758,23 +1006,124 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-3">
-            <div class="card">
-              <a href=""><img src="images/trendimg-8.jpg" class="card-img-top img-fluid" alt="..."></a>
-              <a href="javascript:void(0);" class="item-bookmark"></a>
-              <div class="card-body product-body">
+            <div class="">
+              <a href="add-to-cart.html"><img src="images/trendimg6.jpg" class="card-img-top img-fluid"
+                  alt="...">
+              </a>
+              <div class="product-body text-center">
                 <span class="product-name">Jacket, Women</span>
-                <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
+                <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                    class="discount"><span>&#8377;</span>30.15</del></h6>
                 <div class="left-sidebar-yellow-star mb-2">
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
                   <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
                 </div>
-                <div>
-                  <button class="add-to-cart-homepage-btn"><i class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to
-                    cart</button>
+                <div class="mb-2">
+                  <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
+                      class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
+                </div>
+                <div class="product-tag">
+                  <span class="badge badge-secondary">32% off</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="">
+              <a href="add-to-cart.html"><img src="images/tendimg3.jpg" class="card-img-top img-fluid"
+                  alt="...">
+              </a>
+              <div class="product-body text-center">
+                <span class="product-name">Jacket, Women</span>
+                <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                    class="discount"><span>&#8377;</span>30.15</del></h6>
+                <div class="left-sidebar-yellow-star mb-2">
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="mb-2">
+                  <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
+                      class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
+                </div>
+                <div class="product-tag">
+                  <span class="badge badge-secondary">32% off</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="">
+              <a href="add-to-cart.html"><img src="images/tendimg4.jpg" class="card-img-top img-fluid"
+                  alt="...">
+              </a>
+              <div class="product-body text-center">
+                <span class="product-name">Jacket, Women</span>
+                <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                    class="discount"><span>&#8377;</span>30.15</del></h6>
+                <div class="left-sidebar-yellow-star mb-2">
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="mb-2">
+                  <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
+                      class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
+                </div>
+                <div class="product-tag">
+                  <span class="badge badge-secondary">32% off</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="">
+              <a href="add-to-cart.html"><img src="images/trendimg7.jpg" class="card-img-top img-fluid"
+                  alt="...">
+              </a>
+              <div class="product-body text-center">
+                <span class="product-name">Jacket, Women</span>
+                <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                    class="discount"><span>&#8377;</span>30.15</del></h6>
+                <div class="left-sidebar-yellow-star mb-2">
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="mb-2">
+                  <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
+                      class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
+                </div>
+                <div class="product-tag">
+                  <span class="badge badge-secondary">32% off</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="">
+              <a href="add-to-cart.html"><img src="images/trendimg-8.jpg" class="card-img-top img-fluid"
+                  alt="...">
+              </a>
+              <div class="product-body text-center">
+                <span class="product-name">Jacket, Women</span>
+                <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                    class="discount"><span>&#8377;</span>30.15</del></h6>
+                <div class="left-sidebar-yellow-star mb-2">
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="mb-2">
+                  <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
+                      class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                 </div>
                 <div class="product-tag">
                   <span class="badge badge-secondary">32% off</span>
@@ -786,159 +1135,12 @@
       </div>
     </section>
 
-    <!-- electronic-section -->
 
-    <section class="electronic-section">
-      <div class="container">
-        <div class="row ">
-          <div class="col-lg-2">
-            <img class="img-fluid" src="images/electronicadd1.jpg" alt="">
-          </div>
-          <div class="col-lg-8">
-            <img class="img-fluid" src="images/electronic-offers.jpg" alt="">
-          </div>
-          <div class="col-lg-2">
-            <div class="card">
-              <a href=""><img class="img-fluid" src="images/electronic item1.jpg" class="card-img-top img-fluid"
-                  alt="..."></a>
-              <a href="javascript:void(0);" class="item-bookmark"></a>
-              <div class="card-body product-body">
-                <span class="product-name">Jacket, Women</span>
-                <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
-                <div class="left-sidebar-yellow-star mb-2">
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star "></i>
-                </div>
-                <div>
-                  <button class="add-to-cart-homepage-btn"><i class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to
-                    cart</button>
-                </div>
-                <div class="product-tag">
-                  <span class="badge badge-secondary">sale</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <div class="row">
-          <div class="col-lg-2">
-            <ul class="electronic-unorderd-list">
-              <li><a href="">Egante mangetes</a></li>
-              <li><a href="">Guntes magesg</a></li>
-              <li><a href="">Hanet magente</a></li>
-              <li><a href="">Angene mafin</a></li>
-              <li><a href="">Latenge mange</a></li>
-              <li><a href=""> Rengae manges</a></li>
-            </ul>
-          </div>
 
-          <div class="col-lg-8">
-            <div class="row">
-              <div class="col-lg-3">
-                <div class="card">
-                  <a href=""><img class="img-fluid" src="images/electronic item2.jpg" class="card-img-top img-fluid"
-                      alt="..."></a>
-                  <a href="javascript:void(0);" class="item-bookmark"></a>
-                  <div class="card-body product-body">
-                    <span class="product-name">Jacket, Women</span>
-                    <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
-                    <div class="left-sidebar-yellow-star mb-2">
-                      <i class="fa-solid fa-star text-warning"></i>
-                      <i class="fa-solid fa-star text-warning"></i>
-                      <i class="fa-solid fa-star text-warning"></i>
-                      <i class="fa-solid fa-star "></i>
-                    </div>
-                    <div>
-                      <button class="add-to-cart-homepage-btn"><i class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to
-                        cart</button>
-                    </div>
-                    <div class="product-tag">
-                      <span class="badge badge-secondary">sale</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="card">
-                  <a href=""><img class="img-fluid" src="images/electronic item3.jpg" class="card-img-top img-fluid"
-                      alt="..."></a>
-                  <a href="javascript:void(0);" class="item-bookmark"></a>
-                  <div class="card-body product-body">
-                    <span class="product-name">Jacket, Women</span>
-                    <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
-                    <div class="left-sidebar-yellow-star mb-2">
-                      <i class="fa-solid fa-star text-warning"></i>
-                      <i class="fa-solid fa-star text-warning"></i>
-                      <i class="fa-solid fa-star text-warning"></i>
-                      <i class="fa-solid fa-star "></i>
-                    </div>
-                    <div>
-                      <button class="add-to-cart-homepage-btn"><i class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to
-                        cart</button>
-                    </div>
-                    <div class="product-tag">
-                      <span class="badge badge-secondary">sale</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="card">
-                  <a href=""><img class="img-fluid" src="images/electronic item4.jpg" class="card-img-top img-fluid"
-                      alt="..."></a>
-                  <a href="javascript:void(0);" class="item-bookmark"></a>
-                  <div class="card-body product-body">
-                    <span class="product-name">Jacket, Women</span>
-                    <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
-                    <div class="left-sidebar-yellow-star mb-2">
-                      <i class="fa-solid fa-star text-warning"></i>
-                      <i class="fa-solid fa-star text-warning"></i>
-                      <i class="fa-solid fa-star text-warning"></i>
-                      <i class="fa-solid fa-star "></i>
-                    </div>
-                    <div>
-                      <button class="add-to-cart-homepage-btn"><i class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to
-                        cart</button>
-                    </div>
-                    <div class="product-tag">
-                      <span class="badge badge-secondary">sale</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="card">
-                  <a href=""><img class="img-fluid" src="images/electronic item5.jpg" class="card-img-top img-fluid"
-                      alt="..."></a>
-                  <a href="javascript:void(0);" class="item-bookmark"></a>
-                  <div class="card-body product-body">
-                    <span class="product-name">Jacket, Women</span>
-                    <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
-                    <div class="left-sidebar-yellow-star mb-2">
-                      <i class="fa-solid fa-star text-warning"></i>
-                      <i class="fa-solid fa-star text-warning"></i>
-                      <i class="fa-solid fa-star text-warning"></i>
-                      <i class="fa-solid fa-star "></i>
-                    </div>
-                    <div>
-                      <button class="add-to-cart-homepage-btn"><i class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to
-                        cart</button>
-                    </div>
-                    <div class="product-tag">
-                      <span class="badge badge-secondary">sale</span>
-                    </div>
-                  </div>
-                </div>
+ 
 
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+   
 
     <!-- addimg-mid-sec -->
     <section class="addimg-mid-sec">
@@ -947,180 +1149,7 @@
       </div>
     </section>
 
-    <!-- computer-section -->
-    <section class="computer-section">
-      <div class="container ">
-        <div class="row g-0 p-0">
-          <div class="col-lg-2">
-            <img class="img-fluid" src="images/computerleft-add.jpg" alt="">
-          </div>
-          <div class="col-lg-8">
-            <img class="img-fluid" src="images/computer-offers add.jpg" alt="">
-          </div>
-          <div class="col-lg-2">
-            <div class="card">
-              <a href=""><img class="img-fluid" src="images/computer-item1.jpg" class="card-img-top img-fluid"
-                  alt="..."></a>
-              <a href="javascript:void(0);" class="item-bookmark"></a>
-              <div class="card-body product-body">
-                <span class="product-name">Jacket, Women</span>
-                <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
-                <div class="left-sidebar-yellow-star mb-2">
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star "></i>
-                </div>
-                <div>
-                  <button class="add-to-cart-homepage-btn"><i class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to
-                    cart</button>
-                </div>
-                <div class="product-tag">
-                  <span class="badge badge-secondary">sale</span>
-                </div>
-              </div>
-            </div>
-          </div>
 
-        </div>
-        <div class="row">
-          <div class="col-lg-2">
-            <ul class="computer-unorderd-list">
-              <li><a href="">Egante mangetes</a></li>
-              <li><a href="">Guntes magesg</a></li>
-              <li><a href="">Hanet magente</a></li>
-              <li><a href="">Angene mafin</a></li>
-              <li><a href="">Latenge mange</a></li>
-              <li><a href=""> Rengae manges</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2 ">
-            <div class="card">
-              <a href=""><img class="img-fluid" src="images/computer-item2.jpg" class="card-img-top img-fluid"
-                  alt="..."></a>
-              <a href="javascript:void(0);" class="item-bookmark"></a>
-              <div class="card-body product-body">
-                <span class="product-name">Jacket, Women</span>
-                <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
-                <div class="left-sidebar-yellow-star mb-2">
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star "></i>
-                </div>
-                <div>
-                  <button class="add-to-cart-homepage-btn"><i class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to
-                    cart</button>
-                </div>
-                <div class="product-tag">
-                  <span class="badge badge-secondary">sale</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-2 ">
-            <div class="card">
-              <a href=""><img class="img-fluid" src="images/computer-item3.jpg" class="card-img-top img-fluid"
-                  alt="..."></a>
-              <a href="javascript:void(0);" class="item-bookmark"></a>
-              <div class="card-body product-body">
-                <span class="product-name">Jacket, Women</span>
-                <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
-                <div class="left-sidebar-yellow-star mb-2">
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star "></i>
-                </div>
-                <div>
-                  <button class="add-to-cart-homepage-btn"><i class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to
-                    cart</button>
-                </div>
-                <div class="product-tag">
-                  <span class="badge badge-secondary">sale</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-2 ">
-            <div class="card">
-              <a href=""><img class="img-fluid" src="images/computer-item4.jpg" class="card-img-top img-fluid"
-                  alt="..."></a>
-              <a href="javascript:void(0);" class="item-bookmark"></a>
-              <div class="card-body product-body">
-                <span class="product-name">Jacket, Women</span>
-                <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
-                <div class="left-sidebar-yellow-star mb-2">
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star "></i>
-                </div>
-                <div>
-                  <button class="add-to-cart-homepage-btn"><i class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to
-                    cart</button>
-                </div>
-                <div class="product-tag">
-                  <span class="badge badge-secondary">sale</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-2 ">
-            <div class="card">
-              <a href=""><img class="img-fluid" src="images/computer-item5.jpg" class="card-img-top img-fluid"
-                  alt="..."></a>
-              <a href="javascript:void(0);" class="item-bookmark"></a>
-              <div class="card-body product-body">
-                <span class="product-name">Jacket, Women</span>
-                <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
-                <div class="left-sidebar-yellow-star mb-2">
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star "></i>
-                </div>
-                <div>
-                  <button class="add-to-cart-homepage-btn"><i class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to
-                    cart</button>
-                </div>
-                <div class="product-tag">
-                  <span class="badge badge-secondary">sale</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-2">
-            <div class="card">
-              <a href=""><img class="img-fluid" src="images/computer-item6.jpg" class="card-img-top img-fluid"
-                  alt="..."></a>
-              <a href="javascript:void(0);" class="item-bookmark"></a>
-              <div class="card-body product-body">
-                <span class="product-name">Jacket, Women</span>
-                <h6 class="product-price">$25.15 <del class="discount">$30.15</del></h6>
-                <div class="left-sidebar-yellow-star mb-2">
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star text-warning"></i>
-                  <i class="fa-solid fa-star "></i>
-                </div>
-                <div>
-                  <button class="add-to-cart-homepage-btn"><i class="fa-solid fa-cart-plus px-2 text-dark"></i>Add to
-                    cart</button>
-                </div>
-                <div class="product-tag">
-                  <span class="badge badge-secondary">sale</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- brand-company-section -->
 
@@ -1172,143 +1201,143 @@
 
   <footer class="footer-section ">
     <div class="container">
-        <div class="row footer-top">
-            <div class="col-lg-3 col-md-6 mb-3">
-                <div class="footer-left-sec">
-                    <img class="img-fluid d-block m-auto mb-3" src="img/logo.svg" alt="">
-                    <p>
-                        Integer posuere orci sit amet feugiat pellent que. Suspendisse vel tempor justo, sit amet
-                        posuere orci dapibus auctor
-                    </p>
-                    <div class="footer-contact-details ">
-                        <div class="footer-contact-details-body">
-                            <i class="fa-solid fa-mobile"></i>
-                            <span class="footer-address-sec">CONTACT US:</span>
-                            <a href=""> +3 (523) 555 123 8745</a>
-                        </div>
+      <div class="row footer-top">
+        <div class="col-lg-3 col-md-6 mb-3">
+          <div class="footer-left-sec">
+            <img class="img-fluid d-block m-auto mb-3" src="img/logo.svg" alt="">
+            <p>
+              Integer posuere orci sit amet feugiat pellent que. Suspendisse vel tempor justo, sit amet
+              posuere orci dapibus auctor
+            </p>
+            <div class="footer-contact-details ">
+              <div class="footer-contact-details-body">
+                <i class="fa-solid fa-mobile"></i>
+                <span class="footer-address-sec">CONTACT US:</span>
+                <a href=""> +3 (523) 555 123 8745</a>
+              </div>
 
-                        <div class="footer-contact-details-body">
-                            <i class="fa-solid fa-message"></i>
-                            <span class="footer-address-sec">ADDRESS:</span>
-                            <a href=""> 1ST, NEW YORK, USA</a>
-                        </div>
+              <div class="footer-contact-details-body">
+                <i class="fa-solid fa-message"></i>
+                <span class="footer-address-sec">ADDRESS:</span>
+                <a href=""> 1ST, NEW YORK, USA</a>
+              </div>
 
-                        <div class="footer-contact-details-body">
-                            <i class="fa-solid fa-location-dot"></i>
-                            <span class="footer-address-sec ">EMAIL: </span>
-                            <a href="">OFFICE@EXZO.COM</a>
-                        </div>
-                    </div>
-                </div>
+              <div class="footer-contact-details-body">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="footer-address-sec ">EMAIL: </span>
+                <a href="">OFFICE@EXZO.COM</a>
+              </div>
             </div>
-
-            <div class="col-lg-3  col-md-6 col-12">
-                <h6>QUECK LINKS</h6>
-                <div class="row">
-                    <div class="col-lg-5 col-5 footer-column-links">
-                        <a href="">HOME</a>
-                        <a href="">ABOUT US</a>
-                        <a href="">PRODUCTS</a>
-                        <a href="">SERVICES</a>
-                        <a href="">BLOGS</a>
-                        <a href="">GALLERY</a>
-                        <a href="">CONTACT</a>
-                    </div>
-                    <div class="col-lg-5 col-6 footer-column-links">
-                        <a href="">PRIVACY POLICY</a>
-                        <a href="">WARRANTY</a>
-                        <a href="">LOGIN</a>
-                        <a href="">REGISTRATION</a>
-                        <a href="">PAGES</a>
-                        <a href="">OUR STORES</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-12 mb-2">
-                <h6>SOME POSTS</h6>
-                <div class="footer-post-sec">
-                    <div>
-                        <a href=""><img class="img-fluid" src="images/footer thumbnail-1.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="ms-2">
-                        <span class="footer-date">APR 07 / 15</span>
-                        <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM SIT AMET</p>
-                    </div>
-                </div>
-
-                <div class="footer-post-sec">
-                    <div>
-                        <a href=""><img class="img-fluid" src="images/thumbnail-2.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="ms-2">
-                        <span class="footer-date">APR 07 / 15</span>
-                        <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM SIT AMET</p>
-                    </div>
-                </div>
-
-                <div class="footer-post-sec">
-                    <div>
-                        <img class="img-fluid" src="images/thumbnail-3.jpg" alt="">
-                    </div>
-                    <div class="ms-2">
-                        <span class="footer-date">APR 07 / 15</span>
-                        <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM SIT AMET</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12 ">
-                <h6>POPULAR TAGS</h6>
-                <div class="footer-column-links-tags">
-                    <a href="">HEADPHONESS</a>
-                    <a href="">ACCESSORIES</a>
-                    <a href="">NEW</a>
-                    <a href="">WIRELESS</a>
-                    <a href="">CABLES</a>
-                    <a href="">DEVICES</a>
-                    <a href="">GADGETS</a>
-                    <a href=""> BRANDS</a>
-                    <a href="">CASES</a>
-                    <a href=""> CABLES</a>
-                    <a href="">PROFESSIONAL</a>
-                </div>
-            </div>
+          </div>
         </div>
 
-
-        <div class="copyright-section ">
-            <div class="row text-center">
-                <div class="col-lg-4 col-md-6 my-2 col-12">
-                    <p>
-                        © 2015 All rights reserved. Development by <a class="agency-copy" href="">UnionAgency</a>
-                    </p>
-                </div>
-                <div class="col-lg-4 mb-2 col-md-6 col-12">
-                    <div class="footer-social-icons">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-linkedin-in"></i>
-                        <i class="fa-brands fa-google"></i>
-                        <i class="fa-solid fa-p"></i>
-                    </div>
-                </div>
-                <div class="col-lg-4 co-12 my-2">
-                    <div class="footer-payment-icons">
-                        <a class="entry"><img src="images/footer-pay1.jpg" alt=""></a>
-                        <a class="entry"><img src="images/footer-pay2.jpg" alt=""></a>
-                        <a class="entry"><img src="images/footer-pay3.jpg" alt=""></a>
-                        <a class="entry"><img src="images/footer-pay4.jpg" alt=""></a>
-                        <a class="entry"><img src="images/footer-pay5.jpg" alt=""></a>
-                        <a class="entry"><img src="images/footer-pay6.jpg" alt=""></a>
-                    </div>
-                </div>
+        <div class="col-lg-3  col-md-6 col-12">
+          <h6>QUECK LINKS</h6>
+          <div class="row">
+            <div class="col-lg-5 col-5 footer-column-links">
+              <a href="">HOME</a>
+              <a href="">ABOUT US</a>
+              <a href="">PRODUCTS</a>
+              <a href="">SERVICES</a>
+              <a href="">BLOGS</a>
+              <a href="">GALLERY</a>
+              <a href="">CONTACT</a>
             </div>
+            <div class="col-lg-5 col-6 footer-column-links">
+              <a href="">PRIVACY POLICY</a>
+              <a href="">WARRANTY</a>
+              <a href="">LOGIN</a>
+              <a href="">REGISTRATION</a>
+              <a href="">PAGES</a>
+              <a href="">OUR STORES</a>
+            </div>
+          </div>
         </div>
+
+        <div class="col-lg-3 col-md-6 col-12 mb-2">
+          <h6>SOME POSTS</h6>
+          <div class="footer-post-sec">
+            <div>
+              <a href=""><img class="img-fluid" src="images/footer thumbnail-1.jpg" alt="">
+              </a>
+            </div>
+            <div class="ms-2">
+              <span class="footer-date">APR 07 / 15</span>
+              <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM SIT AMET</p>
+            </div>
+          </div>
+
+          <div class="footer-post-sec">
+            <div>
+              <a href=""><img class="img-fluid" src="images/thumbnail-2.jpg" alt="">
+              </a>
+            </div>
+            <div class="ms-2">
+              <span class="footer-date">APR 07 / 15</span>
+              <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM SIT AMET</p>
+            </div>
+          </div>
+
+          <div class="footer-post-sec">
+            <div>
+              <img class="img-fluid" src="images/thumbnail-3.jpg" alt="">
+            </div>
+            <div class="ms-2">
+              <span class="footer-date">APR 07 / 15</span>
+              <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM SIT AMET</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12 ">
+          <h6>POPULAR TAGS</h6>
+          <div class="footer-column-links-tags">
+            <a href="">HEADPHONESS</a>
+            <a href="">ACCESSORIES</a>
+            <a href="">NEW</a>
+            <a href="">WIRELESS</a>
+            <a href="">CABLES</a>
+            <a href="">DEVICES</a>
+            <a href="">GADGETS</a>
+            <a href=""> BRANDS</a>
+            <a href="">CASES</a>
+            <a href=""> CABLES</a>
+            <a href="">PROFESSIONAL</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="copyright-section ">
+        <div class="row text-center">
+          <div class="col-lg-4 col-md-6 my-2 col-12">
+            <p>
+              © 2015 All rights reserved. Development by <a class="agency-copy" href="">UnionAgency</a>
+            </p>
+          </div>
+          <div class="col-lg-4 mb-2 col-md-6 col-12">
+            <div class="footer-social-icons">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+              <i class="fa-brands fa-google"></i>
+              <i class="fa-solid fa-p"></i>
+            </div>
+          </div>
+          <div class="col-lg-4 co-12 my-2">
+            <div class="footer-payment-icons">
+              <a class="entry"><img src="images/footer-pay1.jpg" alt=""></a>
+              <a class="entry"><img src="images/footer-pay2.jpg" alt=""></a>
+              <a class="entry"><img src="images/footer-pay3.jpg" alt=""></a>
+              <a class="entry"><img src="images/footer-pay4.jpg" alt=""></a>
+              <a class="entry"><img src="images/footer-pay5.jpg" alt=""></a>
+              <a class="entry"><img src="images/footer-pay6.jpg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</footer>
+  </footer>
 
   <!-- owl.carousel -->
   <script>
@@ -1332,9 +1361,9 @@
     })
   </script>
 
-  <!-- <script>
+  <script>
     $(document).ready(function () {
-      $('.owl-carousel').owlCarousel({
+      $('.owl-carousel .owl-carousel-a').owlCarousel({
         margin: 30,
         loop: true,
         autoplay: true,
@@ -1353,7 +1382,10 @@
         },
       });
     })
-  </script> -->
+  </script>
+
+
+  
   <script src="js/script.js"></script>
   <script src="js/bootstrap.bundle.js"></script>
 </body>
