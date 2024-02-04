@@ -40,7 +40,6 @@ body {
 
 .banner-product-all-categories-main-body {
   display: flex;
-  align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
@@ -91,7 +90,7 @@ body {
 .product-cap a {
   font-size: 13px;
   text-decoration: none;
-  color:blue;
+  color:#424242;
   font-weight: 500;
 }
 
@@ -168,8 +167,13 @@ body {
   border: 1px solid hotpink;
   background-color: #99999915;
   padding: 4px 15px;
-  border-radius: 3px;
+  border-radius: 5px;
   text-decoration: none;
+}
+.product-body .home-card-btn:hover {
+  background-color:#343434;
+  color: white;
+  
 }
 
 /* computer-section */
