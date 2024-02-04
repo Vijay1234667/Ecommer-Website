@@ -19,52 +19,58 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+    <nav class="navbar navbar-expand-lg navbar-light ">
       <div class="container">
         <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav m-auto  mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Today'sDeals</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">All Brands</a>
+              <a class="nav-link active" aria-current="page" href="#">New Release</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="categories.html">Categories</a>
+              <a class="nav-link active" aria-current="page" href="categories.html">Gift Ideas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Offers</a>
+              <a class="nav-link active" aria-current="page" href="#">Fress</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="cart.html">Cart</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="whislist.html">Whislist</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="my-coupan.html">Coupons</a>
             </li>
           </ul>
-          <ul class="navbar-nav m-auto">
+          <form class="d-flex search-body">
+            <input class="form-control me-2" list="datalistOptions" placeholder="Search">
+            <datalist id="datalistOptions">
+              <option value="Tshirt"></option>
+              <option value="shirt"></option>
+              <option value="Laptop"></option>
+              <option value="MenTshirt"></option>
+              <option value="Shoes"></option>
+              </section>
+            </datalist>
+            <button class="btn" type="submit">Search</button>
+          </form>
+          <ul class="navbar-nav m-auto  nav-brand-icons">
             <li class="nav-item">
-              <a class="text-dark" href=""><i class="fa-solid fa-magnifying-glass p-2 fs-5"></i>
+              <a href=""><i class="fa-solid fa-cart-shopping p-2 "></i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="text-dark" href=""><i class="fa-solid fa-cart-shopping p-2 fs-5"></i>
+              <a href="profile.html"><i class="fa-solid fa-user  p-2"></i>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="text-dark" href="profile.html"><i class="fa-solid fa-user  p-2 fs-5"></i>
+            <li class=" login-btn ms-auto">
+              <a href="profile.html"><a href="" class="btn">Login</a>
               </a>
             </li>
           </ul>
@@ -76,18 +82,17 @@
 
   <main role="main">
     <section>
-      <div class="container-fluid">
-        <div class="mb-3">
-          <h5 class="pt-3 fw-bold">Discount on your sale</h5>
+      <div class="container-fluid p-0 mb-2">
+        <div class="mb-2">
           <div class="owl-carousel owl-theme">
             <div class="item">
-              <img class="img-fluid" src="images/corousel ref-nayka1.jpg" alt="">
+              <img class="img-fluid" src="images/c1.jpg" alt="">
             </div>
             <div class="item">
-              <img class="img-fluid" src="images/corousel ref-nayka2.jpg" alt="">
+              <img class="img-fluid" src="images/c2.jpg" alt="">
             </div>
             <div class="item">
-              <img class="img-fluid" src="images/corousel ref-nayka4.jpg" alt="">
+              <img class="img-fluid" src="images/c3.jpg" alt="">
             </div>
           </div>
         </div>
@@ -95,57 +100,33 @@
     </section>
 
 
-
-
-    <section>
-      <div class="container">
-        <div class="owl-carousel owl-theme">
-          <img class="owl-lazy" data-src="https://placehold.it/350x450&text=1" data-src-retina="https://placehold.it/350x250&text=1-retina" alt="">
-          <img class="owl-lazy" data-src="https://placehold.it/350x650&text=2" data-src-retina="https://placehold.it/350x250&text=2-retina" alt="">
-        <picture>
-            <source class="owl-lazy" media="(min-width: 650px)" data-srcset="https://placehold.it/350x250&text=3-large">
-            <source class="owl-lazy" media="(min-width: 350px)" data-srcset="https://placehold.it/350x250&text=3-medium">
-            <img class="owl-lazy" data-src="https://placehold.it/350x250&text=3-fallback" alt="">
-        </picture>
-          <img class="owl-lazy" data-src="https://placehold.it/350x250&text=4" alt="">
-          <img class="owl-lazy" data-src="https://placehold.it/350x250&text=5" alt="">
-          <img class="owl-lazy" data-src="https://placehold.it/350x250&text=6" alt="">
-          <img class="owl-lazy" data-src="https://placehold.it/350x250&text=7" alt="">
-          <img class="owl-lazy" data-src="https://placehold.it/350x250&text=8" alt="">
-          <img class="owl-lazy" data-src="https://placehold.it/350x400&text=9" alt="">
-          <img class="owl-lazy" data-src="https://placehold.it/350x400&text=10" alt="">
-          <img class="owl-lazy" data-src="https://placehold.it/350x450&text=11" alt="">
-      </div>
-      </div>
-    </section>
-
     <!-- banner-product-all-categories -->
 
     <section class="banner-product-all-categories mb-2">
       <div class="container-fluid">
         <div class="banner-product-all-categories-main-body mt-2">
           <div class="categories-brand">
-            <a href=""><img class="img-fluid mb-2" src="img-mob/mob1.png" alt=""></a>
+            <a href=""><img class="img-fluid mb-2 d-block m-auto" src="homepageimages/b1.png" alt=""></a>
             <h6>Mobile & Tablets</h6>
           </div>
           <div class="categories-brand">
-            <a href=""><img class="img-fluid mb-2" src="img-mob/tv electronics.png" alt=""></a>
+            <a href=""><img class="img-fluid mb-2 d-block m-auto" src="homepageimages/b6.jpg" alt=""></a>
             <h6>Electronics</h6>
           </div>
           <div>
-            <a href=""><img class="img-fluid mb-2 rounded-cricle" src="img-mob/fations.png" alt=""></a>
+            <a href=""><img class="img-fluid mb-2 d-block m-auto" src="homepageimages/b3.png" alt=""></a>
             <h6>Fashion</h6>
           </div>
           <div>
-            <a href=""><img class="img-fluid mb-2 rounded-cricle" src="img-mob/fations.png" alt=""></a>
-            <h6>Fashion</h6>
+            <a href=""><img class="img-fluid mb-2 d-block m-auto" src="homepageimages/b4.png" alt=""></a>
+            <h6>Travel</h6>
           </div>
           <div>
-            <a href=""><img class="img-fluid mb-2" src="img-mob/home kitchen.png" alt=""></a>
+            <a href=""><img class="img-fluid mb-2 d-block m-auto" src="homepageimages/b5.jpg" alt=""></a>
             <h6>Home & Kitchen</h6>
           </div>
           <div>
-            <a href=""><img class="img-fluid mb-2" src="img-mob/application.png" alt=""></a>
+            <a href=""><img class="img-fluid mb-2 d-block m-auto" src="homepageimages/b2.png" alt=""></a>
             <h6>Grocery</h6>
           </div>
         </div>
@@ -157,11 +138,13 @@
 
 
 
-    <div class="payment-banner-top-img container mb-3">
-      <img class="img-fluid m-auto d-block"
-        src="https://github.com/Vijay1234667/Ecommerce-Website/blob/master/images/add-container-fluid1.jpg?raw=true"
-        alt="">
-    </div>
+    <section>
+      <div class="container-fluid p-0">
+        <div class="payment-banner-top-img container mb-3">
+          <img class="img-fluid m-auto d-block " src="homepageimages/whatch add1 container-fluid.webp" alt=""  >
+        </div>
+      </div>
+    </section>
 
 
     <!-- product-banner -->
@@ -169,7 +152,7 @@
       <div class="container">
         <div class="product-cap">
           <h5 class="fw-bold">Products For You</h5>
-          <a class="fw-bold" href="see-more.html">Top Categories to choose from</a>
+          <a class="" href="see-more.html">Top Categories to choose from</a>
         </div>
       </div>
     </section>
@@ -181,7 +164,7 @@
         <div class="row">
           <div class="col-md-4">
             <div class="mega-sale-sidebar-image">
-              <img class="img-fluid" src="images/left-salemega.jpg" alt="" width="100%">
+              <img class="img-fluid" src="/homepageimages/left-top-sale.avif" alt="" width="100%">
             </div>
             <div class="home-leftside-wrapper">
               <div class="card border-0 ">
@@ -296,7 +279,7 @@
                     <img class="img-fluid" src="images/add-container-fluid2.jpg" alt="">
                   </div> -->
                   <div class="col-lg-4">
-                    <div class="">
+                    <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/item7.png" class="card-img-top img-fluid"
                           alt="...">
                       </a>
@@ -314,8 +297,6 @@
                           <a class="home-card-btn" href="add-to-cart.html"><i
                               class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                         </div>
-
-
                         <div class="product-tag">
                           <span class="badge badge-secondary">32% off</span>
                         </div>
@@ -323,7 +304,7 @@
                     </div>
                   </div>
                   <div class="col-lg-4">
-                    <div class="">
+                    <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/item5.png" class="card-img-top img-fluid"
                           alt="...">
                       </a>
@@ -341,8 +322,6 @@
                           <a class="home-card-btn" href="add-to-cart.html"><i
                               class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                         </div>
-
-
                         <div class="product-tag">
                           <span class="badge badge-secondary">32% off</span>
                         </div>
@@ -350,7 +329,7 @@
                     </div>
                   </div>
                   <div class="col-lg-4">
-                    <div class="">
+                    <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/item4.png" class="card-img-top img-fluid"
                           alt="...">
                       </a>
@@ -368,8 +347,6 @@
                           <a class="home-card-btn" href="add-to-cart.html"><i
                               class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                         </div>
-
-
                         <div class="product-tag">
                           <span class="badge badge-secondary">32% off</span>
                         </div>
@@ -377,7 +354,7 @@
                     </div>
                   </div>
                   <div class="col-lg-4">
-                    <div class="">
+                    <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/watches1.jpg" class="card-img-top img-fluid"
                           alt="...">
                       </a>
@@ -395,8 +372,6 @@
                           <a class="home-card-btn" href="add-to-cart.html"><i
                               class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                         </div>
-
-
                         <div class="product-tag">
                           <span class="badge badge-secondary">32% off</span>
                         </div>
@@ -404,7 +379,7 @@
                     </div>
                   </div>
                   <div class="col-lg-4">
-                    <div class="">
+                    <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/bag1.jpg" class="card-img-top img-fluid"
                           alt="...">
                       </a>
@@ -422,8 +397,6 @@
                           <a class="home-card-btn" href="add-to-cart.html"><i
                               class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                         </div>
-
-
                         <div class="product-tag">
                           <span class="badge badge-secondary">32% off</span>
                         </div>
@@ -431,7 +404,7 @@
                     </div>
                   </div>
                   <div class="col-lg-4">
-                    <div class="">
+                    <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/cap1.jpg" class="card-img-top img-fluid"
                           alt="...">
                       </a>
@@ -456,7 +429,7 @@
                     </div>
                   </div>
                   <div class="col-lg-4">
-                    <div class="">
+                    <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/shoes3.jpg" class="card-img-top img-fluid"
                           alt="...">
                       </a>
@@ -481,7 +454,7 @@
                     </div>
                   </div>
                   <div class="col-lg-4">
-                    <div class="">
+                    <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/shoes2.jpg" class="card-img-top img-fluid"
                           alt="...">
                       </a>
@@ -506,7 +479,7 @@
                     </div>
                   </div>
                   <div class="col-lg-4">
-                    <div class="">
+                    <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/sho.jpg" class="card-img-top img-fluid"
                           alt="...">
                       </a>
@@ -531,7 +504,7 @@
                     </div>
                   </div>
                   <div class="col-lg-4">
-                    <div class="">
+                    <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/girlscat3.jpg" class="card-img-top img-fluid"
                           alt="...">
                       </a>
@@ -556,7 +529,7 @@
                     </div>
                   </div>
                   <div class="col-lg-4">
-                    <div class="">
+                    <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/girlscat2.jpg" class="card-img-top img-fluid"
                           alt="...">
                       </a>
@@ -581,7 +554,7 @@
                     </div>
                   </div>
                   <div class="col-lg-4">
-                    <div class="">
+                    <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/girlscat1.jpg" class="card-img-top img-fluid"
                           alt="...">
                       </a>
@@ -621,164 +594,164 @@
     </section>
 
 
-       <!-- computer-section -->
+    <!-- computer-section -->
 
-       <section class="computer-section">
-        <div class="container">
-          <div class="computer-main-body-content">
-            <div class="row">
-              <div class="col-lg-2">
-                <img class="img-fluid" src="images/computerleft-add.jpg" alt="">
-              </div>
-              <div class="col-lg-8">
-                <img class="img-fluid" src="images/computer-offers add.jpg" alt="">
-              </div>
-              <div class="col-lg-2">
-                <img class="img-fluid" src="images/computerleft-add.jpg" alt="">
+    <section class="computer-section">
+      <div class="container">
+        <div class="computer-main-body-content">
+          <div class="row">
+            <div class="col-lg-2">
+              <img class="img-fluid" src="homepageimages/mobileadd1.gif" alt="">
+            </div>
+            <div class="col-lg-8">
+              <img class="img-fluid" src="images/computer-offers add.jpg" alt="">
+            </div>
+            <div class="col-lg-2">
+              <img class="img-fluid" src="images/computerleft-add.jpg" alt="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-2">
+              <img class="img-fluid" src="homepageimages/mobileadd4.gif" alt="">
+            </div>
+            <div class="col-lg-2">
+              <div class="">
+                <a href="add-to-cart.html"><img src="images/computer-item1.jpg" class="card-img-top img-fluid"
+                    alt="...">
+                </a>
+                <div class="product-body text-center">
+                  <span class="product-name">Jacket, Women</span>
+                  <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                      class="discount"><span>&#8377;</span>30.15</del></h6>
+                  <div class="left-sidebar-yellow-star mb-2">
+                    <i class="fa-solid fa-star "></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="mb-2">
+                    <a class="home-card-btn computer-section-btn" href="add-to-cart.html"><i
+                        class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
+                  </div>
+                  <div class="product-tag">
+                    <span class="badge badge-secondary">32% off</span>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-lg-2">
-                <img class="img-fluid" src="images/computerleft-add.jpg" alt="">
-              </div>
-              <div class="col-lg-2">
-                <div class="">
-                  <a href="add-to-cart.html"><img src="images/computer-item1.jpg" class="card-img-top img-fluid"
-                      alt="...">
-                  </a>
-                  <div class="product-body text-center">
-                    <span class="product-name">Jacket, Women</span>
-                    <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                        class="discount"><span>&#8377;</span>30.15</del></h6>
-                    <div class="left-sidebar-yellow-star mb-2">
-                      <i class="fa-solid fa-star "></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                    <div class="mb-2">
-                      <a class="home-card-btn computer-section-btn" href="add-to-cart.html"><i
-                          class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
-                    </div>
-                    <div class="product-tag">
-                      <span class="badge badge-secondary">32% off</span>
-                    </div>
+            <div class="col-lg-2">
+              <div class="">
+                <a href="add-to-cart.html"><img src="images/computer-item2.jpg" class="card-img-top img-fluid"
+                    alt="...">
+                </a>
+                <div class="product-body text-center">
+                  <span class="product-name">Jacket, Women</span>
+                  <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                      class="discount"><span>&#8377;</span>30.15</del></h6>
+                  <div class="left-sidebar-yellow-star mb-2">
+                    <i class="fa-solid fa-star "></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="mb-2">
+                    <a class="home-card-btn computer-section-btn" href="add-to-cart.html"><i
+                        class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
+                  </div>
+                  <div class="product-tag">
+                    <span class="badge badge-secondary">32% off</span>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-2">
-                <div class="">
-                  <a href="add-to-cart.html"><img src="images/computer-item2.jpg" class="card-img-top img-fluid"
-                      alt="...">
-                  </a>
-                  <div class="product-body text-center">
-                    <span class="product-name">Jacket, Women</span>
-                    <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                        class="discount"><span>&#8377;</span>30.15</del></h6>
-                    <div class="left-sidebar-yellow-star mb-2">
-                      <i class="fa-solid fa-star "></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                    <div class="mb-2">
-                      <a class="home-card-btn computer-section-btn" href="add-to-cart.html"><i
-                          class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
-                    </div>
-                    <div class="product-tag">
-                      <span class="badge badge-secondary">32% off</span>
-                    </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="">
+                <a href="add-to-cart.html"><img src="images/computer-item3.jpg" class="card-img-top img-fluid"
+                    alt="...">
+                </a>
+                <div class="product-body text-center">
+                  <span class="product-name">Jacket, Women</span>
+                  <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                      class="discount"><span>&#8377;</span>30.15</del></h6>
+                  <div class="left-sidebar-yellow-star mb-2">
+                    <i class="fa-solid fa-star "></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="mb-2">
+                    <a class="home-card-btn computer-section-btn" href="add-to-cart.html"><i
+                        class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
+                  </div>
+                  <div class="product-tag">
+                    <span class="badge badge-secondary">32% off</span>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-2">
-                <div class="">
-                  <a href="add-to-cart.html"><img src="images/computer-item2.jpg" class="card-img-top img-fluid"
-                      alt="...">
-                  </a>
-                  <div class="product-body text-center">
-                    <span class="product-name">Jacket, Women</span>
-                    <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                        class="discount"><span>&#8377;</span>30.15</del></h6>
-                    <div class="left-sidebar-yellow-star mb-2">
-                      <i class="fa-solid fa-star "></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                    <div class="mb-2">
-                      <a class="home-card-btn computer-section-btn" href="add-to-cart.html"><i
-                          class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
-                    </div>
-                    <div class="product-tag">
-                      <span class="badge badge-secondary">32% off</span>
-                    </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="">
+                <a href="add-to-cart.html"><img src="images/computer-item4.jpg" class="card-img-top img-fluid"
+                    alt="...">
+                </a>
+                <div class="product-body text-center">
+                  <span class="product-name">Jacket, Women</span>
+                  <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                      class="discount"><span>&#8377;</span>30.15</del></h6>
+                  <div class="left-sidebar-yellow-star mb-2">
+                    <i class="fa-solid fa-star "></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="mb-2">
+                    <a class="home-card-btn computer-section-btn" href="add-to-cart.html"><i
+                        class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
+                  </div>
+                  <div class="product-tag">
+                    <span class="badge badge-secondary">32% off</span>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-2">
-                <div class="">
-                  <a href="add-to-cart.html"><img src="images/computer-item2.jpg" class="card-img-top img-fluid"
-                      alt="...">
-                  </a>
-                  <div class="product-body text-center">
-                    <span class="product-name">Jacket, Women</span>
-                    <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                        class="discount"><span>&#8377;</span>30.15</del></h6>
-                    <div class="left-sidebar-yellow-star mb-2">
-                      <i class="fa-solid fa-star "></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                    <div class="mb-2">
-                      <a class="home-card-btn computer-section-btn" href="add-to-cart.html"><i
-                          class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
-                    </div>
-                    <div class="product-tag">
-                      <span class="badge badge-secondary">32% off</span>
-                    </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="">
+                <a href="add-to-cart.html"><img src="images/computer-item2.jpg" class="card-img-top img-fluid"
+                    alt="...">
+                </a>
+                <div class="product-body text-center">
+                  <span class="product-name">Jacket, Women</span>
+                  <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                      class="discount"><span>&#8377;</span>30.15</del></h6>
+                  <div class="left-sidebar-yellow-star mb-2">
+                    <i class="fa-solid fa-star "></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
                   </div>
-                </div>
-              </div>
-              <div class="col-lg-2">
-                <div class="">
-                  <a href="add-to-cart.html"><img src="images/computer-item2.jpg" class="card-img-top img-fluid"
-                      alt="...">
-                  </a>
-                  <div class="product-body text-center">
-                    <span class="product-name">Jacket, Women</span>
-                    <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                        class="discount"><span>&#8377;</span>30.15</del></h6>
-                    <div class="left-sidebar-yellow-star mb-2">
-                      <i class="fa-solid fa-star "></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                    <div class="mb-2">
-                      <a class="home-card-btn computer-section-btn" href="add-to-cart.html"><i
-                          class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
-                    </div>
-                    <div class="product-tag">
-                      <span class="badge badge-secondary">32% off</span>
-                    </div>
+                  <div class="mb-2">
+                    <a class="home-card-btn computer-section-btn" href="add-to-cart.html"><i
+                        class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
+                  </div>
+                  <div class="product-tag">
+                    <span class="badge badge-secondary">32% off</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-       <!-- electronic-section -->
+    <!-- electronic-section -->
 
     <section class="electronic-section">
       <div class="container">
         <div class="electronic-section-main-body-content">
           <div class="row">
             <div class="col-lg-2">
-              <img class="img-fluid" src="images/electronicadd1.jpg" alt="">
+              <img class="img-fluid" src="homepageimages/offer2.jpg" alt="">
             </div>
             <div class="col-lg-8">
               <img class="img-fluid" src="images/electronic-offers.jpg" alt="">
@@ -933,8 +906,7 @@
         <div class="row">
           <div class="col-lg-3">
             <div class="">
-              <a href="add-to-cart.html"><img src="images/tredingimg1.jpg" class="card-img-top img-fluid"
-                  alt="...">
+              <a href="add-to-cart.html"><img src="images/tredingimg1.jpg" class="card-img-top img-fluid" alt="...">
               </a>
               <div class="product-body text-center">
                 <span class="product-name">Jacket, Women</span>
@@ -958,8 +930,7 @@
           </div>
           <div class="col-lg-3">
             <div class="">
-              <a href="add-to-cart.html"><img src="images/trendimg2.jpg" class="card-img-top img-fluid"
-                  alt="...">
+              <a href="add-to-cart.html"><img src="images/trendimg2.jpg" class="card-img-top img-fluid" alt="...">
               </a>
               <div class="product-body text-center">
                 <span class="product-name">Jacket, Women</span>
@@ -983,8 +954,7 @@
           </div>
           <div class="col-lg-3">
             <div class="">
-              <a href="add-to-cart.html"><img src="images/trendimg5.jpg" class="card-img-top img-fluid"
-                  alt="...">
+              <a href="add-to-cart.html"><img src="images/trendimg5.jpg" class="card-img-top img-fluid" alt="...">
               </a>
               <div class="product-body text-center">
                 <span class="product-name">Jacket, Women</span>
@@ -1008,8 +978,7 @@
           </div>
           <div class="col-lg-3">
             <div class="">
-              <a href="add-to-cart.html"><img src="images/trendimg6.jpg" class="card-img-top img-fluid"
-                  alt="...">
+              <a href="add-to-cart.html"><img src="images/trendimg6.jpg" class="card-img-top img-fluid" alt="...">
               </a>
               <div class="product-body text-center">
                 <span class="product-name">Jacket, Women</span>
@@ -1033,8 +1002,7 @@
           </div>
           <div class="col-lg-3">
             <div class="">
-              <a href="add-to-cart.html"><img src="images/tendimg3.jpg" class="card-img-top img-fluid"
-                  alt="...">
+              <a href="add-to-cart.html"><img src="images/tendimg3.jpg" class="card-img-top img-fluid" alt="...">
               </a>
               <div class="product-body text-center">
                 <span class="product-name">Jacket, Women</span>
@@ -1058,8 +1026,7 @@
           </div>
           <div class="col-lg-3">
             <div class="">
-              <a href="add-to-cart.html"><img src="images/tendimg4.jpg" class="card-img-top img-fluid"
-                  alt="...">
+              <a href="add-to-cart.html"><img src="images/tendimg4.jpg" class="card-img-top img-fluid" alt="...">
               </a>
               <div class="product-body text-center">
                 <span class="product-name">Jacket, Women</span>
@@ -1083,8 +1050,7 @@
           </div>
           <div class="col-lg-3">
             <div class="">
-              <a href="add-to-cart.html"><img src="images/trendimg7.jpg" class="card-img-top img-fluid"
-                  alt="...">
+              <a href="add-to-cart.html"><img src="images/trendimg7.jpg" class="card-img-top img-fluid" alt="...">
               </a>
               <div class="product-body text-center">
                 <span class="product-name">Jacket, Women</span>
@@ -1108,8 +1074,7 @@
           </div>
           <div class="col-lg-3">
             <div class="">
-              <a href="add-to-cart.html"><img src="images/trendimg-8.jpg" class="card-img-top img-fluid"
-                  alt="...">
+              <a href="add-to-cart.html"><img src="images/trendimg-8.jpg" class="card-img-top img-fluid" alt="...">
               </a>
               <div class="product-body text-center">
                 <span class="product-name">Jacket, Women</span>
@@ -1138,9 +1103,9 @@
 
 
 
- 
 
-   
+
+
 
     <!-- addimg-mid-sec -->
     <section class="addimg-mid-sec">
@@ -1385,7 +1350,7 @@
   </script>
 
 
-  
+
   <script src="js/script.js"></script>
   <script src="js/bootstrap.bundle.js"></script>
 </body>

@@ -4,6 +4,31 @@
   box-sizing: border-box;
 }
 
+.navbar-nav a{
+  font-size: 13px;
+  font-weight: 500;
+  color: #343434;
+  letter-spacing: 1px;
+}
+.nav-brand-icons .nav-item i  {
+  font-size: 15px;
+  color:#424242;
+}
+.nav-brand-icons .btn{
+  text-decoration: none;
+  background-color: #424242;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+.search-body button{
+  font-size: 10px;
+  border: 1px solid #424242;
+}
+.navbar input{
+font-size: 12px;
+}
+
 body {
   line-height: 24px;
   color: #999;
@@ -14,24 +39,19 @@ body {
 }
 
 .banner-product-all-categories-main-body {
-  padding: 10px;
-  background-color: #fff;
-  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  text-align: center;
-  border: none;
 }
 
 .banner-product-all-categories-main-body h6 {
-  font-size: 16px;
+  font-size: 14px;
   font-family: sans-serif;
-  font-weight: 500;
+  font-weight: 600;
+  color: #343434;
+  letter-spacing: 1px;
 }
-
-
 /* left side */
 .main-wrapper-section .home-leftside-wrapper .card {
   box-shadow: 0px 3px 26px rgba(0, 0, 0, 0.062745098);
@@ -64,23 +84,24 @@ body {
 }
 
 .product-cap h5 {
-  font-size: 18px;
+  font-size: 15px;
+  color:#343434;
 }
 
 .product-cap a {
-  font-size: 16px;
+  font-size: 13px;
   text-decoration: none;
-  color: #0D775E;
-  font-weight: 400;
+  color:blue;
+  font-weight: 500;
 }
 
 .product-cards {
   background: #9999991f;
 }
 
-.card {
+
+.product-cards .product-cards-main-body{
   position: relative;
-  margin: 5px auto;
 
 }
 
@@ -116,15 +137,15 @@ body {
 }
 
 .product-tag {
-  position: absolute;
+  position: absolute ;
   font-size: 14px;
   font-weight: 400;
   top: 0;
-  left: 0;
+  right: 0;
 }
 
 .badge-secondary {
-  background-color: #e83e8c;
+  background-color:#e83e8c;
 }
 
 .product-price {
