@@ -19,94 +19,11 @@
   margin: 0px 5px;
 }
 
-.main-slider {
-  width: 100%;
-  
-  .owl-stage {
-    background-color: rgba(30,144,255,.8);
-  }
-  
-  .owl-item {
-    padding: 0;
-    position: relative;
-    opacity: .5;
-    
-    img {
-    object-fit: cover;
-    object-position: center;
-    height: 450px;
-    }
-  }
-  .center {
-      opacity: 1;
-      transform: scale(1.005);
-      transition: .5s ease-in-out;
-      z-index: 9999;
-   }
-  
-  .owl-controls .owl-nav {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    bottom: 0;
-    .prev {
-      position: absolute;
-      height: 80%;
-      width: 15%;
-      left: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .next {
-      position: absolute;
-      height: 80%;
-      width: 15%;
-      right: 0;
-      
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  }
 
-  .owl-thumbs {
-      text-align: center;
-      display: table;
-      width: 100%;
-  }
-
-  .owl-thumb-item {
-      width: 20%;
-      height: 150px;
-      border: none;
-      background: none;
-      padding: 0;
-      opacity: .7;
-      overflow: hidden;               
-  }
-  
-  .owl-thumb-item img {
-      width: 100%;
-      height: auto;
-      vertical-align: middle;
-  }
-
-  .owl-thumb-item.active {
-      opacity: 1;
-    img {
-      position: relative;
-    }
-  }
+.progress{
+  height: 7px !important;
+  width: 56% !important;
 }
-
-.overlay {
-  width: 100%;
-  height: 100%;
-  display: block;
-  background-color: black;
-}
-
 
 
 .review-paragraph-text {
