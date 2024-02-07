@@ -7,6 +7,34 @@ body {
   background-color: #EAEAEA !important;
 }
 
+/* navbar */
+.navbar-nav a{
+  font-size: 13px;
+  font-weight: 500;
+  color: #343434;
+  letter-spacing: 1px;
+}
+.nav-brand-icons .nav-item i  {
+  font-size: 15px;
+  color:#424242;
+}
+.nav-brand-icons .btn{
+  text-decoration: none;
+  background-color: #424242;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+.search-body button{
+  font-size: 10px;
+  border: 1px solid #424242;
+}
+.navbar input{
+font-size: 12px;
+}
+
+
+
 /* profile */
 .profile-area .main-profile {
   margin-bottom: 20px;
