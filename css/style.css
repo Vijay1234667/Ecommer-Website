@@ -40,11 +40,11 @@ font-size: 12px;
 }
 
 /*  */
-/* .banner-product-all-categories-main-body {
+.banner-product-all-categories-main-body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-} */
+}
 .banner-product-all-categories-main-body h6 {
   font-size: 14px;
   font-family: sans-serif;
