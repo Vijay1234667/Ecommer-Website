@@ -42,7 +42,7 @@ font-size: 12px;
 /*  */
 .banner-product-all-categories-main-body {
   display: flex;
-  justify-content: space-center;
+  justify-content:center;
   margin: 0px 5px;
   align-items: center;
   text-align: center;
