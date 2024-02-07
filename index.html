@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/owl.carousel.css">
   <script src="js/jquery.min.js">
   </script>
@@ -19,7 +19,7 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light ">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
         <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -29,23 +29,70 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav m-auto  mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Today'sDeals</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Home
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Page1</a></li>
+                <li><a class="dropdown-item" href="#">Page2</a></li>
+                <li><a class="dropdown-item" href="#">Page3</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">New Release</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Products
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="categories.html">Gift Ideas</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categeory
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Fress</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Coupan
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="cart.html">Cart</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Our Stores
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="my-coupan.html">Coupons</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Portfolio
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Portfolio1</a></li>
+                <li><a class="dropdown-item" href="#">Portfolio2</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Portfolio3</a></li>
+              </ul>
             </li>
           </ul>
           <form class="d-flex search-body">
@@ -615,7 +662,7 @@
               <img class="img-fluid" src="homepageimages/mobileadd4.gif" alt="">
             </div>
             <div class="col-lg-2 col-6">
-              <div class="">
+              <div class="computer-main-card-body">
                 <a href="add-to-cart.html"><img src="images/computer-item1.jpg" class="card-img-top img-fluid"
                     alt="...">
                 </a>
@@ -633,14 +680,14 @@
                     <a class="home-card-btn computer-section-btn" href="add-to-cart.html"><i
                         class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                   </div>
-                  <div class="product-tag">
+                  <div class="product-tag-computer-section">
                     <span class="badge badge-secondary">32% off</span>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-lg-2 col-6">
-              <div class="">
+              <div class="computer-main-card-body">
                 <a href="add-to-cart.html"><img src="images/computer-item2.jpg" class="card-img-top img-fluid"
                     alt="...">
                 </a>
@@ -658,14 +705,14 @@
                     <a class="home-card-btn computer-section-btn" href="add-to-cart.html"><i
                         class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                   </div>
-                  <div class="product-tag">
+                  <div class="product-tag-computer-section">
                     <span class="badge badge-secondary">32% off</span>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-lg-2 col-6">
-              <div class="">
+              <div class="computer-main-card-body">
                 <a href="add-to-cart.html"><img src="images/computer-item3.jpg" class="card-img-top img-fluid"
                     alt="...">
                 </a>
@@ -683,14 +730,14 @@
                     <a class="home-card-btn computer-section-btn" href="add-to-cart.html"><i
                         class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                   </div>
-                  <div class="product-tag">
+                  <div class="product-tag-computer-section">
                     <span class="badge badge-secondary">32% off</span>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-lg-2 col-6">
-              <div class="">
+              <div class="computer-main-card-body">
                 <a href="add-to-cart.html"><img src="images/computer-item4.jpg" class="card-img-top img-fluid"
                     alt="...">
                 </a>
@@ -708,14 +755,14 @@
                     <a class="home-card-btn computer-section-btn" href="add-to-cart.html"><i
                         class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                   </div>
-                  <div class="product-tag">
+                  <div class="product-tag-computer-section">
                     <span class="badge badge-secondary">32% off</span>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-lg-2 col-6">
-              <div class="">
+              <div class="computer-main-card-body">
                 <a href="add-to-cart.html"><img src="images/computer-item2.jpg" class="card-img-top img-fluid"
                     alt="...">
                 </a>
@@ -733,7 +780,7 @@
                     <a class="home-card-btn computer-section-btn" href="add-to-cart.html"><i
                         class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                   </div>
-                  <div class="product-tag">
+                  <div class="product-tag-computer-section">
                     <span class="badge badge-secondary">32% off</span>
                   </div>
                 </div>
@@ -762,7 +809,7 @@
           </div>
           <div class="row">
             <div class="col-lg-2 col-6">
-              <div class="">
+              <div class="electronic-section-card-body">
                 <a href="add-to-cart.html"><img src="images/electronic item3.jpg" class="card-img-top img-fluid"
                     alt="...">
                 </a>
@@ -780,14 +827,14 @@
                     <a class="home-card-btn electronic-section-btn" href="add-to-cart.html"><i
                         class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                   </div>
-                  <div class="product-tag">
+                  <div class="product-tag-electronic-section">
                     <span class="badge badge-secondary">32% off</span>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-lg-2 col-6">
-              <div class="">
+              <div class="electronic-section-card-body">
                 <a href="add-to-cart.html"><img src="images/electronic item1.jpg" class="card-img-top img-fluid"
                     alt="...">
                 </a>
@@ -805,14 +852,14 @@
                     <a class="home-card-btn electronic-section-btn" href="add-to-cart.html"><i
                         class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                   </div>
-                  <div class="product-tag">
+                  <div class="product-tag-electronic-section">
                     <span class="badge badge-secondary">32% off</span>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-lg-2 col-6">
-              <div class="">
+              <div class="electronic-section-card-body">
                 <a href="add-to-cart.html"><img src="images/electronic item5.jpg" class="card-img-top img-fluid"
                     alt="...">
                 </a>
@@ -830,14 +877,14 @@
                     <a class="home-card-btn electronic-section-btn" href="add-to-cart.html"><i
                         class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                   </div>
-                  <div class="product-tag">
+                  <div class="product-tag-electronic-section">
                     <span class="badge badge-secondary">32% off</span>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-lg-2 col-6">
-              <div class="">
+              <div class="electronic-section-card-body">
                 <a href="add-to-cart.html"><img src="images/electronic item3.jpg" class="card-img-top img-fluid"
                     alt="...">
                 </a>
@@ -855,14 +902,14 @@
                     <a class="home-card-btn electronic-section-btn" href="add-to-cart.html"><i
                         class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                   </div>
-                  <div class="product-tag">
+                  <div class="product-tag-electronic-section">
                     <span class="badge badge-secondary">32% off</span>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-lg-2 col-6">
-              <div class="">
+              <div class="electronic-section-card-body">
                 <a href="add-to-cart.html"><img src="images/electronic item2.jpg" class="card-img-top img-fluid"
                     alt="...">
                 </a>
@@ -880,14 +927,14 @@
                     <a class="home-card-btn electronic-section-btn" href="add-to-cart.html"><i
                         class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                   </div>
-                  <div class="product-tag">
+                  <div class="product-tag-electronic-section">
                     <span class="badge badge-secondary">32% off</span>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-lg-2 col-6">
-              <div class="">
+              <div class="electronic-section-card-body">
                 <a href="add-to-cart.html"><img src="images/electronic item4.jpg" class="card-img-top img-fluid"
                     alt="...">
                 </a>
@@ -905,7 +952,7 @@
                     <a class="home-card-btn electronic-section-btn" href="add-to-cart.html"><i
                         class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                   </div>
-                  <div class="product-tag">
+                  <div class="product-tag-electronic-section">
                     <span class="badge badge-secondary">32% off</span>
                   </div>
                 </div>
@@ -927,7 +974,7 @@
         </div>
         <div class="row">
           <div class="col-lg-3 col-6">
-            <div class="">
+            <div class="trending-section-main-card-body">
               <a href="add-to-cart.html"><img src="images/tredingimg1.jpg" class="card-img-top img-fluid" alt="...">
               </a>
               <div class="product-body text-center">
@@ -944,14 +991,14 @@
                   <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
                       class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                 </div>
-                <div class="product-tag">
+                <div class="product-tag-trending-section">
                   <span class="badge badge-secondary">32% off</span>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-6">
-            <div class="">
+            <div class="trending-section-main-card-body">
               <a href="add-to-cart.html"><img src="images/trendimg2.jpg" class="card-img-top img-fluid" alt="...">
               </a>
               <div class="product-body text-center">
@@ -968,14 +1015,14 @@
                   <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
                       class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                 </div>
-                <div class="product-tag">
+                <div class="product-tag-trending-section">
                   <span class="badge badge-secondary">32% off</span>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-6">
-            <div class="">
+            <div class="trending-section-main-card-body">
               <a href="add-to-cart.html"><img src="images/trendimg5.jpg" class="card-img-top img-fluid" alt="...">
               </a>
               <div class="product-body text-center">
@@ -992,14 +1039,14 @@
                   <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
                       class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                 </div>
-                <div class="product-tag">
+                <div class="product-tag-trending-section">
                   <span class="badge badge-secondary">32% off</span>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-6">
-            <div class="">
+            <div class="trending-section-main-card-body">
               <a href="add-to-cart.html"><img src="images/trendimg6.jpg" class="card-img-top img-fluid" alt="...">
               </a>
               <div class="product-body text-center">
@@ -1016,14 +1063,14 @@
                   <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
                       class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                 </div>
-                <div class="product-tag">
+                <div class="product-tag-trending-section">
                   <span class="badge badge-secondary">32% off</span>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-6">
-            <div class="">
+            <div class="trending-section-main-card-body">
               <a href="add-to-cart.html"><img src="images/tendimg3.jpg" class="card-img-top img-fluid" alt="...">
               </a>
               <div class="product-body text-center">
@@ -1040,14 +1087,14 @@
                   <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
                       class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                 </div>
-                <div class="product-tag">
+                <div class="product-tag-trending-section">
                   <span class="badge badge-secondary">32% off</span>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-6">
-            <div class="">
+            <div class="trending-section-main-card-body">
               <a href="add-to-cart.html"><img src="images/tendimg4.jpg" class="card-img-top img-fluid" alt="...">
               </a>
               <div class="product-body text-center">
@@ -1064,14 +1111,14 @@
                   <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
                       class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                 </div>
-                <div class="product-tag">
+                <div class="product-tag-trending-section">
                   <span class="badge badge-secondary">32% off</span>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-6">
-            <div class="">
+            <div class="trending-section-main-card-body">
               <a href="add-to-cart.html"><img src="images/trendimg7.jpg" class="card-img-top img-fluid" alt="...">
               </a>
               <div class="product-body text-center">
@@ -1088,14 +1135,14 @@
                   <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
                       class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                 </div>
-                <div class="product-tag">
+                <div class="product-tag-trending-section">
                   <span class="badge badge-secondary">32% off</span>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-6">
-            <div class="">
+            <div class="trending-section-main-card-body">
               <a href="add-to-cart.html"><img src="images/trendimg-8.jpg" class="card-img-top img-fluid" alt="...">
               </a>
               <div class="product-body text-center">
@@ -1112,7 +1159,7 @@
                   <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
                       class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                 </div>
-                <div class="product-tag">
+                <div class="product-tag-trending-section">
                   <span class="badge badge-secondary">32% off</span>
                 </div>
               </div>

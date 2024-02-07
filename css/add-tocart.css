@@ -14,6 +14,100 @@
   letter-spacing: 1px;
   color: #323232;
 }
+.add-to-carts-featured-products-sizes-btn ul li {
+  list-style-type: none;
+  margin: 0px 5px;
+}
+
+.main-slider {
+  width: 100%;
+  
+  .owl-stage {
+    background-color: rgba(30,144,255,.8);
+  }
+  
+  .owl-item {
+    padding: 0;
+    position: relative;
+    opacity: .5;
+    
+    img {
+    object-fit: cover;
+    object-position: center;
+    height: 450px;
+    }
+  }
+  .center {
+      opacity: 1;
+      transform: scale(1.005);
+      transition: .5s ease-in-out;
+      z-index: 9999;
+   }
+  
+  .owl-controls .owl-nav {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    .prev {
+      position: absolute;
+      height: 80%;
+      width: 15%;
+      left: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .next {
+      position: absolute;
+      height: 80%;
+      width: 15%;
+      right: 0;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .owl-thumbs {
+      text-align: center;
+      display: table;
+      width: 100%;
+  }
+
+  .owl-thumb-item {
+      width: 20%;
+      height: 150px;
+      border: none;
+      background: none;
+      padding: 0;
+      opacity: .7;
+      overflow: hidden;               
+  }
+  
+  .owl-thumb-item img {
+      width: 100%;
+      height: auto;
+      vertical-align: middle;
+  }
+
+  .owl-thumb-item.active {
+      opacity: 1;
+    img {
+      position: relative;
+    }
+  }
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: black;
+}
+
+
 
 .review-paragraph-text {
   font-size: 16px;
@@ -40,11 +134,51 @@
   color: white;
   font-size: 16px;
   font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .write-review-btn .btn {
   padding: 7px 15px;
-  background-color: #04AA6D;
+  background-color:#f44336;
+  border-radius: 6px;
+}
+
+.reviews-submit-btn a{
+  background-color:#04AA6D;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 6px 10px;
+  color: white;
+  font-size: 17px;
+  color: white;
+}
+.reviews-submit-btn a:hover{
+  background-color:#fff;
+  color: black;
+}
+.add-to-cart-reviews-form-section input{
+  height: 40px;
+  width: 100%;
+  border-color: #04AA6D;
+  font-size: 13px;
+  border-radius: 10px;
+}
+.add-to-cart-reviews-form-section label{
+ font-size: 16px;
+ color:#323232;
+ font-weight: 500;
+}
+.Add-a-review-heading{
+  font-size: 18px;
+  font-weight: 700;
+  color:#000;
+}
+.nav-link{
+  background-color:#323232 !important;
+  color: white !important;
+  margin: 0px 5px;
 }
 
 .add-to-bag-main-page {
@@ -95,6 +229,11 @@
 .rating-date-like-bottom-sec {
   display: flex;
   justify-content: space-between;
+}
+
+.left-sidebar-yellow-star i{
+  font-size: 10px;
+  color: #04AA6D;
 }
 
 /* footer */

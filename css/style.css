@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+body {
+  line-height: 24px;
+  color: #999;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+/* navbar */
+
 .navbar-nav a{
   font-size: 13px;
   font-weight: 500;
@@ -28,22 +39,12 @@
 .navbar input{
 font-size: 12px;
 }
-
-body {
-  line-height: 24px;
-  color: #999;
-  font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  letter-spacing: 0px;
-}
-
+/*  */
 .banner-product-all-categories-main-body {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
-
 .banner-product-all-categories-main-body h6 {
   font-size: 14px;
   font-family: sans-serif;
@@ -51,6 +52,7 @@ body {
   color: #343434;
   letter-spacing: 1px;
 }
+
 /* left side */
 .main-wrapper-section .home-leftside-wrapper .card {
   box-shadow: 0px 3px 26px rgba(0, 0, 0, 0.062745098);
@@ -180,6 +182,18 @@ body {
 .computer-section {
   padding: 20px 0px 30px;
 }
+.computer-main-body-content .computer-main-card-body{
+  position: relative;
+}
+
+.product-tag-computer-section {
+  position: absolute ;
+  font-size: 14px;
+  font-weight: 400;
+  top: 0;
+  right: 0;
+}
+
 
 .computer-section .badge-secondary {
   background: #e67e22;
@@ -191,26 +205,31 @@ body {
   border-radius: 10px;
 }
 
-
 /* trending-section */
-
-
 .trending-section h4 {
   color: #343434;
   font-style: italic;
   letter-spacing: 1.7px;
   font-weight: 700;
 }
-
-
+.trending-section .product-tag-trending-section{
+  position: relative;
+}
+.product-tag-trending-section{
+  position: absolute ;
+  font-size: 14px;
+  font-weight: 400;
+  top: 0;
+  right: 0;
+}
 
 /* electronic-section */
 .electronic-section {
   padding: 20px 0px 30px;
 }
-.electronic-section .badge-secondary {
+/* .electronic-section .badge-secondary {
   background: #e67e22;
-}
+} */
 .electronic-unorderd-list a {
   text-decoration: none;
   color: #e83e8c;
@@ -223,7 +242,16 @@ body {
 .electronic-unorderd-list li {
   list-style-type: none;
 }
-
+.electronic-section-main-body-content .electronic-section-card-body{
+  position: relative;
+}
+.product-tag-electronic-section {
+  position: absolute ;
+  font-size: 14px;
+  font-weight: 400;
+  top: 0;
+  right: 0;
+}
 
 
 /* brand-company-section */
@@ -251,7 +279,6 @@ body {
   letter-spacing: 1px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 
 /* footer */
 .footer-section {

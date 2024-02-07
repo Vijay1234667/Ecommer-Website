@@ -8,15 +8,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/add-tocart.css">
-    <link rel="stylesheet" href="css/profile.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
-    <script src="js/jquery.min.js">
-    </script>
-    <script src="js/owl.carousel.min.js">
-    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 </head>
 
 
@@ -41,34 +39,102 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7">
-                        <div class="row">
-                            <div class="col-lg-6 mb-1">
-                                <img class="img-fluid" src="images/add-to-cartimg1.jpg" alt="">
+                        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="images/add-to-cartimg1.jpg" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/add-to-cartimg2.jpg" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/add-to-cartimg3.jpg" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/add-to-cartimg4.jpg" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/add-to-cartimg5.jpg" />
+                                </div>
                             </div>
-                            <div class="col-lg-6">
-                                <img class="img-fluid" src="images/add-to-cartimg2.jpg" alt="">
-                            </div>
-                            <div class="col-lg-6">
-                                <img class="img-fluid" src="images/add-to-cartimg3.jpg" alt="">
-                            </div>
-                            <div class="col-lg-6 mb-1">
-                                <img class="img-fluid" src="images/add-to-cartimg4.jpg" alt="">
-                            </div>
-                            <div class="col-lg-6">
-                                <img class="img-fluid" src="images/add-to-cartimg5.jpg" alt="">
-                            </div>
-                            <div class="col-lg-6 mb-1">
-                                <img class="img-fluid" src="images/add-to-cartimg6.jpg" alt="">
-                            </div>
-                            <div class="col-lg-6">
-                                <img class="img-fluid" src="images/add-to-cartimg7.jpg" alt="">
-                            </div>
-                            <div class="col-lg-6">
-                                <img class="img-fluid" src="images/add-to-cartimg8.jpg" alt="">
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                        <div thumbsSlider="" class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="images/add-to-cartimg1.jpg" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/add-to-cartimg2.jpg" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/add-to-cartimg4.jpg" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/add-to-cartimg5.jpg" />
+                                </div>
+                               
                             </div>
                         </div>
                     </div>
 
+                    <style>
+                        .swiper-slide {
+                            text-align: center;
+                            font-size: 18px;
+                            background: #fff;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                
+                        .swiper-slide img {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                        .swiper {
+                            width: 100%;
+                            height: 300px;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+                
+                        .swiper-slide {
+                            background-size: cover;
+                            background-position: center;
+                        }
+                
+                        .mySwiper2 {
+                            height: 80%;
+                            width: 100%;
+                        }
+                
+                        .mySwiper {
+                            height: 20%;
+                            box-sizing: border-box;
+                            padding: 10px 0;
+                        }
+                
+                        .mySwiper .swiper-slide {
+                            width: 25%;
+                            height: 100%;
+                            opacity: 0.4;
+                        }
+                
+                        .mySwiper .swiper-slide-thumb-active {
+                            opacity: 1;
+                        }
+                
+                        .swiper-slide img {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    </style>
                     <div class="col-lg-5 add-to-bag-body-content">
                         <h4 class="fw-bold mb-1 my-3">Check Pink Kurta</h4>
                         <h6 class="title-top-para">Women Pink & Off-White Printed Kurta with Palazzos</h6>
@@ -91,35 +157,25 @@
                         <div>
                             <h6>Select Size</h6>
                             <div class="add-to-carts-featured-products-sizes-btn mb-2">
-                                <div>
-                                    <button class="btn">XS</button>
-                                </div>
-                                <div>
-                                    <button class="btn">S</button>
-                                </div>
-                                <div>
-                                    <button class="btn">M</button>
-                                </div>
-                                <div>
-                                    <button class="btn">L</button>
-                                </div>
-                                <div>
-                                    <button class="btn">XL</button>
-                                </div>
-                                <div>
-                                    <button class="btn">XXL</button>
-                                </div>
+                                <ul class="d-flex">
+                                    <li><a class="btn" href="">XS</a></li>
+                                    <li><a class="btn" href="">S</a></li>
+                                    <li><a class="btn" href="">M</a></li>
+                                    <li><a class="btn" href="">L</a></li>
+                                    <li><a class="btn" href="">XL</a></li>
+                                    <li><a class="btn" href="">XXL</a></li>
+                                </ul>
                             </div>
                         </div>
                         <div class="mb-4">
                             <div class="add-to-carts-featured-products-add-tobag-whishlist-btn">
                                 <div>
-                                    <button class="btn btn-1 fw-bold"><i class="fa-solid fa-cart-plus px-2"></i>ADD TO
-                                        BAG</button>
+                                    <a class="btn btn-1 fw-bold" href=""><i class="fa-solid fa-cart-plus px-2"></i>ADD
+                                        TO BAG</a>
                                 </div>
                                 <div>
-                                    <button class="btn fw-bold"><i
-                                            class="fa-solid fa-heart px-2 text-danger"></i>WHISHLIST</button>
+                                    <a class="btn fw-bold" href=""><i
+                                            class="fa-solid fa-heart px-2 text-danger"></i>WHISHLIST</a></button>
                                 </div>
                             </div>
                         </div>
@@ -131,16 +187,12 @@
                                 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
                                 piece
                             </p>
-                            <p>
-                                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
-                                interested.
-                            </p>
                         </div>
                         <hr>
                         <div class="row">
                             <div class="col-lg-6">
                                 <h5 class="font-normal">Customer Ratings</h5>
-                                <h4>4.8 <i class="fa-solid fa-heart px-2"></i> </h4>
+                                <h4>4.8<i class="fa-solid fa-heart px-2"></i></h4>
                                 <p>
                                     3.8k Verified Buyers
                                 </p>
@@ -172,9 +224,6 @@
                         </div>
                         <h5>Customer Reviews (03)</h5>
                         <div class="rating-Reviews d-flex mb-3">
-                            <div class="mx-2">
-                                <p><i class="fa-solid fa-star text-success"></i></p>
-                            </div>
                             <div>
                                 <p class="review-paragraph-text">
                                     This is some content from a media component. You can replace this with any content
@@ -211,9 +260,6 @@
                         </div>
                         <hr>
                         <div class="rating-Reviews d-flex">
-                            <div class="mx-2">
-                                <p><i class="fa-solid fa-star text-warning"></i></p>
-                            </div>
                             <div>
                                 <p class="review-paragraph-text">
                                     This is some content from a media component. You can replace this with any content.
@@ -241,71 +287,6 @@
                             </div>
                         </div>
                         <hr>
-                        <div class="rating-Reviews d-flex">
-                            <div class="mx-2">
-                                <p><i class="fa-solid fa-star text-warning"></i></p>
-                            </div>
-                            <div>
-                                <p class="review-paragraph-text">
-                                    This is some content from a media component. You can replace this with any content
-                                    and adjust it as needed.
-                                </p>
-                                <img class="img-fluid mb-2" src="images/reviews-person-3.webp" alt="">
-                                <div class="rating-date-like-bottom-sec">
-                                    <div class="d-flex hstack">
-                                        <div class="mx-2">
-                                            Jhon Deo
-                                        </div>
-                                        <span>|</span>
-                                        <div class="mx-2">
-                                            22 June 2022
-                                        </div>
-                                    </div>
-                                    <div class="d-flex hstack-thumb">
-                                        <div class="mx-3">
-                                            <i class="fa-solid fa-thumbs-up text-success"></i> 26
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-thumbs-down text-danger"></i>89
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="rating-Reviews d-flex">
-                            <div class="mx-2">
-                                <p><i class="fa-solid fa-star text-danger"></i></p>
-                            </div>
-                            <div>
-                                <p class="review-paragraph-text">
-                                    This is some content from a media component. You can replace this with any content
-                                    and adjust it as
-                                    needed. Some quick example text to build on the card title and make.
-                                </p>
-                                <img class="img-fluid mb-2" src="images/reviews-person-4.webp" alt="">
-                                <div class="rating-date-like-bottom-sec">
-                                    <div class="d-flex hstack">
-                                        <div class="mx-2">
-                                            Jhon Deo
-                                        </div>
-                                        <span>|</span>
-                                        <div class="mx-2">
-                                            22 June 2022
-                                        </div>
-                                    </div>
-                                    <div class="d-flex hstack-thumb">
-                                        <div class="mx-3 ">
-                                            <i class="fa-solid fa-thumbs-up text-success"></i> 68
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-thumbs-down text-danger"></i>24
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <hr>
                     </div>
                 </div>
             </div>
@@ -317,19 +298,14 @@
             <div class="container">
                 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
-                            aria-selected="true">Product Reviews</button>
+                        <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                            type="button" role="tab" aria-controls="pills-home" aria-selected="true">Product
+                            Reviews</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
                             aria-selected="false">Description</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
-                            aria-selected="false">Contact</button>
                     </li>
                 </ul>
                 <div class="tab-content" id="pills-tabContent">
@@ -341,21 +317,21 @@
                                 <div class="left-sidebar-yellow-star">
                                     <i class="fa-solid fa-star text-warning"></i>
                                     <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star "></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
                                 </div>
                                 <div class="mx-2">
                                     <p>Based on 2 reviews</p>
                                 </div>
                             </div>
                             <div class="write-review-btn">
-                                <button class="btn"><a href="">Write A Review</a></button>
+                                <a class="btn" href="">Write A Review</a>
                             </div>
                         </div>
                         <hr>
                         <div class="d-flex">
                             <div>
-                                <img src="images/review-comment-person-1.png" alt="">
+                                <img class="img-fluid" src="images/review-comment-person-1.png" alt="" width="50px">
                             </div>
                             <div class="d-flex mx-2">
                                 <div>
@@ -369,8 +345,6 @@
                                     <p>
                                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos ex repellat
                                         officiis
-                                        neque. Veniam, rem nesciunt. Assumenda distinctio, autem error repellat eveniet
-                                        ratione dolor facilis accusantium amet pariatur, non eius!
                                     </p>
                                 </div>
                             </div>
@@ -378,7 +352,7 @@
                         <hr>
                         <div class="d-flex mx-5">
                             <div>
-                                <img src="images/review-comment-person-2.png" alt="">
+                                <img class="img-fluid" src="images/review-comment-person-2.png" alt="" width="50px">
                             </div>
                             <div class="d-flex mx-2">
                                 <div>
@@ -391,9 +365,7 @@
                                     </div>
                                     <p>
                                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos ex repellat
-                                        officiis
-                                        neque. Veniam, rem nesciunt. Assumenda distinctio, autem error repellat eveniet
-                                        ratione dolor facilis accusantium amet pariatur, non eius!
+                                        officiis.
                                     </p>
                                 </div>
                             </div>
@@ -401,36 +373,28 @@
                         <hr>
                         <div class="d-flex mb-4">
                             <div>
-                                <img src="images/review-comment-person-3.png" alt="">
+                                <img class="img-fluid" src="images/review-comment-person-3.png" alt="" width="50px">
                             </div>
                             <div class="d-flex mx-2">
                                 <div>
                                     <h6 class="fw-bold">Vijay Yadav</h6>
                                     <div class="left-sidebar-yellow-star mb-2">
-                                        <i class="fa-solid fa-star text-warning"></i>
-                                        <i class="fa-solid fa-star text-warning"></i>
-                                        <i class="fa-solid fa-star text-warning"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star "></i>
+                                        <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star "></i>
                                     </div>
                                     <p>
                                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos ex repellat
-                                        officiis
-                                        neque. Veniam, rem nesciunt. Assumenda distinctio, autem error repellat eveniet
-                                        ratione dolor facilis accusantium amet pariatur, non eius!
+                                        officiis.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div>
-                            <h4>Add a review</h4>
-                            <div class="left-sidebar-yellow-star mb-2">
-                                <i class="fa-solid fa-star text-warning"></i>
-                                <i class="fa-solid fa-star text-warning"></i>
-                                <i class="fa-solid fa-star text-warning"></i>
-                                <i class="fa-solid fa-star "></i>
-                            </div>
+                            <h4 class="Add-a-review-heading">Your Info:</h4>
                         </div>
-                        <form>
+                        <form class="add-to-cart-reviews-form-section">
                             <div class="form-group row">
                                 <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
                                 <div class="col-lg-4 mb-2">
@@ -444,25 +408,27 @@
                                 </div>
                             </div>
                             <div class="form-group row mb-2">
-                                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+                                <div class="col-lg-6">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Write Your
+                                        Review</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+                                </div>
                             </div>
                             <div class="form-group row">
-                                <div class="col-sm-10">
-                                    <button type="submit " class="btn btn-primary fw-bold w-25 mb-3">Submit</button>
+                                <div class="col-lg-6 reviews-submit-btn">
+                                    <a href="" class="btn d-block w-100  mb-3">Submit</a>
                                 </div>
                             </div>
                         </form>
+
                     </div>
                     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                         <h6 class="fw-bold">Nam provident sequi</h6>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam provident sequi, nemo sapiente
                             culpa nostrum rem eum perferendis quibusdam, magnam a vitae corporis! Magnam enim modi, illo
                             harum suscipit tempore aut dolore doloribus deserunt voluptatum illum, est porro? Ducimus
-                            dolore
-                            accusamus impedit ipsum maiores, ea iusto temporibus numquam eaque mollitia fugiat laborum
-                            dolor
-                            tempora eligendi voluptatem quis necessitatibus nam ab?</p>
+                            dolore.
+                        </p>
                         <h5 class="fw-bold">
                             More Details
                         </h5>
@@ -476,163 +442,182 @@
                             <li>
                                 Numquam eaque mollitia fugiat laborum dolor tempora;
                             </li>
-                            <li>
-                                Sit amet consectetur adipisicing elit. Quo delectus repellat facere maiores.
-                            </li>
-                            <li>
-                                Repellendus itaque sit quia consequuntur, unde veritatis. dolorum?
-                            </li>
                         </ul>
                     </div>
-                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                        contact
-                    </div>
+
                 </div>
             </div>
         </section>
     </main>
 
-   <!-- footer-section -->
+    <!-- footer-section -->
 
-   <footer class="footer-section ">
-    <div class="container">
-        <div class="row footer-top">
-            <div class="col-lg-3 col-md-6 mb-3">
-                <div class="footer-left-sec">
-                    <img class="img-fluid d-block m-auto mb-3" src="img/logo.svg" alt="">
-                    <p>
-                        Integer posuere orci sit amet feugiat pellent que. Suspendisse vel tempor justo, sit amet
-                        posuere orci dapibus auctor
-                    </p>
-                    <div class="footer-contact-details ">
-                        <div class="footer-contact-details-body">
-                            <i class="fa-solid fa-mobile"></i>
-                            <span class="footer-address-sec">CONTACT US:</span>
-                            <a href=""> +3 (523) 555 123 8745</a>
-                        </div>
+    <footer class="footer-section ">
+        <div class="container">
+            <div class="row footer-top">
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="footer-left-sec">
+                        <img class="img-fluid d-block m-auto mb-3" src="img/logo.svg" alt="">
+                        <p>
+                            Integer posuere orci sit amet feugiat pellent que. Suspendisse vel tempor justo, sit amet
+                            posuere orci dapibus auctor
+                        </p>
+                        <div class="footer-contact-details ">
+                            <div class="footer-contact-details-body">
+                                <i class="fa-solid fa-mobile"></i>
+                                <span class="footer-address-sec">CONTACT US:</span>
+                                <a href="">9137168732</a>
+                            </div>
 
-                        <div class="footer-contact-details-body">
-                            <i class="fa-solid fa-message"></i>
-                            <span class="footer-address-sec">ADDRESS:</span>
-                            <a href=""> 1ST, NEW YORK, USA</a>
-                        </div>
+                            <div class="footer-contact-details-body">
+                                <i class="fa-solid fa-message"></i>
+                                <span class="footer-address-sec">ADDRESS:</span>
+                                <a href="">Powai Mumbai-76</a>
+                            </div>
 
-                        <div class="footer-contact-details-body">
-                            <i class="fa-solid fa-location-dot"></i>
-                            <span class="footer-address-sec ">EMAIL: </span>
-                            <a href="">OFFICE@EXZO.COM</a>
+                            <div class="footer-contact-details-body">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span class="footer-address-sec ">EMAIL: </span>
+                                <a href="">vykumar381@gmail.com</a>
+                            </div>
                         </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3  col-md-6 col-12">
+                    <h6>QUECK LINKS</h6>
+                    <div class="row">
+                        <div class="col-lg-5 col-5 footer-column-links">
+                            <a href="">HOME</a>
+                            <a href="">ABOUT US</a>
+                            <a href="">PRODUCTS</a>
+                            <a href="">SERVICES</a>
+                            <a href="">BLOGS</a>
+                            <a href="">GALLERY</a>
+                            <a href="">CONTACT</a>
+                        </div>
+                        <div class="col-lg-5 col-6 footer-column-links">
+                            <a href="">PRIVACY POLICY</a>
+                            <a href="">WARRANTY</a>
+                            <a href="">LOGIN</a>
+                            <a href="">REGISTRATION</a>
+                            <a href="">PAGES</a>
+                            <a href="">OUR STORES</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12 mb-2">
+                    <h6>SOME POSTS</h6>
+                    <div class="footer-post-sec">
+                        <div>
+                            <a href=""><img class="img-fluid" src="images/footer thumbnail-1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="ms-2">
+                            <span class="footer-date">APR 07 / 15</span>
+                            <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM SIT AMET</p>
+                        </div>
+                    </div>
+
+                    <div class="footer-post-sec">
+                        <div>
+                            <a href=""><img class="img-fluid" src="images/thumbnail-2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="ms-2">
+                            <span class="footer-date">APR 07 / 15</span>
+                            <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM SIT AMET</p>
+                        </div>
+                    </div>
+
+                    <div class="footer-post-sec">
+                        <div>
+                            <img class="img-fluid" src="images/thumbnail-3.jpg" alt="">
+                        </div>
+                        <div class="ms-2">
+                            <span class="footer-date">APR 07 / 15</span>
+                            <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM SIT AMET</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 ">
+                    <h6>POPULAR TAGS</h6>
+                    <div class="footer-column-links-tags">
+                        <a href="">HEADPHONESS</a>
+                        <a href="">ACCESSORIES</a>
+                        <a href="">NEW</a>
+                        <a href="">WIRELESS</a>
+                        <a href="">CABLES</a>
+                        <a href="">DEVICES</a>
+                        <a href="">GADGETS</a>
+                        <a href=""> BRANDS</a>
+                        <a href="">CASES</a>
+                        <a href=""> CABLES</a>
+                        <a href="">PROFESSIONAL</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-3  col-md-6 col-12">
-                <h6>QUECK LINKS</h6>
-                <div class="row">
-                    <div class="col-lg-5 col-5 footer-column-links">
-                        <a href="">HOME</a>
-                        <a href="">ABOUT US</a>
-                        <a href="">PRODUCTS</a>
-                        <a href="">SERVICES</a>
-                        <a href="">BLOGS</a>
-                        <a href="">GALLERY</a>
-                        <a href="">CONTACT</a>
-                    </div>
-                    <div class="col-lg-5 col-6 footer-column-links">
-                        <a href="">PRIVACY POLICY</a>
-                        <a href="">WARRANTY</a>
-                        <a href="">LOGIN</a>
-                        <a href="">REGISTRATION</a>
-                        <a href="">PAGES</a>
-                        <a href="">OUR STORES</a>
-                    </div>
-                </div>
-            </div>
 
-            <div class="col-lg-3 col-md-6 col-12 mb-2">
-                <h6>SOME POSTS</h6>
-                <div class="footer-post-sec">
-                    <div>
-                        <a href=""><img class="img-fluid" src="images/footer thumbnail-1.jpg" alt="">
-                        </a>
+            <div class="copyright-section ">
+                <div class="row text-center">
+                    <div class="col-lg-4 col-md-6 my-2 col-12">
+                        <p>
+                            © 2015 All rights reserved. Development by Vijay.Yadav <a class="agency-copy"
+                                href="">UnionAgency</a>
+                        </p>
                     </div>
-                    <div class="ms-2">
-                        <span class="footer-date">APR 07 / 15</span>
-                        <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM SIT AMET</p>
+                    <div class="col-lg-4 mb-2 col-md-6 col-12">
+                        <div class="footer-social-icons">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-brands fa-google"></i>
+                            <i class="fa-solid fa-p"></i>
+                        </div>
                     </div>
-                </div>
-
-                <div class="footer-post-sec">
-                    <div>
-                        <a href=""><img class="img-fluid" src="images/thumbnail-2.jpg" alt="">
-                        </a>
+                    <div class="col-lg-4 co-12 my-2">
+                        <div class="footer-payment-icons">
+                            <a class="entry"><img src="images/footer-pay1.jpg" alt=""></a>
+                            <a class="entry"><img src="images/footer-pay2.jpg" alt=""></a>
+                            <a class="entry"><img src="images/footer-pay3.jpg" alt=""></a>
+                            <a class="entry"><img src="images/footer-pay4.jpg" alt=""></a>
+                            <a class="entry"><img src="images/footer-pay5.jpg" alt=""></a>
+                            <a class="entry"><img src="images/footer-pay6.jpg" alt=""></a>
+                        </div>
                     </div>
-                    <div class="ms-2">
-                        <span class="footer-date">APR 07 / 15</span>
-                        <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM SIT AMET</p>
-                    </div>
-                </div>
-
-                <div class="footer-post-sec">
-                    <div>
-                        <img class="img-fluid" src="images/thumbnail-3.jpg" alt="">
-                    </div>
-                    <div class="ms-2">
-                        <span class="footer-date">APR 07 / 15</span>
-                        <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM SIT AMET</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12 ">
-                <h6>POPULAR TAGS</h6>
-                <div class="footer-column-links-tags">
-                    <a href="">HEADPHONESS</a>
-                    <a href="">ACCESSORIES</a>
-                    <a href="">NEW</a>
-                    <a href="">WIRELESS</a>
-                    <a href="">CABLES</a>
-                    <a href="">DEVICES</a>
-                    <a href="">GADGETS</a>
-                    <a href=""> BRANDS</a>
-                    <a href="">CASES</a>
-                    <a href=""> CABLES</a>
-                    <a href="">PROFESSIONAL</a>
                 </div>
             </div>
         </div>
+    </footer>
 
 
-        <div class="copyright-section ">
-            <div class="row text-center">
-                <div class="col-lg-4 col-md-6 my-2 col-12">
-                    <p>
-                        © 2015 All rights reserved. Development by <a class="agency-copy" href="">UnionAgency</a>
-                    </p>
-                </div>
-                <div class="col-lg-4 mb-2 col-md-6 col-12">
-                    <div class="footer-social-icons">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-linkedin-in"></i>
-                        <i class="fa-brands fa-google"></i>
-                        <i class="fa-solid fa-p"></i>
-                    </div>
-                </div>
-                <div class="col-lg-4 co-12 my-2">
-                    <div class="footer-payment-icons">
-                        <a class="entry"><img src="images/footer-pay1.jpg" alt=""></a>
-                        <a class="entry"><img src="images/footer-pay2.jpg" alt=""></a>
-                        <a class="entry"><img src="images/footer-pay3.jpg" alt=""></a>
-                        <a class="entry"><img src="images/footer-pay4.jpg" alt=""></a>
-                        <a class="entry"><img src="images/footer-pay5.jpg" alt=""></a>
-                        <a class="entry"><img src="images/footer-pay6.jpg" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            spaceBetween: 10,
+            slidesPerView: 4,
+            freeMode: true,
+            watchSlidesProgress: true,
+        });
+        var swiper2 = new Swiper(".mySwiper2", {
+            loop: true,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            thumbs: {
+                swiper: swiper,
+            },
+        });
+    </script>
+
     <!-- footer-section -->
     <script src="js/script.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
