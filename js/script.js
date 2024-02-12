@@ -1,21 +1,16 @@
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'vertical',
-    loop: true,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-  });
+
+
+window.addEventListener("load", function(){
+  setTimeout(
+      function open(event){
+          document.querySelector(".modal").style.
+          display = "block";
+      },
+      2000
+  )
+});
+document.querySelector(".close").addEventListener
+("click", function(){
+  document.querySelector(".modal").style.display = "none";
+
+});

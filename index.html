@@ -8,9 +8,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/owl.carousel.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
   <script src="js/jquery.min.js">
   </script>
   <script src="js/owl.carousel.min.js">
@@ -18,16 +20,17 @@
 </head>
 
 <body>
+
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container">
+    <nav class="navbar navbar-expand-md fixed-top">
+      <div class="container-fluid">
         <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto  mb-lg-0">
+          <ul class="navbar-nav">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
@@ -111,8 +114,8 @@
               </ul>
             </li>
           </ul>
-          <form class="d-flex search-body">
-            <input class="form-control me-2" list="datalistOptions" placeholder="Search">
+          <form class="d-flex search-body m-auto">
+            <input class="form-control me-2" list="datalistOptions" placeholder="Search, Brand,Product....">
             <datalist id="datalistOptions">
               <option value="Tshirt"></option>
               <option value="shirt"></option>
@@ -121,8 +124,11 @@
               <option value="Shoes"></option>
               </section>
             </datalist>
-            <button class="btn" type="submit">Search</button>
+            <div>
+              <a href="" class="btn"><i class="fa-solid fa-magnifying-glass fs-5 text-success"></i></a>
+            </div>
           </form>
+
           <ul class="navbar-nav m-auto  nav-brand-icons">
             <li class="nav-item">
               <a href=""><i class="fa-solid fa-cart-shopping p-2 "></i>
@@ -144,27 +150,47 @@
 
 
   <main role="main">
-    <section>
-      <div class="container-fluid p-0 mb-2">
-        <div class="mb-2">
-          <div class="owl-carousel owl-theme">
-            <div class="item">
-              <img class="img-fluid" src="images/c1.jpg" alt="">
-            </div>
-            <div class="item">
-              <img class="img-fluid" src="images/c2.jpg" alt="">
-            </div>
-            <div class="item">
-              <img class="img-fluid" src="images/c3.jpg" alt="">
-            </div>
-          </div>
-        </div>
+    <section class="header-top-carousel">
+      <div class="container-fluid p-0">
+        <swiper-container class="mySwiper" pagination="true" pagination-dynamic-bullets="true">
+          <swiper-slide><a href=""><img src="homepageimages/jio mart-slidetop2.webp" alt=""></a></swiper-slide>
+          <swiper-slide><a href=""><img src="homepageimages/jio mart-slidetop3.webp" alt=""></a></swiper-slide>
+          <swiper-slide><a href=""><img src="homepageimages/jio mart-slidetop1.webp" alt=""></a></swiper-slide>
+          <swiper-slide><a href=""><img src="homepageimages/jio mart-slidetop4.webp" alt=""></a></swiper-slide>
+          <swiper-slide><a href=""><img src="homepageimages/jio mart-slidetop5.webp" alt=""></a></swiper-slide>
+          <swiper-slide><a href=""><img src="homepageimages/jio mart-slidetop6.webp" alt=""></a></swiper-slide>
+        </swiper-container>
       </div>
+      <style>
+        .header-top-carousel {
+          padding: 60px 0px 10px;
+        }
+
+        swiper-container {
+          width: 100%;
+          height: 100%;
+        }
+
+        swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      </style>
     </section>
 
-
     <!-- banner-product-all-categories -->
-    
+
     <section class="banner-product-all-categories mb-2">
       <div class="container-fluid">
         <div class="banner-product-all-categories-main-body mt-2">
@@ -1004,9 +1030,7 @@
                   <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
                       class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                 </div>
-                <div class="product-tag-trending-section">
-                  <span class="badge badge-secondary">32% off</span>
-                </div>
+
               </div>
             </div>
           </div>
@@ -1028,9 +1052,7 @@
                   <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
                       class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                 </div>
-                <div class="product-tag-trending-section">
-                  <span class="badge badge-secondary">32% off</span>
-                </div>
+
               </div>
             </div>
           </div>
@@ -1052,9 +1074,7 @@
                   <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
                       class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                 </div>
-                <div class="product-tag-trending-section">
-                  <span class="badge badge-secondary">32% off</span>
-                </div>
+
               </div>
             </div>
           </div>
@@ -1076,9 +1096,7 @@
                   <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
                       class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                 </div>
-                <div class="product-tag-trending-section">
-                  <span class="badge badge-secondary">32% off</span>
-                </div>
+
               </div>
             </div>
           </div>
@@ -1100,9 +1118,7 @@
                   <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
                       class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                 </div>
-                <div class="product-tag-trending-section">
-                  <span class="badge badge-secondary">32% off</span>
-                </div>
+
               </div>
             </div>
           </div>
@@ -1124,9 +1140,7 @@
                   <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
                       class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                 </div>
-                <div class="product-tag-trending-section">
-                  <span class="badge badge-secondary">32% off</span>
-                </div>
+
               </div>
             </div>
           </div>
@@ -1148,9 +1162,7 @@
                   <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
                       class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                 </div>
-                <div class="product-tag-trending-section">
-                  <span class="badge badge-secondary">32% off</span>
-                </div>
+
               </div>
             </div>
           </div>
@@ -1172,9 +1184,7 @@
                   <a class="home-card-btn trending-section-btn" href="add-to-cart.html"><i
                       class="fa-solid fa-cart-plus px-2 text-success"></i>Buy Now</a>
                 </div>
-                <div class="product-tag-trending-section">
-                  <span class="badge badge-secondary">32% off</span>
-                </div>
+
               </div>
             </div>
           </div>
@@ -1250,25 +1260,6 @@
               Integer posuere orci sit amet feugiat pellent que. Suspendisse vel tempor justo, sit amet
               posuere orci dapibus auctor
             </p>
-            <div class="footer-contact-details ">
-              <div class="footer-contact-details-body">
-                <i class="fa-solid fa-mobile"></i>
-                <span class="footer-address-sec">CONTACT US:</span>
-                <a href=""> +3 (523) 555 123 8745</a>
-              </div>
-
-              <div class="footer-contact-details-body">
-                <i class="fa-solid fa-message"></i>
-                <span class="footer-address-sec">ADDRESS:</span>
-                <a href=""> 1ST, NEW YORK, USA</a>
-              </div>
-
-              <div class="footer-contact-details-body">
-                <i class="fa-solid fa-location-dot"></i>
-                <span class="footer-address-sec ">EMAIL: </span>
-                <a href="">OFFICE@EXZO.COM</a>
-              </div>
-            </div>
           </div>
         </div>
 
@@ -1344,6 +1335,19 @@
             <a href="">CASES</a>
             <a href=""> CABLES</a>
             <a href="">PROFESSIONAL</a>
+          </div>
+
+          <div class="footer-contact-details-body">
+            <div class="">
+              <a href="" class="btn btn-youtube"><span><i class="fa-brands fa-youtube mx-1"></i></span>YouTube</a>
+            </div>
+            <div>
+              <a href="" class="btn btn-telegram"><span><i class="fa-brands fa-telegram mx-1"></i></span>Telegram</a>
+            </div>
+            <div>
+              <a href="" class="btn btn-Instagram"><span><i class="fa-brands fa-instagram mx-1"></i></span>
+                Instagram</a>
+            </div>
           </div>
         </div>
       </div>
@@ -1424,6 +1428,199 @@
       });
     })
   </script>
+
+
+  <!-- modal -->
+
+  <!-- <button id="openModalButton" >Open Modal</button > -->
+  <div class="modal" id="myModal">
+    <div class="modal-content text-center">
+      <span class="close" id="closeModalButton">&times;</span>
+      <form class="form">
+        <p class="title">Register </p>
+        <p class="message">Signup now and get full access to our app. </p>
+        <div class="flex">
+          <label>
+            <input required="" placeholder="" type="text" class="input">
+            <span>Firstname</span>
+          </label>
+
+          <label>
+            <input required="" placeholder="" type="text" class="input">
+            <span>Lastname</span>
+          </label>
+        </div>
+
+        <label>
+          <input required="" placeholder="" type="email" class="input">
+          <span>Email</span>
+        </label>
+
+        <label>
+          <input required="" placeholder="" type="password" class="input">
+          <span>Password</span>
+        </label>
+        <label>
+          <input required="" placeholder="" type="password" class="input">
+          <span>Confirm password</span>
+        </label>
+        <button class="submit">Submit</button>
+        <p class="signin">Already have an acount ? <a href="#">Signin</a> </p>
+      </form>
+    </div>
+  </div>
+
+  <style>
+    /* modal */
+    .modal {
+      position: absolute;
+      height: 100%;
+      z-index: 1;
+      overflow: hidden;
+    }
+    .close {
+      position: relative;
+      top: 0;
+      right: 0;
+      padding: 10px;
+      cursor: pointer;
+      }
+    .modal-content {
+      transform: translate(-50%, -50%);
+      top: 60%;
+      left: 50%;
+      width: 30%;
+    }
+    .form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 20px;
+      position: relative;
+    }
+    .title {
+      font-size: 28px;
+      color: royalblue;
+      font-weight: 600;
+      letter-spacing: -1px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      padding-left: 30px;
+    }
+    .title::before,
+    .title::after {
+      position: absolute;
+      content: "";
+      height: 16px;
+      width: 16px;
+      border-radius: 50%;
+      left: 0px;
+      background-color: royalblue;
+    }
+    .title::before {
+      width: 18px;
+      height: 18px;
+      background-color: royalblue;
+    }
+    .title::after {
+      width: 18px;
+      height: 18px;
+      animation: pulse 1s linear infinite;
+    }
+    .message,
+    .signin {
+      color: rgba(88, 87, 87, 0.822);
+      font-size: 14px;
+    }
+    .signin {
+      text-align: center;
+    }
+    .signin a {
+      color: royalblue;
+    }
+    .signin a:hover {
+      text-decoration: underline royalblue;
+    }
+    .flex {
+      display: flex;
+      width: 100%;
+      gap: 6px;
+    }
+
+    .form label {
+      position: relative;
+    }
+
+    .form label .input {
+      width: 100%;
+      padding: 10px 10px 20px 10px;
+      outline: 0;
+      border: 1px solid rgba(105, 105, 105, 0.397);
+      border-radius: 10px;
+    }
+
+    .form label .input+span {
+      position: absolute;
+      left: 10px;
+      top: 15px;
+      color: grey;
+      font-size: 0.9em;
+      cursor: text;
+      transition: 0.3s ease;
+    }
+
+    .form label .input:placeholder-shown+span {
+      top: 15px;
+      font-size: 0.9em;
+    }
+
+    .form label .input:focus+span,
+    .form label .input:valid+span {
+      top: 30px;
+      font-size: 0.7em;
+      font-weight: 600;
+    }
+
+    .form label .input:valid+span {
+      color: green;
+    }
+
+    .submit {
+      border: none;
+      outline: none;
+      background-color: royalblue;
+      padding: 10px;
+      border-radius: 10px;
+      color: #fff;
+      font-size: 16px;
+      transform: .3s ease;
+    }
+
+    .submit:hover {
+      background-color: rgb(56, 90, 194);
+    }
+
+    @keyframes pulse {
+      from {
+        transform: scale(0.9);
+        opacity: 1;
+      }
+
+      to {
+        transform: scale(1.8);
+        opacity: 0;
+      }
+    }
+  </style>
+
+
+
+
+
+
 
 
 
