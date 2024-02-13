@@ -7,6 +7,7 @@
   body {
     background-color: #EAEAEA !important;
   }
+ 
 
 
   /* navbar */
@@ -43,9 +44,26 @@ border-radius: 11px;
 
 
 
- 
+
+
+
+
+
+
+.categeory-main-wrapper{
+  max-width: 1024px !important;
+  padding: 60px 0px 0px;
+}
 .all-cat-section{
     padding: 10px 0px 120px;
+}
+.categories-bg-img-body .btn{
+  background-color:rgb(245, 245, 245);
+  color: #150a0a;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 7px;
 }
   .categories-bg-img{
     background-image: url(../img/men\ t\ shirt-bg.png);
@@ -113,7 +131,8 @@ border-radius: 11px;
   
 
 
-  /* footer */
+
+/* footer */
 .footer-section {
   background-color: #150a0a;
 }

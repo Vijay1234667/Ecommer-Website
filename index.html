@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/owl.carousel.css">
@@ -20,7 +19,6 @@
 </head>
 
 <body>
-
   <header>
     <nav class="navbar navbar-expand-md fixed-top">
       <div class="container">
@@ -58,8 +56,8 @@
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="categories.html" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
                 Categeory
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -130,15 +128,15 @@
           </form>
 
           <ul class="navbar-nav nav-brand-icons">
-           
+
             <li class="nav-item">
               <a href="profile.html"><i class="fa-solid fa-user  p-2"></i>
               </a>
             </li>
             <li class="nav-item">
-                <a href=""><i class="fa-solid fa-cart-shopping p-2 "></i>
-                </a>
-              </li>
+              <a href=""><i class="fa-solid fa-cart-shopping p-2 "></i>
+              </a>
+            </li>
             <li class=" login-btn mx-1">
               <a href="profile.html"><a href="" class="btn">Login</a>
               </a>
@@ -193,30 +191,30 @@
     <!-- banner-product-all-categories -->
 
     <section class="banner-product-all-categories mb-2">
-      <div class="container-fluid">
+      <div class="container">
         <div class="banner-product-all-categories-main-body mt-2">
           <div class="categories-brand">
-            <a href=""><img class="img-fluid mb-2 d-block m-auto" src="homepageimages/b1.png" alt=""></a>
+            <a href=""><img class="img-fluid mb-2" src="homepageimages/b1.png" alt=""></a>
             <h6>Mobile & Tablets</h6>
           </div>
           <div class="categories-brand">
-            <a href=""><img class="img-fluid mb-2 d-block m-auto" src="homepageimages/b6.jpg" alt=""></a>
+            <a href=""><img class="img-fluid mb-2 " src="homepageimages/b6.jpg" alt=""></a>
             <h6>Electronics</h6>
           </div>
-          <div>
-            <a href=""><img class="img-fluid mb-2 d-block m-auto" src="homepageimages/b3.png" alt=""></a>
+          <div class="categories-brand">
+            <a href=""><img class="img-fluid mb-2 " src="homepageimages/b3.png" alt=""></a>
             <h6>Fashion</h6>
           </div>
-          <div>
-            <a href=""><img class="img-fluid mb-2 d-block m-auto" src="homepageimages/b4.png" alt=""></a>
+          <div class="categories-brand">
+            <a href=""><img class="img-fluid mb-2" src="homepageimages/b4.png" alt=""></a>
             <h6>Travel</h6>
           </div>
-          <div>
-            <a href=""><img class="img-fluid mb-2 d-block m-auto" src="homepageimages/b5.jpg" alt=""></a>
+          <div class="categories-brand">
+            <a href=""><img class="img-fluid mb-2" src="homepageimages/b5.jpg" alt=""></a>
             <h6>Home & Kitchen</h6>
           </div>
-          <div>
-            <a href=""><img class="img-fluid mb-2 d-block m-auto" src="homepageimages/b2.png" alt=""></a>
+          <div class="categories-brand">
+            <a href=""><img class="img-fluid mb-2" src="homepageimages/b2.png" alt=""></a>
             <h6>Grocery</h6>
           </div>
         </div>
@@ -1479,19 +1477,22 @@
       z-index: 1;
       overflow: hidden;
     }
+
     .close {
       position: relative;
       top: 0;
       right: 0;
       padding: 10px;
       cursor: pointer;
-      }
+    }
+
     .modal-content {
       transform: translate(-50%, -50%);
       top: 60%;
       left: 50%;
       width: 30%;
     }
+
     .form {
       display: flex;
       flex-direction: column;
@@ -1501,6 +1502,7 @@
       border-radius: 20px;
       position: relative;
     }
+
     .title {
       font-size: 28px;
       color: royalblue;
@@ -1511,6 +1513,7 @@
       align-items: center;
       padding-left: 30px;
     }
+
     .title::before,
     .title::after {
       position: absolute;
@@ -1521,30 +1524,37 @@
       left: 0px;
       background-color: royalblue;
     }
+
     .title::before {
       width: 18px;
       height: 18px;
       background-color: royalblue;
     }
+
     .title::after {
       width: 18px;
       height: 18px;
       animation: pulse 1s linear infinite;
     }
+
     .message,
     .signin {
       color: rgba(88, 87, 87, 0.822);
       font-size: 14px;
     }
+
     .signin {
       text-align: center;
     }
+
     .signin a {
       color: royalblue;
     }
+
     .signin a:hover {
       text-decoration: underline royalblue;
     }
+
     .flex {
       display: flex;
       width: 100%;

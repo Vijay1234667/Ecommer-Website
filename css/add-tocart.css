@@ -48,7 +48,7 @@ border-radius: 11px;
 
 .add-to-bag-main-page {
   padding: 70px 0px 20px;
-  background: url(homepageimages/bg-serv.jpg);
+  background: url(..//homepageimages/bg-serv.jpg);
 }
 .add-to-bag-body-content{
   border-radius: 10px;
@@ -140,13 +140,13 @@ border-radius: 11px;
 
 
 .write-review-btn .btn {
-  padding: 7px 13px;
+  padding: 7px 10px;
   color: white;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 500;
   letter-spacing: 1px;
   background-color:#f44336;
-  border-radius: 23px;
+  border-radius: 6px;
 }
 .rating-date-like-bottom-sec {
   display: flex;
@@ -193,7 +193,7 @@ border-radius: 11px;
 
 .Product-Reviews-section{
   padding: 10px 0px 10px;
-  background: url(homepageimages/bg-serv.jpg);
+  background: url(..//homepageimages/bg-serv.jpg);
 }
 .Product-Reviews-section.nav-link{
   background-color:#b8cd06 !important;
