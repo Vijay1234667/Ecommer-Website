@@ -58,7 +58,7 @@ border-width: 2px;
 
 .add-to-bag-main-page {
   padding: 70px 0px 20px;
-  background: url(/homepageimages/bg-serv.jpg);
+  background: url(homepageimages/bg-serv.jpg);
 }
 .add-to-bag-body-content{
   border-radius: 10px;
@@ -203,7 +203,7 @@ border-width: 2px;
 
 .Product-Reviews-section{
   padding: 10px 0px 10px;
-  background: url(/homepageimages/bg-serv.jpg);
+  background: url(homepageimages/bg-serv.jpg);
 }
 .Product-Reviews-section.nav-link{
   background-color:#b8cd06 !important;
