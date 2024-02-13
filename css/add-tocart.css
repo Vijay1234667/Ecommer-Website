@@ -16,41 +16,31 @@ body {
   background-color:whitesmoke;
 }
 .navbar-nav a{
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 14px;
   color: #343434;
   letter-spacing: 1px;
 }
 .nav-brand-icons .nav-item i  {
-  font-size: 19px;
-  color:#0D775E;
+  font-size: 15px;
 }
 .dropdown-toggle::after{
 color:#E80E50;
 }
 .nav-brand-icons .btn{
   text-decoration: none;
-  background-color:#e80e4fda;
+  background-color:#150a0a67;
   color: white;
+  font-weight: 400;
   padding: 4px 8px;
-  border-radius: 23px;
-}
-.search-body button{
-  font-size: 15px;
-  border-radius: 8px;
-  padding: 4px 8px;
-  border: 1px solid #424242;
+  border-radius: 5px;
 }
 .navbar input{
   width: 370px;
   height: 40px;
-font-size: 12px;
-font-size: 16px;
-border-radius: 18px;
-border-color: #39b296;
-border-width: 2px;
+letter-spacing: 1px;
+font-size: 14px;
+border-radius: 11px;
 }
-
 
 
 
@@ -220,13 +210,13 @@ border-width: 2px;
 
 /* footer */
 .footer-section {
-  background-color: #343434;
+  background-color: #150a0a;
 }
 
 .footer-left-sec p {
-  font-size: 13px;
-  color: white;
+  font-size: 14px;
   letter-spacing: 1px;
+  color: #bfa9a9ea;
 }
 
 .footer-contact-details-body  {
@@ -238,26 +228,24 @@ border-width: 2px;
   font-size: 13px;
 }
 .footer-contact-details-body .btn-youtube{
-  border: 1px solid red;
-  color: white;
+  border: 1px solid rgba(185, 192, 188, 0.253);
+  color:#c7b8b8ee;
   border-radius: 20px;
-  background-color: red;
+  font-size: 13px;
+  font-weight: 500;
 }
 .footer-contact-details-body .btn-telegram{
-  border: 1px solid red;
-  color: white;
+  border: 1px solid rgba(185, 192, 188, 0.253);
+  color:#c7b8b8ee;
   border-radius: 20px;
-  background-color:#0EB2E8;
-  border: 1px solid #0EB2E8;
+  font-weight: 500;
+
 
 }
 .footer-contact-details-body .btn-Instagram{
-  border: 1px solid red;
-  color: white;
+  color:#c7b8b8ee;
+  border: 1px solid rgba(185, 192, 188, 0.253);
   border-radius: 20px;
-  background-color:#E80E50;
-  border: 1px solid #E80E50;
-
 }
 .footer-contact-details-body a:hover {
   color: #b8cd06;
@@ -267,21 +255,24 @@ border-width: 2px;
   font-size: 12px;
   color:#888;
   text-transform: uppercase;
+border-radius: 10px;
+text-align: center;
+padding: 4px 10px;
+margin: 7px 0px 0px;
   display: block;
-  font-weight: 600;
-  padding: 5px;
+  font-weight: 500;
   text-decoration: none;
 }
 
 .footer-column-links a :hover {
-  color: #b8cd06;
+  color:#0EB2E8;
 }
 
 .footer-column-links-tags a {
   font-size: 10px;
   text-transform: uppercase;
-  background: #424242;
-  color: rgba(255, 255, 255, .5);
+  background: #424242f8;
+  color:#888;
   letter-spacing: .9px;
   line-height: 14px;
   font-weight: 700;
@@ -302,23 +293,22 @@ border-width: 2px;
 
 .footer-column-links-tags a:hover {
   color: white;
+  transition: 0.4s ease-in-out;
   background-color: #b8cd06;
+  -webkit-border-radius: 13px;
+
 }
 
 .footer-post-sec {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
-}
-
-.footer-post-sec img:hover {
-  background-color: #b8cd06;
+  margin-bottom: 10px;
 }
 
 .footer-date {
-  font-size: 10px;
-  color: rgba(255, 255, 255, .5);
+  font-size: 11px;
+  color:#888;
   text-transform: uppercase;
 }
 
@@ -327,25 +317,22 @@ border-width: 2px;
   max-width: 100%;
   border-radius: 5%;
 }
-
-
 .footer-post-sec p {
-  font-family: 'Raleway', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   color:#888;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .footer-section h6 {
-  font-size: 13px;
-  font-weight: 900;
-  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+  color:#c7b8b8ee;
   text-transform: uppercase;
-  line-height: 18px;
 }
 
 .footer-top {
-  border-bottom: 1px rgba(255, 255, 255, .05) solid;
+  border-bottom: 3px rgba(255, 255, 255, .05) solid;
   border-width: 2px;
   padding: 20px 0px 10px;
 }
