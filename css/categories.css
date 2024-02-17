@@ -143,6 +143,15 @@ border-radius: 11px;
   color: #bfa9a9ea;
 }
 
+.left-socials-icons a{
+  color: #DA1C5C;
+  border: 2px solid #DA1C5C;
+  padding: 5px 8px ;
+  font-size: 12px;
+  border-radius: 8px;
+  margin: 0px 4px;
+}
+
 .footer-contact-details-body  {
  display: flex;
  justify-content:space-evenly;
@@ -195,7 +204,7 @@ margin: 7px 0px 0px;
 .footer-column-links-tags a {
   font-size: 10px;
   text-transform: uppercase;
-  background: #424242f8;
+  background: #4242421e;
   color:#888;
   letter-spacing: .9px;
   line-height: 14px;
@@ -208,17 +217,17 @@ margin: 7px 0px 0px;
 }
 
 .footer-section p:hover {
-  color: #b8cd06;
+  color: #DA1C5C;
 }
 
 .footer-column-links a:hover {
-  color: #b8cd06;
+  color: #DA1C5C;
 }
 
 .footer-column-links-tags a:hover {
   color: white;
   transition: 0.4s ease-in-out;
-  background-color: #b8cd06;
+  background-color:#DA1C5C;
   -webkit-border-radius: 13px;
 
 }
@@ -261,20 +270,15 @@ margin: 7px 0px 0px;
   padding: 20px 0px 10px;
 }
 
-.footer-social-icons i {
-  border: 2px solid #424242;
-  padding: 5px 10px;
-  background: #424242;
+.footer-social-icons a{
   color: #888;
   font-size: 14px;
   text-align: center;
   margin: 6px;
-  -webkit-border-radius: 50%;
 }
 
-.footer-social-icons i:hover {
-  color: white;
-  background-color: #b8cd06;
+.footer-social-icons a:hover {
+  color: #DA1C5C;
   -webkit-transition: all .15s;
 }
 
@@ -284,7 +288,7 @@ margin: 7px 0px 0px;
 }
 
 .agency-copy {
-  color: #b8cd06;
+  color: #DA1C5C;
   text-decoration: none;
 }
 

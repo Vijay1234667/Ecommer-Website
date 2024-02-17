@@ -9,6 +9,8 @@
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/owl.carousel.css">
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
@@ -22,7 +24,7 @@
   <header>
     <nav class="navbar navbar-expand-md fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt=""></a>
+        <a class="navbar-brand" href="index.html"><img class="img-fluid" src="homepageimages/vmart_store-logo.png" alt="" width="110px" height="200px"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -56,8 +58,8 @@
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="categories.html" id="navbarDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="categories.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
                 Categeory
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -70,9 +72,9 @@
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              <a class="nav-link dropdown-toggle" href="cart.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
-                Coupan
+                Cart
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -84,9 +86,9 @@
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              <a class="nav-link dropdown-toggle" href="my-coupan.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
-                Our Stores
+                Coupan
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -148,16 +150,19 @@
   </header>
 
 
+
+
+
   <main role="main">
     <section class="header-top-carousel">
       <div class="container-fluid p-0">
         <swiper-container class="mySwiper" pagination="true" pagination-dynamic-bullets="true">
-          <swiper-slide><a href=""><img src="homepageimages/jio mart-slidetop2.webp" alt=""></a></swiper-slide>
+          <swiper-slide><a href=""><img src="homepageimages/jio mart-slidetop5.webp" alt=""></a></swiper-slide>
           <swiper-slide><a href=""><img src="homepageimages/jio mart-slidetop3.webp" alt=""></a></swiper-slide>
           <swiper-slide><a href=""><img src="homepageimages/jio mart-slidetop1.webp" alt=""></a></swiper-slide>
           <swiper-slide><a href=""><img src="homepageimages/jio mart-slidetop4.webp" alt=""></a></swiper-slide>
-          <swiper-slide><a href=""><img src="homepageimages/jio mart-slidetop5.webp" alt=""></a></swiper-slide>
           <swiper-slide><a href=""><img src="homepageimages/jio mart-slidetop6.webp" alt=""></a></swiper-slide>
+          <swiper-slide><a href=""><img src="homepageimages/jio mart-slidetop2.webp" alt=""></a></swiper-slide>
         </swiper-container>
       </div>
       <style>
@@ -190,40 +195,61 @@
 
     <!-- banner-product-all-categories -->
 
-    <section class="banner-product-all-categories mb-2">
+    <section class="banner-product-all-categories mb-2 animate__animated animate__backInLeft">
       <div class="container">
         <div class="banner-product-all-categories-main-body mt-2">
-          <div class="categories-brand">
-            <a href=""><img class="img-fluid mb-2" src="homepageimages/b1.png" alt=""></a>
-            <h6>Mobile & Tablets</h6>
+
+          <div class="row text-center">
+            <div class="col-lg-2 col-md-4 col-6">
+              <div class="categories-brand ">
+                <a href=""><img class="img-fluid mb-2" src="homepageimages/b1.png" alt=""></a>
+                <h6>Mobile & Tablets</h6>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6">
+              <div class="categories-brand">
+                <a href=""><img class="img-fluid mb-2 " src="homepageimages/b6.jpg" alt=""></a>
+                <h6>Electronics</h6>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6">
+              <div class="categories-brand">
+                <a href=""><img class="img-fluid mb-2 " src="homepageimages/b3.png" alt=""></a>
+                <h6>Fashion</h6>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6">
+              <div class="categories-brand">
+                <a href=""><img class="img-fluid mb-2" src="homepageimages/b4.png" alt=""></a>
+                <h6>Travel</h6>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6">
+              <div class="categories-brand">
+                <a href=""><img class="img-fluid mb-2" src="homepageimages/b5.jpg" alt=""></a>
+                <h6>Home & Kitchen</h6>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6">
+              <div class="categories-brand">
+                <a href=""><img class="img-fluid mb-2" src="homepageimages/b2.png" alt=""></a>
+                <h6>Grocery</h6>
+              </div>
+            </div>
           </div>
-          <div class="categories-brand">
-            <a href=""><img class="img-fluid mb-2 " src="homepageimages/b6.jpg" alt=""></a>
-            <h6>Electronics</h6>
-          </div>
-          <div class="categories-brand">
-            <a href=""><img class="img-fluid mb-2 " src="homepageimages/b3.png" alt=""></a>
-            <h6>Fashion</h6>
-          </div>
-          <div class="categories-brand">
-            <a href=""><img class="img-fluid mb-2" src="homepageimages/b4.png" alt=""></a>
-            <h6>Travel</h6>
-          </div>
-          <div class="categories-brand">
-            <a href=""><img class="img-fluid mb-2" src="homepageimages/b5.jpg" alt=""></a>
-            <h6>Home & Kitchen</h6>
-          </div>
-          <div class="categories-brand">
-            <a href=""><img class="img-fluid mb-2" src="homepageimages/b2.png" alt=""></a>
-            <h6>Grocery</h6>
-          </div>
+
         </div>
       </div>
     </section>
 
 
 
-    <section>
+    <section class="">
       <div class="container-fluid p-0">
         <div class="payment-banner-top-img container mb-3">
           <img class="img-fluid m-auto d-block " src="homepageimages/whatch add1 container-fluid.webp" alt="">
@@ -252,11 +278,59 @@
               <img class="img-fluid" src="homepageimages/left-top-sale.avif" alt="" width="100%">
             </div>
             <div class="home-leftside-wrapper">
-              <div class="card border-0 ">
+              <div class="card border-0 " data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <div class="row g-0 align-items-center">
                   <div class="col-3 text-center">
                     <a target="_blank" href="">
-                      <img src="homepageimages/small-product5.png" class="img-fluid " alt="Fashion">
+                      <img src="homepageimages/left-card-body-img1.jpg" class="img-fluid " alt="Fashion">
+                    </a>
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body p-0 px-2">
+                      <h5 class="mb-1"> Fashion</h5>
+                      <h6 class="font-400 font-10">Men Shirt</h6>
+                      <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
+                        <div class="rating">
+                          <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
+                              class="discount"><span>&#8377;</span>30.15</del></h6>
+                        </div>
+                        <div>
+                          <a href="" class="home-leftside-wrapper-btn">Add to Cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-0 " data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div class="row g-0 align-items-center">
+                  <div class="col-3 text-center">
+                    <a target="_blank" href="">
+                      <img src="homepageimages/left-card-body-img2.jpg" class="img-fluid " alt="Fashion">
+                    </a>
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body p-0 px-2">
+                      <h5 class="mb-1"> Fashion</h5>
+                      <h6 class="font-400 font-10">Men Shirt</h6>
+                      <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
+                        <div class="rating">
+                          <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
+                              class="discount"><span>&#8377;</span>30.15</del></h6>
+                        </div>
+                        <div>
+                          <a href="" class="home-leftside-wrapper-btn">Add to Cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-0 " data-aos="fade-down">
+                <div class="row g-0 align-items-center">
+                  <div class="col-3 text-center">
+                    <a target="_blank" href="">
+                      <img src="homepageimages/left-card-body-img3.jpg" class="img-fluid " alt="Fashion">
                     </a>
                   </div>
                   <div class="col-8">
@@ -280,55 +354,7 @@
                 <div class="row g-0 align-items-center">
                   <div class="col-3 text-center">
                     <a target="_blank" href="">
-                      <img src="homepageimages/small-product6.png" class="img-fluid " alt="Fashion">
-                    </a>
-                  </div>
-                  <div class="col-8">
-                    <div class="card-body p-0 px-2">
-                      <h5 class="mb-1"> Fashion</h5>
-                      <h6 class="font-400 font-10">Men Shirt</h6>
-                      <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
-                        <div class="rating">
-                          <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
-                              class="discount"><span>&#8377;</span>30.15</del></h6>
-                        </div>
-                        <div>
-                          <a href="" class="home-leftside-wrapper-btn">Add to Cart</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card border-0 ">
-                <div class="row g-0 align-items-center">
-                  <div class="col-3 text-center">
-                    <a target="_blank" href="">
-                      <img src="homepageimages/small-product3.png" class="img-fluid " alt="Fashion">
-                    </a>
-                  </div>
-                  <div class="col-8">
-                    <div class="card-body p-0 px-2">
-                      <h5 class="mb-1"> Fashion</h5>
-                      <h6 class="font-400 font-10">Men Shirt</h6>
-                      <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
-                        <div class="rating">
-                          <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
-                              class="discount"><span>&#8377;</span>30.15</del></h6>
-                        </div>
-                        <div>
-                          <a href="" class="home-leftside-wrapper-btn">Add to Cart</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card border-0 ">
-                <div class="row g-0 align-items-center">
-                  <div class="col-3 text-center">
-                    <a target="_blank" href="">
-                      <img src="homepageimages/small-product4.png" class="img-fluid " alt="Fashion">
+                      <img src="homepageimages/left-card-body-img4.jpg" class="img-fluid " alt="Fashion">
                     </a>
                   </div>
                   <div class="col-8">
@@ -363,7 +389,7 @@
                   <!-- <div class="col-lg-12">
                     <img class="img-fluid" src="images/add-container-fluid2.jpg" alt="">
                   </div> -->
-                  <div class="col-lg-4 col-6">
+                  <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-duration="3000">
                     <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/item7.png" class="card-img-top img-fluid"
                           alt="...">
@@ -388,7 +414,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-6">
+                  <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-duration="3000">
                     <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/item5.png" class="card-img-top img-fluid"
                           alt="...">
@@ -413,7 +439,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-6">
+                  <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-duration="3000">
                     <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/item4.png" class="card-img-top img-fluid"
                           alt="...">
@@ -438,7 +464,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-6">
+                  <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-duration="3000">
                     <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/watches1.jpg" class="card-img-top img-fluid"
                           alt="...">
@@ -463,7 +489,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-6">
+                  <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-duration="3000">
                     <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/bag1.jpg" class="card-img-top img-fluid"
                           alt="...">
@@ -488,7 +514,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-6">
+                  <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-duration="3000">
                     <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/cap1.jpg" class="card-img-top img-fluid"
                           alt="...">
@@ -513,7 +539,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-6">
+                  <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-duration="3000">
                     <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/shoes3.jpg" class="card-img-top img-fluid"
                           alt="...">
@@ -538,7 +564,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-6">
+                  <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-duration="3000">
                     <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/shoes2.jpg" class="card-img-top img-fluid"
                           alt="...">
@@ -563,7 +589,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-6">
+                  <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-duration="3000">
                     <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/sho.jpg" class="card-img-top img-fluid"
                           alt="...">
@@ -588,7 +614,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-6">
+                  <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-duration="3000">
                     <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/girlscat3.jpg" class="card-img-top img-fluid"
                           alt="...">
@@ -613,7 +639,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-6">
+                  <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-duration="3000">
                     <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/girlscat2.jpg" class="card-img-top img-fluid"
                           alt="...">
@@ -638,7 +664,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-6">
+                  <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-duration="3000">
                     <div class="product-cards-main-body">
                       <a href="add-to-cart.html"><img src="homepageimages/girlscat1.jpg" class="card-img-top img-fluid"
                           alt="...">
@@ -663,7 +689,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-12">
+                  <div class="col-lg-12" data-aos="fade-up" data-aos-duration="3000">
                     <div class="">
                       <a href="add-to-cart.html"><img src="homepageimages/addbottom1.jpg" class="card-img-top img-fluid"
                           alt="...">
@@ -828,6 +854,144 @@
         </div>
       </div>
     </section>
+
+
+
+    <!-- parallax-section -->
+    <section class="home-parallax-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="mega-sale-sidebar-image mb-2">
+              <img class="img-fluid" src="homepageimages/sale1.jpg" alt="" width="100%">
+            </div>
+            <div class="home-leftside-wrapper">
+              <div class="card border-2 shadow mb-2">
+                <div class="row g-0 align-items-center">
+                  <div class="col-3 text-center">
+                    <a target="_blank" href="">
+                      <img src="homepageimages/small-product5.png" class="img-fluid " alt="Fashion">
+                    </a>
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body p-0 px-2">
+                      <h5 class="mb-1"> Fashion</h5>
+                      <h6 class="font-400 font-10">Men Shirt</h6>
+                      <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
+                        <div class="rating">
+                          <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
+                              class="discount"><span>&#8377;</span>30.15</del></h6>
+                        </div>
+                        <div>
+                          <a href="" class="home-leftside-wrapper-btn">Add to Cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-2 shadow mb-2">
+                <div class="row g-0 align-items-center">
+                  <div class="col-3 text-center">
+                    <a target="_blank" href="">
+                      <img src="homepageimages/small-product6.png" class="img-fluid " alt="Fashion">
+                    </a>
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body p-0 px-2">
+                      <h5 class="mb-1"> Fashion</h5>
+                      <h6 class="font-400 font-10">Men Shirt</h6>
+                      <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
+                        <div class="rating">
+                          <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
+                              class="discount"><span>&#8377;</span>30.15</del></h6>
+                        </div>
+                        <div>
+                          <a href="" class="home-leftside-wrapper-btn">Add to Cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-2 shadow mb-2">
+                <div class="row g-0 align-items-center">
+                  <div class="col-3 text-center">
+                    <a target="_blank" href="">
+                      <img src="homepageimages/small-product3.png" class="img-fluid " alt="Fashion">
+                    </a>
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body p-0 px-2">
+                      <h5 class="mb-1"> Fashion</h5>
+                      <h6 class="font-400 font-10">Men Shirt</h6>
+                      <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
+                        <div class="rating">
+                          <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
+                              class="discount"><span>&#8377;</span>30.15</del></h6>
+                        </div>
+                        <div>
+                          <a href="" class="home-leftside-wrapper-btn">Add to Cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-2 shadow mb-2">
+                <div class="row g-0 align-items-center">
+                  <div class="col-3 text-center">
+                    <a target="_blank" href="">
+                      <img src="homepageimages/small-product4.png" class="img-fluid " alt="Fashion">
+                    </a>
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body p-0 px-2">
+                      <h5 class="mb-1"> Fashion</h5>
+                      <h6 class="font-400 font-10">Men Shirt</h6>
+                      <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
+                        <div class="rating">
+                          <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
+                              class="discount"><span>&#8377;</span>30.15</del></h6>
+                        </div>
+                        <div>
+                          <a href="" class="home-leftside-wrapper-btn">Add to Cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <img class="img-fluid" src="/homepageimages/cap1.jpg" alt="" width="100%">
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-8">
+            <section class="homepage-parallax-section-1">
+              <div class="container-fluid">
+              </div>
+            </section>
+            <section class="homepage-parallax-section-2">
+              <div class="container-fluid">
+              </div>
+            </section>
+            <section class="homepage-parallax-section-3">
+              <div class="container-fluid">
+              </div>
+            </section>
+            <section class="homepage-parallax-section-4">
+              <div class="container-fluid">
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
 
     <!-- electronic-section -->
 
@@ -1249,139 +1413,140 @@
 
   <!-- footer-section -->
 
-  <footer class="footer-section ">
-    <div class="container">
-      <div class="row footer-top">
-        <div class="col-lg-3 col-md-6 mb-3">
-          <div class="footer-left-sec">
-            <img class="img-fluid d-block m-auto mb-3" src="img/logo.svg" alt="">
-            <p>
-              Integer posuere orci sit amet feugiat pellent que. Suspendisse vel tempor justo, sit amet
-              posuere orci dapibus auctor
-            </p>
-          </div>
-        </div>
+ <!-- footer-section -->
 
-        <div class="col-lg-3  col-md-6 col-12">
-          <h6>QUECK LINKS</h6>
-          <div class="row">
-            <div class="col-lg-5 col-5 footer-column-links">
-              <a href="">HOME</a>
-              <a href="">ABOUT US</a>
-              <a href="">PRODUCTS</a>
-              <a href="">SERVICES</a>
-              <a href="">BLOGS</a>
-              <a href="">GALLERY</a>
-              <a href="">CONTACT</a>
-            </div>
-            <div class="col-lg-5 col-6 footer-column-links">
-              <a href="">PRIVACY POLICY</a>
-              <a href="">WARRANTY</a>
-              <a href="">LOGIN</a>
-              <a href="">REGISTRATION</a>
-              <a href="">PAGES</a>
-              <a href="">OUR STORES</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 col-10 mb-2">
-          <h6>SOME POSTS</h6>
-          <div class="footer-post-sec">
-            <div>
-              <a href=""><img class="img-fluid" src="images/footer thumbnail-1.jpg" alt="">
-              </a>
-            </div>
-            <div class="ms-2">
-              <span class="footer-date">APR 07 / 15</span>
-              <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM SIT AMET</p>
-            </div>
-          </div>
-
-          <div class="footer-post-sec">
-            <div>
-              <a href=""><img class="img-fluid" src="images/thumbnail-2.jpg" alt="">
-              </a>
-            </div>
-            <div class="ms-2">
-              <span class="footer-date">APR 07 / 15</span>
-              <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM SIT AMET</p>
-            </div>
-          </div>
-
-          <div class="footer-post-sec">
-            <div>
-              <img class="img-fluid" src="images/thumbnail-3.jpg" alt="">
-            </div>
-            <div class="ms-2">
-              <span class="footer-date">APR 07 / 15</span>
-              <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM SIT AMET</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 col-sm-6 col-12 ">
-          <h6>POPULAR TAGS</h6>
-          <div class="footer-column-links-tags">
-            <a href="">HEADPHONESS</a>
-            <a href="">ACCESSORIES</a>
-            <a href="">NEW</a>
-            <a href="">WIRELESS</a>
-            <a href="">CABLES</a>
-            <a href="">DEVICES</a>
-            <a href="">GADGETS</a>
-            <a href=""> BRANDS</a>
-            <a href="">CASES</a>
-            <a href=""> CABLES</a>
-            <a href="">PROFESSIONAL</a>
-          </div>
-
-          <div class="footer-contact-details-body">
-            <div class="">
-              <a href="" class="btn btn-youtube"><span><i class="fa-brands fa-youtube mx-1"></i></span>YouTube</a>
-            </div>
-            <div>
-              <a href="" class="btn btn-telegram"><span><i class="fa-brands fa-telegram mx-1"></i></span>Telegram</a>
-            </div>
-            <div>
-              <a href="" class="btn btn-Instagram"><span><i class="fa-brands fa-instagram mx-1"></i></span>
-                Instagram</a>
-            </div>
+ <footer class="footer-section">
+  <div class="container">
+    <div class="row footer-top">
+      <div class="col-lg-3 col-md-6 mb-3">
+        <div class="footer-left-sec">
+          <img class="img-fluid d-block m-auto mb-3" src="/homepageimages/vmart_store-logo.png" alt="" width="160px"
+            height="200px">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium fugit, sunt tenetur qui aperiam, quia
+            laboriosam ducimus praesentium nisi.
+          </p>
+          <div class="left-socials-icons">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href=""><i class="fa-solid fa-p"></i></a>
           </div>
         </div>
       </div>
 
+      <div class="col-lg-3  col-md-6 col-12">
+        <h6>QUECK LINKS</h6>
+        <div class="row">
+          <div class="col-lg-5 col-5 footer-column-links">
+            <a href="">HOME</a>
+            <a href="">ABOUT US</a>
+            <a href="">PRODUCTS</a>
+            <a href="">BLOGS</a>
+            <a href="">GALLERY</a>
+            <a href="">CONTACT</a>
+          </div>
+          <div class="col-lg-5 col-6 footer-column-links">
+            <a href="">LOGIN</a>
+            <a href="">REGISTRATION</a>
+            <a href="">SERVICES</a>
+            <a href="">PAGES</a>
+            <a href="">OUR STORES</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-10 mb-2">
+        <h6>SOME POSTS</h6>
+        <div class="footer-post-sec">
+          <div>
+            <a href=""><img class="img-fluid" src="/homepageimages/b5.jpg" alt="">
+            </a>
+          </div>
+          <div class="ms-2">
+            <span class="footer-date">APR 07 / 15</span>
+            <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM </p>
+          </div>
+        </div>
 
-      <div class="copyright-section ">
-        <div class="row text-center">
-          <div class="col-lg-4 col-md-6 my-2 col-12">
-            <p>
-              © 2015 All rights reserved. Development by <a class="agency-copy" href="">UnionAgency</a>
-            </p>
+        <div class="footer-post-sec">
+          <div>
+            <a href=""><img class="img-fluid" src="/homepageimages/b6.jpg" alt="">
+            </a>
           </div>
-          <div class="col-lg-4 mb-2 col-md-6 col-12">
-            <div class="footer-social-icons">
-              <i class="fa-brands fa-facebook-f"></i>
-              <i class="fa-brands fa-twitter"></i>
-              <i class="fa-brands fa-linkedin-in"></i>
-              <i class="fa-brands fa-google"></i>
-              <i class="fa-solid fa-p"></i>
-            </div>
+          <div class="ms-2">
+            <span class="footer-date">APR 07 / 15</span>
+            <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM</p>
           </div>
-          <div class="col-lg-4 co-12 my-2">
-            <div class="footer-payment-icons">
-              <a class="entry"><img src="images/footer-pay1.jpg" alt=""></a>
-              <a class="entry"><img src="images/footer-pay2.jpg" alt=""></a>
-              <a class="entry"><img src="images/footer-pay3.jpg" alt=""></a>
-              <a class="entry"><img src="images/footer-pay4.jpg" alt=""></a>
-              <a class="entry"><img src="images/footer-pay5.jpg" alt=""></a>
-              <a class="entry"><img src="images/footer-pay6.jpg" alt=""></a>
-            </div>
+        </div>
+
+        <div class="footer-post-sec">
+          <div class="text-center">
+            <span class="footer-date">APR 07 / 15</span>
+            <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-6 col-12 ">
+        <h6>POPULAR TAGS</h6>
+        <div class="footer-column-links-tags">
+          <a href="">HEADPHONESS</a>
+          <a href="">ACCESSORIES</a>
+          <a href="">NEW</a>
+          <a href="">WIRELESS</a>
+          <a href="">CABLES</a>
+          <a href="">DEVICES</a>
+          <a href="">GADGETS</a>
+          <a href=""> BRANDS</a>
+          <a href="">CASES</a>
+          <a href=""> CABLES</a>
+          <a href="">PROFESSIONAL</a>
+        </div>
+
+        <div class="footer-contact-details-body">
+          <div class="">
+            <a href="" class="btn btn-youtube"><span><i class="fa-brands fa-youtube mx-1"></i></span>YouTube</a>
+          </div>
+          <div class="">
+            <a href="" class="btn btn-telegram"><span><i class="fa-brands fa-telegram mx-1"></i></span>Telegram</a>
+          </div>
+          <div>
+            <a href="" class="btn btn-Instagram"><span><i class="fa-brands fa-instagram mx-1"></i></span>
+              Instagram</a>
           </div>
         </div>
       </div>
     </div>
-  </footer>
+
+
+    <div class="copyright-section ">
+      <div class="row text-center">
+        <div class="col-lg-4 col-md-6 my-2 col-12">
+          <p>
+            © 2015 All rights reserved. Development by <a class="agency-copy" href="">UnionAgency</a>
+          </p>
+        </div>
+        <div class="col-lg-4 mb-2 col-md-6 col-12">
+          <div class="footer-social-icons">
+            <a href="" class=" text-decoration-none">Privacy Policy</a> <span class="text-white">|</span>
+            <a href="" class=" text-decoration-none">Terms And Condition</a>
+            
+          </div>
+        </div>
+        <div class="col-lg-4 co-12 my-2">
+          <div class="footer-payment-icons">
+            <a class="entry"><img src="images/footer-pay1.jpg" alt=""></a>
+            <a class="entry"><img src="images/footer-pay2.jpg" alt=""></a>
+            <a class="entry"><img src="images/footer-pay3.jpg" alt=""></a>
+            <a class="entry"><img src="images/footer-pay4.jpg" alt=""></a>
+            <a class="entry"><img src="images/footer-pay5.jpg" alt=""></a>
+            <a class="entry"><img src="images/footer-pay6.jpg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 
   <!-- owl.carousel -->
   <script>
@@ -1429,210 +1594,27 @@
   </script>
 
 
-  <!-- modal -->
-
-  <!-- <button id="openModalButton" >Open Modal</button > -->
-  <div class="modal" id="myModal">
-    <div class="modal-content text-center">
-      <span class="close" id="closeModalButton">&times;</span>
-      <form class="form">
-        <p class="title">Register </p>
-        <p class="message">Signup now and get full access to our app. </p>
-        <div class="flex">
-          <label>
-            <input required="" placeholder="" type="text" class="input">
-            <span>Firstname</span>
-          </label>
-
-          <label>
-            <input required="" placeholder="" type="text" class="input">
-            <span>Lastname</span>
-          </label>
-        </div>
-
-        <label>
-          <input required="" placeholder="" type="email" class="input">
-          <span>Email</span>
-        </label>
-
-        <label>
-          <input required="" placeholder="" type="password" class="input">
-          <span>Password</span>
-        </label>
-        <label>
-          <input required="" placeholder="" type="password" class="input">
-          <span>Confirm password</span>
-        </label>
-        <button class="submit">Submit</button>
-        <p class="signin">Already have an acount ? <a href="#">Signin</a> </p>
-      </form>
-    </div>
-  </div>
-
-  <style>
-    /* modal */
-    .modal {
-      position: absolute;
-      height: 100%;
-      z-index: 1;
-      overflow: hidden;
-    }
-
-    .close {
-      position: relative;
-      top: 0;
-      right: 0;
-      padding: 10px;
-      cursor: pointer;
-    }
-
-    .modal-content {
-      transform: translate(-50%, -50%);
-      top: 60%;
-      left: 50%;
-      width: 30%;
-    }
-
-    .form {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 20px;
-      position: relative;
-    }
-
-    .title {
-      font-size: 28px;
-      color: royalblue;
-      font-weight: 600;
-      letter-spacing: -1px;
-      position: relative;
-      display: flex;
-      align-items: center;
-      padding-left: 30px;
-    }
-
-    .title::before,
-    .title::after {
-      position: absolute;
-      content: "";
-      height: 16px;
-      width: 16px;
-      border-radius: 50%;
-      left: 0px;
-      background-color: royalblue;
-    }
-
-    .title::before {
-      width: 18px;
-      height: 18px;
-      background-color: royalblue;
-    }
-
-    .title::after {
-      width: 18px;
-      height: 18px;
-      animation: pulse 1s linear infinite;
-    }
-
-    .message,
-    .signin {
-      color: rgba(88, 87, 87, 0.822);
-      font-size: 14px;
-    }
-
-    .signin {
-      text-align: center;
-    }
-
-    .signin a {
-      color: royalblue;
-    }
-
-    .signin a:hover {
-      text-decoration: underline royalblue;
-    }
-
-    .flex {
-      display: flex;
-      width: 100%;
-      gap: 6px;
-    }
-
-    .form label {
-      position: relative;
-    }
-
-    .form label .input {
-      width: 100%;
-      padding: 10px 10px 20px 10px;
-      outline: 0;
-      border: 1px solid rgba(105, 105, 105, 0.397);
-      border-radius: 10px;
-    }
-
-    .form label .input+span {
-      position: absolute;
-      left: 10px;
-      top: 15px;
-      color: grey;
-      font-size: 0.9em;
-      cursor: text;
-      transition: 0.3s ease;
-    }
-
-    .form label .input:placeholder-shown+span {
-      top: 15px;
-      font-size: 0.9em;
-    }
-
-    .form label .input:focus+span,
-    .form label .input:valid+span {
-      top: 30px;
-      font-size: 0.7em;
-      font-weight: 600;
-    }
-
-    .form label .input:valid+span {
-      color: green;
-    }
-
-    .submit {
-      border: none;
-      outline: none;
-      background-color: royalblue;
-      padding: 10px;
-      border-radius: 10px;
-      color: #fff;
-      font-size: 16px;
-      transform: .3s ease;
-    }
-
-    .submit:hover {
-      background-color: rgb(56, 90, 194);
-    }
-
-    @keyframes pulse {
-      from {
-        transform: scale(0.9);
-        opacity: 1;
-      }
-
-      to {
-        transform: scale(1.8);
-        opacity: 0;
-      }
-    }
-  </style>
+  <!-- https://michalsnik.github.io/aos/ -->
+  <script src="js/aos.js"></script>
 
 
 
+  <script>
+    AOS.init({
+      easing: 'ease-out-back',
+      duration: 1000
+    });
+  </script>
 
+  <script>
+    hljs.initHighlightingOnLoad();
 
-
-
+    $('.hero__scroll').on('click', function (e) {
+      $('html, body').animate({
+        scrollTop: $(window).height()
+      }, 1200);
+    });
+  </script>
 
 
   <script src="js/script.js"></script>

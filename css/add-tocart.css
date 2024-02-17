@@ -46,16 +46,17 @@ border-radius: 11px;
 
 
 
+
+
 .add-to-bag-main-page {
   padding: 70px 0px 20px;
-  background: url(..//homepageimages/bg-serv.jpg);
 }
 .add-to-bag-body-content{
   border-radius: 10px;
   box-shadow: -2px -7px 16px gainsboro;
 }
 .add-to-bag-body-content .title-top-para {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   letter-spacing: 1px;
   color: #323232;
@@ -65,34 +66,6 @@ border-radius: 11px;
   margin: 0px 5px;
 }
 
-.review-paragraph-text {
-  font-size: 15px;
-  font-weight: 400;
-  letter-spacing: 0.5px;
-}
-
-.rating-date-like-bottom-sec.hstack i {
-  color: tomato;
-}
-
-.hstack div {
-  color: #f44336;
-  font-weight: 600;
-}
-.hstack-thumb {
-  color:#000;
-}
-
-
-.progress{
-  height: 9px !important;
-  width: 65% !important;
-}
-
-
-
-
-
 .add-tocart-featured-product {
   display: flex;
   align-items: center;
@@ -100,20 +73,37 @@ border-radius: 11px;
   gap: 7px;
 }
 
+.types-of-delivery-section p{
+font-size: 14px;
+text-align: center;
+}
+.types-of-delivery-section a{
+text-decoration: none;
+color: #DA1C5C;
+font-size: 14px;
+font-weight: 500;
+}
+.pincode-input a{
+  color: #DA1C5C;
+  font-size: 14px;
+  font-weight: 600;
+}
+
 .add-to-carts-featured-products-sizes-btn .btn {
-  padding: 13px;
-  border-radius: 14%;
-  background-color:skyblue;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #DA1C5C;
+  align-items: center;
+  background-color:#DA1C5C;
   font-size: 13px;
-  color:#000;
+  color:white;
   font-weight: 600;
 }
 
 .add-to-carts-featured-products-add-tobag-whishlist-btn .btn-1 {
-  background-color:#ea1e0fe5;
+  background-color:#DA1C5C;
   color: white;
-  padding: 6px 10px;
-  border-radius: 23px;
 }
 
 .add-to-carts-featured-products-add-tobag-whishlist-btn {
@@ -122,13 +112,17 @@ border-radius: 11px;
 }
 
 .add-to-carts-featured-products-add-tobag-whishlist-btn .btn {
-  border: 1px solid rgba(255, 0, 0, 0.181);
-  padding: 6px 10px;
-  border-radius: 23px;
+  border: 1px solid #DA1C5C;
+  padding: 6px 40px;
+  text-wrap: nowrap;
+  border-radius: 10px;
+}
+.add-to-carts-featured-products-sizes-btn p{
+  font-size: 14px;
 }
 .product-details{
-  letter-spacing: 0.6px;
-  font-size: 15px;
+  letter-spacing: 0.3px;
+  font-size: 14px;
   font-weight: 400;
 
 }
@@ -191,22 +185,10 @@ border-radius: 11px;
   color:wheat;
 }
 
-.Product-Reviews-section{
-  padding: 10px 0px 10px;
-  background: url(..//homepageimages/bg-serv.jpg);
-}
-.Product-Reviews-section.nav-link{
-  background-color:#b8cd06 !important;
-  color: white !important;
-  margin: 5px 5px;
-  border-radius: 23px !important;
-}
 
 
 
 
-
-/* footer */
 
 /* footer */
 .footer-section {
@@ -217,6 +199,15 @@ border-radius: 11px;
   font-size: 14px;
   letter-spacing: 1px;
   color: #bfa9a9ea;
+}
+
+.left-socials-icons a{
+  color: #DA1C5C;
+  border: 2px solid #DA1C5C;
+  padding: 5px 8px ;
+  font-size: 12px;
+  border-radius: 8px;
+  margin: 0px 4px;
 }
 
 .footer-contact-details-body  {
@@ -271,7 +262,7 @@ margin: 7px 0px 0px;
 .footer-column-links-tags a {
   font-size: 10px;
   text-transform: uppercase;
-  background: #424242f8;
+  background: #4242421e;
   color:#888;
   letter-spacing: .9px;
   line-height: 14px;
@@ -284,17 +275,17 @@ margin: 7px 0px 0px;
 }
 
 .footer-section p:hover {
-  color: #b8cd06;
+  color: #DA1C5C;
 }
 
 .footer-column-links a:hover {
-  color: #b8cd06;
+  color: #DA1C5C;
 }
 
 .footer-column-links-tags a:hover {
   color: white;
   transition: 0.4s ease-in-out;
-  background-color: #b8cd06;
+  background-color:#DA1C5C;
   -webkit-border-radius: 13px;
 
 }
@@ -337,20 +328,15 @@ margin: 7px 0px 0px;
   padding: 20px 0px 10px;
 }
 
-.footer-social-icons i {
-  border: 2px solid #424242;
-  padding: 5px 10px;
-  background: #424242;
+.footer-social-icons a{
   color: #888;
   font-size: 14px;
   text-align: center;
   margin: 6px;
-  -webkit-border-radius: 50%;
 }
 
-.footer-social-icons i:hover {
-  color: white;
-  background-color: #b8cd06;
+.footer-social-icons a:hover {
+  color: #DA1C5C;
   -webkit-transition: all .15s;
 }
 
@@ -360,7 +346,7 @@ margin: 7px 0px 0px;
 }
 
 .agency-copy {
-  color: #b8cd06;
+  color: #DA1C5C;
   text-decoration: none;
 }
 
