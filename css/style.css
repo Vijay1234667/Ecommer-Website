@@ -195,6 +195,7 @@ body {
   position: relative;
 }
 
+
 .product-tag-computer-section {
   position: absolute;
   font-size: 14px;
@@ -237,7 +238,7 @@ body {
 }
 .homepage-parallax-section-3 {
   background-image: url(../homepageimages/parallax-3.webp);
-  height: 50vh;
+  height: 45vh;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -246,7 +247,7 @@ body {
 }
 .homepage-parallax-section-4 {
   background-image: url(../homepageimages/parallax-4.webp);
-  height: 50vh;
+  height: 38.5vh;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
