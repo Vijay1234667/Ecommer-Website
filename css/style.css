@@ -56,11 +56,10 @@ body {
 
 /*  */
 .banner-product-all-categories-main-body h6 {
-  font-size: 17px;
-  font-family: sans-serif;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 500;
   color: #333333;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
 }
 
 /* left side */
@@ -143,12 +142,13 @@ body {
 }
 .product-cards .product-body .buy-now-btn .btn{
   background-color: #0eb2e82d;
+  border: 2px dashed #08556f2d;
   font-size: 13px;
   font-weight: 500;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.7px;
   border-radius: 23px;
   color: black;
-  padding: 4px 23px;
+  padding: 7px 23px;
 }
 
 .product-tag {
@@ -229,12 +229,13 @@ body {
 
 .computer-main-body-content .buy-now-btn .btn{
   background-color: #0eb2e82d;
+  border: 2px dashed #08556f2d;
   font-size: 13px;
   font-weight: 500;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.7px;
   border-radius: 23px;
   color: black;
-  padding: 4px 23px;
+  padding: 7px 23px;
 }
 
 /* parallax-section */
@@ -315,13 +316,14 @@ body {
 }
 
 .electronic-section .buy-now-btn .btn{
-   background-color: #0eb2e82d;
+  background-color: #0eb2e82d;
+  border: 2px dashed #08556f2d;
   font-size: 13px;
   font-weight: 500;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.7px;
   border-radius: 23px;
   color: black;
-  padding: 4px 23px;
+  padding: 7px 23px;
 }
 
 
@@ -362,12 +364,13 @@ body {
 
 .trending-section .buy-now-btn .btn{
   background-color: #0eb2e82d;
+  border: 2px dashed #08556f2d;
   font-size: 13px;
   font-weight: 500;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.7px;
   border-radius: 23px;
   color: black;
-  padding: 4px 23px;
+  padding: 7px 23px;
 }
 
 
@@ -378,23 +381,22 @@ body {
 }
 
 .brand-company-section img {
-  max-width: 100%;
-  padding: 10px;
-  box-shadow: 0.00px 1.00px 3px 0px rgba(0, 0, 0, 0.21);
+  padding: 8px;
+  box-shadow: 0.00px 1.00px 3px 0px rgba(0, 0, 0, 0.089);
 }
 
 .brand-company-section h4 {
-  font-size: 19px;
+  font-size: 32px;
+  letter-spacing: 2px;
   font-weight: 600;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .brand-company-section p {
-  font-size: 15px;
+  font-size: 18px;
   color: #424242;
   font-weight: 600;
   letter-spacing: 1px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -402,47 +404,47 @@ body {
 
 /* footer */
 .footer-section {
-  background-color:#a7c0c167;
-  padding: 30px 0px 10px;
+  background-color:#020402a9;
+  padding: 30px 0px 30px;
 }
 
 .footer-left-sec p {
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 0.7px;
-  font-family: "DIN Next", sans-serif;
-  color:#333333;
+  font-weight: 500;
+  color: #ebebeb;
 }
 
 .left-socials-icons a {
-  color: #333333;
-  border: 1px solid #333333;
-  padding: 5px 8px;
-  font-size: 12px;
-  border-radius: 4px;
+  color: #ebebeb;
+  border: 1px solid #ebebeb;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 100%;
 }
 .footer-column-links a {
-  font-size: 12px;
-  color: #333333fc;
+  font-size: 13px;
+  color: #ebebeb;
   text-transform: uppercase;
   border-radius: 10px;
   padding: 4px 10px;
   margin: 7px 0px 0px;
   display: block;
+  text-decoration: underline;
   font-weight: 500;
   text-decoration: none;
-  letter-spacing: 0.3px;
 }
 
 .footer-column-links a :hover {
-  color: #0EB2E8;
+  color: #ebebeb;
 }
 
 .footer-column-links-tags a {
   font-size: 10px;
   text-transform: uppercase;
   background: #4242421e;
-  border: 1px solid rgba(0, 0, 0, 0.152);
-  color: #333333d4;
+  border: 1px solid rgba(255, 255, 255, 0.271);
+  color: #ebebeb;
   letter-spacing: .9px;
   line-height: 14px;
   font-weight: 600;
@@ -477,8 +479,8 @@ body {
 }
 
 .footer-date {
-  font-size: 11px;
-  color: #333333;
+  font-size: 12px;
+  color: #ebebeb;
   text-transform: uppercase;
 }
 
@@ -490,7 +492,7 @@ body {
 
 .footer-post-sec p {
   font-size: 12px;
-  color:#333333;
+  color: #ebebeb;
 }
 
 .footer-section h6 {
@@ -498,7 +500,7 @@ body {
   text-align: center;
   letter-spacing: 1px;
   font-weight: 600;
-  color: black;
+  color: #ebebeb;
   text-transform: uppercase;
 }
 
@@ -509,7 +511,7 @@ body {
 }
 
 .footer-social-icons a {
-  color: #333333;
+  color: #ebebeb;
   font-size: 14px;
   text-align: center;
   margin: 6px;
@@ -522,12 +524,12 @@ body {
 
 .copyright-section p {
   font-size: 13px;
-  color: #333333;
+  color: #ebebeb;
   font-family: "DIN Next", sans-serif;
 }
 
 .agency-copy {
-  color: #DA1C5C;
+  color:  #ebebeb;
   text-decoration: none;
 }
 
