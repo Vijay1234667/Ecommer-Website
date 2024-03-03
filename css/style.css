@@ -14,30 +14,36 @@ body {
 
 /* navbar */
 .navbar {
-  background-color: whitesmoke;
+  background-color:#0d0d0d;
 }
 
 .navbar-nav a {
   font-size: 14px;
-  color: #343434;
-  letter-spacing: 1px;
+  font-weight: 500;
+  color:white;
+  letter-spacing: 2px;
 }
+.dropdown-item{
+  color: black !important;
+}
+
 
 .nav-brand-icons .nav-item i {
   font-size: 15px;
 }
 
 .dropdown-toggle::after {
-  color: #E80E50;
+  color:white;
 }
 
 .nav-brand-icons .btn {
   text-decoration: none;
-  background-color: #150a0a67;
-  color: white;
-  font-weight: 400;
-  padding: 4px 8px;
-  border-radius: 5px;
+  background-color:white;
+  color: #0d0d0d;  
+  font-weight: 500;
+  padding: 4px 18px;
+  border-radius: 23px;
+
 }
 
 .navbar input {
@@ -54,13 +60,23 @@ body {
 
 
 
+
 /*  */
+.banner-product-all-categories{
+  padding: 30px 0px 20px;
+}
 .banner-product-all-categories-main-body h6 {
   font-size: 15px;
   font-weight: 500;
   color: #333333;
   letter-spacing: 1.5px;
 }
+
+
+
+
+
+
 
 /* left side */
 .main-wrapper-section .home-leftside-wrapper .card {
@@ -90,14 +106,47 @@ body {
   padding: 6px 10px;
 }
 
+
+
+
+
+/* .image-overlay */
+
+/* #image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #image-container:hover .image-overlay {
+    opacity: 1;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background:url(/homepageimages/product10.jpg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    transition: opacity 0.5s;
+  } */
+
+
+
 /* right side */
 /* product-cards */
+
+
 .product-cap {
   display: flex;
   align-items: center;
   align-items: baseline;
   justify-content: space-between;
 }
+
 .product-cap h5 {
   font-size: 15px;
   color: #343434;
@@ -138,9 +187,10 @@ body {
 
 .product-body .discount {
   font-size: 15px;
-  color:#DA1C5C;
+  color: #DA1C5C;
 }
-.product-cards .product-body .buy-now-btn .btn{
+
+.product-cards .product-body .buy-now-btn .btn {
   background-color: #0eb2e82d;
   border: 2px dashed #08556f2d;
   font-size: 13px;
@@ -150,6 +200,7 @@ body {
   color: black;
   padding: 7px 23px;
 }
+
 
 .product-tag {
   position: absolute;
@@ -171,9 +222,18 @@ body {
   border: 1px solid #0EB2E8;
 }
 
+.badge-secondary:hover {
+  background-color: black;
+}
+
+.badge-secondary a:hover {
+  color: white;
+}
+
 .badge-secondary a {
   color: whitesmoke;
 }
+
 
 .product-price {
   color: #0D775E;
@@ -227,7 +287,16 @@ body {
   border: 1px solid #0EB2E8;
 }
 
-.computer-main-body-content .buy-now-btn .btn{
+.computer-section .badge-secondary:hover {
+  background-color: black;
+}
+
+.computer-section .badge-secondary a:hover {
+  color: white;
+}
+
+
+.computer-main-body-content .buy-now-btn .btn {
   background-color: #0eb2e82d;
   border: 2px dashed #08556f2d;
   font-size: 13px;
@@ -249,6 +318,23 @@ body {
   background-size: cover;
   background-position: 59% 45%;
   background-attachment: fixed;
+}
+.parallax-body-content{
+  padding: 80px 0px ;
+}
+
+.parallax-body-content h2{
+  color: white;
+  font-weight: 600; 
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+.parallax-body-content a{
+  color: white;
+  font-weight: 600; 
+  font-size: 16px;
+  border: 1px solid white;
+  letter-spacing: 2px;
 }
 
 .homepage-parallax-section-2 {
@@ -304,6 +390,15 @@ body {
   border: 1px solid #0EB2E8;
 }
 
+.electronic-section .badge-secondary:hover {
+  background-color: black;
+}
+
+.electronic-section .badge-secondary a:hover {
+  color: white;
+}
+
+
 .electronic-section-main-body-content .electronic-section-card-body {
   position: relative;
 }
@@ -315,7 +410,7 @@ body {
   right: 2px;
 }
 
-.electronic-section .buy-now-btn .btn{
+.electronic-section .buy-now-btn .btn {
   background-color: #0eb2e82d;
   border: 2px dashed #08556f2d;
   font-size: 13px;
@@ -329,6 +424,11 @@ body {
 
 
 /* trending-section */
+.trending-section{
+  background-color:#ebebeb1c;
+
+}
+
 .trending-section h4 {
   color: #343434;
   font-style: italic;
@@ -338,7 +438,7 @@ body {
 
 
 
-.trending-section.trending-main-body  {
+.trending-section.trending-main-body {
   position: relative;
 }
 
@@ -355,6 +455,15 @@ body {
   border: 1px solid #0EB2E8;
 }
 
+.trending-section .badge-secondary:hover {
+  background-color: black;
+}
+
+.trending-section .badge-secondary a:hover {
+  color: white;
+}
+
+
 .product-tag-trending-section {
   position: absolute;
   font-weight: 400;
@@ -362,7 +471,7 @@ body {
   right: 16px;
 }
 
-.trending-section .buy-now-btn .btn{
+.trending-section .buy-now-btn .btn {
   background-color: #0eb2e82d;
   border: 2px dashed #08556f2d;
   font-size: 13px;
@@ -372,6 +481,245 @@ body {
   color: black;
   padding: 7px 23px;
 }
+
+
+
+/* our-team-section */
+
+.our-team-section{
+  background-color:#ebebeb2c;
+  padding: 20px 0px 20px;
+
+}
+
+.our-team-section .our-team-section-top-content h2 {
+  font-size: 36px;
+
+}
+
+.our-team-section .our-team-section-top-content p {
+  font-weight: 400;
+  color: #6a6a6a;
+  line-height: 1.45;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17.5px;
+  letter-spacing: 1px;
+}
+
+.our-team-section .hire-team-btn .btn {
+  font-size: 13px;
+  letter-spacing: 0.7px;
+  color: #fff;
+  background-color: #ff3b30;
+  border-radius: 23px;
+  font-weight: 600;
+  padding: 0.4rem 1.4rem;
+
+}
+
+.our-team-section .card .card-img-top {
+  width: 120px;
+  display: block;
+  margin: 0px auto;
+}
+
+.our-team-section .card {
+  padding: 25px  25px;
+  flex-wrap: wrap;
+  border: 3px solid #f2f2f2f8;
+  border-radius: 10px;
+  margin: 10px 0px;
+}
+.our-team-section .card h4{
+  color: #404040;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-bottom: 15px;
+
+}
+.our-team-section .card h6{
+  color: #949494;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 22px;
+
+}
+.our-team-section .card .card-body a{
+  font-size: 17px;
+}
+.our-team-section .card .card-body a{
+  font-size: 17px;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+/*Limited-offers-section */
+.Limited-offers-section{
+  padding: 20px 0px 20px;
+}
+.Limited-offers-section .bg-pink{
+  background-color: #ffd9eb;
+}
+.Limited-offers-section h6{
+  font-size: 14px;
+  color: white;
+  background-color: #9b51e072;
+  padding: 4px 10px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  border-radius: 23px;
+}
+.Limited-offers-section h4{
+  font-size: 23px;
+  font-weight: 600;
+}
+.Limited-offers-section .limited-offer-btn .btn{
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background-color: #2d2237 ;
+  color: white;
+  padding: 6px 20px;
+  border-radius: 23px;
+
+}
+
+
+
+
+/* Cosmetics-sales-section */
+
+.Cosmetics-sales-section{
+  padding: 20px 0px 20px;
+}
+.Cosmetics-sales-section .card{
+background-color:#0d6efd;
+color: white;
+position: relative;
+}
+
+
+.sale-position{
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+.Cosmetics-sales-section .first-card .card-body h5{
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+.Cosmetics-sales-section .first-card .card-body p{
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.Cosmetics-sales-section .first-card .card-body .glasses-btn .btn{
+  font-size: 13px;
+  color: #fff;
+  background-color: rgb(255 255 255 / 15%);
+  border-color: rgb(255 255 255 / 15%);
+  padding: 10px 10px;
+}
+
+.Cosmetics-sales-section .second-card .card-body h5{
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+.Cosmetics-sales-section .second-card .card-body p{
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.Cosmetics-sales-section .second-card .card-body .Cosmetics-btn .btn{
+  font-size: 13px;
+  color: #fff;
+  background-color: rgb(255 255 255 / 15%);
+  border-color: rgb(255 255 255 / 15%);
+  padding: 10px 10px;
+}
+
+.Cosmetics-sales-section .third-card .card-img-overlay{
+ top: 20%;
+}
+
+.Cosmetics-sales-section .third-card .card-img-overlay .summer-btn .btn{
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: black;
+  background-color: white;
+  padding: 10px 10px;
+}
+
+.Cosmetics-sales-section .forth-card .card-body h2{
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.Cosmetics-sales-section .forth-card .card-body h6{
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.Cosmetics-sales-section .forth-card .card-body p{
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.Cosmetics-sales-section .forth-card .card-body .hurry-up-btn .btn{
+  font-size: 13px;
+  color: #fff;
+  background-color: rgb(255 255 255 / 15%);
+  border-color: rgb(255 255 255 / 15%);
+  padding: 8px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Discover Latest Offer */
+.Discover-Latest-Offer {
+  padding: 20px 0px 20px;
+  background-color:#ebebeb;
+}
+.Discover-Latest-Offer h3{
+  font-size: 29px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.Discover-Latest-Offer .btn{
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background-color: #2d2237 ;
+  color: white;
+  padding: 6px 20px;
+  border-radius: 23px;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* brand-company-section */
@@ -404,8 +752,9 @@ body {
 
 /* footer */
 .footer-section {
-  background-color:#020402a9;
-  padding: 30px 0px 30px;
+  /* background-color: #020402a9; */
+   background: #222;;
+  padding: 30px 0px 10px;
 }
 
 .footer-left-sec p {
@@ -422,6 +771,7 @@ body {
   font-size: 14px;
   border-radius: 100%;
 }
+
 .footer-column-links a {
   font-size: 13px;
   color: #ebebeb;
@@ -522,6 +872,24 @@ body {
   -webkit-transition: all .15s;
 }
 
+
+.footer-delevery-process{
+  background-color: #0d0d0d; 
+  padding: 30px 0px 30px;
+}
+.footer-delevery-process p{
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.footer-delevery-process i{
+  font-size: 29px;
+  color:#949494;
+  margin-bottom: 13px;
+}
+
+
+
+
 .copyright-section p {
   font-size: 13px;
   color: #ebebeb;
@@ -529,18 +897,20 @@ body {
 }
 
 .agency-copy {
-  color:  #ebebeb;
+  color: #ebebeb;
   text-decoration: none;
 }
 
-.footer-social-nav li{
+.footer-social-nav li {
   list-style-type: none;
   font-size: 13px;
 }
-.footer-social-nav li a{
+
+.footer-social-nav li a {
   font-size: 13px;
-  border: 1px solid rgba(0, 0, 0, 0.207);
+  border: 1px solid ;
   padding: 5px 6px;
   border-radius: 23px;
+  border: 1px solid rgba(255, 255, 255, 0.271);
   margin-right: 3px;
 }
