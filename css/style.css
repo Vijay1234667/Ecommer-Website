@@ -14,46 +14,45 @@ body {
 
 /* navbar */
 .navbar {
-  background-color:#0d0d0d;
+  background-color: #0d0d0d;
 }
 
 .navbar-nav a {
   font-size: 14px;
   font-weight: 500;
-  color:white;
+  color: white;
   letter-spacing: 2px;
 }
-.dropdown-item{
+
+.dropdown-item {
   color: black !important;
 }
-
 
 .nav-brand-icons .nav-item i {
   font-size: 15px;
 }
 
 .dropdown-toggle::after {
-  color:white;
+  color: white;
 }
 
 .nav-brand-icons .btn {
   text-decoration: none;
   background-color:white;
-  color: #0d0d0d;  
+  color: #0d0d0d;
   font-weight: 500;
   padding: 4px 18px;
   border-radius: 23px;
-
 }
 
 .navbar input {
+  text-align: center;
   width: 370px;
-  height: 40px;
+  border: 3px solid #0d6efd;
   letter-spacing: 1px;
   font-size: 14px;
-  border-radius: 11px;
+  border-radius: 23px;
 }
-
 
 
 
@@ -62,9 +61,11 @@ body {
 
 
 /*  */
-.banner-product-all-categories{
+.banner-product-all-categories {
   padding: 30px 0px 20px;
+
 }
+
 .banner-product-all-categories-main-body h6 {
   font-size: 15px;
   font-weight: 500;
@@ -72,8 +73,11 @@ body {
   letter-spacing: 1.5px;
 }
 
-
-
+.role-main-section {
+  z-index: 2;
+  position: relative;
+  background-color: white;
+}
 
 
 
@@ -84,62 +88,36 @@ body {
 }
 
 .home-leftside-wrapper .card-body h5 {
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .home-leftside-wrapper .card-body h6 {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .home-leftside-wrapper-price {
-  color: #f22a59;
+  color: #DA1C5C;
   font-weight: 700;
 }
 
 .home-leftside-wrapper .card-body .home-leftside-wrapper-btn {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   text-decoration: none;
   color: #fff;
-  background-color: #F92931;
-  border-radius: 7px;
-  padding: 6px 10px;
+  background-color: #0d6efd;
+  border-radius: 23px;
+  padding: 10px 16px;
 }
-
-
-
-
-
-/* .image-overlay */
-
-/* #image-container {
-    position: relative;
-    overflow: hidden;
-  }
-  
-  #image-container:hover .image-overlay {
-    opacity: 1;
-  }
-  
-  .image-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    background:url(/homepageimages/product10.jpg);
-    overflow: hidden;
-    background-repeat: no-repeat;
-    transition: opacity 0.5s;
-  } */
-
+.home-leftside-wrapper .card-body .home-leftside-wrapper-btn:hover {
+ background-color:#0d0d0d;
+ color: whitesmoke;
+ transition: 0.3s ease-in-out;
+}
 
 
 /* right side */
 /* product-cards */
-
-
 .product-cap {
   display: flex;
   align-items: center;
@@ -153,36 +131,28 @@ body {
 }
 
 .product-cap a {
-  font-size: 13px;
+  font-size: 15px;
   text-decoration: none;
   color: #424242;
   font-weight: 500;
 }
 
-.product-cards {
-  background: rgba(206, 132, 41, 0.067);
-}
-
-
 .product-cards .product-cards-main-body {
   position: relative;
   height: 100%;
-  background-color: white;
+  
 }
-
 .product-body .product-info {
   list-style-type: none;
   font-size: 13px;
-  letter-spacing: 0.7px;
+  letter-spacing: 0.4px;
 }
-
-
 .product-body .product-name {
   font-size: 17px;
   font-style: italic;
   font-weight: 600;
-  color: #DA1C5C;
-  letter-spacing: 0.7px;
+  color:#0d0d0d;
+  letter-spacing: 0.5px;
 }
 
 .product-body .discount {
@@ -194,7 +164,7 @@ body {
   background-color: #0eb2e82d;
   border: 2px dashed #08556f2d;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.7px;
   border-radius: 23px;
   color: black;
@@ -204,7 +174,6 @@ body {
 
 .product-tag {
   position: absolute;
-  font-weight: 400;
   top: 0;
   right: 2px;
 }
@@ -218,18 +187,17 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 15px;
-  background-color: #150a0a42;
-  border: 1px solid #0EB2E8;
+  background-color:#0d0d0d;
+  border: 2px solid #0EB2E8;
 }
 
 .badge-secondary:hover {
-  background-color: black;
+  background-color:#0d6efd;
+  transition: 0.3s ease-in-out;
 }
-
 .badge-secondary a:hover {
   color: white;
 }
-
 .badge-secondary a {
   color: whitesmoke;
 }
@@ -242,8 +210,8 @@ body {
 }
 
 .product-body .left-sidebar-yellow-star {
-  font-size: 11px;
-  color: black;
+  font-size: 14px;
+  color:#0d6efd;
   margin-bottom: 4px;
 }
 
@@ -319,19 +287,21 @@ body {
   background-position: 59% 45%;
   background-attachment: fixed;
 }
-.parallax-body-content{
-  padding: 80px 0px ;
+
+.parallax-body-content {
+  padding: 80px 0px;
 }
 
-.parallax-body-content h2{
+.parallax-body-content h2 {
   color: white;
-  font-weight: 600; 
+  font-weight: 600;
   font-size: 40px;
   letter-spacing: 2px;
 }
-.parallax-body-content a{
+
+.parallax-body-content a {
   color: white;
-  font-weight: 600; 
+  font-weight: 600;
   font-size: 16px;
   border: 1px solid white;
   letter-spacing: 2px;
@@ -424,8 +394,8 @@ body {
 
 
 /* trending-section */
-.trending-section{
-  background-color:#ebebeb1c;
+.trending-section {
+  background-color: #ebebeb1c;
 
 }
 
@@ -486,8 +456,8 @@ body {
 
 /* our-team-section */
 
-.our-team-section{
-  background-color:#ebebeb2c;
+.our-team-section {
+  background-color: #ebebeb2c;
   padding: 20px 0px 20px;
 
 }
@@ -524,19 +494,21 @@ body {
 }
 
 .our-team-section .card {
-  padding: 25px  25px;
+  padding: 25px 25px;
   flex-wrap: wrap;
   border: 3px solid #f2f2f2f8;
   border-radius: 10px;
   margin: 10px 0px;
 }
-.our-team-section .card h4{
+
+.our-team-section .card h4 {
   color: #404040;
   font-family: "Source Sans Pro", sans-serif;
   margin-bottom: 15px;
 
 }
-.our-team-section .card h6{
+
+.our-team-section .card h6 {
   color: #949494;
   font-size: 13px;
   font-weight: 600;
@@ -544,10 +516,12 @@ body {
   margin-bottom: 22px;
 
 }
-.our-team-section .card .card-body a{
+
+.our-team-section .card .card-body a {
   font-size: 17px;
 }
-.our-team-section .card .card-body a{
+
+.our-team-section .card .card-body a {
   font-size: 17px;
   text-decoration: none;
 }
@@ -559,13 +533,15 @@ body {
 
 
 /*Limited-offers-section */
-.Limited-offers-section{
+.Limited-offers-section {
   padding: 20px 0px 20px;
 }
-.Limited-offers-section .bg-pink{
+
+.Limited-offers-section .bg-pink {
   background-color: #ffd9eb;
 }
-.Limited-offers-section h6{
+
+.Limited-offers-section h6 {
   font-size: 14px;
   color: white;
   background-color: #9b51e072;
@@ -574,15 +550,17 @@ body {
   font-weight: 500;
   border-radius: 23px;
 }
-.Limited-offers-section h4{
+
+.Limited-offers-section h4 {
   font-size: 23px;
   font-weight: 600;
 }
-.Limited-offers-section .limited-offer-btn .btn{
+
+.Limited-offers-section .limited-offer-btn .btn {
   font-size: 15px;
   font-weight: 500;
   letter-spacing: 1px;
-  background-color: #2d2237 ;
+  background-color: #2d2237;
   color: white;
   padding: 6px 20px;
   border-radius: 23px;
@@ -594,30 +572,34 @@ body {
 
 /* Cosmetics-sales-section */
 
-.Cosmetics-sales-section{
+.Cosmetics-sales-section {
   padding: 20px 0px 20px;
 }
-.Cosmetics-sales-section .card{
-background-color:#0d6efd;
-color: white;
-position: relative;
+
+.Cosmetics-sales-section .card {
+  background-color: #0d6efd;
+  color: white;
+  position: relative;
 }
 
 
-.sale-position{
+.sale-position {
   position: absolute;
   right: 10px;
   top: 0;
 }
-.Cosmetics-sales-section .first-card .card-body h5{
+
+.Cosmetics-sales-section .first-card .card-body h5 {
   font-size: 19px;
   letter-spacing: 1px;
 }
-.Cosmetics-sales-section .first-card .card-body p{
+
+.Cosmetics-sales-section .first-card .card-body p {
   font-size: 14px;
   letter-spacing: 1px;
 }
-.Cosmetics-sales-section .first-card .card-body .glasses-btn .btn{
+
+.Cosmetics-sales-section .first-card .card-body .glasses-btn .btn {
   font-size: 13px;
   color: #fff;
   background-color: rgb(255 255 255 / 15%);
@@ -625,16 +607,17 @@ position: relative;
   padding: 10px 10px;
 }
 
-.Cosmetics-sales-section .second-card .card-body h5{
+.Cosmetics-sales-section .second-card .card-body h5 {
   font-size: 19px;
   letter-spacing: 1px;
 }
-.Cosmetics-sales-section .second-card .card-body p{
+
+.Cosmetics-sales-section .second-card .card-body p {
   font-size: 14px;
   letter-spacing: 1px;
 }
 
-.Cosmetics-sales-section .second-card .card-body .Cosmetics-btn .btn{
+.Cosmetics-sales-section .second-card .card-body .Cosmetics-btn .btn {
   font-size: 13px;
   color: #fff;
   background-color: rgb(255 255 255 / 15%);
@@ -642,11 +625,11 @@ position: relative;
   padding: 10px 10px;
 }
 
-.Cosmetics-sales-section .third-card .card-img-overlay{
- top: 20%;
+.Cosmetics-sales-section .third-card .card-img-overlay {
+  top: 20%;
 }
 
-.Cosmetics-sales-section .third-card .card-img-overlay .summer-btn .btn{
+.Cosmetics-sales-section .third-card .card-img-overlay .summer-btn .btn {
   font-size: 13px;
   letter-spacing: 1px;
   font-weight: 600;
@@ -655,23 +638,25 @@ position: relative;
   padding: 10px 10px;
 }
 
-.Cosmetics-sales-section .forth-card .card-body h2{
+.Cosmetics-sales-section .forth-card .card-body h2 {
   font-size: 34px;
   font-weight: 600;
   letter-spacing: 1px;
 }
-.Cosmetics-sales-section .forth-card .card-body h6{
+
+.Cosmetics-sales-section .forth-card .card-body h6 {
   font-size: 19px;
   font-weight: 600;
   letter-spacing: 1px;
 }
-.Cosmetics-sales-section .forth-card .card-body p{
+
+.Cosmetics-sales-section .forth-card .card-body p {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 1px;
 }
 
-.Cosmetics-sales-section .forth-card .card-body .hurry-up-btn .btn{
+.Cosmetics-sales-section .forth-card .card-body .hurry-up-btn .btn {
   font-size: 13px;
   color: #fff;
   background-color: rgb(255 255 255 / 15%);
@@ -692,19 +677,20 @@ position: relative;
 /* Discover Latest Offer */
 .Discover-Latest-Offer {
   padding: 20px 0px 20px;
-  background-color:#ebebeb;
+  background-color: #ebebeb;
 }
-.Discover-Latest-Offer h3{
+
+.Discover-Latest-Offer h3 {
   font-size: 29px;
   font-weight: 700;
   letter-spacing: 1px;
 }
 
-.Discover-Latest-Offer .btn{
+.Discover-Latest-Offer .btn {
   font-size: 15px;
   font-weight: 500;
   letter-spacing: 1px;
-  background-color: #2d2237 ;
+  background-color: #2d2237;
   color: white;
   padding: 6px 20px;
   border-radius: 23px;
@@ -752,8 +738,11 @@ position: relative;
 
 /* footer */
 .footer-section {
-  /* background-color: #020402a9; */
-   background: #222;;
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  overflow: hidden;
+  background: #222;
   padding: 30px 0px 10px;
 }
 
@@ -873,17 +862,19 @@ position: relative;
 }
 
 
-.footer-delevery-process{
-  background-color: #0d0d0d; 
+.footer-delevery-process {
+  background-color: #0d0d0d;
   padding: 30px 0px 30px;
 }
-.footer-delevery-process p{
+
+.footer-delevery-process p {
   font-size: 13px;
   letter-spacing: 1px;
 }
-.footer-delevery-process i{
+
+.footer-delevery-process i {
   font-size: 29px;
-  color:#949494;
+  color: #949494;
   margin-bottom: 13px;
 }
 
@@ -908,9 +899,13 @@ position: relative;
 
 .footer-social-nav li a {
   font-size: 13px;
-  border: 1px solid ;
+  border: 1px solid;
   padding: 5px 6px;
   border-radius: 23px;
   border: 1px solid rgba(255, 255, 255, 0.271);
   margin-right: 3px;
 }
+
+
+
+/* 984 */

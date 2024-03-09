@@ -61,8 +61,12 @@ body {
 
 /* profile */
 .main-profile-wrapper-body{
-  padding: 70px 0px 10px;
+  padding: 90px 0px 40px;
+ 
   background-color:#ebebeb;
+}
+.main-profile-wrapper-body .container{
+  max-width: 1000px !important;
 }
 .profile-area .main-profile {
   margin-bottom: 20px;
