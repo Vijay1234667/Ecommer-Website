@@ -97,11 +97,11 @@ body {
   border-radius: 23px;
   padding: 10px 16px;
 }
-.home-leftside-wrapper .card-body .home-leftside-wrapper-btn:hover {
+/* .home-leftside-wrapper .card-body .home-leftside-wrapper-btn:hover {
   background-color: #0d0d0d;
   color: whitesmoke;
   transition: 0.3s ease-in-out;
-}
+} */
 
 .home-leftside-wrapper .card-body .home-leftside-wrapper-btn:hover {
   background-color: white;
