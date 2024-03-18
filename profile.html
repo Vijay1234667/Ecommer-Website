@@ -27,10 +27,11 @@
     <nav class="navbar navbar-expand-md  fixed-top mb-5">
       <div class="container">
         <a class="navbar-brand" href="index.html"><img class="img-fluid" src="homepageimages/vmart_store-logo.png"
-            alt="" width="130px" height="200px"></a>
+            alt="" width="130px">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <i class="fa-solid fa-bars text-white"></i><span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
@@ -61,12 +62,11 @@
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="categories.html" id="navbarDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
                 Daily Deals
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="categories.html">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li>
                   <hr class="dropdown-divider">
@@ -117,34 +117,27 @@
               </ul>
             </li>
           </ul>
-          <form class="d-flex search-body m-auto">
-            <input class="form-control me-2" list="datalistOptions" placeholder="Search, Brand,Product....">
-            <datalist id="datalistOptions">
-              <option value="Tshirt"></option>
-              <option value="shirt"></option>
-              <option value="Laptop"></option>
-              <option value="MenTshirt"></option>
-              <option value="Shoes"></option>
-              </section>
-            </datalist>
-            <div>
-              <a href="" class="btn"><i class="fa-solid fa-magnifying-glass text-white"></i></a>
-            </div>
-          </form>
+
+          <div class="d-flex m-auto">
+            <input class="form-control" list="datalistOptions" placeholder="Search, Brand,Product....">
+            <a href="" class="btn"><i class="fa-solid fa-magnifying-glass text-white"></i></a>
+          </div>
 
           <ul class="navbar-nav nav-brand-icons">
             <li class="nav-item">
-              <a href="profile.html"><i class="fa-solid fa-user  p-2"></i>
+              <a href="profile.html"><i class="fa-solid fa-user p-2"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a href=""><i class="fa-solid fa-cart-shopping p-2 "></i>
+              <a href=""><i class="fa-solid fa-cart-shopping p-2"></i>
               </a>
             </li>
+
             <li class="login-btn mx-1">
-              <a href="profile.html"><a href="" class="btn">Login</a>
+              <a href=""><a href="" class="btn">Login</a>
               </a>
             </li>
+
           </ul>
         </div>
       </div>
@@ -153,6 +146,7 @@
 
 
   <main role="main">
+   <section class="role-main-section">
     <section class="main-profile-wrapper-body">
       <div class="container">
         <div class="profile-area">
@@ -252,197 +246,206 @@
         </div>
       </div>
     </section>
+   </section>
   </main>
 
 
- <!-- footer-section -->
+  <!-- footer-section -->
 
- <footer class="footer-section">
-  <div class="container">
-    <div class="row footer-top">
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="footer-left-sec">
-          <img class="img-fluid d-block m-auto mb-3" src="homepageimages/vmart_store-logo.png" alt="" width="160px"
-            height="200px">
-          <p class="text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium fugit, sunt tenetur qui aperiam, quia
-            laboriosam ducimus praesentium nisi.
-          </p>
-          <div class="left-socials-icons text-center">
-            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-            <a href=""><i class="fa-brands fa-twitter"></i></a>
-            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href=""><i class="fa-solid fa-p"></i></a>
+  <footer class="footer-section">
+    <div class="container">
+      <div class="row footer-top">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="footer-left-sec">
+            <img class="img-fluid d-block m-auto mb-3" src="homepageimages/vmart_store-logo.png" alt="" width="160px"
+              height="200px">
+            <p class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium fugit, sunt tenetur qui aperiam, quia
+              laboriosam ducimus praesentium nisi.
+            </p>
+            <div class="left-socials-icons text-center">
+              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href=""><i class="fa-solid fa-p"></i></a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-lg-3 col-md-6 col-12">
-        <h6>QUECK LINKS</h6>
-        <div class="row">
-          <div class="col-lg-6 col-6 footer-column-links">
-            <ul class="nav flex-column">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
+        <div class="col-lg-3 col-md-6 col-12">
+          <h6>QUECK LINKS</h6>
+          <div class="row">
+            <div class="col-lg-6 col-6 footer-column-links">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">BLOGS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="categories.html">Category</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6 col-6 footer-column-links">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">LOGIN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">REGISTRATION</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">PAGES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="Our-Team.html">OUR TEAM</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-10 mb-2">
+          <h6>SOME POSTS</h6>
+          <div class="footer-post-sec">
+            <div>
+              <a href=""><img class="img-fluid" src="homepageimages/b5.jpg" alt="">
+              </a>
+            </div>
+            <div class="ms-2">
+              <span class="footer-date">APR 07 / 15</span>
+              <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM </p>
+            </div>
+          </div>
+
+          <div class="footer-post-sec">
+            <div>
+              <a href=""><img class="img-fluid" src="homepageimages/b1.png" alt="">
+              </a>
+            </div>
+            <div class="ms-2">
+              <span class="footer-date">APR 07 / 15</span>
+              <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12 ">
+          <h6>POPULAR TAGS</h6>
+          <div class="footer-column-links-tags">
+            <a href="">HEADPHONESS</a>
+            <a href="">ACCESSORIES</a>
+            <a href="">NEW</a>
+            <a href="">WIRELESS</a>
+            <a href="">CABLES</a>
+            <a href="">DEVICES</a>
+            <a href="">GADGETS</a>
+            <a href=""> BRANDS</a>
+            <a href="">CASES</a>
+            <a href=""> CABLES</a>
+            <a href=""> CABLES</a>
+          </div>
+
+          <div class="footer-contact-details-body pt-2 ">
+            <ul class="footer-social-nav d-flex">
+              <li><a href="" class="btn btn-youtube text-white"><span><i
+                      class="fa-brands fa-youtube mx-1"></i></span>YouTube</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="">ABOUT US</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="profile.html">Profile</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">BLOGS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="categories.html">Category</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">CONTACT</a>
+              <li>
+                <a href="" class="btn btn-telegram text-white"><span><i
+                      class="fa-brands fa-telegram mx-1"></i></span>Telegram</a>
               </li>
             </ul>
           </div>
-          <div class="col-lg-6 col-6 footer-column-links">
-            <ul class="nav flex-column">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">LOGIN</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">REGISTRATION</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">SERVICES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">PAGES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="Our-Team.html">OUR TEAM</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 col-10 mb-2">
-        <h6>SOME POSTS</h6>
-        <div class="footer-post-sec">
-          <div>
-            <a href=""><img class="img-fluid" src="homepageimages/b5.jpg" alt="">
-            </a>
-          </div>
-          <div class="ms-2">
-            <span class="footer-date">APR 07 / 15</span>
-            <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM </p>
-          </div>
-        </div>
-
-        <div class="footer-post-sec">
-          <div>
-            <a href=""><img class="img-fluid" src="homepageimages/b1.png" alt="">
-            </a>
-          </div>
-          <div class="ms-2">
-            <span class="footer-date">APR 07 / 15</span>
-            <p>FUSCE TINCIDUNT ACCUMSAN PRETIUM</p>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="col-lg-3 col-md-6 col-sm-6 col-12 ">
-        <h6>POPULAR TAGS</h6>
-        <div class="footer-column-links-tags">
-          <a href="">HEADPHONESS</a>
-          <a href="">ACCESSORIES</a>
-          <a href="">NEW</a>
-          <a href="">WIRELESS</a>
-          <a href="">CABLES</a>
-          <a href="">DEVICES</a>
-          <a href="">GADGETS</a>
-          <a href=""> BRANDS</a>
-          <a href="">CASES</a>
-          <a href=""> CABLES</a>
-          <a href=""> CABLES</a>
-        </div>
-
-        <div class="footer-contact-details-body pt-2 ">
-          <ul class="footer-social-nav d-flex">
-            <li><a href="" class="btn btn-youtube text-white"><span><i
-                    class="fa-brands fa-youtube mx-1"></i></span>YouTube</a>
-            </li>
-            <li>
-              <a href="" class="btn btn-telegram text-white"><span><i
-                    class="fa-brands fa-telegram mx-1"></i></span>Telegram</a>
-            </li>
-          </ul>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="container-fluid p-0">
-    <div class="footer-delevery-process text-white text-center">
-      <div class="row justify-content-center">
-        <div class="col-lg-2 col-6">
-          <i class="fa-solid fa-thumbs-up"></i>
-          <h6>High Quality</h6>
-          <p>
-            Nullam sed sollicitudin mauris velit id venenatis morbi
-          </p>
-        </div>
-        <div class="col-lg-2 col-10">
-          <i class="fa-solid fa-phone-volume"></i>
-          <h6>Awesome Support</h6>
-          <p>
-            Nullam sed sollicitudin mauris velit id venenatis morbi </p>
-        </div>
+    <div class="container-fluid p-0">
+      <div class="footer-delevery-process text-white text-center">
+        <div class="row justify-content-center">
+          <div class="col-lg-2 col-6">
+            <i class="fa-solid fa-thumbs-up"></i>
+            <h6>High Quality</h6>
+            <p>
+              Nullam sed sollicitudin mauris velit id venenatis morbi
+            </p>
+          </div>
+          <div class="col-lg-2 col-10">
+            <i class="fa-solid fa-phone-volume"></i>
+            <h6>Awesome Support</h6>
+            <p>
+              Nullam sed sollicitudin mauris velit id venenatis morbi </p>
+          </div>
 
-        <div class="col-lg-2 col-6">
-          <i class="fa-solid fa-truck"></i>
-          <h6>Really Fast Delivery</h6>
-          <p>
-            Nullam sed sollicitudin mauris velit id venenatis morbi
-          </p>
-        </div>
-        <div class="col-lg-2 col-10">
-          <i class="fa-solid fa-right-left"></i>
-          <h6>14-Day Returns</h6>
-          <p>
-            Nullam sed sollicitudin mauris velit id venenatis morbi
-          </p>
-        </div>
-        <div class="col-lg-2 col-6">
-          <i class="fa-solid fa-lock"></i>
-          <h6>Secure Checkout</h6>
-          <p>
-            Nullam sed sollicitudin mauris velit id venenatis morbi
-          </p>
+          <div class="col-lg-2 col-6">
+            <i class="fa-solid fa-truck"></i>
+            <h6>Really Fast Delivery</h6>
+            <p>
+              Nullam sed sollicitudin mauris velit id venenatis morbi
+            </p>
+          </div>
+          <div class="col-lg-2 col-10">
+            <i class="fa-solid fa-right-left"></i>
+            <h6>14-Day Returns</h6>
+            <p>
+              Nullam sed sollicitudin mauris velit id venenatis morbi
+            </p>
+          </div>
+          <div class="col-lg-2 col-6">
+            <i class="fa-solid fa-lock"></i>
+            <h6>Secure Checkout</h6>
+            <p>
+              Nullam sed sollicitudin mauris velit id venenatis morbi
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="copyright-section pt-3">
-    <div class="row text-center">
-      <div class="col-lg-4 col-md-6 my-2 col-12">
-        <p>
-          © 2015 All rights reserved. Development by <a class="agency-copy" href="">Vijayyadav</a>
-        </p>
-      </div>
-      <div class="col-lg-4 mb-2 col-md-6 col-12">
-        <div class="footer-social-icons">
-          <a href="" class=" text-decoration-none">Privacy Policy</a> <span class="text-white">|</span>
-          <a href="" class=" text-decoration-none">Terms And Condition</a>
+    <div class="copyright-section pt-3">
+      <div class="row text-center">
+        <div class="col-lg-4 col-md-6 my-2 col-12">
+          <p>
+            © 2015 All rights reserved. Development by <a class="agency-copy" href="">Vijayyadav</a>
+          </p>
         </div>
-      </div>
-      <div class="col-lg-4 co-12">
-        <div class="footer-payment-icons">
-          <img class="img-fluid" src="homepageimages/payment.png" alt="" width="200">
+        <div class="col-lg-4 mb-2 col-md-6 col-12">
+          <div class="footer-social-icons">
+            <a href="" class=" text-decoration-none">Privacy Policy</a> <span class="text-white">|</span>
+            <a href="" class=" text-decoration-none">Terms And Condition</a>
+          </div>
+        </div>
+        <div class="col-lg-4 co-12">
+          <div class="footer-payment-icons">
+            <img class="img-fluid" src="homepageimages/payment.png" alt="" width="200">
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
+    <div class="window-top-bottom-scroll">
+      <button class=" btn" onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </div>
+
+
+
+
+  </footer>
+
 
 
   <!-- owl.carousel -->
