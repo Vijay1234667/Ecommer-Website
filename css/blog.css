@@ -52,107 +52,123 @@ body {
   border-radius: 8px;
 }
 
+/* blog-section */
 
-
-
-
-
-
-.all-cat-section{
-  background-color:#ebebebd0;
+.blog-section {
+  padding: 20px 0px 20px;
 }
 
-.categeory-main-wrapper{
-  max-width: 1024px !important;
-  background:url(../img/clients\ bg.jpg);
+.blog-right-social .blog-social-icons li {
+  list-style-type: none;
+  margin-right: 15px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: #0d0d0d;
 }
-.all-cat-section{
-    padding: 30px 0px 10px;
-}
-.categories-bg-img-body .btn{
-  background-color:#0d6efd;
+.blog-right-social .blog-social-icons li a {
   color: white;
-  border-radius: 23px;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 1px;
 }
-  .categories-bg-img{
-    background-image: url(../img/men\ t\ shirt-bg.png);
-    background-repeat: no-repeat;
-    padding: 20px 20px;
-    background-size: cover;
-    
-  }
-  .categories-bg-img-jacket{
-    background-image: url(../img/jackets.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px 20px;
 
-    
-  }
-  .categories-bg-img-shoes{
-    background-image: url(../img/item3.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px 20px;
+.blog-about-star-sec li {
+  list-style-type: none;
+  margin-right: 7px;
+}
+.blog-right-categories h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.blog-right-categories li {
+  list-style-type: none;
+  margin-bottom: 4px;
+}
+.blog-right-categories li a {
+  color: #0d0d0d;
+  font-weight: 500;
+  text-decoration: none;
+}
+.latest-post h4 {
+  font-size: 23px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.464);
+}
 
-  }
-  .categories-bg-img-Sunglasses{
-    background-image: url(../img/item4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px 20px;
+.blog-right-middle-para p {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 27px;
+  font-family: sans-serif;
+  letter-spacing: 0.3px;
+}
 
-  }
-  .categories-bg-img-winter{
-    background-image: url(../img/winter.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px 20px;
+.blog-right-bottom-social {
+}
 
-  }
-  .categories-bg-img-item-1{
-    background-image: url(../img/item2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px 20px;
+.blog-right-bottom-social li {
+  list-style-type: none;
+  margin-right: 15px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: #0d0d0d;
+}
+.blog-right-bottom-social li a {
+  color: white;
+}
 
-  }
-  .categories-bg-img-item-2{
-    background-image: url(../img/item1.\(1\).jpg);
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px 20px;
+.card-bottom-bg-blue {
+  background-color: #00234d;
+  color: white;
+  border-left: 10px solid #f76b6a;
+  padding: 20px 0px 20px;
+}
+.card-bottom-bg-blue h5 {
+  font-weight: 600;
+  font-size: 19px;
+  letter-spacing: 0.3px;
+}
+.card-bottom-bg-blue h6 {
+  font-weight: 400;
+  color: #f76b6a;
+}
 
-  }
-  .categories-bg-img-item-3{
-    background-image: url(../img/shoes.png);
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px 20px;
-
-  }
-  .categories-bg-img-item-4{
-    background-image: url(../img/Sunglasses.png);
-    padding: 20px 20px;
-
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .categories-bg-img-body{
-    padding: 10px ;
-  }
-  
-  
+.article-next-prev-btn .prev-btn {
+  border: 2px solid black;
+  padding: 7px 20px;
+  font-size: 13px;
+}
+.article-next-prev-btn .next-btn {
+  border: 2px solid #212529;
+  color: white;
+  font-size: 13px;
+  background-color: #212529;
+  padding: 7px 20px;
+}
+.popular-tags li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.popular-tags a {
+  color: white;
+  text-decoration: none;
+  -webkit-border-radius: 17px;
+  font-size: 17px;
+  font-weight: 400x;
+  background-color: #0d0d0d73;
+  padding: 8px 15px;
+  text-align: center;
+  padding: 5px 17px;
+  letter-spacing: 1px;
+  line-height: 18px;
+}
 
 /* footer */
 .footer-section {
-  /* background: #222; */
   background-color: #0d6efd;
   background-image: url(../homepageimages/Group\ 48095504\ footer-bg.svg);
   padding: 30px 0px 10px;
@@ -305,3 +321,5 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.271);
   margin-right: 3px;
 }
+
+/* 984 */

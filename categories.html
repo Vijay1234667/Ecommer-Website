@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/owl.carousel.css">
   <link rel="stylesheet" href="css/owl.theme.green.css">
@@ -24,13 +23,14 @@
 
   <!-- navigation -->
   <header>
-    <nav class="navbar navbar-expand-md  fixed-top mb-5">
+    <nav class="navbar navbar-expand-md">
       <div class="container">
         <a class="navbar-brand" href="index.html"><img class="img-fluid" src="homepageimages/vmart_store-logo.png"
-            alt="" width="130px" height="200px"></a>
+            alt="" width="130px">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <i class="fa-solid fa-bars text-white"></i><span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
@@ -61,12 +61,11 @@
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="categories.html" id="navbarDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
                 Daily Deals
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="categories.html">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li>
                   <hr class="dropdown-divider">
@@ -117,34 +116,27 @@
               </ul>
             </li>
           </ul>
-          <form class="d-flex search-body m-auto">
-            <input class="form-control me-2" list="datalistOptions" placeholder="Search, Brand,Product....">
-            <datalist id="datalistOptions">
-              <option value="Tshirt"></option>
-              <option value="shirt"></option>
-              <option value="Laptop"></option>
-              <option value="MenTshirt"></option>
-              <option value="Shoes"></option>
-              </section>
-            </datalist>
-            <div>
-              <a href="" class="btn"><i class="fa-solid fa-magnifying-glass text-white"></i></a>
-            </div>
-          </form>
+
+          <div class="d-flex m-auto">
+            <input class="form-control" list="datalistOptions" placeholder="Search, Brand,Product....">
+            <a href="" class="btn"><i class="fa-solid fa-magnifying-glass text-white"></i></a>
+          </div>
 
           <ul class="navbar-nav nav-brand-icons">
             <li class="nav-item">
-              <a href="profile.html"><i class="fa-solid fa-user  p-2"></i>
+              <a href="profile.html"><i class="fa-solid fa-user p-2"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a href=""><i class="fa-solid fa-cart-shopping p-2 "></i>
+              <a href=""><i class="fa-solid fa-cart-shopping p-2"></i>
               </a>
             </li>
+
             <li class="login-btn mx-1">
-              <a href="profile.html"><a href="" class="btn">Login</a>
+              <a href=""><a href="" class="btn">Login</a>
               </a>
             </li>
+
           </ul>
         </div>
       </div>
@@ -154,8 +146,53 @@
 
 
   <main>
+
+    <style>
+      .top-fixed-section {
+        color: white;
+        background: url(homepageimages/Group\ 48095504\ footer-bg.svg);
+        padding: 30px 0px 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+  
+      .top-fixed-section h1 {
+        color: white;
+        letter-spacing: 2px;
+        font-weight: 600;
+      }
+  
+      .breadcrumb-text-center {
+        justify-content: center !important;
+      }
+  
+      .breadcrumb-text-center a {
+        font-size: 18px;
+        color: aqua;
+        letter-spacing: 1px;
+  
+      }
+    </style>
+
+
+
     <section class="all-cat-section">
-      <div class="container categeory-main-wrapper">
+
+      <section>
+        <div class="container-fluid p-0 ">
+            <div class="top-fixed-section text-center">
+                <h1>Contact-Us</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb  breadcrumb-text-center">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+      <div class="container categeory-main-wrapper mt-4">
         <div class="row">
           <div class="col-lg-6 col-sm-6">
             <div class="categories-bg-img mb-3">
@@ -271,6 +308,7 @@
 
 
   <!-- footer-section -->
+
   <footer class="footer-section">
     <div class="container">
       <div class="row footer-top">
@@ -312,7 +350,7 @@
                   <a class="nav-link active" href="categories.html">Category</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">CONTACT</a>
+                  <a class="nav-link active" href="contact-us.html">CONTACT</a>
                 </li>
               </ul>
             </div>
@@ -376,7 +414,7 @@
             <a href=""> BRANDS</a>
             <a href="">CASES</a>
             <a href=""> CABLES</a>
-            <a href=""> CABLES</a>
+            <a href=""> SHIRT</a>
           </div>
 
           <div class="footer-contact-details-body pt-2 ">
@@ -440,7 +478,7 @@
       <div class="row text-center">
         <div class="col-lg-4 col-md-6 my-2 col-12">
           <p>
-            © 2015 All rights reserved. Development by <a class="agency-copy" href="">Vijayyadav</a>
+            © 2024 All rights reserved. Development by <a class="agency-copy" href="">Vijay.Yadav</a>
           </p>
         </div>
         <div class="col-lg-4 mb-2 col-md-6 col-12">
@@ -456,6 +494,13 @@
         </div>
       </div>
     </div>
+    <div class="window-top-bottom-scroll">
+      <button class=" btn" onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </div>
+
+
+
+
   </footer>
 
   <!-- owl.carousel -->

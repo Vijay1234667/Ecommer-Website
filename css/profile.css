@@ -9,21 +9,12 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-
-
-.role-main-section {
-  z-index: 2;
-  position: relative;
-  background-color: white;
-}
-
-
 
 /* navbar */
 .navbar {
-  background-color:#0d6efd;
+  background-color: #0d6efd;
 }
 
 .navbar-nav a {
@@ -32,7 +23,6 @@ body {
   letter-spacing: 1px;
   position: relative;
 }
-
 
 .dropdown-item {
   color: black !important;
@@ -48,7 +38,7 @@ body {
 
 .nav-brand-icons .btn {
   text-decoration: none;
-  background-color:white;
+  background-color: white;
   color: #0d0d0d;
   font-weight: 500;
   padding: 4px 18px;
@@ -56,7 +46,6 @@ body {
 }
 
 .navbar input {
-  text-align: center;
   width: 370px;
   letter-spacing: 1px;
   font-size: 13px;
@@ -70,15 +59,14 @@ body {
 
 
 
-
 /* profile */
 .main-profile-wrapper-body{
-  padding: 90px 0px 40px;
- 
+  padding: 20px 0px 40px;
   background-color:#ebebeb;
 }
 .main-profile-wrapper-body .container{
-  max-width: 1000px !important;
+  max-width: 1020px !important;
+  margin: 0px auto;
 }
 .profile-area .main-profile {
   margin-bottom: 20px;
@@ -123,10 +111,6 @@ border-radius: 4px;
 
 /* footer */
 .footer-section {
-  position: sticky;
-  bottom: 0;
-  z-index: 1;
-  overflow: hidden;
   /* background: #222; */
   background-color: #0d6efd;
   background-image: url(../homepageimages/Group\ 48095504\ footer-bg.svg);
@@ -142,36 +126,26 @@ border-radius: 4px;
 
 .left-socials-icons a {
   color: #ebebeb;
-  border: 1px solid #ebebeb;
-  padding: 8px 12px;
-  font-size: 13px;
+  border: 1px solid white;
+  padding: 8px;
+  font-size: 10px;
   border-radius: 100%;
 }
 
 .footer-column-links a {
-  font-size: 13px;
+  font-size: 11px;
   color: #ebebeb;
   text-transform: uppercase;
-  border-radius: 10px;
   padding: 4px 10px;
   margin: 7px 0px 0px;
   display: block;
-  text-decoration: underline;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-.footer-column-links a :hover {
-  color: #ebebeb;
 }
 
 .footer-column-links-tags a {
-  font-size: 13px;
-  text-transform: uppercase;
-  background: #4242421e;
+  font-size: 11px;
   border: 1px solid rgba(255, 255, 255, 0.271);
   color: #ebebeb;
-  letter-spacing: .9px;
+  letter-spacing: 0.9px;
   line-height: 14px;
   font-weight: 600;
   padding: 8px 15px;
@@ -180,21 +154,11 @@ border-radius: 4px;
   text-decoration: none;
   -webkit-border-radius: 17px;
 }
-
-.footer-section p:hover {
-  color: #DA1C5C;
-}
-
-.footer-column-links a:hover {
-  color: #DA1C5C;
-}
-
 .footer-column-links-tags a:hover {
   color: white;
   transition: 0.4s ease-in-out;
-  background-color: #DA1C5C;
+  background-color: #da1c5c;
   -webkit-border-radius: 13px;
-
 }
 
 .footer-post-sec {
@@ -205,7 +169,7 @@ border-radius: 4px;
 }
 
 .footer-date {
-  font-size: 13px;
+  font-size: 10px;
   color: #ebebeb;
   text-transform: uppercase;
 }
@@ -217,7 +181,7 @@ border-radius: 4px;
 }
 
 .footer-post-sec p {
-  font-size: 13px;
+  font-size: 12px;
   color: #ebebeb;
 }
 
@@ -231,7 +195,7 @@ border-radius: 4px;
 }
 
 .footer-top {
-  border-bottom: 3px rgba(255, 255, 255, .05) solid;
+  border-bottom: 3px rgba(255, 255, 255, 0.05) solid;
   border-width: 2px;
   padding: 20px 0px 10px;
 }
@@ -243,33 +207,23 @@ border-radius: 4px;
   margin: 6px;
 }
 
-.footer-social-icons a:hover {
-  color: #DA1C5C;
-  -webkit-transition: all .15s;
-}
-
-
 .footer-delevery-process {
-  /* background-color: #0d0d0d; */
   padding: 30px 0px 30px;
 }
 
 .footer-delevery-process p {
-  font-size: 13px;
+  font-size: 11px;
   letter-spacing: 1px;
 }
 
 .footer-delevery-process i {
-  font-size: 29px;
+  font-size: 20px;
   /* color: #949494; */
   margin-bottom: 13px;
 }
 
-
-
-
 .copyright-section p {
-  font-size: 13px;
+  font-size: 11px;
   color: #ebebeb;
   font-family: "DIN Next", sans-serif;
 }
@@ -281,28 +235,26 @@ border-radius: 4px;
 
 .footer-social-nav li {
   list-style-type: none;
-  font-size: 13px;
+  font-size: 11px;
 }
 
-
-.window-top-bottom-scroll{
-background-color: white;
-position: fixed;
-bottom: 0;
-right: 10px;
-display: flex;
-justify-content: center;
-align-items: center;
-border-radius: 50%;
-height: 50px;
-width: 50px;
+.window-top-bottom-scroll {
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
 }
 
-.window-top-bottom-scroll .btn{
+.window-top-bottom-scroll .btn {
   padding: 10px 20px;
   font-size: 13px;
 }
-
 
 .footer-social-nav li a {
   font-size: 13px;
@@ -312,3 +264,5 @@ width: 50px;
   border: 1px solid rgba(255, 255, 255, 0.271);
   margin-right: 3px;
 }
+
+/* 984 */
