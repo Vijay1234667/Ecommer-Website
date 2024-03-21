@@ -18,7 +18,7 @@ body {
 }
 
 .navbar-nav a {
-  font-size: 13px;
+  font-size: 14px;
   color: white;
   letter-spacing: 1px;
   position: relative;
@@ -28,30 +28,25 @@ body {
   color: black !important;
 }
 
-.nav-brand-icons .nav-item i {
-  font-size: 13px;
-}
-
 .dropdown-toggle::after {
   color: white;
 }
 
 .nav-brand-icons .btn {
   text-decoration: none;
-  background-color: white;
-  color: #0d0d0d;
+  color:white;
   font-weight: 500;
   padding: 4px 18px;
+  border: 1px solid whitesmoke;
   border-radius: 2px;
 }
 
 .navbar input {
-  width: 370px;
   letter-spacing: 1px;
   font-size: 13px;
-  border-radius: 8px;
+  width: 500px;
+  border-radius: 2px;
 }
-
 
 
 
@@ -111,7 +106,6 @@ border-radius: 4px;
 
 /* footer */
 .footer-section {
-  /* background: #222; */
   background-color: #0d6efd;
   background-image: url(../homepageimages/Group\ 48095504\ footer-bg.svg);
   padding: 30px 0px 10px;
@@ -127,9 +121,10 @@ border-radius: 4px;
 .left-socials-icons a {
   color: #ebebeb;
   border: 1px solid white;
-  padding: 8px;
-  font-size: 10px;
-  border-radius: 100%;
+  padding: 12px;
+  font-size: 13px;
+  margin-right: 10px;
+  border-radius: 10%;
 }
 
 .footer-column-links a {
@@ -264,5 +259,4 @@ border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.271);
   margin-right: 3px;
 }
-
 /* 984 */

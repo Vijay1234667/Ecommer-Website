@@ -23,8 +23,8 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-md">
-      <div class="container">
+    <nav class="navbar navbar-expand-md ">
+      <div class="container-fluid">
         <a class="navbar-brand" href="index.html"><img class="img-fluid" src="homepageimages/vmart_store-logo.png"
             alt="" width="130px">
         </a>
@@ -34,109 +34,35 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Home
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="https://vijay1234667.github.io/Landwind.Css-Page/">Page1</a></li>
-                <li><a class="dropdown-item" href="https://vijay1234667.github.io/Asmelhore-lander/">Page2</a></li>
-                <li><a class="dropdown-item" href="https://vijay1234667.github.io/Landing-Page/">Page3</a></li>
-                <li><a class="dropdown-item" href="https://vijay1234667.github.io/Wooder-carpenter-page/">Page4</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Shop
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Daily Deals
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="cart.html" id="navbarDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Blog
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="cart.html">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="my-coupan.html" id="navbarDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Page
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="my-coupan.html">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Portfolio
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Portfolio1</a></li>
-                <li><a class="dropdown-item" href="#">Portfolio2</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Portfolio3</a></li>
-              </ul>
-            </li>
+            <a href=""><i class="fa-solid fa-bars fs-5"></i></a>
           </ul>
-
-          <div class="d-flex m-auto">
-            <input class="form-control" list="datalistOptions" placeholder="Search, Brand,Product....">
-            <a href="" class="btn"><i class="fa-solid fa-magnifying-glass text-white"></i></a>
+          <div class="d-flex ms-auto position-relative">
+            <div class="">
+              <input class="form-control" list="datalistOptions" placeholder="Search, Brand,Product....">
+            </div>
+            <div class="position-absolute top-0 end-0">
+              <a href="" class="btn "><i class="fa-solid fa-magnifying-glass dark"></i></a>
+            </div>
           </div>
 
-          <ul class="navbar-nav nav-brand-icons">
-            <li class="nav-item">
-              <a href="profile.html"><i class="fa-solid fa-user p-2"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href=""><i class="fa-solid fa-cart-shopping p-2"></i>
+          <ul class="navbar-nav nav-brand-icons m-auto">
+            <li class="login-btn px-2">
+              <a href=""><a href="" class="btn"><span><i class="fa-solid fa-user px-1"></i></span>Login</a>
               </a>
             </li>
 
-            <li class="login-btn mx-1">
-              <a href=""><a href="" class="btn">Login</a>
-              </a>
+            <li class="login-btn Track-Order px-1 px-3 position-relative">
+              <a href="" class="btn">Track Order</a>
+              <span 
+              class="position-absolute top-0 strat-0   translate-middle badge rounded-pill bg-danger">
+              <i class="fa-solid fa-truck"></i></span>
             </li>
-
+            
+            <li class="login-btn Cart position-relative px-2">
+              <a href="" class="btn">Cart</a>
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">2+</i></span>
+            </li>
           </ul>
         </div>
       </div>
@@ -234,7 +160,7 @@
                   <a class="nav-link active" href="profile.html">Profile</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">BLOGS</a>
+                  <a class="nav-link active" href="blog.html">BLOGS</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" href="categories.html">Category</a>
@@ -250,7 +176,7 @@
                   <a class="nav-link active" href="#">LOGIN</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">REGISTRATION</a>
+                  <a class="nav-link active" href="Registration.html">REGISTRATION</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" href="#">SERVICES</a>
