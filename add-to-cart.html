@@ -54,11 +54,10 @@
 
             <li class="login-btn Track-Order px-1 px-3 position-relative">
               <a href="" class="btn">Track Order</a>
-              <span 
-              class="position-absolute top-0 strat-0   translate-middle badge rounded-pill bg-danger">
-              <i class="fa-solid fa-truck"></i></span>
+              <span class="position-absolute top-0 strat-0   translate-middle badge rounded-pill bg-danger">
+                <i class="fa-solid fa-truck"></i></span>
             </li>
-            
+
             <li class="login-btn Cart position-relative px-2">
               <a href="" class="btn">Cart</a>
               <span
@@ -183,7 +182,7 @@
                 <span class="text-dark fs-3"><span>&#8377;</span id="increaseprice">458</span> <span
                   class="text-secondary fs-5 mx-2"><del><span>&#8377;</span>1089</del></span> <span
                   class="text-danger fs-5">(70% off)</span>
-                </h6>
+              </h6>
               <p class="text-success fw-bold font-monospace">Add Item Here</p>
               <div class="d-flex ms-auto align-items-end plus-minus mb-3">
                 <button class="value-button decrease-button" onclick="decreaseValue(this)" title="Azalt">-</button>
@@ -218,10 +217,6 @@
                 </p>
               </div>
             </div>
-
-
-
-
 
             <h6 class="fw-bold">Ship To</h6>
             <div
@@ -436,6 +431,118 @@
         </div>
       </div>
     </section>
+
+
+
+    <!-- Related-products -->
+
+    <section class="related-products-section">
+      <div class="container">
+        <div class="related-products-title text-center mb-2">
+          <h2>Our Related Products</h2>
+          <p>What We Provide For You check now and deside it
+            do you want now this</p>
+        </div>
+
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="card">
+              <div class="inner">
+                <img   src="img/k1.webp" class="card-img-top inner" alt="">
+              </div>
+              <div class="card-body text-center">
+                <h4 class="card-title"><i>Product1</i></h4>
+                <p class="card-text">Professionals work with a variety of all materials, in a variety of
+                  settings–indoor and outdoor.</p>
+                <div class="card-btn text-center">
+                  <button class="btn  text-danger fw-bold">Read More <span><i
+                        class="fa-solid fa-arrow-right"></i></span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <div class="inner">
+                <img src="img/k2.webp" class="card-img-top inner" alt="">
+              </div>
+              <div class="card-body text-center">
+                <h4 class="card-title"><i>Product1</i></h4>
+                <p class="card-text">Professionals work with a variety of all materials, in a variety of
+                  settings–indoor and outdoor.</p>
+                <div class="card-btn text-center">
+                  <button class="btn  text-danger fw-bold">Read More <span><i
+                        class="fa-solid fa-arrow-right"></i></span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <div class="inner">
+                <img src="img/k3.webp" class="card-img-top inner" alt="">
+              </div>
+              <div class="card-body text-center">
+                <h4 class="card-title"><i>Product1</i></h4>
+                <p class="card-text">Professionals work with a variety of all materials, in a variety of
+                  settings–indoor and outdoor.</p>
+                <div class="card-btn text-center">
+                  <button class="btn  text-danger fw-bold">Read More <span><i
+                        class="fa-solid fa-arrow-right"></i></span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <div class="inner">
+                <img src="img/k4.webp" class="card-img-top inner" alt="">
+              </div>
+              <div class="card-body text-center">
+                <h4 class="card-title"><i>Product1</i></h4>
+                <p class="card-text">Professionals work with a variety of all materials, in a variety of
+                  settings–indoor and outdoor.</p>
+                <div class="card-btn text-center">
+                  <button class="btn  text-danger fw-bold">Read More <span><i
+                        class="fa-solid fa-arrow-right"></i></span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <div class="inner">
+                <img src="img/k5.webp" class="card-img-top inner" alt="">
+              </div>
+              <div class="card-body text-center">
+                <h4 class="card-title"><i>Product1</i></h4>
+                <p class="card-text">Professionals work with a variety of all materials, in a variety of
+                  settings–indoor and outdoor.</p>
+                <div class="card-btn text-center">
+                  <button class="btn  text-danger fw-bold">Read More <span><i
+                        class="fa-solid fa-arrow-right"></i></span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <div class="inner">
+                <img src="" class="card-img-top inner" alt="">
+              </div>
+              <div class="card-body text-center">
+                <h4 class="card-title"><i>Product1</i></h4>
+                <p class="card-text">Professionals work with a variety of all materials, in a variety of
+                  settings–indoor and outdoor.</p>
+                <div class="card-btn text-center">
+                  <button class="btn  text-danger fw-bold">Read More <span><i
+                        class="fa-solid fa-arrow-right"></i></span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
@@ -667,7 +774,29 @@
     });
   </script>
 
-
+  <!-- owl.carousel -->
+  <script>
+    $(document).ready(function () {
+      $('.owl-carousel').owlCarousel({
+        margin: 30,
+        loop: false,
+        autoplay: false,
+        slideTransition: 'linear',
+        autoplayTimeout: 2000,
+        autoplaySpeed: 7000,
+        responsive: {
+          0: {
+            items: 1,
+            slideBy: 1,
+          },
+          768: {
+            items: 4,
+            slideBy: 1,
+          }
+        },
+      });
+    })
+  </script>
 
   <script>
     function increaseValue(button, limit) {
