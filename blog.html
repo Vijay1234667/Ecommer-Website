@@ -10,60 +10,63 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/blog.css">
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-    <script src="js/jquery.min.js">
-    </script>
-    <script src="js/owl.carousel.min.js">
-    </script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md  mb-4">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img class="img-fluid" src="homepageimages/vmart_store-logo.png"
-                alt="" width="130px">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <i class="fa-solid fa-bars text-white"></i><span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-md">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">ONLINE SHOP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+              aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav">
-                <a href=""><i class="fa-solid fa-bars fs-5"></i></a>
-              </ul>
-              <div class="d-flex ms-auto position-relative">
-                <div class="">
-                  <input class="form-control" list="datalistOptions" placeholder="Search, Brand,Product....">
-                </div>
-                <div class="position-absolute top-0 end-0">
-                  <a href="" class="btn "><i class="fa-solid fa-magnifying-glass dark"></i></a>
-                </div>
-              </div>
-    
-              <ul class="navbar-nav nav-brand-icons m-auto">
-                <li class="login-btn px-2">
-                  <a href=""><a href="" class="btn"><span><i class="fa-solid fa-user px-1"></i></span>Login</a>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Shop</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Portfolio
                   </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
                 </li>
-    
-                <li class="login-btn Track-Order px-1 px-3 position-relative">
-                  <a href="" class="btn">Track Order</a>
-                  <span 
-                  class="position-absolute top-0 strat-0   translate-middle badge rounded-pill bg-danger">
-                  <i class="fa-solid fa-truck"></i></span>
-                </li>
-                
-                <li class="login-btn Cart position-relative px-2">
-                  <a href="" class="btn">Cart</a>
-                  <span
-                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">2+</i></span>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
                 </li>
               </ul>
+              <div class="navbar-right-btn">
+                <a href="javascript:void(0)" class="btn">Sign Up</a>
+                <a href="javascript:void(0)" class="btn">Login</a>
+              </div>
             </div>
           </div>
         </nav>
@@ -72,48 +75,34 @@
 
     <style>
         .top-fixed-section {
-          color: white;
-          background: url(homepageimages/Group\ 48095504\ footer-bg.svg);
-          padding: 20px 0px 20px;
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position: center;
+            color: white;
+            background-color:rgba(0, 0, 0, 0.718);
+            padding: 20px 0px 20px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
         }
-    
+
         .top-fixed-section h1 {
-          color: white;
-          letter-spacing: 2px;
-          font-weight: 600;
+            color: white;
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
         }
-    
+
         .breadcrumb-text-center {
-          justify-content: center !important;
+            justify-content: center !important;
         }
-    
-        .breadcrumb-text-center a {
-          font-size: 18px;
-          color: aqua;
-          letter-spacing: 1px;
-    
-        }
-      </style>
+    </style>
 
     <main role="main">
         <section class="blog-section">
-
             <section>
-                <div class="container-fluid p-0 mt-3 mb-4">
-                  <div class="top-fixed-section text-center">
-                    <h1>Blogs</h1>
-                    <nav aria-label="breadcrumb">
-                      <ol class="breadcrumb  breadcrumb-text-center">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item "><a href="">Library</a></li>
-                      </ol>
-                    </nav>
-                  </div>
+                <div class="container-fluid p-0  mb-4">
+                    <div class="top-fixed-section text-center">
+                        <h1>Blogs</h1>
+                    </div>
                 </div>
-              </section>
+            </section>
 
             <div class="container">
                 <div class="row">
@@ -122,16 +111,16 @@
                             <img class="img-fluid" src="homepageimages/blogleft-top-img.jpg" alt="">
                         </div>
                         <div>
-                            <h2 class="fw-bolder mb-3 pt-2">Delivering What Consumers Really Value?</h2>
+                            <h2 class="fw-bolder mb-3 pt-2 text-secondary">Delivering What Consumers Really Value?</h2>
                             <div class="d-flex mb-4">
-                                <div class="px-2">
-                                    <span><i class="fa-solid fa-user px-1"></i><span></span>Lara Joe</span>
+                                <div>
+                                    <i class="fa-solid fa-user px-1 text-secondary"></i></span>Lara Joe</span>
                                 </div>
-                                <div class="px-2">
-                                    <span><i class="fa-solid fa-comment px-1"></i><span></span>3 Comments</span>
+                                <div class="mx-2">
+                                    <i class="fa-solid fa-comment px-1 text-success"></i></span>3 Comments</span>
                                 </div>
-                                <div class="px-2">
-                                    <span><i class="fa-solid fa-house px-1"></i><span></span>Furniture</span>
+                                <div>
+                                    <i class="fa-solid fa-house px-1 text-primary"></i></span>Furniture</span>
                                 </div>
                             </div>
 
@@ -153,7 +142,8 @@
                                 </p>
                             </div>
                             <div class="card mb-4 p-5 card-bottom-bg-blue">
-                                <h5 class="mb-4">Words can be like X-rays, if you use them properly—they’ll go through anything. You
+                                <h5 class="mb-4">Words can be like X-rays, if you use them properly—they’ll go through
+                                    anything. You
                                     read and you’re pierced.</h5>
                                 <h6> —Aldous Huxley</h6>
                             </div>
@@ -169,26 +159,26 @@
                             <div class="blog-right-bottom-social">
                                 <ul class="d-flex p-0">
                                     <li>
-                                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="javascript:void(0)"><i class="fa-brands fa-facebook-f"></i></a>
                                     </li>
                                     <li>
-                                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="javascript:void(0)"><i class="fa-brands fa-twitter"></i></a>
                                     </li>
                                     <li>
-                                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                                        <a href="javascript:void(0)"><i class="fa-brands fa-linkedin-in"></i></a>
                                     </li>
                                     <li>
-                                        <a href=""><i class="fa-solid fa-p"></i></a>
+                                        <a href="javascript:void(0)"><i class="fa-solid fa-p"></i></a>
                                     </li>
                                 </ul>
                             </div>
 
                             <div class="d-flex justify-content-between article-next-prev-btn">
                                 <div>
-                                    <a href="" class="btn  prev-btn">PREV ARTICLE</a>
+                                    <a href="javascript:void(0)" class="btn  prev-btn">PREV ARTICLE</a>
                                 </div>
                                 <div>
-                                    <a href="" class="btn next-btn">NEXT ARTICLE</a>
+                                    <a href="javascript:void(0)" class="btn next-btn">NEXT ARTICLE</a>
                                 </div>
                             </div>
                         </div>
@@ -201,7 +191,7 @@
                                     alt="" height="70px" width="70px">
                             </div>
                             <div class="text-center">
-                                <h4>Shakespeare D. Willaim</h4>
+                                <h4 class="text-danger">Shakespeare D. Willaim</h4>
                                 <h6>Bloger / Photographer</h6>
                                 <ul class="d-flex justify-content-center blog-about-star-sec">
                                     <li>
@@ -229,16 +219,16 @@
                                 </p>
                                 <ul class="d-flex justify-content-center blog-social-icons">
                                     <li>
-                                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="javascript:void(0)"><i class="fa-brands fa-facebook-f"></i></a>
                                     </li>
                                     <li>
-                                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="javascript:void(0)"><i class="fa-brands fa-twitter"></i></a>
                                     </li>
                                     <li>
-                                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                                        <a href="javascript:void(0)"><i class="fa-brands fa-linkedin-in"></i></a>
                                     </li>
                                     <li>
-                                        <a href=""><i class="fa-solid fa-p"></i></a>
+                                        <a href="javascript:void(0)"><i class="fa-solid fa-p"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -248,16 +238,16 @@
                                 <div>
                                     <ul class="p-0">
                                         <li>
-                                            <a href="">Womens Bag</a>
+                                            <a href="javascript:void(0)">Womens Bag</a>
                                         </li>
                                         <li>
-                                            <a href="">Bottels</a>
+                                            <a href="javascript:void(0)">Bottels</a>
                                         </li>
                                         <li>
-                                            <a href="">Mens Shoes</a>
+                                            <a href="javascript:void(0)">Mens Shoes</a>
                                         </li>
                                         <li>
-                                            <a href="">Toddler Dress</a>
+                                            <a href="javascript:void(0)">Toddler Dress</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -273,7 +263,8 @@
                                     <div class="col-8">
                                         <div class="card-body p-0">
                                             <h6>Modern furniture in velvet</h6>
-                                            <span><span><i class="fa-solid fa-calendar-days px-1"></i></span>30 December,
+                                            <span><span><i class="fa-solid fa-calendar-days px-1 text-secondary"></i></span>30
+                                                December,
                                                 2022</span>
                                         </div>
                                     </div>
@@ -287,7 +278,8 @@
                                     <div class="col-8">
                                         <div class="card-body p-0">
                                             <h6>Modern furniture in velvet</h6>
-                                            <span><span><i class="fa-solid fa-calendar-days px-1"></i></span>30 December,
+                                            <span><span><i class="fa-solid fa-calendar-days px-1  text-secondary"></i></span>30
+                                                December,
                                                 2022</span>
                                         </div>
                                     </div>
@@ -301,7 +293,8 @@
                                     <div class="col-8">
                                         <div class="card-body p-0">
                                             <h6>Modern furniture in velvet</h6>
-                                            <span><span><i class="fa-solid fa-calendar-days px-1"></i></span>30 December,
+                                            <span><span><i class="fa-solid fa-calendar-days px-1  text-secondary"></i></span>30
+                                                December,
                                                 2022</span>
                                         </div>
                                     </div>
@@ -315,7 +308,8 @@
                                     <div class="col-8">
                                         <div class="card-body p-0">
                                             <h6>Modern furniture in velvet</h6>
-                                            <span><span><i class="fa-solid fa-calendar-days px-1"></i></span>30 December,
+                                            <span><span><i class="fa-solid fa-calendar-days px-1  text-secondary"></i></span>30
+                                                December,
                                                 2022</span>
                                         </div>
                                     </div>
@@ -329,7 +323,8 @@
                                     <div class="col-8">
                                         <div class="card-body p-0">
                                             <h6>Modern furniture in velvet</h6>
-                                            <span><span><i class="fa-solid fa-calendar-days px-1"></i></span>30 December,
+                                            <span><span><i class="fa-solid fa-calendar-days px-1  text-secondary"></i></span>30
+                                                December,
                                                 2022</span>
                                         </div>
                                     </div>
@@ -338,16 +333,16 @@
 
                             <div class="popular-tags">
                                 <h4>Popular Tags</h4>
-                                    <ul class="p-0 ">
-                                        <li><a href="">Popular</a></li>
-                                        <li><a href="">agency</a></li>
-                                        <li><a href="">Furniture</a></li>
-                                        <li><a href="">creative</a></li>
-                                        <li><a href="">design</a></li>
-                                        <li><a href="">modern</a></li>
-                                        <li><a href="">Bag</a></li>
-                                        <li><a href="">Shoe</a></li>
-                                    </ul>
+                                <ul class="p-0 ">
+                                    <li><a href="javascript:void(0)">Popular</a></li>
+                                    <li><a href="javascript:void(0)">agency</a></li>
+                                    <li><a href="javascript:void(0)">Furniture</a></li>
+                                    <li><a href="javascript:void(0)">creative</a></li>
+                                    <li><a href="javascript:void(0)">design</a></li>
+                                    <li><a href="javascript:void(0)">modern</a></li>
+                                    <li><a href="javascript:void(0)">Bag</a></li>
+                                    <li><a href="javascript:void(0)">Shoe</a></li>
+                                </ul>
                             </div>
 
                         </div>
@@ -378,10 +373,10 @@
                             laboriosam ducimus praesentium nisi.
                         </p>
                         <div class="left-socials-icons text-center">
-                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href=""><i class="fa-brands fa-twitter"></i></a>
-                            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href=""><i class="fa-solid fa-p"></i></a>
+                            <a href="javascript:void(0)"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="javascript:void(0)"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="javascript:void(0)"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="javascript:void(0)"><i class="fa-solid fa-p"></i></a>
                         </div>
                     </div>
                 </div>
@@ -392,10 +387,10 @@
                         <div class="col-lg-6 col-6 footer-column-links">
                             <ul class="nav flex-column">
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="#">Home</a>
+                                    <a class="nav-link active" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="">ABOUT US</a>
+                                    <a class="nav-link active" href="javascript:void(0)">ABOUT US</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link active" href="profile.html">Profile</a>
@@ -414,16 +409,16 @@
                         <div class="col-lg-6 col-6 footer-column-links">
                             <ul class="nav flex-column">
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="#">LOGIN</a>
+                                    <a class="nav-link active" href="javascript:void(0)">LOGIN</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link active" href="Registration.html">REGISTRATION</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="#">SERVICES</a>
+                                    <a class="nav-link active" href="javascript:void(0)">SERVICES</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="#">PAGES</a>
+                                    <a class="nav-link active" href="javascript:void(0)">PAGES</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link active" href="Our-Team.html">OUR TEAM</a>
@@ -436,7 +431,7 @@
                     <h6>SOME POSTS</h6>
                     <div class="footer-post-sec">
                         <div>
-                            <a href=""><img class="img-fluid" src="homepageimages/b5.jpg" alt="">
+                            <a href="javascript:void(0)"><img class="img-fluid" src="homepageimages/b5.jpg" alt="">
                             </a>
                         </div>
                         <div class="ms-2">
@@ -447,7 +442,7 @@
 
                     <div class="footer-post-sec">
                         <div>
-                            <a href=""><img class="img-fluid" src="homepageimages/b1.png" alt="">
+                            <a href="javascript:void(0)"><img class="img-fluid" src="homepageimages/b1.png" alt="">
                             </a>
                         </div>
                         <div class="ms-2">
@@ -461,26 +456,26 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12 ">
                     <h6>POPULAR TAGS</h6>
                     <div class="footer-column-links-tags">
-                        <a href="">HEADPHONESS</a>
-                        <a href="">ACCESSORIES</a>
-                        <a href="">NEW</a>
-                        <a href="">WIRELESS</a>
-                        <a href="">CABLES</a>
-                        <a href="">DEVICES</a>
-                        <a href="">GADGETS</a>
-                        <a href=""> BRANDS</a>
-                        <a href="">CASES</a>
-                        <a href=""> CABLES</a>
-                        <a href=""> SHIRT</a>
+                        <a href="javascript:void(0)">HEADPHONESS</a>
+                        <a href="javascript:void(0)">ACCESSORIES</a>
+                        <a href="javascript:void(0)">NEW</a>
+                        <a href="javascript:void(0)">WIRELESS</a>
+                        <a href="javascript:void(0)">CABLES</a>
+                        <a href="javascript:void(0)">DEVICES</a>
+                        <a href="javascript:void(0)">GADGETS</a>
+                        <a href="javascript:void(0)"> BRANDS</a>
+                        <a href="javascript:void(0)">CASES</a>
+                        <a href="javascript:void(0)"> CABLES</a>
+                        <a href="javascript:void(0)"> SHIRT</a>
                     </div>
 
                     <div class="footer-contact-details-body pt-2 ">
                         <ul class="footer-social-nav d-flex">
-                            <li><a href="" class="btn btn-youtube text-white"><span><i
+                            <li><a href="javascript:void(0)" class="btn btn-youtube text-white"><span><i
                                             class="fa-brands fa-youtube mx-1"></i></span>YouTube</a>
                             </li>
                             <li>
-                                <a href="" class="btn btn-telegram text-white"><span><i
+                                <a href="javascript:void(0)" class="btn btn-telegram text-white"><span><i
                                             class="fa-brands fa-telegram mx-1"></i></span>Telegram</a>
                             </li>
                         </ul>
@@ -535,13 +530,14 @@
             <div class="row text-center">
                 <div class="col-lg-4 col-md-6 my-2 col-12">
                     <p>
-                        © 2024 All rights reserved. Development by <a class="agency-copy" href="">Vijay.Yadav</a>
+                        © 2024 All rights reserved. Development by <a class="agency-copy" href="javascript:void(0)">Vijay.Yadav</a>
                     </p>
                 </div>
                 <div class="col-lg-4 mb-2 col-md-6 col-12">
                     <div class="footer-social-icons">
-                        <a href="" class=" text-decoration-none">Privacy Policy</a> <span class="text-white">|</span>
-                        <a href="" class=" text-decoration-none">Terms And Condition</a>
+                        <a href="privacy-policy.html" class=" text-decoration-none">Privacy Policy</a> <span
+                            class="text-white">|</span>
+                        <a href="Terms-And-Condition.html" class=" text-decoration-none">Terms And Condition</a>
                     </div>
                 </div>
                 <div class="col-lg-4 co-12">

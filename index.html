@@ -24,47 +24,57 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-md  fixed-top mb-5">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img class="img-fluid" src="homepageimages/vmart_store-logo.png"
-            alt="" width="130px">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa-solid fa-bars text-white"></i><span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">ONLINE SHOP</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <a href=""><i class="fa-solid fa-bars fs-5"></i></a>
-          </ul>
-          <div class="d-flex ms-auto position-relative">
-            <div class="">
-              <input class="form-control" list="datalistOptions" placeholder="Search, Brand,Product....">
-            </div>
-            <div class="position-absolute top-0 end-0">
-              <a href="" class="btn "><i class="fa-solid fa-magnifying-glass dark"></i></a>
-            </div>
-          </div>
-
-          <ul class="navbar-nav nav-brand-icons m-auto">
-            <li class="login-btn px-2">
-              <a href=""><a href="" class="btn"><span><i class="fa-solid fa-user px-1"></i></span>Login</a>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="javascript:void(0)">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="javascript:void(0)">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="javascript:void(0)">Shop</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Portfolio
               </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="javascript:void(0)">Something else here</a></li>
+              </ul>
             </li>
-
-            <li class="login-btn Track-Order px-1 px-3 position-relative">
-              <a href="" class="btn">Track Order</a>
-              <span 
-              class="position-absolute top-0 strat-0   translate-middle badge rounded-pill bg-danger">
-              <i class="fa-solid fa-truck"></i></span>
-            </li>
-            
-            <li class="login-btn Cart position-relative px-2">
-              <a href="" class="btn">Cart</a>
-              <span
-                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">2+</i></span>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="javascript:void(0)">Something else here</a></li>
+              </ul>
             </li>
           </ul>
+          <div class="navbar-right-btn">
+            <a href="javascript:void(0)" class="btn">Sign Up</a>
+            <a href="javascript:void(0)" class="btn">Login</a>
+          </div>
         </div>
       </div>
     </nav>
@@ -73,1406 +83,842 @@
 
 
   <main role="main">
-    <section class="role-main-section">
-      <!-- banner-product-all-categories -->
-      <section class="banner-product-all-categories mt-5 animate__animated animate__backInLeft">
-        <div class="container">
-          <div class="banner-product-all-categories-main-body mt-2 shadow rounded">
-            <div class="row text-center">
-              <div class="col-lg-2 col-md-4 col-6">
-                <div class="categories-brand ">
-                  <a href=""><img class="img-fluid mb-2" src="homepageimages/mobile.png" alt="" width="60"></a>
-                  <h6>Mobile & Tablets</h6>
-                </div>
-              </div>
+    <!-- banner-product-all-categories -->
+    <section class="banner-product-all-categories mt-5 animate__animated animate__backInLeft">
+      <div class="container">
+        <div class="banner-product-all-categories-main-body mt-2 shadow rounded">
+          <div class="row text-center">
 
-              <div class="col-lg-2 col-md-4 col-6">
-                <div class="categories-brand">
-                  <a href=""><img class="img-fluid mb-2 " src="homepageimages/electronic.png" alt="" width="60"></a>
-                  <h6>Electronics</h6>
-                </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <div class="categories-brand">
+                <a href="javascript:void(0)"><img class="img-fluid mb-2" src="homepageimages/mobile.png" alt=""
+                    width="60"></a>
+                <h6>Mobile & Tablets</h6>
               </div>
+            </div>
 
-              <div class="col-lg-2 col-md-4 col-6">
-                <div class="categories-brand">
-                  <a href=""><img class="img-fluid mb-2 " src="homepageimages/fashion.png" alt="" width="60"></a>
-                  <h6>Fashion</h6>
-                </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <div class="categories-brand">
+                <a href="javascript:void(0)"><img class="img-fluid mb-2 " src="homepageimages/electronic.png" alt=""
+                    width="60"></a>
+                <h6>Electronics</h6>
               </div>
+            </div>
 
-              <div class="col-lg-2 col-md-4 col-6">
-                <div class="categories-brand">
-                  <a href=""><img class="img-fluid mb-2" src="homepageimages/toy.png" alt="" width="60"></a>
-                  <h6>Toys</h6>
-                </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <div class="categories-brand">
+                <a href="javascript:void(0)"><img class="img-fluid mb-2 " src="homepageimages/fashion.png" alt=""
+                    width="60"></a>
+                <h6>Fashion</h6>
               </div>
+            </div>
 
-              <div class="col-lg-2 col-md-4 col-6">
-                <div class="categories-brand">
-                  <a href=""><img class="img-fluid mb-2" src="homepageimages/appliance.png" alt="" width="60"></a>
-                  <h6>Home & Kitchen</h6>
-                </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <div class="categories-brand">
+                <a href="javascript:void(0)"><img class="img-fluid mb-2" src="homepageimages/toy.png" alt=""
+                    width="60"></a>
+                <h6>Toys</h6>
               </div>
+            </div>
 
-              <div class="col-lg-2 col-md-4 col-6">
-                <div class="categories-brand">
-                  <a href=""><img class="img-fluid mb-2" src="homepageimages/grocery.png" alt="" width="60"></a>
-                  <h6>Grocery</h6>
-                </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <div class="categories-brand">
+                <a href="javascript:void(0)"><img class="img-fluid mb-2" src="homepageimages/appliance.png" alt=""
+                    width="60"></a>
+                <h6>Home & Kitchen</h6>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6">
+              <div class="categories-brand">
+                <a href="javascript:void(0)"><img class="img-fluid mb-2" src="homepageimages/grocery.png" alt=""
+                    width="60"></a>
+                <h6>Grocery</h6>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-
-      <section class="">
-        <div class="container-fluid p-0">
-          <div class="payment-banner-top-img container mb-3">
-            <img class="img-fluid m-auto d-block " src="img/395cbdc769cbbc96a8d123a5f1f16e80.jpg" alt="">
+    <!-- 2nd Section -->
+    <section class="second-section-carousel">
+      <div class="container">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="homepageimages/9604469.jpg" alt="">
+          </div>
+          <div class="item">
+            <img src="homepageimages/5092428.jpg" alt="">
+          </div>
+          <div class="item">
+            <img src="homepageimages/8460965.jpg" alt="">
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section>
-        <div class="container">
-          <div class="owl-carousel owl-theme">
-            <div class="item">
-              <img src="homepageimages/9604469.jpg" alt="">
-            </div>
-            <div class="item">
-              <img src="homepageimages/5092428.jpg" alt="">
-            </div>
-            <div class="item">
-              <img src="homepageimages/8460965.jpg" alt="">
-            </div>
+
+    <!-- Limited-offers-section -->
+    <section class="Limited-offers-section">
+      <div class="container bg-pink">
+        <div class="row align-items-center">
+          <div class="col-md-3">
+            <img class="img-fluid" src="homepageimages/limited-offer-leftimg.png" alt="">
           </div>
-        </div>
-
-      </section>
-
-      <!-- Limited-offers-section -->
-      <section class="Limited-offers-section">
-        <div class="container bg-pink">
-          <div class="row">
-            <div class="col-lg-4 col-sm-4">
-              <img class="img-fluid" src="homepageimages/limited-offer-leftimg.png" alt="">
-            </div>
-            <div class="col-lg-4 col-sm-4 m-auto">
-              <div class="text-center justify-content-center">
-                <h6>LIMITED OFFER</h6>
-                <h4>25% Off Only This Monday <br>and Get Special Offer</h4>
-                <div class="limited-offer-btn">
-                  <a href="" class="btn">Shop Now</a>
-                </div>
+        
+          <div class="col-md-6">
+            <div class="text-center">
+              <h6 class="mb-2">LIMITED OFFER</h6>
+              <h4>25% Off Only This Monday <br>and Get Special Offer</h4>
+              <div class="limited-offer-btn">
+                <a href="javascript:void(0)" class="btn">Shop Now</a>
               </div>
-
-            </div>
-            <div class="col-lg-4 col-sm-4">
-              <img class="img-fluid" src="homepageimages/limited-offer-rightimg.png" alt="">
             </div>
           </div>
-        </div>
-      </section>
 
-
-
-      <!-- product-banner -->
-      <section class="product-caption ">
-        <div class="container">
-          <div class="product-cap">
-            <h5 class="fw-bold">Products For You</h5>
-            <a class="" href="see-more.html">Top Categories to choose from</a>
+          <div class="col-lg-3">
+            <img class="img-fluid" src="homepageimages/limited-offer-rightimg.png" alt="">
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
 
-      <!-- main-wrapper-section -->
-      <section class="main-wrapper-section">
-        <div class="container">
-          <div class="row ">
-            <div class="col-md-4 mb-2">
-              <div class="mega-sale-sidebar-image">
-                <img class="img-fluid" src="homepageimages/sale20.jpg" alt="" width="100%">
-              </div>
-              <div class="home-leftside-wrapper">
-                <div class="card border-0 mb-3" data-aos="fade-right" data-aos-offset="300"
-                  data-aos-easing="ease-in-sine">
-                  <div class="row g-0 align-items-center">
-                    <div class="col-3 text-center">
-                      <a target="_blank" href="">
-                        <img src="homepageimages/left-card-body-img1.jpg" class="img-fluid " alt="Fashion">
-                      </a>
-                    </div>
-                    <div class="col-8">
-                      <div class="card-body p-0 px-2">
-                        <h5 class="mb-1"> Fashion</h5>
-                        <h6 class="font-400 font-10">Men Shirt</h6>
-                        <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
-                          <div class="rating">
-                            <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
-                                class="discount"><span>&#8377;</span>30.15</del></h6>
-                          </div>
-                          <div>
-                            <a href="" class="home-leftside-wrapper-btn">Add to Cart</a>
-                          </div>
+
+    <!-- product-banner -->
+    <section class="product-caption ">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="product-cap">
+          <h5>Products For You</h5>
+          <span class="reausable-span"></span>
+          <p class="" href="see-more.html">Top Categories to choose from Here</p>
+        </div>
+        <div class="product-caption-btn">
+          <a href="" class="btn">See More</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- main-wrapper-section -->
+    <section class="main-wrapper-section">
+      <div class="container">
+        <div class="row ">
+          <div class="col-md-4 mb-2">
+            <div class="mega-sale-sidebar-image">
+              <img class="img-fluid" src="homepageimages/sale20.jpg" alt="" width="100%">
+            </div>
+            <div class="home-leftside-wrapper">
+              <div class="card border-0 mb-3" data-aos="fade-right" data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                <div class="row g-0 align-items-center">
+                  <div class="col-3 text-center">
+                    <a target="_blank" href="javascript:void(0)">
+                      <img src="homepageimages/left-card-body-img1.jpg" class="img-fluid " alt="Fashion">
+                    </a>
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body p-0 px-2">
+                      <h5 class="mb-1"> Fashion</h5>
+                      <h6 class="font-400 font-10">Men Shirt</h6>
+                      <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
+                        <div class="rating">
+                          <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
+                              class="discount"><span>&#8377;</span>30.15</del></h6>
+                        </div>
+                        <div>
+                          <a href="javascript:void(0)" class="home-leftside-wrapper-btn">Add to Cart</a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="card border-0 mb-3" data-aos="fade-right" data-aos-offset="300"
-                  data-aos-easing="ease-in-sine">
-                  <div class="row g-0 align-items-center">
-                    <div class="col-3 text-center">
-                      <a target="_blank" href="">
-                        <img src="homepageimages/left-card-body-img2.jpg" class="img-fluid " alt="Fashion">
-                      </a>
-                    </div>
-                    <div class="col-8">
-                      <div class="card-body p-0 px-2">
-                        <h5 class="mb-1"> Fashion</h5>
-                        <h6 class="font-400 font-10">Men Shirt</h6>
-                        <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
-                          <div class="rating">
-                            <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
-                                class="discount"><span>&#8377;</span>30.15</del></h6>
-                          </div>
-                          <div>
-                            <a href="" class="home-leftside-wrapper-btn">Add to Cart</a>
-                          </div>
+              </div>
+              <div class="card border-0 mb-3" data-aos="fade-right" data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                <div class="row g-0 align-items-center">
+                  <div class="col-3 text-center">
+                    <a target="_blank" href="javascript:void(0)">
+                      <img src="homepageimages/left-card-body-img2.jpg" class="img-fluid " alt="Fashion">
+                    </a>
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body p-0 px-2">
+                      <h5 class="mb-1"> Fashion</h5>
+                      <h6 class="font-400 font-10">Men Shirt</h6>
+                      <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
+                        <div class="rating">
+                          <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
+                              class="discount"><span>&#8377;</span>30.15</del></h6>
+                        </div>
+                        <div>
+                          <a href="javascript:void(0)" class="home-leftside-wrapper-btn">Add to Cart</a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="card border-0 mb-3" data-aos="fade-down">
-                  <div class="row g-0 align-items-center">
-                    <div class="col-3 text-center">
-                      <a target="_blank" href="">
-                        <img src="homepageimages/left-card-body-img3.jpg" class="img-fluid " alt="Fashion">
-                      </a>
-                    </div>
-                    <div class="col-8">
-                      <div class="card-body p-0 px-2">
-                        <h5 class="mb-1"> Fashion</h5>
-                        <h6 class="font-400 font-10">Men Shirt</h6>
-                        <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
-                          <div class="rating">
-                            <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
-                                class="discount"><span>&#8377;</span>30.15</del></h6>
-                          </div>
-                          <div>
-                            <a href="" class="home-leftside-wrapper-btn">Add to Cart</a>
-                          </div>
+              </div>
+              <div class="card border-0 mb-3" data-aos="fade-down">
+                <div class="row g-0 align-items-center">
+                  <div class="col-3 text-center">
+                    <a target="_blank" href="javascript:void(0)">
+                      <img src="homepageimages/left-card-body-img3.jpg" class="img-fluid " alt="Fashion">
+                    </a>
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body p-0 px-2">
+                      <h5 class="mb-1"> Fashion</h5>
+                      <h6 class="font-400 font-10">Men Shirt</h6>
+                      <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
+                        <div class="rating">
+                          <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
+                              class="discount"><span>&#8377;</span>30.15</del></h6>
+                        </div>
+                        <div>
+                          <a href="javascript:void(0)" class="home-leftside-wrapper-btn">Add to Cart</a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="card border-0 mb-3">
-                  <div class="row g-0 align-items-center">
-                    <div class="col-3 text-center">
-                      <a target="_blank" href="">
-                        <img src="homepageimages/left-card-body-img4.jpg" class="img-fluid " alt="Fashion">
-                      </a>
-                    </div>
-                    <div class="col-8">
-                      <div class="card-body p-0 px-2">
-                        <h5 class="mb-1"> Fashion</h5>
-                        <h6 class="font-400 font-10">Men Shirt</h6>
-                        <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
-                          <div class="rating">
-                            <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
-                                class="discount"><span>&#8377;</span>30.15</del></h6>
-                          </div>
-                          <div>
-                            <a href="" class="home-leftside-wrapper-btn">Add to Cart</a>
-                          </div>
+              </div>
+              <div class="card border-0 mb-3">
+                <div class="row g-0 align-items-center">
+                  <div class="col-3 text-center">
+                    <a target="_blank" href="javascript:void(0)">
+                      <img src="homepageimages/left-card-body-img4.jpg" class="img-fluid " alt="Fashion">
+                    </a>
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body p-0 px-2">
+                      <h5 class="mb-1"> Fashion</h5>
+                      <h6 class="font-400 font-10">Men Shirt</h6>
+                      <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
+                        <div class="rating">
+                          <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
+                              class="discount"><span>&#8377;</span>30.15</del></h6>
+                        </div>
+                        <div>
+                          <a href="javascript:void(0)" class="home-leftside-wrapper-btn">Add to Cart</a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div>
-                  <img class="img-fluid mb-3" src="homepageimages/summer sale.jpg" alt="">
-                </div>
-                <div class="mb-3">
-                  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="homepageimages/abx discount images girs.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="homepageimages/sal google.jpeg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="homepageimages/lef-salw.jpg" class="d-block w-100" alt="...">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                      data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                      data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
+              </div>
+              <div>
+                <img class="img-fluid mb-3" src="homepageimages/summer sale.jpg" alt="">
+              </div>
+              <div class="mb-3">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                      class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                      aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                      aria-label="Slide 3"></button>
                   </div>
-                </div>
-
-
-                <div>
-                  <img class="img-fluid" src="homepageimages/bata.png" alt="" width="100%">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="homepageimages/abx discount images girs.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="homepageimages/sal google.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="homepageimages/lef-salw.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
               </div>
 
+
+              <div>
+                <img class="img-fluid" src="homepageimages/bata.png" alt="" width="100%">
+              </div>
             </div>
 
-            <div class="col-md-8 g-0">
-              <section class="product-cards mb-4">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-                      <div class="product-cards-main-body">
-                        <div class="image-section" id="image1">
-                          <a href="add-to-cart.html"><img src="homepageimages/product9.jpg"
-                              class="card-img-top img-fluid" alt="...">
-                          </a>
-                        </div>
-                        <div class="product-body text-center mb-2">
-                          <span class="product-name">Jacket, Women</span>
-                          <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                              class="discount"><span>&#8377;</span>30.15</del></h6>
+          </div>
 
-                          <div>
-                            <ul class="product-info">
-                              <li>3K+ viewed in past month</li>
-                              <li>Get it by <strong>Sunday</strong>, February 25</li>
-                              <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                            </ul>
-                          </div>
-                          <div class="left-sidebar-yellow-star mb-2">
-                            <i class="fa-solid fa-star "></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                          </div>
-                          <div class="buy-now-btn">
-                            <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                          </div>
-
-                          <div class="product-tag" data-bs-toggle="tooltip" data-bs-placement="left"
-                            title="Tooltip on left">
-                            <span class="badge badge-secondary mb-2 ">
-                              <a href="" class=""><i class="fa-regular fa-heart"></i></a>
-                            </span>
-                            <span class="badge badge-secondary mb-2">
-                              <a href=""><i class="fa-solid fa-cart-plus"></i></a>
-                            </span>
-                            <span class="badge badge-secondary"><a href=""><i
-                                  class="fa-solid fa-magnifying-glass"></i></a>
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-
-                    <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-                      <div class="product-cards-main-body">
-                        <div class="image-section" id="image2">
-                          <a href="add-to-cart.html"><img src="homepageimages/product3.jpg"
-                              class="card-img-top img-fluid" alt="...">
-                          </a>
-                        </div>
-                        <div class="product-body text-center mb-2">
-                          <span class="product-name">Jacket, Women</span>
-                          <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                              class="discount"><span>&#8377;</span>30.15</del></h6>
-
-                          <div>
-                            <ul class="product-info">
-                              <li>3K+ viewed in past month</li>
-                              <li>Get it by <strong>Sunday</strong>, February 25</li>
-                              <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                            </ul>
-                          </div>
-                          <div class="left-sidebar-yellow-star mb-2">
-                            <i class="fa-solid fa-star "></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                          </div>
-                          <div class="buy-now-btn">
-                            <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                          </div>
-
-                          <div class="product-tag">
-                            <span class="badge badge-secondary mb-2"><a href="" class=""><i
-                                  class="fa-regular fa-heart"></i></a></span>
-                            <span class="badge badge-secondary mb-2"><a href=""><i
-                                  class="fa-solid fa-cart-plus"></i></a></span>
-                            <span class="badge badge-secondary"><a href=""><i
-                                  class="fa-solid fa-magnifying-glass"></i></a></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-                      <div class="product-cards-main-body image-section">
-                        <a href="add-to-cart.html"><img src="homepageimages/product4.jpg" class="card-img-top img-fluid"
-                            alt="..." id="image2">
-                        </a>
-                        <div class="product-body  text-center mb-2">
-                          <span class="product-name">Jacket, Women</span>
-                          <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                              class="discount"><span>&#8377;</span>30.15</del></h6>
-
-                          <div>
-                            <ul class="product-info">
-                              <li>3K+ viewed in past month</li>
-                              <li>Get it by <strong>Sunday</strong>, February 25</li>
-                              <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                            </ul>
-                          </div>
-                          <div class="left-sidebar-yellow-star mb-2">
-                            <i class="fa-solid fa-star "></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                          </div>
-                          <div class="buy-now-btn">
-                            <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                          </div>
-
-                          <div class="product-tag">
-                            <span class="badge badge-secondary mb-2"><a href="" class=""><i
-                                  class="fa-regular fa-heart"></i></a></span>
-                            <span class="badge badge-secondary mb-2"><a href=""><i
-                                  class="fa-solid fa-cart-plus"></i></a></span>
-                            <span class="badge badge-secondary"><a href=""><i
-                                  class="fa-solid fa-magnifying-glass"></i></a></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-                      <div class="product-cards-main-body ">
-                        <a href="add-to-cart.html"><img src="homepageimages/product5.jpg" class="card-img-top img-fluid"
-                            alt="...">
-                        </a>
-                        <div class="product-body mb-2 text-center">
-                          <span class="product-name">Jacket, Women</span>
-                          <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                              class="discount"><span>&#8377;</span>30.15</del></h6>
-
-                          <div>
-                            <ul class="product-info">
-                              <li>3K+ viewed in past month</li>
-                              <li>Get it by <strong>Sunday</strong>, February 25</li>
-                              <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                            </ul>
-                          </div>
-                          <div class="left-sidebar-yellow-star mb-2">
-                            <i class="fa-solid fa-star "></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                          </div>
-                          <div class="buy-now-btn">
-                            <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                          </div>
-
-                          <div class="product-tag">
-                            <span class="badge badge-secondary mb-2"><a href="" class=""><i
-                                  class="fa-regular fa-heart"></i></a></span>
-                            <span class="badge badge-secondary mb-2"><a href=""><i
-                                  class="fa-solid fa-cart-plus"></i></a></span>
-                            <span class="badge badge-secondary"><a href=""><i
-                                  class="fa-solid fa-magnifying-glass"></i></a></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-                      <div class="product-cards-main-body">
-                        <a href="add-to-cart.html"><img src="homepageimages/product6.jpg" class="card-img-top img-fluid"
-                            alt="...">
-                        </a>
-                        <div class="product-body text-center mb-2">
-                          <span class="product-name">Jacket, Women</span>
-                          <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                              class="discount"><span>&#8377;</span>30.15</del></h6>
-
-                          <div>
-                            <ul class="product-info">
-                              <li>3K+ viewed in past month</li>
-                              <li>Get it by <strong>Sunday</strong>, February 25</li>
-                              <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                            </ul>
-                          </div>
-                          <div class="left-sidebar-yellow-star mb-2">
-                            <i class="fa-solid fa-star "></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                          </div>
-                          <div class="buy-now-btn">
-                            <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                          </div>
-
-                          <div class="product-tag">
-                            <span class="badge badge-secondary mb-2"><a href="" class=""><i
-                                  class="fa-regular fa-heart"></i></a></span>
-                            <span class="badge badge-secondary mb-2"><a href=""><i
-                                  class="fa-solid fa-cart-plus"></i></a></span>
-                            <span class="badge badge-secondary"><a href=""><i
-                                  class="fa-solid fa-magnifying-glass"></i></a></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-                      <div class="product-cards-main-body">
-                        <a href="add-to-cart.html"><img src="homepageimages/product7.jpg" class="card-img-top img-fluid"
-                            alt="...">
-                        </a>
-                        <div class="product-body text-center mb-2">
-                          <span class="product-name">Jacket, Women</span>
-                          <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                              class="discount"><span>&#8377;</span>30.15</del></h6>
-
-                          <div>
-                            <ul class="product-info">
-                              <li>3K+ viewed in past month</li>
-                              <li>Get it by <strong>Sunday</strong>, February 25</li>
-                              <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                            </ul>
-                          </div>
-                          <div class="left-sidebar-yellow-star mb-2">
-                            <i class="fa-solid fa-star "></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                          </div>
-                          <div class="buy-now-btn">
-                            <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                          </div>
-
-                          <div class="product-tag">
-                            <span class="badge badge-secondary mb-2"><a href="" class=""><i
-                                  class="fa-regular fa-heart"></i></a></span>
-                            <span class="badge badge-secondary mb-2"><a href=""><i
-                                  class="fa-solid fa-cart-plus"></i></a></span>
-                            <span class="badge badge-secondary"><a href=""><i
-                                  class="fa-solid fa-magnifying-glass"></i></a></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-                      <div class="product-cards-main-body">
-                        <a href="add-to-cart.html"><img src="homepageimages/product8.jpg" class="card-img-top img-fluid"
-                            alt="...">
-                        </a>
-                        <div class="product-body text-center mb-2">
-                          <span class="product-name">Jacket, Women</span>
-                          <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                              class="discount"><span>&#8377;</span>30.15</del></h6>
-
-                          <div>
-                            <ul class="product-info">
-                              <li>3K+ viewed in past month</li>
-                              <li>Get it by <strong>Sunday</strong>, February 25</li>
-                              <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                            </ul>
-                          </div>
-                          <div class="left-sidebar-yellow-star mb-2">
-                            <i class="fa-solid fa-star "></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                          </div>
-                          <div class="buy-now-btn">
-                            <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                          </div>
-
-                          <div class="product-tag">
-                            <span class="badge badge-secondary mb-2"><a href="" class=""><i
-                                  class="fa-regular fa-heart"></i></a></span>
-                            <span class="badge badge-secondary mb-2"><a href=""><i
-                                  class="fa-solid fa-cart-plus"></i></a></span>
-                            <span class="badge badge-secondary"><a href=""><i
-                                  class="fa-solid fa-magnifying-glass"></i></a></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-                      <div class="product-cards-main-body">
+          <div class="col-md-8 g-0">
+            <section class="product-cards mb-4">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="product-cards-main-body">
+                      <div class="image-section" id="image1">
                         <a href="add-to-cart.html"><img src="homepageimages/product9.jpg" class="card-img-top img-fluid"
                             alt="...">
                         </a>
-                        <div class="product-body text-center mb-2">
-                          <span class="product-name">Jacket, Women</span>
-                          <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                              class="discount"><span>&#8377;</span>30.15</del></h6>
+                      </div>
+                      <div class="product-body text-center mb-2">
+                        <span class="product-name">Jacket, Women</span>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
 
-                          <div>
-                            <ul class="product-info">
-                              <li>3K+ viewed in past month</li>
-                              <li>Get it by <strong>Sunday</strong>, February 25</li>
-                              <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                            </ul>
-                          </div>
-                          <div class="left-sidebar-yellow-star mb-2">
-                            <i class="fa-solid fa-star "></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                          </div>
-                          <div class="buy-now-btn">
-                            <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                          </div>
+                        <div>
+                          <ul class="product-info">
+                            <li>3K+ viewed in past month</li>
+                            <li>Get it by <strong>Sunday</strong>, February 25</li>
+                            <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
+                          </ul>
+                        </div>
+                        <div class="left-sidebar-yellow-star mb-2">
+                          <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="buy-now-btn">
+                          <a href="javascript:void(0)" class="btn">Buy Now <span><i
+                                class="fa-solid fa-arrow-right"></i></span></a>
+                        </div>
 
-                          <div class="product-tag">
-                            <span class="badge badge-secondary mb-2"><a href="" class=""><i
-                                  class="fa-regular fa-heart"></i></a></span>
-                            <span class="badge badge-secondary mb-2"><a href=""><i
-                                  class="fa-solid fa-cart-plus"></i></a></span>
-                            <span class="badge badge-secondary"><a href=""><i
-                                  class="fa-solid fa-magnifying-glass"></i></a></span>
-                          </div>
+                        <div class="product-tag" data-bs-toggle="tooltip" data-bs-placement="left"
+                          title="Tooltip on left">
+                          <span class="badge badge-secondary mb-2 ">
+                            <a href="javascript:void(0)" class=""><i class="fa-regular fa-heart"></i></a>
+                          </span>
+                          <span class="badge badge-secondary mb-2">
+                            <a href="javascript:void(0)"><i class="fa-solid fa-cart-plus"></i></a>
+                          </span>
+                          <span class="badge badge-secondary"><a href="javascript:void(0)"><i
+                                class="fa-solid fa-magnifying-glass"></i></a>
+                          </span>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-                      <div class="product-cards-main-body">
-                        <a href="add-to-cart.html"><img src="homepageimages/product10.jpg"
-                            class="card-img-top img-fluid" alt="...">
+                  </div>
+
+
+                  <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="product-cards-main-body">
+                      <div class="image-section" id="image2">
+                        <a href="add-to-cart.html"><img src="homepageimages/product3.jpg" class="card-img-top img-fluid"
+                            alt="...">
                         </a>
-                        <div class="product-body text-center mb-2">
-                          <span class="product-name">Jacket, Women</span>
-                          <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                              class="discount"><span>&#8377;</span>30.15</del></h6>
-
-                          <div>
-                            <ul class="product-info">
-                              <li>3K+ viewed in past month</li>
-                              <li>Get it by <strong>Sunday</strong>, February 25</li>
-                              <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                            </ul>
-                          </div>
-                          <div class="left-sidebar-yellow-star mb-2">
-                            <i class="fa-solid fa-star "></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                          </div>
-                          <div class="buy-now-btn">
-                            <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                          </div>
-
-                          <div class="product-tag">
-                            <span class="badge badge-secondary mb-2"><a href="" class=""><i
-                                  class="fa-regular fa-heart"></i></a></span>
-                            <span class="badge badge-secondary mb-2"><a href=""><i
-                                  class="fa-solid fa-cart-plus"></i></a></span>
-                            <span class="badge badge-secondary"><a href=""><i
-                                  class="fa-solid fa-magnifying-glass"></i></a></span>
-                          </div>
-                        </div>
                       </div>
-                    </div>
+                      <div class="product-body text-center mb-2">
+                        <span class="product-name">Jacket, Women</span>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
 
-                    <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-                      <div class="product-cards-main-body">
-                        <a href="add-to-cart.html"><img src="homepageimages/product11.jpg"
-                            class="card-img-top img-fluid" alt="...">
-                        </a>
-                        <div class="product-body text-center mb-2">
-                          <span class="product-name">Jacket, Women</span>
-                          <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                              class="discount"><span>&#8377;</span>30.15</del></h6>
-
-                          <div>
-                            <ul class="product-info">
-                              <li>3K+ viewed in past month</li>
-                              <li>Get it by <strong>Sunday</strong>, February 25</li>
-                              <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                            </ul>
-                          </div>
-                          <div class="left-sidebar-yellow-star mb-2">
-                            <i class="fa-solid fa-star "></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                          </div>
-                          <div class="buy-now-btn">
-                            <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                          </div>
-
-                          <div class="product-tag">
-                            <span class="badge badge-secondary mb-2"><a href="" class=""><i
-                                  class="fa-regular fa-heart"></i></a></span>
-                            <span class="badge badge-secondary mb-2"><a href=""><i
-                                  class="fa-solid fa-cart-plus"></i></a></span>
-                            <span class="badge badge-secondary"><a href=""><i
-                                  class="fa-solid fa-magnifying-glass"></i></a></span>
-                          </div>
+                        <div>
+                          <ul class="product-info">
+                            <li>3K+ viewed in past month</li>
+                            <li>Get it by <strong>Sunday</strong>, February 25</li>
+                            <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
+                          </ul>
                         </div>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-                      <div class="product-cards-main-body">
-                        <a href="add-to-cart.html"><img src="homepageimages/product12.jpg"
-                            class="card-img-top img-fluid" alt="...">
-                        </a>
-                        <div class="product-body text-center mb-2">
-                          <span class="product-name">Jacket, Women</span>
-                          <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                              class="discount"><span>&#8377;</span>30.15</del></h6>
-
-                          <div>
-                            <ul class="product-info">
-                              <li>3K+ viewed in past month</li>
-                              <li>Get it by <strong>Sunday</strong>, February 25</li>
-                              <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                            </ul>
-                          </div>
-                          <div class="left-sidebar-yellow-star mb-2">
-                            <i class="fa-solid fa-star "></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                          </div>
-                          <div class="buy-now-btn">
-                            <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                          </div>
-
-                          <div class="product-tag">
-                            <span class="badge badge-secondary mb-2"><a href="" class=""><i
-                                  class="fa-regular fa-heart"></i></a></span>
-                            <span class="badge badge-secondary mb-2"><a href=""><i
-                                  class="fa-solid fa-cart-plus"></i></a></span>
-                            <span class="badge badge-secondary"><a href=""><i
-                                  class="fa-solid fa-magnifying-glass"></i></a></span>
-                          </div>
+                        <div class="left-sidebar-yellow-star mb-2">
+                          <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
                         </div>
-                      </div>
-                    </div>
+                        <div class="buy-now-btn">
+                          <a href="javascript:void(0)" class="btn">Buy Now <span><i
+                                class="fa-solid fa-arrow-right"></i></span></a>
+                        </div>
 
-                    <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-                      <div class="product-cards-main-body">
-                        <a href="add-to-cart.html"><img src="homepageimages/product13.jpg"
-                            class="card-img-top img-fluid" alt="...">
-                        </a>
-                        <div class="product-body text-center">
-                          <span class="product-name">Jacket, Women</span>
-                          <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                              class="discount"><span>&#8377;</span>30.15</del></h6>
-
-                          <div>
-                            <ul class="product-info">
-                              <li>3K+ viewed in past month</li>
-                              <li>Get it by <strong>Sunday</strong>, February 25</li>
-                              <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                            </ul>
-                          </div>
-                          <div class="left-sidebar-yellow-star mb-2">
-                            <i class="fa-solid fa-star "></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                          </div>
-                          <div class="buy-now-btn">
-                            <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                          </div>
-
-                          <div class="product-tag">
-                            <span class="badge badge-secondary mb-2"><a href="" class=""><i
-                                  class="fa-regular fa-heart"></i></a></span>
-                            <span class="badge badge-secondary mb-2"><a href=""><i
-                                  class="fa-solid fa-cart-plus"></i></a></span>
-                            <span class="badge badge-secondary"><a href=""><i
-                                  class="fa-solid fa-magnifying-glass"></i></a></span>
-                          </div>
+                        <div class="product-tag">
+                          <span class="badge badge-secondary mb-2"><a href="javascript:void(0)" class=""><i
+                                class="fa-regular fa-heart"></i></a></span>
+                          <span class="badge badge-secondary mb-2"><a href="javascript:void(0)"><i
+                                class="fa-solid fa-cart-plus"></i></a></span>
+                          <span class="badge badge-secondary"><a href="javascript:void(0)"><i
+                                class="fa-solid fa-magnifying-glass"></i></a></span>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div>
-                    <nav aria-label="Page navigation example">
-                      <ul class="pagination justify-content-end">
-                        <li class="page-item">
-                          <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-                        </li>
-                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item">
-                          <a class="page-link" href="#">Next</a>
-                        </li>
-                      </ul>
-                    </nav>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-      </section>
 
-
-      <section class="Discover-Latest-Offer">
-        <div class="container">
-          <div class="text-center">
-            <h3>Discover Latest Offer</h3>
-            <div class="Discover-Latest-Offer">
-              <a href="" class="btn">Shop Now</a>
-            </div>
-          </div>
-          <div class="row ">
-            <div class="col-lg-4 mb-2">
-              <img class="img-fluid" src="homepageimages/discover-offer-leftimg.png" alt="">
-            </div>
-            <div class="col-lg-8">
-              <div class="row ">
-                <div class="col-lg-6 mb-4">
-                  <img class="img-fluid" src="homepageimages/discover-offer-rightfirst-img.png" alt="">
-                </div>
-                <div class="col-lg-6 mb-2">
-                  <img class="img-fluid" src="homepageimages/discover-offer-rightsecond-img.png" alt="">
-                </div>
-                <div class="col-lg-6 mb-2">
-                  <img class="img-fluid" src="homepageimages/discover-offer-rightthird-img.png" alt="">
-                </div>
-                <div class="col-lg-6">
-                  <img class="img-fluid" src="homepageimages/discover-offer-rightforth-img.png" alt="">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      <!-- computer-section -->
-
-      <section class="computer-section">
-        <div class="container">
-          <div class="computer-main-body-content">
-            <div class="row">
-              <div class="col-lg-12 mb-3">
-                <img class="img-fluid h-100" src="homepageimages/computer-mid sec sale1.webp" alt="">
-
-              </div>
-            </div>
-
-            <div class="row justify-content-center computer-bottom-product-body">
-              <div class="col-lg-3 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-                <div class="product-cards-main-body">
-                  <a href="add-to-cart.html"><img src="homepageimages/mob1.jpg" class="card-img-top img-fluid"
-                      alt="...">
-                  </a>
-                  <div class="product-body text-center">
-                    <span class="product-name">Jacket, Women</span>
-                    <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                        class="discount"><span>&#8377;</span>30.15</del></h6>
-
-                    <div>
-                      <ul class="product-info">
-                        <li>3K+ viewed in past month</li>
-                        <li>Get it by <strong>Sunday</strong>, February 25</li>
-                        <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                      </ul>
-                    </div>
-                    <div class="left-sidebar-yellow-star mb-2">
-                      <i class="fa-solid fa-star "></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-regular fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                    <div class="buy-now-btn">
-                      <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                    </div>
-
-                    <div class="product-tag-computer-section">
-                      <span class="badge badge-secondary mb-2"><a href="" class=""><i
-                            class="fa-regular fa-heart"></i></a></span>
-                      <span class="badge badge-secondary mb-2"><a href=""><i
-                            class="fa-solid fa-cart-plus"></i></a></span>
-                      <span class="badge badge-secondary"><a href=""><i
-                            class="fa-solid fa-magnifying-glass"></i></a></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-                <div class="product-cards-main-body">
-                  <a href="add-to-cart.html"><img src="homepageimages/mob2.jpg" class="card-img-top img-fluid"
-                      alt="...">
-                  </a>
-                  <div class="product-body text-center">
-                    <span class="product-name">Jacket, Women</span>
-                    <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                        class="discount"><span>&#8377;</span>30.15</del></h6>
-
-                    <div>
-                      <ul class="product-info">
-                        <li>3K+ viewed in past month</li>
-                        <li>Get it by <strong>Sunday</strong>, February 25</li>
-                        <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                      </ul>
-                    </div>
-                    <div class="left-sidebar-yellow-star mb-2">
-                      <i class="fa-solid fa-star "></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-regular fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                    <div class="buy-now-btn">
-                      <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                    </div>
-
-                    <div class="product-tag">
-                      <span class="badge badge-secondary mb-2"><a href="" class=""><i
-                            class="fa-regular fa-heart"></i></a></span>
-                      <span class="badge badge-secondary mb-2"><a href=""><i
-                            class="fa-solid fa-cart-plus"></i></a></span>
-                      <span class="badge badge-secondary"><a href=""><i
-                            class="fa-solid fa-magnifying-glass"></i></a></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-                <div class="product-cards-main-body">
-                  <a href="add-to-cart.html"><img src="homepageimages/mob3.jpg" class="card-img-top img-fluid"
-                      alt="...">
-                  </a>
-                  <div class="product-body text-center">
-                    <span class="product-name">Jacket, Women</span>
-                    <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                        class="discount"><span>&#8377;</span>30.15</del></h6>
-
-                    <div>
-                      <ul class="product-info">
-                        <li>3K+ viewed in past month</li>
-                        <li>Get it by <strong>Sunday</strong>, February 25</li>
-                        <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                      </ul>
-                    </div>
-                    <div class="left-sidebar-yellow-star mb-2">
-                      <i class="fa-solid fa-star "></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-regular fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                    <div class="buy-now-btn">
-                      <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                    </div>
-
-                    <div class="product-tag">
-                      <span class="badge badge-secondary mb-2"><a href="" class=""><i
-                            class="fa-regular fa-heart"></i></a></span>
-                      <span class="badge badge-secondary mb-2"><a href=""><i
-                            class="fa-solid fa-cart-plus"></i></a></span>
-                      <span class="badge badge-secondary"><a href=""><i
-                            class="fa-solid fa-magnifying-glass"></i></a></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-                <div class="product-cards-main-body">
-                  <a href="add-to-cart.html"><img src="homepageimages/mob4.jpg" class="card-img-top img-fluid"
-                      alt="...">
-                  </a>
-                  <div class="product-body text-center">
-                    <span class="product-name">Jacket, Women</span>
-                    <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                        class="discount"><span>&#8377;</span>30.15</del></h6>
-
-                    <div>
-                      <ul class="product-info">
-                        <li>3K+ viewed in past month</li>
-                        <li>Get it by <strong>Sunday</strong>, February 25</li>
-                        <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                      </ul>
-                    </div>
-                    <div class="left-sidebar-yellow-star mb-2">
-                      <i class="fa-solid fa-star "></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-regular fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                    <div class="buy-now-btn">
-                      <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                    </div>
-
-                    <div class="product-tag">
-                      <span class="badge badge-secondary mb-2"><a href="" class=""><i
-                            class="fa-regular fa-heart"></i></a></span>
-                      <span class="badge badge-secondary mb-2"><a href=""><i
-                            class="fa-solid fa-cart-plus"></i></a></span>
-                      <span class="badge badge-secondary"><a href=""><i
-                            class="fa-solid fa-magnifying-glass"></i></a></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      <!-- parallax-section -->
-      <section class="home-parallax-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="mega-sale-sidebar-image mb-2">
-                <img class="img-fluid" src="homepageimages/sale1.jpg" alt="" width="100%">
-
-              </div>
-              <div class="home-leftside-wrapper">
-                <div class="card border-2 shadow mb-2">
-                  <div class="row g-0 align-items-center">
-                    <div class="col-3 text-center">
-                      <a target="_blank" href="">
-                        <img src="homepageimages/small-product5.png" class="img-fluid " alt="Fashion">
+                  <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="product-cards-main-body image-section">
+                      <a href="add-to-cart.html"><img src="homepageimages/product4.jpg" class="card-img-top img-fluid"
+                          alt="..." id="image2">
                       </a>
-                    </div>
-                    <div class="col-8">
-                      <div class="card-body p-0 px-2">
-                        <h5 class="mb-1"> Fashion</h5>
-                        <h6 class="font-400 font-10">Men Shirt</h6>
-                        <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
-                          <div class="rating">
-                            <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
-                                class="discount"><span>&#8377;</span>30.15</del></h6>
-                          </div>
-                          <div>
-                            <a href="" class="home-leftside-wrapper-btn">Add to Cart</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card border-2 shadow mb-2">
-                  <div class="row g-0 align-items-center">
-                    <div class="col-3 text-center">
-                      <a target="_blank" href="">
-                        <img src="homepageimages/small-product6.png" class="img-fluid " alt="Fashion">
-                      </a>
-                    </div>
-                    <div class="col-8">
-                      <div class="card-body p-0 px-2">
-                        <h5 class="mb-1"> Fashion</h5>
-                        <h6 class="font-400 font-10">Men Shirt</h6>
-                        <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
-                          <div class="rating">
-                            <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
-                                class="discount"><span>&#8377;</span>30.15</del></h6>
-                          </div>
-                          <div>
-                            <a href="" class="home-leftside-wrapper-btn">Add to Cart</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card border-2 shadow mb-2">
-                  <div class="row g-0 align-items-center">
-                    <div class="col-3 text-center">
-                      <a target="_blank" href="">
-                        <img src="homepageimages/small-product3.png" class="img-fluid " alt="Fashion">
-                      </a>
-                    </div>
-                    <div class="col-8">
-                      <div class="card-body p-0 px-2">
-                        <h5 class="mb-1"> Fashion</h5>
-                        <h6 class="font-400 font-10">Men Shirt</h6>
-                        <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
-                          <div class="rating">
-                            <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
-                                class="discount"><span>&#8377;</span>30.15</del></h6>
-                          </div>
-                          <div>
-                            <a href="" class="home-leftside-wrapper-btn">Add to Cart</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card border-2 shadow mb-2">
-                  <div class="row g-0 align-items-center">
-                    <div class="col-3 text-center">
-                      <a target="_blank" href="">
-                        <img src="homepageimages/small-product4.png" class="img-fluid " alt="Fashion">
-                      </a>
-                    </div>
-                    <div class="col-8">
-                      <div class="card-body p-0 px-2">
-                        <h5 class="mb-1"> Fashion</h5>
-                        <h6 class="font-400 font-10">Men Shirt</h6>
-                        <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
-                          <div class="rating">
-                            <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
-                                class="discount"><span>&#8377;</span>30.15</del></h6>
-                          </div>
-                          <div>
-                            <a href="" class="home-leftside-wrapper-btn">Add to Cart</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card border-2 shadow mb-2">
-                  <div class="row g-0 align-items-center">
-                    <div class="col-3 text-center">
-                      <a target="_blank" href="">
-                        <img src="homepageimages/bag1.jpg" class="img-fluid " alt="Fashion">
-                      </a>
-                    </div>
-                    <div class="col-8">
-                      <div class="card-body p-0 px-2">
-                        <h5 class="mb-1"> Fashion</h5>
-                        <h6 class="font-400 font-10">Men Shirt</h6>
-                        <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
-                          <div class="rating">
-                            <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
-                                class="discount"><span>&#8377;</span>30.15</del></h6>
-                          </div>
-                          <div>
-                            <a href="" class="home-leftside-wrapper-btn">Add to Cart</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                      <div class="product-body  text-center mb-2">
+                        <span class="product-name">Jacket, Women</span>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
 
-            </div>
-            <div class="col-md-8">
-              <section class="homepage-parallax-section-1">
-                <div class="container-fluid">
-                  <div class="text-center parallax-body-content">
-                    <h2>HOODIES LIGHT</h2>
-                    <a href="" class="btn">Shop Now</a>
-                  </div>
-                </div>
-              </section>
-              <section class="homepage-parallax-section-2">
-                <div class="container-fluid">
-                  <div class="text-center parallax-body-content">
-                    <h2>HOODIES HEAVY</h2>
-                    <a href="" class="btn">Shop Now</a>
-                  </div>
-                </div>
-              </section>
-              <section class="homepage-parallax-section-3">
-                <div class="container-fluid">
-                  <div class="text-center parallax-body-content">
-                    <h2>SWEATSHIRTS</h2>
-                    <a href="" class="btn">Shop Now</a>
-                  </div>
-                </div>
-              </section>
-              <section class="homepage-parallax-section-4">
-                <div class="container-fluid">
-                  <div class="text-center parallax-body-content">
-                    <h2>HEADWEAR</h2>
-                    <a href="" class="btn">Shop Now</a>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-      </section>
+                        <div>
+                          <ul class="product-info">
+                            <li>3K+ viewed in past month</li>
+                            <li>Get it by <strong>Sunday</strong>, February 25</li>
+                            <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
+                          </ul>
+                        </div>
+                        <div class="left-sidebar-yellow-star mb-2">
+                          <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="buy-now-btn">
+                          <a href="javascript:void(0)" class="btn">Buy Now <span><i
+                                class="fa-solid fa-arrow-right"></i></span></a>
+                        </div>
 
+                        <div class="product-tag">
+                          <span class="badge badge-secondary mb-2"><a href="javascript:void(0)" class=""><i
+                                class="fa-regular fa-heart"></i></a></span>
+                          <span class="badge badge-secondary mb-2"><a href="javascript:void(0)"><i
+                                class="fa-solid fa-cart-plus"></i></a></span>
+                          <span class="badge badge-secondary"><a href="javascript:void(0)"><i
+                                class="fa-solid fa-magnifying-glass"></i></a></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-      <!-- Cosmetics Sales -->
-      <section class="Cosmetics-sales-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 mb-2">
-              <div class="card first-card  h-100">
-                <img class="img-fluid" src="homepageimages/Sunglasses Sale.png" alt="">
-                <span class="sale-position">-10</span>
-                <div class="card-body">
-                  <h5>Sunglasses Sale</h5>
-                  <p>
-                    See all Sunglasses and get 10% off at all Sunglasses
-                  </p>
-                  <div class="glasses-btn">
-                    <a href="" class="btn">SHOP BY GLASSES</a>
+                  <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="product-cards-main-body ">
+                      <a href="add-to-cart.html"><img src="homepageimages/product5.jpg" class="card-img-top img-fluid"
+                          alt="...">
+                      </a>
+                      <div class="product-body mb-2 text-center">
+                        <span class="product-name">Jacket, Women</span>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
+
+                        <div>
+                          <ul class="product-info">
+                            <li>3K+ viewed in past month</li>
+                            <li>Get it by <strong>Sunday</strong>, February 25</li>
+                            <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
+                          </ul>
+                        </div>
+                        <div class="left-sidebar-yellow-star mb-2">
+                          <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="buy-now-btn">
+                          <a href="javascript:void(0)" class="btn">Buy Now <span><i
+                                class="fa-solid fa-arrow-right"></i></span></a>
+                        </div>
+
+                        <div class="product-tag">
+                          <span class="badge badge-secondary mb-2"><a href="javascript:void(0)" class=""><i
+                                class="fa-regular fa-heart"></i></a></span>
+                          <span class="badge badge-secondary mb-2"><a href="javascript:void(0)"><i
+                                class="fa-solid fa-cart-plus"></i></a></span>
+                          <span class="badge badge-secondary"><a href="javascript:void(0)"><i
+                                class="fa-solid fa-magnifying-glass"></i></a></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="product-cards-main-body">
+                      <a href="add-to-cart.html"><img src="homepageimages/product6.jpg" class="card-img-top img-fluid"
+                          alt="...">
+                      </a>
+                      <div class="product-body text-center mb-2">
+                        <span class="product-name">Jacket, Women</span>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
+
+                        <div>
+                          <ul class="product-info">
+                            <li>3K+ viewed in past month</li>
+                            <li>Get it by <strong>Sunday</strong>, February 25</li>
+                            <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
+                          </ul>
+                        </div>
+                        <div class="left-sidebar-yellow-star mb-2">
+                          <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="buy-now-btn">
+                          <a href="javascript:void(0)" class="btn">Buy Now <span><i
+                                class="fa-solid fa-arrow-right"></i></span></a>
+                        </div>
+
+                        <div class="product-tag">
+                          <span class="badge badge-secondary mb-2"><a href="javascript:void(0)" class=""><i
+                                class="fa-regular fa-heart"></i></a></span>
+                          <span class="badge badge-secondary mb-2"><a href="javascript:void(0)"><i
+                                class="fa-solid fa-cart-plus"></i></a></span>
+                          <span class="badge badge-secondary"><a href="javascript:void(0)"><i
+                                class="fa-solid fa-magnifying-glass"></i></a></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="product-cards-main-body">
+                      <a href="add-to-cart.html"><img src="homepageimages/product7.jpg" class="card-img-top img-fluid"
+                          alt="...">
+                      </a>
+                      <div class="product-body text-center mb-2">
+                        <span class="product-name">Jacket, Women</span>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
+
+                        <div>
+                          <ul class="product-info">
+                            <li>3K+ viewed in past month</li>
+                            <li>Get it by <strong>Sunday</strong>, February 25</li>
+                            <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
+                          </ul>
+                        </div>
+                        <div class="left-sidebar-yellow-star mb-2">
+                          <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="buy-now-btn">
+                          <a href="javascript:void(0)" class="btn">Buy Now <span><i
+                                class="fa-solid fa-arrow-right"></i></span></a>
+                        </div>
+
+                        <div class="product-tag">
+                          <span class="badge badge-secondary mb-2"><a href="javascript:void(0)" class=""><i
+                                class="fa-regular fa-heart"></i></a></span>
+                          <span class="badge badge-secondary mb-2"><a href="javascript:void(0)"><i
+                                class="fa-solid fa-cart-plus"></i></a></span>
+                          <span class="badge badge-secondary"><a href="javascript:void(0)"><i
+                                class="fa-solid fa-magnifying-glass"></i></a></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="product-cards-main-body">
+                      <a href="add-to-cart.html"><img src="homepageimages/product8.jpg" class="card-img-top img-fluid"
+                          alt="...">
+                      </a>
+                      <div class="product-body text-center mb-2">
+                        <span class="product-name">Jacket, Women</span>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
+
+                        <div>
+                          <ul class="product-info">
+                            <li>3K+ viewed in past month</li>
+                            <li>Get it by <strong>Sunday</strong>, February 25</li>
+                            <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
+                          </ul>
+                        </div>
+                        <div class="left-sidebar-yellow-star mb-2">
+                          <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="buy-now-btn">
+                          <a href="javascript:void(0)" class="btn">Buy Now <span><i
+                                class="fa-solid fa-arrow-right"></i></span></a>
+                        </div>
+
+                        <div class="product-tag">
+                          <span class="badge badge-secondary mb-2"><a href="javascript:void(0)" class=""><i
+                                class="fa-regular fa-heart"></i></a></span>
+                          <span class="badge badge-secondary mb-2"><a href="javascript:void(0)"><i
+                                class="fa-solid fa-cart-plus"></i></a></span>
+                          <span class="badge badge-secondary"><a href="javascript:void(0)"><i
+                                class="fa-solid fa-magnifying-glass"></i></a></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="product-cards-main-body">
+                      <a href="add-to-cart.html"><img src="homepageimages/product9.jpg" class="card-img-top img-fluid"
+                          alt="...">
+                      </a>
+                      <div class="product-body text-center mb-2">
+                        <span class="product-name">Jacket, Women</span>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
+
+                        <div>
+                          <ul class="product-info">
+                            <li>3K+ viewed in past month</li>
+                            <li>Get it by <strong>Sunday</strong>, February 25</li>
+                            <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
+                          </ul>
+                        </div>
+                        <div class="left-sidebar-yellow-star mb-2">
+                          <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="buy-now-btn">
+                          <a href="javascript:void(0)" class="btn">Buy Now <span><i
+                                class="fa-solid fa-arrow-right"></i></span></a>
+                        </div>
+
+                        <div class="product-tag">
+                          <span class="badge badge-secondary mb-2"><a href="javascript:void(0)" class=""><i
+                                class="fa-regular fa-heart"></i></a></span>
+                          <span class="badge badge-secondary mb-2"><a href="javascript:void(0)"><i
+                                class="fa-solid fa-cart-plus"></i></a></span>
+                          <span class="badge badge-secondary"><a href="javascript:void(0)"><i
+                                class="fa-solid fa-magnifying-glass"></i></a></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="product-cards-main-body">
+                      <a href="add-to-cart.html"><img src="homepageimages/product10.jpg" class="card-img-top img-fluid"
+                          alt="...">
+                      </a>
+                      <div class="product-body text-center mb-2">
+                        <span class="product-name">Jacket, Women</span>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
+
+                        <div>
+                          <ul class="product-info">
+                            <li>3K+ viewed in past month</li>
+                            <li>Get it by <strong>Sunday</strong>, February 25</li>
+                            <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
+                          </ul>
+                        </div>
+                        <div class="left-sidebar-yellow-star mb-2">
+                          <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="buy-now-btn">
+                          <a href="javascript:void(0)" class="btn">Buy Now <span><i
+                                class="fa-solid fa-arrow-right"></i></span></a>
+                        </div>
+
+                        <div class="product-tag">
+                          <span class="badge badge-secondary mb-2"><a href="javascript:void(0)" class=""><i
+                                class="fa-regular fa-heart"></i></a></span>
+                          <span class="badge badge-secondary mb-2"><a href="javascript:void(0)"><i
+                                class="fa-solid fa-cart-plus"></i></a></span>
+                          <span class="badge badge-secondary"><a href="javascript:void(0)"><i
+                                class="fa-solid fa-magnifying-glass"></i></a></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="product-cards-main-body">
+                      <a href="add-to-cart.html"><img src="homepageimages/product11.jpg" class="card-img-top img-fluid"
+                          alt="...">
+                      </a>
+                      <div class="product-body text-center mb-2">
+                        <span class="product-name">Jacket, Women</span>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
+
+                        <div>
+                          <ul class="product-info">
+                            <li>3K+ viewed in past month</li>
+                            <li>Get it by <strong>Sunday</strong>, February 25</li>
+                            <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
+                          </ul>
+                        </div>
+                        <div class="left-sidebar-yellow-star mb-2">
+                          <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="buy-now-btn">
+                          <a href="javascript:void(0)" class="btn">Buy Now <span><i
+                                class="fa-solid fa-arrow-right"></i></span></a>
+                        </div>
+
+                        <div class="product-tag">
+                          <span class="badge badge-secondary mb-2"><a href="javascript:void(0)" class=""><i
+                                class="fa-regular fa-heart"></i></a></span>
+                          <span class="badge badge-secondary mb-2"><a href="javascript:void(0)"><i
+                                class="fa-solid fa-cart-plus"></i></a></span>
+                          <span class="badge badge-secondary"><a href="javascript:void(0)"><i
+                                class="fa-solid fa-magnifying-glass"></i></a></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="product-cards-main-body">
+                      <a href="add-to-cart.html"><img src="homepageimages/product12.jpg" class="card-img-top img-fluid"
+                          alt="...">
+                      </a>
+                      <div class="product-body text-center mb-2">
+                        <span class="product-name">Jacket, Women</span>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
+
+                        <div>
+                          <ul class="product-info">
+                            <li>3K+ viewed in past month</li>
+                            <li>Get it by <strong>Sunday</strong>, February 25</li>
+                            <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
+                          </ul>
+                        </div>
+                        <div class="left-sidebar-yellow-star mb-2">
+                          <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="buy-now-btn">
+                          <a href="javascript:void(0)" class="btn">Buy Now <span><i
+                                class="fa-solid fa-arrow-right"></i></span></a>
+                        </div>
+
+                        <div class="product-tag">
+                          <span class="badge badge-secondary mb-2"><a href="javascript:void(0)" class=""><i
+                                class="fa-regular fa-heart"></i></a></span>
+                          <span class="badge badge-secondary mb-2"><a href="javascript:void(0)"><i
+                                class="fa-solid fa-cart-plus"></i></a></span>
+                          <span class="badge badge-secondary"><a href="javascript:void(0)"><i
+                                class="fa-solid fa-magnifying-glass"></i></a></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="product-cards-main-body">
+                      <a href="add-to-cart.html"><img src="homepageimages/product13.jpg" class="card-img-top img-fluid"
+                          alt="...">
+                      </a>
+                      <div class="product-body text-center">
+                        <span class="product-name">Jacket, Women</span>
+                        <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                            class="discount"><span>&#8377;</span>30.15</del></h6>
+
+                        <div>
+                          <ul class="product-info">
+                            <li>3K+ viewed in past month</li>
+                            <li>Get it by <strong>Sunday</strong>, February 25</li>
+                            <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
+                          </ul>
+                        </div>
+                        <div class="left-sidebar-yellow-star mb-2">
+                          <i class="fa-solid fa-star "></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="buy-now-btn">
+                          <a href="javascript:void(0)" class="btn">Buy Now <span><i
+                                class="fa-solid fa-arrow-right"></i></span></a>
+                        </div>
+
+                        <div class="product-tag">
+                          <span class="badge badge-secondary mb-2"><a href="javascript:void(0)" class=""><i
+                                class="fa-regular fa-heart"></i></a></span>
+                          <span class="badge badge-secondary mb-2"><a href="javascript:void(0)"><i
+                                class="fa-solid fa-cart-plus"></i></a></span>
+                          <span class="badge badge-secondary"><a href="javascript:void(0)"><i
+                                class="fa-solid fa-magnifying-glass"></i></a></span>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-lg-3  mb-2">
-              <div class="card second-card h-100">
-                <div class="card-body text-center">
-                  <h5>Cosmetics Sales</h5>
-                  <p>
-                    Buy Cosmetics products and get 30% off at all Cosmetics
-                  </p>
-                  <div class="Cosmetics-btn">
-                    <a href="" class="btn">SHOP BY Cosmetics </a>
-                  </div>
-                </div>
-                <span class="sale-position">-80</span>
+
                 <div>
-                  <img class="img-fluid" src="homepageimages/Cosmetics Sales.png" alt="">
+                  <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-end">
+                      <li class="page-item">
+                        <a class="page-link" href="javascript:void(0)" tabindex="-1" aria-disabled="true">Previous</a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="javascript:void(0)">1</a></li>
+                      <li class="page-item"><a class="page-link" href="javascript:void(0)">2</a></li>
+                      <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="javascript:void(0)">Next</a>
+                      </li>
+                    </ul>
+                  </nav>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-3  mb-2">
-              <div class="card third-card  h-100">
-                <img class="img-fluid h-100" src="homepageimages/fashion summer sale.png" alt="">
-                <div class="card-img-overlay text-center ">
-                  <div class=" border border-3 bg-dark-3 py-3">
-                    <h5>Fashion Summer Sale</h5>
-                    <h2>UP TO 80% OFF</h2>
-                    <p>On top Fashion Brands</p>
-                    <div class="summer-btn">
-                      <a href="" class="btn">SHOP BY FASHION</a>
-                    </div>
-                  </div>
 
-                </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Discover-Latest-Offer -->
+    <section class="Discover-Latest-Offer">
+      <div class="container">
+        <div class=" Discover-Latest-Offer-body  ">
+          <h3>Discover Latest Offer</h3>
+          <span class="reausable-span"></span>
+          <div class="Discover-Latest-Offer-btn mb-4">
+            <a href="javascript:void(0)" class="btn">Shop Now</a>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-md-4 mb-2">
+            <img class="img-fluid" src="homepageimages/discover-offer-leftimg.png" alt="">
+          </div>
+          <div class="col-md-8">
+            <div class="row ">
+              <div class="col-md-6 mb-4">
+                <img class="img-fluid" src="homepageimages/discover-offer-rightfirst-img.png" alt="">
               </div>
-            </div>
-            <div class="col-lg-3">
-              <div class="card forth-card">
-                <img class="img-fluid" src="homepageimages/super-sale.png" alt="">
-                <span class="sale-position">-50</span>
-                <div class="card-body text-center">
-                  <h2>SUPER SALE</h2>
-                  <h6>UP TO 50% OFF</h6>
-                  <p>
-                    On All Electronic
-                  </p>
-                  <div class="hurry-up-btn">
-                    <a href="" class="btn">HURRY UP!</a>
-                  </div>
-                </div>
+              <div class="col-md-6 mb-2">
+                <img class="img-fluid" src="homepageimages/discover-offer-rightsecond-img.png" alt="">
+              </div>
+              <div class="col-md-6 mb-2">
+                <img class="img-fluid" src="homepageimages/discover-offer-rightthird-img.png" alt="">
+              </div>
+              <div class="col-md-6">
+                <img class="img-fluid" src="homepageimages/discover-offer-rightforth-img.png" alt="">
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
 
-      <!-- electronic-section -->
+    <!-- computer-section -->
 
-      <section class="electronic-section">
-        <div class="container">
-          <div class="electronic-section-main-body-content">
-            <div class="row">
-              <div class="col-md-12 mb-3">
-                <img class="img-fluid h-100" src="homepageimages/kitchen electronic-mid sec.webp" alt="">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-3 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-                <div class="product-cards-main-body">
-                  <a href="add-to-cart.html"><img src="homepageimages/electronic1.jpg" class="card-img-top img-fluid"
-                      alt="...">
-                  </a>
-                  <div class="product-body text-center">
-                    <span class="product-name">Jacket, Women</span>
-                    <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                        class="discount"><span>&#8377;</span>30.15</del></h6>
-
-                    <div>
-                      <ul class="product-info">
-                        <li>3K+ viewed in past month</li>
-                        <li>Get it by <strong>Sunday</strong>, February 25</li>
-                        <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                      </ul>
-                    </div>
-                    <div class="left-sidebar-yellow-star mb-2">
-                      <i class="fa-solid fa-star "></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-regular fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                    <div class="buy-now-btn">
-                      <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                    </div>
-
-                    <div class="product-tag-electronic-section">
-                      <span class="badge badge-secondary mb-2"><a href="" class=""><i
-                            class="fa-regular fa-heart"></i></a></span>
-                      <span class="badge badge-secondary mb-2"><a href=""><i
-                            class="fa-solid fa-cart-plus"></i></a></span>
-                      <span class="badge badge-secondary"><a href=""><i
-                            class="fa-solid fa-magnifying-glass"></i></a></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-                <div class="product-cards-main-body">
-                  <a href="add-to-cart.html"><img src="homepageimages/electronic2.jpg" class="card-img-top img-fluid"
-                      alt="...">
-                  </a>
-                  <div class="product-body text-center">
-                    <span class="product-name">Jacket, Women</span>
-                    <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                        class="discount"><span>&#8377;</span>30.15</del></h6>
-
-                    <div>
-                      <ul class="product-info">
-                        <li>3K+ viewed in past month</li>
-                        <li>Get it by <strong>Sunday</strong>, February 25</li>
-                        <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                      </ul>
-                    </div>
-                    <div class="left-sidebar-yellow-star mb-2">
-                      <i class="fa-solid fa-star "></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-regular fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                    <div class="buy-now-btn">
-                      <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                    </div>
-
-                    <div class="product-tag-electronic-section">
-                      <span class="badge badge-secondary mb-2"><a href="" class=""><i
-                            class="fa-regular fa-heart"></i></a></span>
-                      <span class="badge badge-secondary mb-2"><a href=""><i
-                            class="fa-solid fa-cart-plus"></i></a></span>
-                      <span class="badge badge-secondary"><a href=""><i
-                            class="fa-solid fa-magnifying-glass"></i></a></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-                <div class="product-cards-main-body">
-                  <a href="add-to-cart.html"><img src="homepageimages/electronic3.jpg" class="card-img-top img-fluid"
-                      alt="...">
-                  </a>
-                  <div class="product-body text-center">
-                    <span class="product-name">Jacket, Women</span>
-                    <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                        class="discount"><span>&#8377;</span>30.15</del></h6>
-
-                    <div>
-                      <ul class="product-info">
-                        <li>3K+ viewed in past month</li>
-                        <li>Get it by <strong>Sunday</strong>, February 25</li>
-                        <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                      </ul>
-                    </div>
-                    <div class="left-sidebar-yellow-star mb-2">
-                      <i class="fa-solid fa-star "></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-regular fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                    <div class="buy-now-btn">
-                      <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                    </div>
-
-                    <div class="product-tag-electronic-section">
-                      <span class="badge badge-secondary mb-2"><a href="" class=""><i
-                            class="fa-regular fa-heart"></i></a></span>
-                      <span class="badge badge-secondary mb-2"><a href=""><i
-                            class="fa-solid fa-cart-plus"></i></a></span>
-                      <span class="badge badge-secondary"><a href=""><i
-                            class="fa-solid fa-magnifying-glass"></i></a></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-                <div class="product-cards-main-body">
-                  <a href="add-to-cart.html"><img src="homepageimages/electronic4.jpg" class="card-img-top img-fluid"
-                      alt="...">
-                  </a>
-                  <div class="product-body text-center">
-                    <span class="product-name">Jacket, Women</span>
-                    <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                        class="discount"><span>&#8377;</span>30.15</del></h6>
-
-                    <div>
-                      <ul class="product-info">
-                        <li>3K+ viewed in past month</li>
-                        <li>Get it by <strong>Sunday</strong>, February 25</li>
-                        <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                      </ul>
-                    </div>
-                    <div class="left-sidebar-yellow-star mb-2">
-                      <i class="fa-solid fa-star "></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-regular fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                    <div class="buy-now-btn">
-                      <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                    </div>
-
-                    <div class="product-tag-electronic-section">
-                      <span class="badge badge-secondary mb-2"><a href="" class=""><i
-                            class="fa-regular fa-heart"></i></a></span>
-                      <span class="badge badge-secondary mb-2"><a href=""><i
-                            class="fa-solid fa-cart-plus"></i></a></span>
-                      <span class="badge badge-secondary"><a href=""><i
-                            class="fa-solid fa-magnifying-glass"></i></a></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <!-- trending-section -->
-
-      <section class="trending-section ">
-        <div class="container">
-          <div class="text-center mb-2">
-            <h4 class="fw-bold mb-2">TRENDING</h4>
-            <i>Top view in this week</i>
-          </div>
+    <section class="computer-section">
+      <div class="container">
+        <div class="computer-main-body-content">
           <div class="row">
+            <div class="col-lg-12 mb-3">
+              <img class="img-fluid h-100" src="homepageimages/computer-mid sec sale1.webp" alt="">
+
+            </div>
+          </div>
+
+          <div class="row justify-content-center computer-bottom-product-body">
             <div class="col-lg-3 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-              <div class="product-cards-main-body trending-main-body">
-                <a href="add-to-cart.html"><img src="homepageimages/trending1.jpg" class="card-img-top img-fluid"
-                    alt="...">
+              <div class="product-cards-main-body">
+                <a href="add-to-cart.html"><img src="homepageimages/mob1.jpg" class="card-img-top img-fluid" alt="...">
                 </a>
                 <div class="product-body text-center">
                   <span class="product-name">Jacket, Women</span>
@@ -1493,14 +939,16 @@
                     <i class="fa-solid fa-star"></i>
                   </div>
                   <div class="buy-now-btn">
-                    <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                    <a href="javascript:void(0)" class="btn">Buy Now <span><i
+                          class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
 
-                  <div class="product-tag-trending-section">
-                    <span class="badge badge-secondary mb-2"><a href="" class=""><i
+                  <div class="product-tag-computer-section">
+                    <span class="badge badge-secondary mb-2"><a href="javascript:void(0)" class=""><i
                           class="fa-regular fa-heart"></i></a></span>
-                    <span class="badge badge-secondary mb-2"><a href=""><i class="fa-solid fa-cart-plus"></i></a></span>
-                    <span class="badge badge-secondary"><a href=""><i
+                    <span class="badge badge-secondary mb-2"><a href="javascript:void(0)"><i
+                          class="fa-solid fa-cart-plus"></i></a></span>
+                    <span class="badge badge-secondary"><a href="javascript:void(0)"><i
                           class="fa-solid fa-magnifying-glass"></i></a></span>
                   </div>
                 </div>
@@ -1508,8 +956,7 @@
             </div>
             <div class="col-lg-3 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
               <div class="product-cards-main-body">
-                <a href="add-to-cart.html"><img src="homepageimages/trending2.jpg" class="card-img-top img-fluid"
-                    alt="...">
+                <a href="add-to-cart.html"><img src="homepageimages/mob2.jpg" class="card-img-top img-fluid" alt="...">
                 </a>
                 <div class="product-body text-center">
                   <span class="product-name">Jacket, Women</span>
@@ -1530,14 +977,16 @@
                     <i class="fa-solid fa-star"></i>
                   </div>
                   <div class="buy-now-btn">
-                    <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                    <a href="javascript:void(0)" class="btn">Buy Now <span><i
+                          class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
 
-                  <div class="product-tag-trending-section">
-                    <span class="badge badge-secondary mb-2"><a href="" class=""><i
+                  <div class="product-tag">
+                    <span class="badge badge-secondary mb-2"><a href="javascript:void(0)" class=""><i
                           class="fa-regular fa-heart"></i></a></span>
-                    <span class="badge badge-secondary mb-2"><a href=""><i class="fa-solid fa-cart-plus"></i></a></span>
-                    <span class="badge badge-secondary"><a href=""><i
+                    <span class="badge badge-secondary mb-2"><a href="javascript:void(0)"><i
+                          class="fa-solid fa-cart-plus"></i></a></span>
+                    <span class="badge badge-secondary"><a href="javascript:void(0)"><i
                           class="fa-solid fa-magnifying-glass"></i></a></span>
                   </div>
                 </div>
@@ -1545,8 +994,7 @@
             </div>
             <div class="col-lg-3 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
               <div class="product-cards-main-body">
-                <a href="add-to-cart.html"><img src="homepageimages/trending3.jpg" class="card-img-top img-fluid"
-                    alt="...">
+                <a href="add-to-cart.html"><img src="homepageimages/mob3.jpg" class="card-img-top img-fluid" alt="...">
                 </a>
                 <div class="product-body text-center">
                   <span class="product-name">Jacket, Women</span>
@@ -1567,14 +1015,16 @@
                     <i class="fa-solid fa-star"></i>
                   </div>
                   <div class="buy-now-btn">
-                    <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                    <a href="javascript:void(0)" class="btn">Buy Now <span><i
+                          class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
 
-                  <div class="product-tag-trending-section">
-                    <span class="badge badge-secondary mb-2"><a href="" class=""><i
+                  <div class="product-tag">
+                    <span class="badge badge-secondary mb-2"><a href="javascript:void(0)" class=""><i
                           class="fa-regular fa-heart"></i></a></span>
-                    <span class="badge badge-secondary mb-2"><a href=""><i class="fa-solid fa-cart-plus"></i></a></span>
-                    <span class="badge badge-secondary"><a href=""><i
+                    <span class="badge badge-secondary mb-2"><a href="javascript:void(0)"><i
+                          class="fa-solid fa-cart-plus"></i></a></span>
+                    <span class="badge badge-secondary"><a href="javascript:void(0)"><i
                           class="fa-solid fa-magnifying-glass"></i></a></span>
                   </div>
                 </div>
@@ -1582,8 +1032,7 @@
             </div>
             <div class="col-lg-3 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
               <div class="product-cards-main-body">
-                <a href="add-to-cart.html"><img src="homepageimages/trending4.jpg" class="card-img-top img-fluid"
-                    alt="...">
+                <a href="add-to-cart.html"><img src="homepageimages/mob4.jpg" class="card-img-top img-fluid" alt="...">
                 </a>
                 <div class="product-body text-center">
                   <span class="product-name">Jacket, Women</span>
@@ -1604,162 +1053,16 @@
                     <i class="fa-solid fa-star"></i>
                   </div>
                   <div class="buy-now-btn">
-                    <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                    <a href="javascript:void(0)" class="btn">Buy Now <span><i
+                          class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
 
-                  <div class="product-tag-trending-section">
-                    <span class="badge badge-secondary mb-2"><a href="" class=""><i
+                  <div class="product-tag">
+                    <span class="badge badge-secondary mb-2"><a href="javascript:void(0)" class=""><i
                           class="fa-regular fa-heart"></i></a></span>
-                    <span class="badge badge-secondary mb-2"><a href=""><i class="fa-solid fa-cart-plus"></i></a></span>
-                    <span class="badge badge-secondary"><a href=""><i
-                          class="fa-solid fa-magnifying-glass"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-              <div class="product-cards-main-body">
-                <a href="add-to-cart.html"><img src="homepageimages/trending5.jpg" class="card-img-top img-fluid"
-                    alt="...">
-                </a>
-                <div class="product-body text-center">
-                  <span class="product-name">Jacket, Women</span>
-                  <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                      class="discount"><span>&#8377;</span>30.15</del></h6>
-
-                  <div>
-                    <ul class="product-info">
-                      <li>3K+ viewed in past month</li>
-                      <li>Get it by <strong>Sunday</strong>, February 25</li>
-                      <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                    </ul>
-                  </div>
-                  <div class="left-sidebar-yellow-star mb-2">
-                    <i class="fa-solid fa-star "></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-                  <div class="buy-now-btn">
-                    <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                  </div>
-
-                  <div class="product-tag-trending-section">
-                    <span class="badge badge-secondary mb-2"><a href="" class=""><i
-                          class="fa-regular fa-heart"></i></a></span>
-                    <span class="badge badge-secondary mb-2"><a href=""><i class="fa-solid fa-cart-plus"></i></a></span>
-                    <span class="badge badge-secondary"><a href=""><i
-                          class="fa-solid fa-magnifying-glass"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-              <div class="product-cards-main-body">
-                <a href="add-to-cart.html"><img src="homepageimages/trending7.jpg" class="card-img-top img-fluid"
-                    alt="...">
-                </a>
-                <div class="product-body text-center">
-                  <span class="product-name">Jacket, Women</span>
-                  <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                      class="discount"><span>&#8377;</span>30.15</del></h6>
-
-                  <div>
-                    <ul class="product-info">
-                      <li>3K+ viewed in past month</li>
-                      <li>Get it by <strong>Sunday</strong>, February 25</li>
-                      <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                    </ul>
-                  </div>
-                  <div class="left-sidebar-yellow-star mb-2">
-                    <i class="fa-solid fa-star "></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-                  <div class="buy-now-btn">
-                    <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                  </div>
-
-                  <div class="product-tag-trending-section">
-                    <span class="badge badge-secondary mb-2"><a href="" class=""><i
-                          class="fa-regular fa-heart"></i></a></span>
-                    <span class="badge badge-secondary mb-2"><a href=""><i class="fa-solid fa-cart-plus"></i></a></span>
-                    <span class="badge badge-secondary"><a href=""><i
-                          class="fa-solid fa-magnifying-glass"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-              <div class="product-cards-main-body">
-                <a href="add-to-cart.html"><img src="homepageimages/trending8.jpg" class="card-img-top img-fluid"
-                    alt="...">
-                </a>
-                <div class="product-body text-center">
-                  <span class="product-name">Jacket, Women</span>
-                  <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                      class="discount"><span>&#8377;</span>30.15</del></h6>
-
-                  <div>
-                    <ul class="product-info">
-                      <li>3K+ viewed in past month</li>
-                      <li>Get it by <strong>Sunday</strong>, February 25</li>
-                      <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                    </ul>
-                  </div>
-                  <div class="left-sidebar-yellow-star mb-2">
-                    <i class="fa-solid fa-star "></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-                  <div class="buy-now-btn">
-                    <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                  </div>
-
-                  <div class="product-tag-trending-section">
-                    <span class="badge badge-secondary mb-2"><a href="" class=""><i
-                          class="fa-regular fa-heart"></i></a></span>
-                    <span class="badge badge-secondary mb-2"><a href=""><i class="fa-solid fa-cart-plus"></i></a></span>
-                    <span class="badge badge-secondary"><a href=""><i
-                          class="fa-solid fa-magnifying-glass"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-6 mb-3" data-aos="fade-up" data-aos-duration="3000">
-              <div class="product-cards-main-body">
-                <a href="add-to-cart.html"><img src="homepageimages/trending9.jpg" class="card-img-top img-fluid"
-                    alt="...">
-                </a>
-                <div class="product-body text-center">
-                  <span class="product-name">Jacket, Women</span>
-                  <h6 class="product-price"><span>&#8377;</span>25.15 <del
-                      class="discount"><span>&#8377;</span>30.15</del></h6>
-
-                  <div>
-                    <ul class="product-info">
-                      <li>3K+ viewed in past month</li>
-                      <li>Get it by <strong>Sunday</strong>, February 25</li>
-                      <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
-                    </ul>
-                  </div>
-                  <div class="left-sidebar-yellow-star mb-2">
-                    <i class="fa-solid fa-star "></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-                  <div class="buy-now-btn">
-                    <a href="" class="btn">Buy Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                  </div>
-
-                  <div class="product-tag-trending-section">
-                    <span class="badge badge-secondary mb-2"><a href="" class=""><i
-                          class="fa-regular fa-heart"></i></a></span>
-                    <span class="badge badge-secondary mb-2"><a href=""><i class="fa-solid fa-cart-plus"></i></a></span>
-                    <span class="badge badge-secondary"><a href=""><i
+                    <span class="badge badge-secondary mb-2"><a href="javascript:void(0)"><i
+                          class="fa-solid fa-cart-plus"></i></a></span>
+                    <span class="badge badge-secondary"><a href="javascript:void(0)"><i
                           class="fa-solid fa-magnifying-glass"></i></a></span>
                   </div>
                 </div>
@@ -1767,68 +1070,488 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
 
+    <!-- parallax-section -->
+    <section class="home-parallax-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="mega-sale-sidebar-image mb-2">
+              <img class="img-fluid" src="homepageimages/sale1.jpg" alt="" width="100%">
 
-
-      <!-- homepage-bottom-newslater-section -->
-
-      <section class="homepage-bottom-newslater-section">
-        <div class="container ">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="newslater-body text-center">
-                <h4>Get Latest Update by <br>Subscribe Our Newslater</h4>
-                <div class="mb-4">
-                  <input type="text" class="form-control form-control-lg bubscribe-control rounded-0 px-5 py-3"
-                    placeholder="Enter your email">
+            </div>
+            <div class="home-leftside-wrapper">
+              <div class="card border-2 shadow mb-2">
+                <div class="row g-0 align-items-center">
+                  <div class="col-3 text-center">
+                    <a target="_blank" href="javascript:void(0)">
+                      <img src="homepageimages/small-product5.png" class="img-fluid " alt="Fashion">
+                    </a>
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body p-0 px-2">
+                      <h5 class="mb-1"> Fashion</h5>
+                      <h6 class="font-400 font-10">Men Shirt</h6>
+                      <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
+                        <div class="rating">
+                          <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
+                              class="discount"><span>&#8377;</span>30.15</del></h6>
+                        </div>
+                        <div>
+                          <a href="javascript:void(0)" class="home-leftside-wrapper-btn">Add to Cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="pb-3">
-                  <button class="btn btn-light w-100 rounded-0 px-5 py-3" type="button">Subscribe</button>
+              </div>
+              <div class="card border-2 shadow mb-2">
+                <div class="row g-0 align-items-center">
+                  <div class="col-3 text-center">
+                    <a target="_blank" href="javascript:void(0)">
+                      <img src="homepageimages/small-product6.png" class="img-fluid " alt="Fashion">
+                    </a>
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body p-0 px-2">
+                      <h5 class="mb-1"> Fashion</h5>
+                      <h6 class="font-400 font-10">Men Shirt</h6>
+                      <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
+                        <div class="rating">
+                          <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
+                              class="discount"><span>&#8377;</span>30.15</del></h6>
+                        </div>
+                        <div>
+                          <a href="javascript:void(0)" class="home-leftside-wrapper-btn">Add to Cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-2 shadow mb-2">
+                <div class="row g-0 align-items-center">
+                  <div class="col-3 text-center">
+                    <a target="_blank" href="javascript:void(0)">
+                      <img src="homepageimages/small-product3.png" class="img-fluid " alt="Fashion">
+                    </a>
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body p-0 px-2">
+                      <h5 class="mb-1"> Fashion</h5>
+                      <h6 class="font-400 font-10">Men Shirt</h6>
+                      <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
+                        <div class="rating">
+                          <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
+                              class="discount"><span>&#8377;</span>30.15</del></h6>
+                        </div>
+                        <div>
+                          <a href="javascript:void(0)" class="home-leftside-wrapper-btn">Add to Cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-2 shadow mb-2">
+                <div class="row g-0 align-items-center">
+                  <div class="col-3 text-center">
+                    <a target="_blank" href="javascript:void(0)">
+                      <img src="homepageimages/small-product4.png" class="img-fluid " alt="Fashion">
+                    </a>
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body p-0 px-2">
+                      <h5 class="mb-1"> Fashion</h5>
+                      <h6 class="font-400 font-10">Men Shirt</h6>
+                      <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
+                        <div class="rating">
+                          <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
+                              class="discount"><span>&#8377;</span>30.15</del></h6>
+                        </div>
+                        <div>
+                          <a href="javascript:void(0)" class="home-leftside-wrapper-btn">Add to Cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-2 shadow mb-2">
+                <div class="row g-0 align-items-center">
+                  <div class="col-3 text-center">
+                    <a target="_blank" href="javascript:void(0)">
+                      <img src="homepageimages/bag1.jpg" class="img-fluid " alt="Fashion">
+                    </a>
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body p-0 px-2">
+                      <h5 class="mb-1"> Fashion</h5>
+                      <h6 class="font-400 font-10">Men Shirt</h6>
+                      <div class="d-flex justify-content-between align-items-center flex-wrap rating-wrap">
+                        <div class="rating">
+                          <h6 class="home-leftside-wrapper-price"><span>&#8377;</span>25.15 <del
+                              class="discount"><span>&#8377;</span>30.15</del></h6>
+                        </div>
+                        <div>
+                          <a href="javascript:void(0)" class="home-leftside-wrapper-btn">Add to Cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
-
-        </div>
-      </section>
-
-
-
-      <!-- brand-company-section -->
-
-      <section class="brand-company-section">
-        <div class="container">
-          <div class="text-center">
-            <h4 class="mb-2">Shop By Brands</h4>
-            <p>Select Your Favorite Brands And Purchase</p>
+          <!-- parallax-section-right -->
+          <div class="col-md-8">
+            <section class="homepage-parallax-section-1 parallax-relative">
+              <div class="container-fluid">
+                <div class="text-center parallax-body-content">
+                  <h2>HOODIES LIGHT</h2>
+                  <a href="javascript:void(0)" class="btn">Shop Now</a>
+                </div>
+              </div>
+            </section>
+            <section class="homepage-parallax-section-2 parallax-relative">
+              <div class="container-fluid">
+                <div class="text-center parallax-body-content">
+                  <h2>HOODIES HEAVY</h2>
+                  <a href="javascript:void(0)" class="btn">Shop Now</a>
+                </div>
+              </div>
+            </section>
+            <section class="homepage-parallax-section-3 parallax-relative">
+              <div class="container-fluid">
+                <div class="text-center parallax-body-content">
+                  <h2>SWEATSHIRTS</h2>
+                  <a href="javascript:void(0)" class="btn">Shop Now</a>
+                </div>
+              </div>
+            </section>
+            <section class="homepage-parallax-section-4 parallax-relative">
+              <div class="container-fluid">
+                <div class="text-center parallax-body-content">
+                  <h2>HEADWEAR</h2>
+                  <a href="javascript:void(0)" class="btn">Shop Now</a>
+                </div>
+              </div>
+            </section>
           </div>
-          <div class="row justify-content-center">
-            <div class="col-lg-2 col-md-6 col-sm-4 col-6 mb-3">
-              <a href=""><img class="img-fluid" src="homepageimages/brand1.jpg" alt="" width="140px">
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Cosmetics Sales -->
+    <section class="Cosmetics-sales-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 mb-2">
+            <div class="card first-card  h-100">
+              <img class="img-fluid" src="homepageimages/Sunglasses Sale.png" alt="">
+              <span class="sale-position">-10</span>
+              <div class="card-body">
+                <h5>Sunglasses Sale</h5>
+                <p>
+                  See all Sunglasses and get 10% off at all Sunglasses
+                </p>
+                <div class="glasses-btn">
+                  <a href="javascript:void(0)" class="btn">SHOP BY GLASSES</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3  mb-2">
+            <div class="card second-card h-100">
+              <div class="card-body text-center">
+                <h5>Cosmetics Sales</h5>
+                <p>
+                  Buy Cosmetics products and get 30% off at all Cosmetics
+                </p>
+                <div class="Cosmetics-btn">
+                  <a href="javascript:void(0)" class="btn">SHOP BY Cosmetics </a>
+                </div>
+              </div>
+              <span class="sale-position">-80</span>
+              <div>
+                <img class="img-fluid" src="homepageimages/Cosmetics Sales.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3  mb-2">
+            <div class="card third-card  h-100">
+              <img class="img-fluid h-100" src="homepageimages/fashion summer sale.png" alt="">
+              <div class="card-img-overlay text-center ">
+                <div class=" border border-3 bg-dark-3 py-3">
+                  <h5>Fashion Summer Sale</h5>
+                  <h2>UP TO 80% OFF</h2>
+                  <p>On top Fashion Brands</p>
+                  <div class="summer-btn">
+                    <a href="javascript:void(0)" class="btn">SHOP BY FASHION</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card forth-card">
+              <img class="img-fluid" src="homepageimages/super-sale.png" alt="">
+              <span class="sale-position">-50</span>
+              <div class="card-body text-center">
+                <h2>SUPER SALE</h2>
+                <h6>UP TO 50% OFF</h6>
+                <p>
+                  On All Electronic
+                </p>
+                <div class="hurry-up-btn">
+                  <a href="javascript:void(0)" class="btn">HURRY UP!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- trending-section -->
+
+    <section class="trending-section ">
+      <div class="container">
+        <div class="text-center trending-section-body mb-2">
+          <h4 class="fw-bold mb-2">TRENDING</h4>
+          <p class="mb-3">Quis id facere possimus nihil dicta minima doloribus aliquid asperiores unde aspernatur <br> fugiat praesentium et quo esse accusantium temporibus iste, eius natus.</p>
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-3 col-6 mb-3">
+            <div class="product-cards-main-body trending-main-body">
+              <a href="add-to-cart.html"><img src="homepageimages/trending1.jpg" class="card-img-top img-fluid"
+                  alt="...">
               </a>
+              <div class="product-body text-center">
+                <span class="product-name">Jacket, Women</span>
+                <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                    class="discount"><span>&#8377;</span>30.15</del></h6>
+
+                <div>
+                  <ul class="product-info">
+                    <li>3K+ viewed in past month</li>
+                    <li>Get it by <strong>Sunday</strong>, February 25</li>
+                    <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
+                  </ul>
+                </div>
+                <div class="left-sidebar-yellow-star mb-2">
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="buy-now-btn">
+                  <a href="javascript:void(0)" class="btn">Buy Now <span><i
+                        class="fa-solid fa-arrow-right"></i></span></a>
+                </div>
+
+                <div class="product-tag-trending-section">
+                  <span class="badge badge-secondary mb-2"><a href="javascript:void(0)" class=""><i
+                        class="fa-regular fa-heart"></i></a></span>
+                  <span class="badge badge-secondary mb-2"><a href="javascript:void(0)"><i
+                        class="fa-solid fa-cart-plus"></i></a></span>
+                  <span class="badge badge-secondary"><a href="javascript:void(0)"><i
+                        class="fa-solid fa-magnifying-glass"></i></a></span>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-2 col-md-6 col-sm-4 col-6 mb-3">
-              <a href=""><img class="img-fluid" src="homepageimages/brand2.jpg" alt="" width="140px">
+          </div>
+          <div class="col-lg-3 col-6 mb-3">
+            <div class="product-cards-main-body">
+              <a href="add-to-cart.html"><img src="homepageimages/trending2.jpg" class="card-img-top img-fluid"
+                  alt="...">
               </a>
+              <div class="product-body text-center">
+                <span class="product-name">Jacket, Women</span>
+                <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                    class="discount"><span>&#8377;</span>30.15</del></h6>
+
+                <div>
+                  <ul class="product-info">
+                    <li>3K+ viewed in past month</li>
+                    <li>Get it by <strong>Sunday</strong>, February 25</li>
+                    <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
+                  </ul>
+                </div>
+                <div class="left-sidebar-yellow-star mb-2">
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="buy-now-btn">
+                  <a href="javascript:void(0)" class="btn">Buy Now <span><i
+                        class="fa-solid fa-arrow-right"></i></span></a>
+                </div>
+
+                <div class="product-tag-trending-section">
+                  <span class="badge badge-secondary mb-2"><a href="javascript:void(0)" class=""><i
+                        class="fa-regular fa-heart"></i></a></span>
+                  <span class="badge badge-secondary mb-2"><a href="javascript:void(0)"><i
+                        class="fa-solid fa-cart-plus"></i></a></span>
+                  <span class="badge badge-secondary"><a href="javascript:void(0)"><i
+                        class="fa-solid fa-magnifying-glass"></i></a></span>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-2 col-md-6 col-sm-4 col-6 mb-3">
-              <a href=""><img class="img-fluid" src="homepageimages/brand3.jpg" alt="" width="140px"></a>
+          </div>
+          <div class="col-lg-3 col-6 mb-3">
+            <div class="product-cards-main-body">
+              <a href="add-to-cart.html"><img src="homepageimages/trending3.jpg" class="card-img-top img-fluid"
+                  alt="...">
+              </a>
+              <div class="product-body text-center">
+                <span class="product-name">Jacket, Women</span>
+                <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                    class="discount"><span>&#8377;</span>30.15</del></h6>
+
+                <div>
+                  <ul class="product-info">
+                    <li>3K+ viewed in past month</li>
+                    <li>Get it by <strong>Sunday</strong>, February 25</li>
+                    <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
+                  </ul>
+                </div>
+                <div class="left-sidebar-yellow-star mb-2">
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="buy-now-btn">
+                  <a href="javascript:void(0)" class="btn">Buy Now <span><i
+                        class="fa-solid fa-arrow-right"></i></span></a>
+                </div>
+
+                <div class="product-tag-trending-section">
+                  <span class="badge badge-secondary mb-2"><a href="javascript:void(0)" class=""><i
+                        class="fa-regular fa-heart"></i></a></span>
+                  <span class="badge badge-secondary mb-2"><a href="javascript:void(0)"><i
+                        class="fa-solid fa-cart-plus"></i></a></span>
+                  <span class="badge badge-secondary"><a href="javascript:void(0)"><i
+                        class="fa-solid fa-magnifying-glass"></i></a></span>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-2 col-md-6 col-sm-4 col-6 mb-3">
-              <a href=""><img class="img-fluid" src="homepageimages/brand4.jpg" alt="" width="140px"></a>
-            </div>
-            <div class="col-lg-2 col-md-6 col-sm-4 col-6 mb-3">
-              <a href=""><img class="img-fluid" src="homepageimages/brand5.jpg" alt="" width="140px"></a>
-            </div>
-            <div class="col-lg-2 col-md-6 col-sm-4 col-6 mb-3 ">
-              <a href=""><img class="img-fluid" src="homepageimages/brand6.jpg" alt="" width="140px"></a>
+          </div>
+          <div class="col-lg-3 col-6 mb-3">
+            <div class="product-cards-main-body">
+              <a href="add-to-cart.html"><img src="homepageimages/trending4.jpg" class="card-img-top img-fluid"
+                  alt="...">
+              </a>
+              <div class="product-body text-center">
+                <span class="product-name">Jacket, Women</span>
+                <h6 class="product-price"><span>&#8377;</span>25.15 <del
+                    class="discount"><span>&#8377;</span>30.15</del></h6>
+
+                <div>
+                  <ul class="product-info">
+                    <li>3K+ viewed in past month</li>
+                    <li>Get it by <strong>Sunday</strong>, February 25</li>
+                    <li><strong>FREE Delivery</strong> over ₹499. Fulfilled by VCart.</li>
+                  </ul>
+                </div>
+                <div class="left-sidebar-yellow-star mb-2">
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="buy-now-btn">
+                  <a href="javascript:void(0)" class="btn">Buy Now <span><i
+                        class="fa-solid fa-arrow-right"></i></span></a>
+                </div>
+                <div class="product-tag-trending-section">
+                  <span class="badge badge-secondary mb-2"><a href="javascript:void(0)" class=""><i
+                        class="fa-regular fa-heart"></i></a></span>
+                  <span class="badge badge-secondary mb-2"><a href="javascript:void(0)"><i
+                        class="fa-solid fa-cart-plus"></i></a></span>
+                  <span class="badge badge-secondary"><a href="javascript:void(0)"><i
+                        class="fa-solid fa-magnifying-glass"></i></a></span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+
+
+
+
+
+
+    <!-- homepage-bottom-newslater-section -->
+
+    <section class="homepage-bottom-newslater-section">
+      <div class="container ">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="newslater-body text-center">
+              <h4>Get Latest Update by <br>Subscribe Our Newslater</h4>
+              <div class="mb-4">
+                <input type="text" class="form-control form-control-lg bubscribe-control rounded-0 px-5 py-3"
+                  placeholder="Enter your email">
+              </div>
+              <div class="pb-3">
+                <button class="btn btn-light w-100 rounded-0 px-5 py-3" type="button">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+
+
+    <!-- brand-company-section -->
+
+    <section class="brand-company-section">
+      <div class="container">
+        <div class="text-center">
+          <h4 class="mb-2">Shop By Brands</h4>
+          <p>Select Your Favorite Brands And Purchase</p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-2 col-md-6 col-sm-4 col-6 mb-3">
+            <a href="javascript:void(0)"><img class="img-fluid" src="homepageimages/brand1.jpg" alt="" width="140px">
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-4 col-6 mb-3">
+            <a href="javascript:void(0)"><img class="img-fluid" src="homepageimages/brand2.jpg" alt="" width="140px">
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-4 col-6 mb-3">
+            <a href="javascript:void(0)"><img class="img-fluid" src="homepageimages/brand3.jpg" alt=""
+                width="140px"></a>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-4 col-6 mb-3">
+            <a href="javascript:void(0)"><img class="img-fluid" src="homepageimages/brand4.jpg" alt=""
+                width="140px"></a>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-4 col-6 mb-3">
+            <a href="javascript:void(0)"><img class="img-fluid" src="homepageimages/brand5.jpg" alt=""
+                width="140px"></a>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-4 col-6 mb-3 ">
+            <a href="javascript:void(0)"><img class="img-fluid" src="homepageimages/brand6.jpg" alt=""
+                width="140px"></a>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
@@ -1844,14 +1567,13 @@
             <img class="img-fluid d-block m-auto mb-3" src="homepageimages/vmart_store-logo.png" alt="" width="160px"
               height="200px">
             <p class="text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium fugit, sunt tenetur qui aperiam, quia
-              laboriosam ducimus praesentium nisi.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium fugit, sunt tenetur qui aperiam.
             </p>
             <div class="left-socials-icons text-center">
-              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-              <a href=""><i class="fa-brands fa-twitter"></i></a>
-              <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-              <a href=""><i class="fa-solid fa-p"></i></a>
+              <a href="javascript:void(0)"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="javascript:void(0)"><i class="fa-brands fa-twitter"></i></a>
+              <a href="javascript:void(0)"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="javascript:void(0)"><i class="fa-solid fa-p"></i></a>
             </div>
           </div>
         </div>
@@ -1862,10 +1584,10 @@
             <div class="col-lg-6 col-6 footer-column-links">
               <ul class="nav flex-column">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">Home</a>
+                  <a class="nav-link active" href="javascript:void(0)">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="">ABOUT US</a>
+                  <a class="nav-link active" href="javascript:void(0)">ABOUT US</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" href="profile.html">Profile</a>
@@ -1884,16 +1606,16 @@
             <div class="col-lg-6 col-6 footer-column-links">
               <ul class="nav flex-column">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">LOGIN</a>
+                  <a class="nav-link active" href="gallery.html">Gallery</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" href="Registration.html">REGISTRATION</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">SERVICES</a>
+                  <a class="nav-link active" href="categories.html">Categories</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">PAGES</a>
+                  <a class="nav-link active" href="javascript:void(0)">PAGES</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" href="Our-Team.html">OUR TEAM</a>
@@ -1906,7 +1628,7 @@
           <h6>SOME POSTS</h6>
           <div class="footer-post-sec">
             <div>
-              <a href=""><img class="img-fluid" src="homepageimages/b5.jpg" alt="">
+              <a href="javascript:void(0)"><img class="img-fluid" src="homepageimages/b5.jpg" alt="">
               </a>
             </div>
             <div class="ms-2">
@@ -1917,7 +1639,7 @@
 
           <div class="footer-post-sec">
             <div>
-              <a href=""><img class="img-fluid" src="homepageimages/b1.png" alt="">
+              <a href="javascript:void(0)"><img class="img-fluid" src="homepageimages/b1.png" alt="">
               </a>
             </div>
             <div class="ms-2">
@@ -1931,26 +1653,26 @@
         <div class="col-lg-3 col-md-6 col-sm-6 col-12 ">
           <h6>POPULAR TAGS</h6>
           <div class="footer-column-links-tags">
-            <a href="">HEADPHONESS</a>
-            <a href="">ACCESSORIES</a>
-            <a href="">NEW</a>
-            <a href="">WIRELESS</a>
-            <a href="">CABLES</a>
-            <a href="">DEVICES</a>
-            <a href="">GADGETS</a>
-            <a href=""> BRANDS</a>
-            <a href="">CASES</a>
-            <a href=""> CABLES</a>
-            <a href=""> SHIRT</a>
+            <a href="javascript:void(0)">HEADPHONESS</a>
+            <a href="javascript:void(0)">ACCESSORIES</a>
+            <a href="javascript:void(0)">NEW</a>
+            <a href="javascript:void(0)">WIRELESS</a>
+            <a href="javascript:void(0)">CABLES</a>
+            <a href="javascript:void(0)">DEVICES</a>
+            <a href="javascript:void(0)">GADGETS</a>
+            <a href="javascript:void(0)"> BRANDS</a>
+            <a href="javascript:void(0)">CASES</a>
+            <a href="javascript:void(0)"> CABLES</a>
+            <a href="javascript:void(0)"> SHIRT</a>
           </div>
 
           <div class="footer-contact-details-body pt-2 ">
             <ul class="footer-social-nav d-flex">
-              <li><a href="" class="btn btn-youtube text-white"><span><i
+              <li><a href="javascript:void(0)" class="btn btn-youtube text-white"><span><i
                       class="fa-brands fa-youtube mx-1"></i></span>YouTube</a>
               </li>
               <li>
-                <a href="" class="btn btn-telegram text-white"><span><i
+                <a href="javascript:void(0)" class="btn btn-telegram text-white"><span><i
                       class="fa-brands fa-telegram mx-1"></i></span>Telegram</a>
               </li>
             </ul>
@@ -2005,13 +1727,14 @@
       <div class="row text-center">
         <div class="col-lg-4 col-md-6 my-2 col-12">
           <p>
-            © 2024 All rights reserved. Development by <a class="agency-copy" href="">Vijay.Yadav</a>
+            © 2024 All rights reserved. Development by <a class="agency-copy" href="javascript:void(0)">Vijaykumar.Yadav</a>
           </p>
         </div>
         <div class="col-lg-4 mb-2 col-md-6 col-12">
           <div class="footer-social-icons">
-            <a href="" class=" text-decoration-none">Privacy Policy</a> <span class="text-white">|</span>
-            <a href="" class=" text-decoration-none">Terms And Condition</a>
+            <a href="privacy-policy.html" class=" text-decoration-none">Privacy Policy</a> <span
+              class="text-white">|</span>
+            <a href="Terms-And-Condition.html" class=" text-decoration-none">Terms And Condition</a>
           </div>
         </div>
         <div class="col-lg-4 co-12">
@@ -2059,6 +1782,7 @@
         loop: true,
         autoplay: true,
         slideTransition: 'linear',
+        slideTransition: 'linear',
         responsive: {
           0: {
             items: 1,
@@ -2073,28 +1797,6 @@
     })
   </script>
 
-  <script>
-    $(document).ready(function () {
-      $('.owl-carousel .owl-carousel-a').owlCarousel({
-        margin: 30,
-        loop: true,
-        autoplay: true,
-        slideTransition: 'linear',
-        autoplayTimeout: 2000,
-        autoplaySpeed: 7000,
-        responsive: {
-          0: {
-            items: 1,
-            slideBy: 1,
-          },
-          768: {
-            items: 3,
-            slideBy: 1,
-          }
-        },
-      });
-    })
-  </script>
 
 
 

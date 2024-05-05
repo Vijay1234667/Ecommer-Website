@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/add-tocart.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/style.css">
   <script src="js/jquery.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -20,50 +21,58 @@
 
 
 <body>
-  <!-- navigation-section -->
-
-
   <header>
-    <nav class="navbar navbar-expand-md  fixed-top mb-5">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img class="img-fluid" src="homepageimages/vmart_store-logo.png"
-            alt="" width="130px">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa-solid fa-bars text-white"></i><span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-md">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">ONLINE SHOP</a>    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <a href=""><i class="fa-solid fa-bars fs-5"></i></a>
-          </ul>
-          <div class="d-flex ms-auto position-relative">
-            <div class="">
-              <input class="form-control" list="datalistOptions" placeholder="Search, Brand,Product....">
-            </div>
-            <div class="position-absolute top-0 end-0">
-              <a href="" class="btn "><i class="fa-solid fa-magnifying-glass dark"></i></a>
-            </div>
-          </div>
-
-          <ul class="navbar-nav nav-brand-icons m-auto">
-            <li class="login-btn px-2">
-              <a href=""><a href="" class="btn"><span><i class="fa-solid fa-user px-1"></i></span>Login</a>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="javascript:void(0)">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="javascript:void(0)">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="javascript:void(0)">Shop</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Portfolio
               </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="javascript:void(0)">Something else here</a></li>
+              </ul>
             </li>
-
-            <li class="login-btn Track-Order px-1 px-3 position-relative">
-              <a href="" class="btn">Track Order</a>
-              <span class="position-absolute top-0 strat-0   translate-middle badge rounded-pill bg-danger">
-                <i class="fa-solid fa-truck"></i></span>
-            </li>
-
-            <li class="login-btn Cart position-relative px-2">
-              <a href="" class="btn">Cart</a>
-              <span
-                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">2+</i></span>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="javascript:void(0)">Something else here</a></li>
+              </ul>
             </li>
           </ul>
+          <div class="navbar-right-btn">
+            <a href="javascript:void(0)" class="btn">Sign Up</a>
+            <a href="javascript:void(0)" class="btn">Login</a>
+          </div>
         </div>
       </div>
     </nav>
@@ -145,7 +154,7 @@
             }
 
             .mySwiper2 {
-              height: 80%;
+              height: 70%;
               width: 100%;
             }
 
@@ -173,60 +182,84 @@
             }
           </style>
           <div class="col-lg-6  add-to-bag-body-content">
-            <h4 class="fw-bold mb-1 my-2"><span class="text-success">#</span> Check Black Kurta <span
+            <h4 class="fw-bold mb-1"><span class="text-success">#</span> Check Black Kurta <span
                 class="text-success">#</span></h4>
-            <h6 class="title-top-para">Women Pink & Off-White Printed Kurta with Palazzos...</h6>
+            <h6 class="title-top-para"> Off-White Printed Kurta with Brands...</h6>
             <hr>
             <div>
               <h6>
-                <span class="text-dark fs-3"><span>&#8377;</span id="increaseprice">458</span> <span
+                <span class="text-dark fs-3"><span>&#8377;</span id="increaseprice">458</span><span
                   class="text-secondary fs-5 mx-2"><del><span>&#8377;</span>1089</del></span> <span
                   class="text-danger fs-5">(70% off)</span>
               </h6>
-              <p class="text-success fw-bold font-monospace">Add Item Here</p>
-              <div class="d-flex ms-auto align-items-end plus-minus mb-3">
+              <p class="text-success fw-bold">Add Item</p>
+              <div class="d-flex ms-auto align-items-end plus-minus mb-2">
                 <button class="value-button decrease-button" onclick="decreaseValue(this)" title="Azalt">-</button>
-                <a href="" class="number">0</a>
+                <a href="javascript:void(0)" class="number">0</a>
                 <button class="value-button increase-button" ondblclick="myPriceAdd()" onclick="increaseValue(this, 5)"
                   title="Arrtır">+</button>
               </div>
             </div>
             <div class="mb-3">
+              <style>
+                .choose-color a {
+                  color: black;
+                  width: 23px;
+                  height: 23px;
+                  padding: 1px 10px;
+                  border-radius: 50%;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  margin-right: 6px;
+                  text-decoration: none;
+                }
+
+                .choose-color li {
+                  color: black;
+                  list-style-type: none;
+                }
+              </style>
               <h6>More Colors..</h6>
-              <div class="add-tocart-featured-product">
-                <img class="img-fluid" src="homepageimages/product9.jpg" alt="">
-                <img class="img-fluid" src="homepageimages/add to size3.jpg" alt="">
-                <img class="img-fluid" src="homepageimages/add to size2.jpg" alt="">
-                <img class="img-fluid" src="homepageimages/product9.jpg" alt="">
+              <div class="choose-color">
+                <ul class="d-flex p-0">
+                  <li>
+                    <a href="javascript:void(0)" class="btn bg-success"></a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)" class="btn bg-primary"></a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)" class="btn bg-warning"></a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)" class="btn bg-danger"></a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)" class="btn bg-info"></a>
+                  </li>
+                </ul>
               </div>
             </div>
             <div>
               <h6 class="fw-bold">Select Size</h6>
               <div class="add-to-carts-featured-products-sizes-btn mb-2">
                 <ul class="d-flex p-0">
-                  <li><a class="btn" href="">XS</a></li>
-                  <li><a class="btn" href="">S</a></li>
-                  <li><a class="btn" href="">M</a></li>
-                  <li><a class="btn" href="">L</a></li>
-                  <li><a class="btn" href="">XL</a></li>
-                  <li><a class="btn" href="">XXL</a></li>
+                  <li><a class="btn" href="javascript:void(0)">XS</a></li>
+                  <li><a class="btn" href="javascript:void(0)">S</a></li>
+                  <li><a class="btn" href="javascript:void(0)">M</a></li>
+                  <li><a class="btn" href="javascript:void(0)">L</a></li>
+                  <li><a class="btn" href="javascript:void(0)">XL</a></li>
+                  <li><a class="btn" href="javascript:void(0)">XXL</a></li>
                 </ul>
-                <p>
-                  Please check size chart table to know the exact size to be ordered
-                  Acrylic, Machine wash
-                </p>
               </div>
             </div>
 
             <h6 class="fw-bold">Ship To</h6>
             <div
-              class="d-flex border border-1 border-danger w-75 rounded justify-content-between pincode-input px-2  align-items-baseline">
-              <div>
-                <p>Mumbai-400076</p>
-              </div>
-              <div>
-                <a href="" class="text-decoration-none">Change Pincode</a>
-              </div>
+              class="d-flex border border-1 border-danger w-50 w-75 pt-1 pb-1 rounded justify-content-between pincode-input px-2  align-items-center mb-2">
+              <span class="text-nowrap">Mumbai-400076</span>
+              <a href="javascript:void(0)" class="text-decoration-none text-nowrap">Change Pincode</a>
             </div>
 
             <div class="types-of-delivery-section">
@@ -234,27 +267,22 @@
                 <div>
                   <img class="img-fluid" src="homepageimages/deliveryIcon.svg" alt="">
                 </div>
-                <div class="mx-2">
-                  <p>Delivery by <strong>22nd Feb</strong></p>
-                </div>
+                <p class="px-2">Delivery by <strong>22nd Feb</strong></p>
               </div>
 
               <div class="d-flex">
                 <div>
                   <img class="img-fluid" src="homepageimages/cash on delivery i-img.svg" alt="">
                 </div>
-                <div class="mx-2">
-                  <p><strong>Cash on Delivery</strong> | <a href="">Available</a></p>
-                </div>
+                <p class="px-3"><strong>Cash on Delivery</strong> | <a href="javascript:void(0)">Available</a></p>
               </div>
-
               <div class="d-flex">
                 <div>
                   <img class="img-fluid" src="homepageimages/returnReplacementIcon.svg" alt="">
                 </div>
-                <div class="mx-2">
-                  <p>
-                    <strong>10 Days Easy Return</strong> | <a href="">Know More</a>
+                <div>
+                  <p class="px-2">
+                    <strong>10 Days Easy Return</strong> | <a href="javascript:void(0)">Know More</a>
                   </p>
                 </div>
               </div>
@@ -266,7 +294,7 @@
                   <a class="btn btn-1 w-75" href="cart.html"><i class="fa-solid fa-cart-plus mx-2"></i>Buy Now</a>
                 </div>
                 <div>
-                  <a class="btn w-75 btn-1" href=""><i class="fa-solid fa-heart  mx-2"></i>Add To
+                  <a class="btn w-75 btn-1" href="javascript:void(0)"><i class="fa-solid fa-heart mx-2"></i>Add To
                     whishlist</a></button>
                 </div>
               </div>
@@ -309,35 +337,28 @@
                   </div>
                 </div>
                 <div class="write-review-btn">
-                  <a class="btn" href="">Write A Review</a>
+                  <a class="btn" href="javascript:void(0)">Write A Review</a>
                 </div>
               </div>
-
               <hr>
-
               <div>
-
                 <div class="d-flex">
                   <div>
                     <img class="img-fluid " src="homepageimages/ralf.jpg" alt="" width="50px">
                   </div>
-                  <div class="d-flex mx-2">
-                    <div>
-                      <h6 class="fw-bold">Richard Smith</h6>
-                      <div class="left-sidebar-yellow-star mb-2">
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star "></i>
-                      </div>
-                      <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos ex repellat
-                        officiis
-                      </p>
+                  <div class=" px-2">
+                    <h6 class="fw-bold">Richard Smith</h6>
+                    <div class="left-sidebar-yellow-star mb-2">
+                      <i class="fa-solid fa-star text-warning"></i>
+                      <i class="fa-solid fa-star text-warning"></i>
+                      <i class="fa-solid fa-star text-warning"></i>
+                      <i class="fa-solid fa-star "></i>
                     </div>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </p>
                   </div>
                 </div>
-
                 <hr>
                 <div class="d-flex">
                   <div>
@@ -388,27 +409,21 @@
           <div class="col-lg-6">
             <form class="add-to-cart-reviews-form-section" id="userForm">
               <div class="form-group row">
-                <label for="inputEmail3" class="col-lg-12 col-form-label " for="email">Name</label>
+                <label for="inputName" class="col-lg-12 col-form-label " for="Name">Name</label>
                 <div class=" mb-2">
-                  <input type="email" class="form-control" id="inputEmail3" id="email" name="email" placeholder="Email">
+                  <input type="text" class="form-control" id="inputName" id="Name" name="Name" placeholder=" Enter Name">
                 </div>
               </div>
               <div class="form-group row">
-                <label for="inputEmail3" class="col-form-label " for="email">Email</label>
+                <label for="inputEmail" class="col-form-label " for="email">Email</label>
                 <div class=" mb-2">
-                  <input type="email" class="form-control" id="inputEmail3" id="email" name="email" placeholder="Email">
+                  <input type="email" class="form-control" id="inputEmail" id="email" name="email" placeholder=" Enter Email">
                 </div>
               </div>
               <div class="form-group row">
-                <label for="inputEmail3" class="col-form-label " for="email">Phone</label>
+                <label for="inputPhone" class="col-form-label " for="Phone">Phone</label>
                 <div class=" mb-2">
-                  <input type="email" class="form-control" id="inputEmail3" id="email" name="email" placeholder="Email">
-                </div>
-              </div>
-              <div class="form-group row mb-2">
-                <div class="">
-                  <label for="exampleFormControlTextarea1" class="form-label">Address</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+                  <input type="Phone" class="form-control" id="inputPhone" id="Phone" name="Phone" placeholder="Phone">
                 </div>
               </div>
 
@@ -421,8 +436,8 @@
               </div>
 
               <div class="form-group row">
-                <div class=" reviews-submit-btn">
-                  <a href="" class="btn d-block w-100  mb-3" type="submit">Submit</a>
+                <div class="reviews-submit-btn">
+                  <a href="javascript:void(0)" class="btn d-block w-25 mb-3" type="submit">Submit</a>
                 </div>
               </div>
             </form>
@@ -446,16 +461,16 @@
 
         <div class="owl-carousel owl-theme">
           <div class="item">
-            <div class="card">
+            <div class="card h-100">
               <div class="inner">
-                <img   src="img/k1.webp" class="card-img-top inner" alt="">
+                <img  src="img/k1.webp" class=" img-fluid card-img-top inner" alt="">
               </div>
               <div class="card-body text-center">
                 <h4 class="card-title"><i>Product1</i></h4>
                 <p class="card-text">Professionals work with a variety of all materials, in a variety of
                   settings–indoor and outdoor.</p>
                 <div class="card-btn text-center">
-                  <button class="btn  text-danger fw-bold">Read More <span><i
+                  <button class="btn  fw-bold">Read More <span><i
                         class="fa-solid fa-arrow-right"></i></span></button>
                 </div>
               </div>
@@ -464,14 +479,14 @@
           <div class="item">
             <div class="card">
               <div class="inner">
-                <img src="img/k2.webp" class="card-img-top inner" alt="">
+                <img src="img/k2.webp" class=" img-fluid card-img-top " alt="">
               </div>
               <div class="card-body text-center">
                 <h4 class="card-title"><i>Product1</i></h4>
                 <p class="card-text">Professionals work with a variety of all materials, in a variety of
                   settings–indoor and outdoor.</p>
                 <div class="card-btn text-center">
-                  <button class="btn  text-danger fw-bold">Read More <span><i
+                  <button class="btn fw-bold">Read More <span><i
                         class="fa-solid fa-arrow-right"></i></span></button>
                 </div>
               </div>
@@ -480,14 +495,14 @@
           <div class="item">
             <div class="card">
               <div class="inner">
-                <img src="img/k3.webp" class="card-img-top inner" alt="">
+                <img src="img/k3.webp" class=" img-fluid card-img-top inner" alt="">
               </div>
               <div class="card-body text-center">
                 <h4 class="card-title"><i>Product1</i></h4>
                 <p class="card-text">Professionals work with a variety of all materials, in a variety of
                   settings–indoor and outdoor.</p>
                 <div class="card-btn text-center">
-                  <button class="btn  text-danger fw-bold">Read More <span><i
+                  <button class="btn fw-bold">Read More <span><i
                         class="fa-solid fa-arrow-right"></i></span></button>
                 </div>
               </div>
@@ -496,14 +511,14 @@
           <div class="item">
             <div class="card">
               <div class="inner">
-                <img src="img/k4.webp" class="card-img-top inner" alt="">
+                <img src="img/k4.webp" class=" img-fluid card-img-top inner" alt="">
               </div>
               <div class="card-body text-center">
                 <h4 class="card-title"><i>Product1</i></h4>
                 <p class="card-text">Professionals work with a variety of all materials, in a variety of
                   settings–indoor and outdoor.</p>
                 <div class="card-btn text-center">
-                  <button class="btn  text-danger fw-bold">Read More <span><i
+                  <button class="btn  fw-bold">Read More <span><i
                         class="fa-solid fa-arrow-right"></i></span></button>
                 </div>
               </div>
@@ -525,22 +540,7 @@
               </div>
             </div>
           </div>
-          <div class="item">
-            <div class="card">
-              <div class="inner">
-                <img src="" class="card-img-top inner" alt="">
-              </div>
-              <div class="card-body text-center">
-                <h4 class="card-title"><i>Product1</i></h4>
-                <p class="card-text">Professionals work with a variety of all materials, in a variety of
-                  settings–indoor and outdoor.</p>
-                <div class="card-btn text-center">
-                  <button class="btn  text-danger fw-bold">Read More <span><i
-                        class="fa-solid fa-arrow-right"></i></span></button>
-                </div>
-              </div>
-            </div>
-          </div>
+        
         </div>
       </div>
     </section>
@@ -565,10 +565,10 @@
               laboriosam ducimus praesentium nisi.
             </p>
             <div class="left-socials-icons text-center">
-              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-              <a href=""><i class="fa-brands fa-twitter"></i></a>
-              <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-              <a href=""><i class="fa-solid fa-p"></i></a>
+              <a href="javascript:void(0)"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="javascript:void(0)"><i class="fa-brands fa-twitter"></i></a>
+              <a href="javascript:void(0)"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="javascript:void(0)"><i class="fa-solid fa-p"></i></a>
             </div>
           </div>
         </div>
@@ -579,10 +579,10 @@
             <div class="col-lg-6 col-6 footer-column-links">
               <ul class="nav flex-column">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">Home</a>
+                  <a class="nav-link active" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="">ABOUT US</a>
+                  <a class="nav-link active" href="javascript:void(0)">ABOUT US</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" href="profile.html">Profile</a>
@@ -594,23 +594,23 @@
                   <a class="nav-link active" href="categories.html">Category</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">CONTACT</a>
+                  <a class="nav-link active" href="contact-us.html">CONTACT</a>
                 </li>
               </ul>
             </div>
             <div class="col-lg-6 col-6 footer-column-links">
               <ul class="nav flex-column">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">LOGIN</a>
+                  <a class="nav-link active" href="javascript:void(0)">LOGIN</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" href="Registration.html">REGISTRATION</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">SERVICES</a>
+                  <a class="nav-link active" href="javascript:void(0)">SERVICES</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">PAGES</a>
+                  <a class="nav-link active" href="javascript:void(0)">PAGES</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" href="Our-Team.html">OUR TEAM</a>
@@ -623,7 +623,7 @@
           <h6>SOME POSTS</h6>
           <div class="footer-post-sec">
             <div>
-              <a href=""><img class="img-fluid" src="homepageimages/b5.jpg" alt="">
+              <a href="javascript:void(0)"><img class="img-fluid" src="homepageimages/b5.jpg" alt="">
               </a>
             </div>
             <div class="ms-2">
@@ -634,7 +634,7 @@
 
           <div class="footer-post-sec">
             <div>
-              <a href=""><img class="img-fluid" src="homepageimages/b1.png" alt="">
+              <a href="javascript:void(0)"><img class="img-fluid" src="homepageimages/b1.png" alt="">
               </a>
             </div>
             <div class="ms-2">
@@ -648,26 +648,26 @@
         <div class="col-lg-3 col-md-6 col-sm-6 col-12 ">
           <h6>POPULAR TAGS</h6>
           <div class="footer-column-links-tags">
-            <a href="">HEADPHONESS</a>
-            <a href="">ACCESSORIES</a>
-            <a href="">NEW</a>
-            <a href="">WIRELESS</a>
-            <a href="">CABLES</a>
-            <a href="">DEVICES</a>
-            <a href="">GADGETS</a>
-            <a href=""> BRANDS</a>
-            <a href="">CASES</a>
-            <a href=""> CABLES</a>
-            <a href=""> SHIRT</a>
+            <a href="javascript:void(0)">HEADPHONESS</a>
+            <a href="javascript:void(0)">ACCESSORIES</a>
+            <a href="javascript:void(0)">NEW</a>
+            <a href="javascript:void(0)">WIRELESS</a>
+            <a href="javascript:void(0)">CABLES</a>
+            <a href="javascript:void(0)">DEVICES</a>
+            <a href="javascript:void(0)">GADGETS</a>
+            <a href="javascript:void(0)"> BRANDS</a>
+            <a href="javascript:void(0)">CASES</a>
+            <a href="javascript:void(0)"> CABLES</a>
+            <a href="javascript:void(0)"> SHIRT</a>
           </div>
 
           <div class="footer-contact-details-body pt-2 ">
             <ul class="footer-social-nav d-flex">
-              <li><a href="" class="btn btn-youtube text-white"><span><i
+              <li><a href="javascript:void(0)" class="btn btn-youtube text-white"><span><i
                       class="fa-brands fa-youtube mx-1"></i></span>YouTube</a>
               </li>
               <li>
-                <a href="" class="btn btn-telegram text-white"><span><i
+                <a href="javascript:void(0)" class="btn btn-telegram text-white"><span><i
                       class="fa-brands fa-telegram mx-1"></i></span>Telegram</a>
               </li>
             </ul>
@@ -722,13 +722,14 @@
       <div class="row text-center">
         <div class="col-lg-4 col-md-6 my-2 col-12">
           <p>
-            © 2024 All rights reserved. Development by <a class="agency-copy" href="">Vijay.Yadav</a>
+            © 2024 All rights reserved. Development by <a class="agency-copy" href="javascript:void(0)">Vijay.Yadav</a>
           </p>
         </div>
         <div class="col-lg-4 mb-2 col-md-6 col-12">
           <div class="footer-social-icons">
-            <a href="" class=" text-decoration-none">Privacy Policy</a> <span class="text-white">|</span>
-            <a href="" class=" text-decoration-none">Terms And Condition</a>
+            <a href="privacy-policy.html" class=" text-decoration-none">Privacy Policy</a> <span
+              class="text-white">|</span>
+            <a href="Terms-And-Condition.html" class=" text-decoration-none">Terms And Condition</a>
           </div>
         </div>
         <div class="col-lg-4 co-12">
@@ -739,12 +740,8 @@
       </div>
     </div>
     <div class="window-top-bottom-scroll">
-      <button class=" btn" onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <button class="btn" onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     </div>
-
-
-
-
   </footer>
 
 
@@ -816,23 +813,10 @@
     }
   </script>
 
+  <script src="js/bootstrap.bundle.js">
 
+  </script>
 
-
-
-  <script>
-    function myPriceAdd() {
-      document.getElementById("increaseprice").innerHTML += "Hello World ";
-    }
-  </script
-
-
-
-
-
-  <!-- footer-section -->
-  <script src="js/script.js"></script>
-  <script src="js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
