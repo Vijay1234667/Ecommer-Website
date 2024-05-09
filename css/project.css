@@ -1,0 +1,79 @@
+/* our-project-section */
+
+.our-project-section {
+    padding: 20px 0px 20px;
+  }
+  .our-project-section .our-project-section-top-content h2 {
+    font-size: 36px;
+  }
+  
+  .our-project-section .our-project-section-top-content p {
+    font-weight: 500;
+    color: #6a6a6a;
+    line-height: 29px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+  }
+  
+  .our-project-section .hire-team-btn .btn {
+    font-size: 15px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    background-color: #256a8f;
+    border-radius: 6px;
+    font-weight: 500;
+    padding: 0.7rem 1.7rem;
+  }
+  
+  .our-project-section .card .card-img-top {
+    width: 120px;
+    display: block;
+    margin: 0px auto;
+    transition: 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .our-project-section .card {
+    padding: 25px;
+    flex-wrap: wrap;
+    border: 3px solid #00a5ff;
+    box-shadow: 0 0 14px rgba(53, 110, 255, 0.45098039215686275);
+    border-radius: 10px;
+    margin: 10px 0px;
+    overflow: hidden;
+  }
+  .our-project-section .card .img-fluid {
+width: 100%;
+  }
+  .our-project-section .card:hover {
+    background-color:#256a8f54;
+    color: white !important;
+    transition: 0.7s ease-in-out;
+  }
+  .our-project-section .card:hover h4 {
+    color: white;
+  }
+  
+  .our-project-section .card h4 {
+    color: #404040;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px;
+  }
+  
+  .our-project-section .card h6 {
+    color: #949494;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 22px;
+  }
+  
+  .our-project-section .card .card-body a {
+    font-size: 17px;
+  }
+  
+  .our-project-section .card .card-body a {
+    font-size: 17px;
+    text-decoration: none;
+  }
