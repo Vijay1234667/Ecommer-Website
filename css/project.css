@@ -1,4 +1,24 @@
+.section-work-data{
+  background-color: #00a5ff;
+  padding: 40px 0px 40px;
+}
+.section-work-data h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: white;
+
+}
+.section-work-data p{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+
 /* our-project-section */
+
+
+
 
 .our-project-section {
     padding: 20px 0px 20px;
@@ -34,7 +54,7 @@
   }
   
   .our-project-section .card {
-    padding: 25px;
+    padding: 10px;
     flex-wrap: wrap;
     border: 3px solid #00a5ff;
     box-shadow: 0 0 14px rgba(53, 110, 255, 0.45098039215686275);
@@ -76,4 +96,29 @@ width: 100%;
   .our-project-section .card .card-body a {
     font-size: 17px;
     text-decoration: none;
+  }
+
+  .text-bottom-circle{
+    background-color:yellow;
+    height: 19px;
+    text-align: center;
+    width: 19px;
+    border-radius: 50%;
+    position: relative;
+    left: 41%;
+    transform: translate(-50%, -79%);
+
+  }
+  .reusable-relative{
+    position: relative;
+  }
+  .reusable-relative::before{
+    position: absolute;
+    content: "";
+    background-color:white;
+    height: 4px;
+    width: 17%;
+    top: 61%;  
+    left: 50%;
+    transform: translate(-50%, -50%);
   }

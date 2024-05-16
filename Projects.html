@@ -5,15 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
   <script src="js/jquery.min.js">
   </script>
   <link rel="stylesheet" href="./magnific-popup/magnific-popup.css">
+  <link rel="stylesheet" href="./fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.min.css">
+
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/project.css">
 
@@ -76,18 +75,11 @@
       </div>
     </nav>
   </header>
-
-
-
-
-
-
-
-
+  
   <style>
     .top-fixed-section {
       color: white;
-      background-color:rgba(0, 0, 0, 0.718);
+      background-color: rgba(0, 0, 0, 0.718);
       padding: 20px 0px 20px;
       background-repeat: no-repeat;
       background-size: cover;
@@ -96,7 +88,8 @@
 
     .top-fixed-section h1 {
       color: white;
-      font-family: "Poppins", sans-serif;
+      font-family: "Lalezar";
+      letter-spacing: 3px;
       font-weight: 600;
     }
 
@@ -115,11 +108,55 @@
     <section class="role-main-section">
       <section>
         <div class="container-fluid p-0 mt-5">
-          <div class="top-fixed-section text-center">
-            <h1>PROJECTS</h1>
+          <div class="top-fixed-section reusable-relative ">
+            <h1 class="text-center">PROJECTS</h1>
+            <div class="text-bottom-circle"></div>
           </div>
         </div>
       </section>
+
+
+
+      <section class="section-work-data">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 text-center">
+              <h2 class="counter-numbers" data-number="2000">0+</h2>
+              <p>Project Completed</p>
+            </div>
+            <div class="col-lg-3 text-center">
+              <h2 class="counter-numbers" data-number="6000">0+</h2>
+              <p>Happy Clients</p>
+            </div>
+            <div class="col-lg-3 text-center">
+              <h2 class="counter-numbers" data-number="5000">0+</h2>
+              <p>Cup Of Coffee</p>
+            </div>
+            <div class="col-lg-3 text-center">
+              <h2 class="counter-numbers" data-number="3000">0+</h2>
+              <p>Real Proffessionals</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script>
+        const counterNum = document.querySelectorAll(".counter-numbers");
+        const speed = 200;
+        counterNum.forEach((curElem) => {
+          const updateNumber = () => {
+            const targetNumber = parseInt(curElem.dataset.number);
+            const initialNum = parseInt(curElem.innerText);
+            const incrementNumber = Math.trunc(targetNumber/ speed);
+
+            if(initialNum < targetNumber){
+              curElem.innerText = `${initialNum + incrementNumber}+`;
+              setTimeout(updateNumber, 10);
+            }
+          };
+          updateNumber();
+        });
+      </script>
 
       <section class="our-project-section">
         <div class="container ">
@@ -139,8 +176,15 @@
           <div class="row popup-view1">
             <div class="col-lg-4 col-sm-6 animate__animated animate__fadeInLeft">
               <div class="card">
-                <a class="popup-view" href="img/project1.png"><img class="img-fluid  card-img-top" src="img/ProjectCard.png" alt=""></a>
+                <a class="popup-view" href="img/project1.png"><img class="img-fluid  card-img-top"
+                    src="img/ProjectCard.png" alt=""></a>
                 <a class="popup-view" href="img/project1-mob.png"><img class="img-fluid  card-img-top"></a>
+                <a class="popup-view" href="img/ProjectCard2.png"><img class="img-fluid  card-img-top"></a>
+                <a class="popup-view" href="img/project2-mob.png"><img class="img-fluid  card-img-top"></a>
+                <a class="popup-view" href="img/ProjectCard3.png"><img class="img-fluid  card-img-top"></a>
+                <a class="popup-view" href="img/project3-mob.png"><img class="img-fluid  card-img-top"></a>
+                <a class="popup-view" href="img/ProjectCard4.png"><img class="img-fluid  card-img-top"></a>
+                <a class="popup-view" href="img/project4-mob.png"><img class="img-fluid  card-img-top"></a>
                 <div class="card-body text-center">
                   <a href="javascript:void(0)"><span><i class="fa-brands fa-twitter"></i></span>Project1</a>
                 </div>
@@ -148,7 +192,8 @@
             </div>
             <div class="col-lg-4 col-sm-6 animate__animated animate__fadeInDown">
               <div class="card">
-                <a class="popup-view" href="img/project2.png"><img class="img-fluid card-img-top" src="img/ProjectCard2.png" alt=""></a>
+                <a class="popup-view" href="img/project2.png"><img class="img-fluid card-img-top"
+                    src="img/ProjectCard2.png" alt=""></a>
                 <a class="popup-view" href="img/project2-mob.png"><img class="img-fluid card-img-top"></a>
                 <div class="card-body text-center">
                   <a class="text-danger" href="javascript:void(0)"><span><i
@@ -181,7 +226,8 @@
                 <a href="img/project5.png"><img class="img-fluid card-img-top" src="img/ProjectCard5.png" alt=""></a>
                 <a href="img/project5-mob.png"><img class="img-fluid card-img-top"></a>
                 <div class="card-body text-center">
-                  <a href="javascript:void(0)" class="text-warning"><span><i class="fa-brands fa-instagram mx-1"></i></span>Project5</a>
+                  <a href="javascript:void(0)" class="text-warning"><span><i
+                        class="fa-brands fa-instagram mx-1"></i></span>Project5</a>
                 </div>
               </div>
             </div>
@@ -390,7 +436,8 @@
         </div>
         <div class="col-lg-4 mb-2 col-md-6 col-12">
           <div class="footer-social-icons">
-            <a href="javascript:void(0)" class=" text-decoration-none">Privacy Policy</a> <span class="text-white">|</span>
+            <a href="javascript:void(0)" class=" text-decoration-none">Privacy Policy</a> <span
+              class="text-white">|</span>
             <a href="javascript:void(0)" class=" text-decoration-none">Terms And Condition</a>
           </div>
         </div>
@@ -403,28 +450,42 @@
     </div>
   </footer>
   <script src="js/bootstrap.bundle.js"></script>
+
+
+  <script>
+(function () {
+  'use strict'
+  var forms = document.querySelectorAll('.needs-validation')
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+  </script>
   <script src="js/aos.js"></script>
 
   <script>
     $(document).ready(function () {
-        $('.popup-view1').magnificPopup({
-            delegate: 'a',
-            type: 'image',
-            tLoading: 'Loading image #%curr%...',
-            mainClass: 'mfp-img-mobile',
-            gallery: {
-                enabled: true,
-                navigateByImgClick: true,
-                preload: [0, 1] 
-            },
-            image: {
-                titleSrc: function (item) {
-                    return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
-                }
-            }
-        });
+      $('.popup-view1').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        tLoading: 'Loading image #%curr%...',
+        mainClass: 'mfp-img-mobile',
+        gallery: {
+          enabled: true,
+          navigateByImgClick: true,
+          preload: [0, 1]
+        },
+      });
     });
-</script>
+  </script>
 
 
   <script>
@@ -436,6 +497,7 @@
 
 
   <script src="./magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="./fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/js/all.min.js"></script>
 
 </body>
 
