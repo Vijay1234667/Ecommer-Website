@@ -177,3 +177,118 @@ body p{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
+
+@media only screen and (max-width: 767px) {
+/* blog-section */
+body h5{
+  font-size: 23px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+body h6{
+  font-family: "Poppins", sans-serif;
+}
+body p{
+  font-family: "Poppins", sans-serif;
+}
+.article-next-prev-btn .btn{
+  font-size: 14px;
+  font-weight: 400;
+}
+.blog-section {
+  padding: 20px 0px 20px;
+}
+
+.blog-right-social .blog-social-icons li {
+  padding: 4px 10px;
+}
+
+.blog-right-social p{
+  line-height: 24px;
+  font-size: 14px;
+
+}
+.blog-right-categories h4 {
+  font-size: 19px;
+}
+.latest-post h4 {
+  font-size: 17px;
+  font-weight: 600;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.464);
+}
+
+.blog-right-middle-para p {
+  font-size: 14px;
+  line-height: 26px;
+}
+.blog-right-bottom-social li a {
+  color: white;
+}
+
+.card-bottom-bg-blue {
+  background-color: #00234d;
+  color: white;
+  border-left: 10px solid #f76b6a;
+  padding: 10px 0px 10px;
+  transform: skew(-4deg);
+}
+.card-bottom-bg-blue h5 {
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0px;
+}
+
+.article-next-prev-btn .prev-btn {
+  padding: 7px 20px;
+  font-size: 14px;
+}
+.article-next-prev-btn .next-btn {
+  font-size: 14px;
+  padding: 5px 20px;
+}
+.popular-tags li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.popular-tags a {
+  color: white;
+  text-decoration: none;
+  -webkit-border-radius: 2px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 10px;
+}
+.blog-right-middle-para p{
+  font-size: 14px;
+}
+
+
+.text-bottom-circle{
+  background-color:yellow;
+  height: 14px;
+  text-align: center;
+  width: 19px;
+  border-radius: 50%;
+  position: relative;
+  left: 41%;
+  transform: translate(-50%, -79%);
+
+}
+.reusable-relative{
+  position: relative;
+}
+.reusable-relative::before{
+  position: absolute;
+  content: "";
+  background-color:white;
+  height: 4px;
+  width: 20%;
+  top: 61%;  
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+}
