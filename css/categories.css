@@ -95,4 +95,30 @@
   .categories-bg-img-body{
     padding: 10px ;
   }
+
+  .text-bottom-circle{
+    background-color:yellow;
+    height: 19px;
+    text-align: center;
+    width: 19px;
+    border-radius: 50%;
+    position: relative;
+    left: 41%;
+    transform: translate(-50%, -79%);
+  
+  }
+  .reusable-relative{
+    position: relative;
+  }
+  .reusable-relative::before{
+    position: absolute;
+    content: "";
+    background-color:white;
+    height: 4px;
+    width: 17%;
+    top: 61%;  
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
   

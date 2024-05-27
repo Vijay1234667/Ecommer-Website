@@ -48,19 +48,25 @@ border: 2px solid #256a8f;;
   color: white;
   border-radius: 2px;
 }
-#userForm label{
+/* #userForm label{
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 
-}
+} */
+input{ 
+  font-family: "Poppins", sans-serif;
+	width:100%; 
+	font-size: 16px; 
+	padding: 7px 10px; 
+} 
   
-#userForm input{
+/* #userForm input{
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   padding: 10px;
   font-weight: 400;
-}
+} */
 
 .text-bottom-circle{
   background-color:yellow;

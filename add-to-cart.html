@@ -22,61 +22,135 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-md">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">ONLINE SHOP</a>    
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="javascript:void(0)">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="javascript:void(0)">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="javascript:void(0)">Shop</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarScrollingDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Portfolio
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
-                <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+    <section class="navbar-section">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <a class="fs-3 hammer" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    <i class="fa-solid fa-bars searchglass"></i>
+                </a>
+                <div class="nav-sign-btn">
+                    <a href="" class="btn"><img src="/img/logo (1).png" alt="" width="90px"></a>
+                </div>
+                <div class="nav-sign-btn">
+                    <a href="" class="btn">Sign in</a>
+                </div>
+            </div>
+            <div class="offcanvas  offcanvas-start" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel"><a href=""><i
+                                class="fa-solid fa-magnifying-glass text-dark fs-4"></i></a></h5>
+                    <button type="button" class="btn-close " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="mb-3 border-2 border-bottom">
+                        <img class="img-fluid rounded-circle" src="https://ik.imagekit.io/gku4adhog/first-fly-travel/testimonial2img.png?updatedAt=1714374953317" alt="" width="120px">
+                        <div class="text-white text-end profile-owner ms-4">
+                            <h4><img class="img-fluid me-2" src="/img/Ellipse 9.png" alt="">Client</h4>
+                        </div>
+                    </div>
+                    <ul class="p-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                    
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item ">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button border-0 shadow-none collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        Accordion
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button border-0 shadow-none collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                       All Product
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">onstrate</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button border-0 shadow-none collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        Whishlist
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder</div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                    <ul class="offcanvas-social-icons p-0">
+                        <li>
+                            <a href=""><i class="fa-brands fa-facebook-f text-info"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-brands fa-instagram text-danger"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-brands fa-linkedin-in text-primary"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-brands fa-twitter text-success"></i></a>
+                        </li>
+                    </ul>
+                    <div class="offcanvas-left-call-btn">
+                        <a href="" class="btn"><img class="img-fluid" src="/img/call-round.gif" alt="" width="50px"
+                                height="60px">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="navbar-bottom-nav border-1 p-0 border-top">
                 <li>
-                  <hr class="dropdown-divider">
+                    <a href="">home</a>
                 </li>
-                <li><a class="dropdown-item" href="javascript:void(0)">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarScrollingDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Services
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
-                <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
                 <li>
-                  <hr class="dropdown-divider">
+                    <a href="">Cart</a>
                 </li>
-                <li><a class="dropdown-item" href="javascript:void(0)">Something else here</a></li>
-              </ul>
-            </li>
-          </ul>
-          <div class="navbar-right-btn">
-            <a href="javascript:void(0)" class="btn">Sign Up</a>
-            <a href="javascript:void(0)" class="btn">Login</a>
-          </div>
+                <li>
+                    <a href="">Product</a>
+                </li>
+                <li>
+                    <a href="">Categeory</a>
+                </li>
+                <li>
+                    <a href="">link</a>
+                </li>
+
+            </ul>
+            <div class="text-center">
+                <input type="text" class="header-input" placeholder="Search Products" name="" id="">
+            </div>
         </div>
-      </div>
-    </nav>
-  </header>
+    </section>
+</header>
 
 
 
