@@ -6,9 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vmart</title>
   <link rel="icon" href="homepageimages/brand2.jpg">
-<link rel="stylesheet" href="./fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.min.css">
+  <link rel="stylesheet" href="./fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/registration.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -25,8 +24,8 @@
             <a href="index.html" class="btn"><img src="img/logo (1).png" alt="" width="90px"></a>
           </div>
           <div class="nav-sign-btn">
-            <a href="javascript:void(0)" class="btn">Sign in</a>
-            <a href="javascript:void(0)" class="btn border-0"><img class="img-fluid me-1" src="img/call-round.gif" alt="" width="35px">+1 9137168732</a>
+            <a href="Login-page.html" class="btn">Login</a>
+            <a href="Sign-up.html" class="btn">Register</a>
           </div>
         </div>
         <div class="offcanvas  offcanvas-start" tabindex="-1" id="offcanvasExample"
@@ -145,18 +144,21 @@
             <a href="javascript:void(0)">Features</a>
           </li>
           <li>
-            <a href="javascript:void(0)"><i class="fa-solid fa-user fs-5 text-danger  px-2 py-2 rounded-pill bg-white"></i></a>
+            <a href="javascript:void(0)"><i
+                class="fa-solid fa-user fs-5 text-danger  px-2 py-2 rounded-pill bg-white"></i></a>
           </li>
           <li>
-            <a href="javascript:void(0)"><i class="fa-solid fa-lock fs-5 text-success border px-2 py-2 rounded-pill bg-white"></i></a>
+            <a href="javascript:void(0)"><i
+                class="fa-solid fa-lock fs-5 text-success border px-2 py-2 rounded-pill bg-white"></i></a>
           </li>
           <li>
-            <a href="javascript:void(0)"><i class="fa-solid fa-cart-plus fs-5 text-dark border px-2 py-2 rounded-pill bg-white"></i></a>
+            <a href="javascript:void(0)"><i
+                class="fa-solid fa-cart-plus fs-5 text-dark border px-2 py-2 rounded-pill bg-white"></i></a>
           </li>
         </ul>
-        <div class="text-center position-relative">
-          <input type="text" class="header-input " placeholder="Search Products" name="" id="">
-          <div  class="position-absolute top-0 end-0">
+        <div class="text-center header-input-body mx-auto">
+          <input type="text" class="header-input" placeholder="Search Products" name="" id="">
+          <div  class="header-input-body-glass">
             <a href=""><i class="fa-solid fa-magnifying-glass text-dark"></i></a>
           </div>
         </div>
@@ -164,47 +166,140 @@
     </section>
   </header>
 
+  <style>
+    body {
+      background-color:#f1f5f9;
+  }
+    .Login-Page-Section {
+      padding: 20px 0px 20px;
+    }
+  
+    .Login-Page-Section h1 {
+      font-weight: 700;
+      font-size: 40px;
+      color: #1e293b;
+    }
+    .form-body-content label{
+      font-size: 16px;
+      font-family: "Poppins", sans-serif;
+      color: #64748b;
+      font-weight: 500;
+    }
+    .form-body-content input{
+    padding: 8px  10px;
+    border-radius: 9px;
+    }
+    .Login-Page-Section .sign-btn{
+      background-color: #8b3DFF;
+      width: 100%;
+      color: white;
+      font-size: 16px;
+      font-family: "Poppins", sans-serif;
+      border-radius: 9px;
+      padding: 9px 0px 9px;
+    }
+    .Login-Page-Section h6{
+      font-size: 16px;
+      font-family: "Poppins", sans-serif;
+      color:#8b3DFF ;
+    }
+    .Login-Page-Section .Google-btn{
+      background-color:#f1f5f9;
+      color: #64748b;
+      width: 100%;
+      font-weight: 500;
+      border-radius: 9px;
+      font-size: 16px;
+      padding: 9px 0px 9px;
+      font-family: "Poppins", sans-serif;
+    }
 
-
-  <main>
-    <section class="form-section">
+    .Login-Page-Section .Google-btn:hover{
+      background-color:#db1436;
+      color: white;
+    }
+    .Login-Page-Section .Facebook-btn{
+      background-color:#f1f5f9;
+      color: #64748b;
+      width: 100%;
+      font-weight: 500;
+      border-radius: 9px;
+      font-size: 16px;
+      padding: 9px 0px 9px;
+      font-family: "Poppins", sans-serif;
+    }
+    .Login-Page-Section .Facebook-btn:hover{
+      background-color: #1877f2;
+      color: white;
+    }
+    .forget-btn a{
+      text-decoration: none;
+      color: #8b3DFF;
+      font-size: 16px;
+      font-family: "Poppins", sans-serif;
+    }
+    .shadow-section{
+      box-shadow: 1px px 7px #f1f5f9;
+      border-radius: 10px;
+      border: 2px solid #f1f5f9;
+      background-color: white;
+      box-shadow: 0 .125rem .25rem rgba(2, 6, 23, .075) !important;
+    }
+  </style>
+  <main role="main">
+    <section class="Login-Page-Section">
       <div class="container">
+        <div class="text-center mb-4">
+          <h1>Welcome Back</h1>
+          <p>Don’t have an account yet?<a href="Sign-up.html" class="ms-1">Register here</a></p>
+        </div>
         <div class="row">
-          <div class="col-lg-6 mx-auto">
-            <form class="form" >
-              <p class="title">Register </p>
-              <span class="reausable-span"></span>
-              <p class="message">Signup now and get full access to our app. </p>
-              <div class="flex">
-                <label>
-                  <input required="" placeholder="" type="text" class="input">
-                  <span>Firstname</span>
-                </label>
-                <label>
-                  <input required="" placeholder="" type="text" class="input">
-                  <span>Lastname</span>
-                </label>
+          <div class="form-body-content">
+            <div class="col-md-5 shadow-section mx-auto p-3">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                <input required="" type="email" class="form-control" id="exampleFormControlInput1">
               </div>
-              <label>
-                <input required="" placeholder="" type="email" class="input">
-                <span>Email</span>
-              </label>
-              <label>
-                <input required="" placeholder="" type="password" class="input">
-                <span>Password</span>
-              </label>
-              <label>
-                <input required="" placeholder="" type="password" class="input">
-                <span>Confirm password</span>
-              </label>
-              <button class="submit">Submit</button>
-              <p class="signin">Already have an acount ? <a href="#">Signin</a> </p>
-            </form>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Password</label>
+                <input required="" type="email" class="form-control" id="exampleFormControlInput1">
+              </div>
+              <div class="mb-3 d-flex justify-content-between">
+                <h6>Remember me</h6>
+                <div class="forget-btn">
+                  <a href="">Forgot Password</a>
+                </div>
+              </div>
+              <div class="mb-3 text-center">
+                <a href="" class="btn sign-btn">Sign In</a>
+              </div>
+              <div class="mb-3">
+                <p>Sign in with your social network.</p>
+              </div>
+              <div class="mb-3 text-center">
+                <a href="" class="btn Google-btn"><i class="fa-brands fa-google-plus-g me-2"></i>Continue with Google</a>
+              </div>
+              <div class="mb-3 text-center">
+                <a href="" class="btn Facebook-btn"><i class="fa-brands fa-facebook me-2"></i>Continue with Facebook</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
     </section>
   </main>
+
+
+
+
+
+
+
+
+
+
+  <!-- footer-section -->
 
   <footer class="footer-section">
     <div class="container">
@@ -399,16 +494,8 @@
 
 
 
-
-
-
-
-
-  <!-- footer-section -->
-
   <script src="js/bootstrap.bundle.js"></script>
   <script src="./fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/js/all.min.js"></script>
-
 </body>
 
 </html>
