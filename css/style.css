@@ -7,6 +7,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.chatbot-icon-section{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+.chatbot-icon-section .btn-primary{
+  border-radius: 50%;
+  padding: 13px;
+}
 html {
   scroll-behavior: smooth;
 }

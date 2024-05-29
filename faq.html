@@ -8,6 +8,7 @@
     <link rel="icon" href="homepageimages/brand2.jpg">
     <link rel="stylesheet" href="./fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/chat.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -147,7 +148,7 @@
                         <li>
                             <a href="faq.html">FAQ's</a>
                         </li>
-                        
+
                     </div>
                     <div class="d-flex ">
                         <li>
@@ -173,6 +174,49 @@
             </div>
         </section>
     </header>
+
+
+    <section class="chatbot-icon-section">
+        <div class="container">
+            <!-- Button trigger modal -->
+
+            <a href="" data-bs-toggle="modal" type="button" class="btn btn-primary" data-bs-target="#exampleModal"><i
+                    class="fa-brands fa-rocketchat text-white fs-5"></i></a>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header border-0">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="main-chatbot-box">
+                                    <div class="d-flex flex-column justify-content-between chatbot-body">
+                                        <div class="header text-white d-flex align-items-center p-1">
+                                            <img class="img-fluid rounded-circle me-2" width="40px" src="./img/About-Us person.jpg"
+                                                alt="Avatar" class="header-image">
+                                            <div class="chat-title">ChatBot</div>
+                                            <i class="fas fa-circle icon"></i>
+                                        </div>
+                
+                                        <div class="chat-container" id="chatContainer"></div>
+                                        <div class="message-input">
+                                            <input type="text" id="messageInput" placeholder="Message Here">
+                                            <button id="sendButton" onclick="sendMessage()"><i class="fas fa-paper-plane"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
 
     <style>
         body {
@@ -541,6 +585,7 @@
         </div>
     </footer>
     <script src="js/bootstrap.bundle.js"></script>
+    <script src="./js/chat.js"></script>
     <script src="./fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/js/all.min.js"></script>
 </body>
 
