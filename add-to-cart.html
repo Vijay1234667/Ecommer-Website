@@ -43,26 +43,28 @@
             <button type="button" class="btn-close " data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
-            <div class="mb-3 border-2 border-bottom">
-              <img class="img-fluid rounded-circle"
-                src="https://ik.imagekit.io/gku4adhog/first-fly-travel/testimonial2img.png?updatedAt=1714374953317"
-                alt="" width="120px">
-              <div class="text-white text-end profile-owner ms-4">
-                <h4><img class="img-fluid me-2" src="img/Ellipse 9.png" alt="">Client</h4>
+            <div class="mb-3 border-2  d-flex align-items-center">
+              <img class="img-fluid rounded-circle" src="./img/About-Us person.jpg" alt="" width="100px">
+              <div class="text-white  profile-owner ms-2">
+                <h4>Personal Account</h4>
+                <span>Personal Account</span>
               </div>
+            </div>
+            <div class="view-site-or-profile">
+              <h5 class="">View site / profile</h5>
             </div>
             <ul class="p-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Profile</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About</a>
+                <a class="nav-link active" aria-current="page" href="profile.html">Profile</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Service</a>
+                <a class="nav-link active" aria-current="page" href="categories.html">Categeory</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="cart.html">Cart</a>
               </li>
 
               <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -129,47 +131,54 @@
         </div>
 
         <ul class="navbar-bottom-nav border-1 p-0 border-top">
-          <li>
-            <a href="javascript:void(0)">home</a>
-          </li>
-          <li>
-            <a href="javascript:void(0)">Shop</a>
-          </li>
-          <li>
-            <a href="javascript:void(0)">About us</a>
-          </li>
-          <li>
-            <a href="javascript:void(0)">Blogs</a>
-          </li>
-          <li>
-            <a href="javascript:void(0)">Pages</a>
-          </li>
-          <li>
-            <a href="javascript:void(0)">FAQ's</a>
-          </li>
-          <li>
-            <a href="javascript:void(0)">Features</a>
-          </li>
-          <li>
-            <a href="javascript:void(0)"><i class="fa-solid fa-user fs-5 text-danger  px-2 py-2 rounded-pill bg-white"></i></a>
-          </li>
-          <li>
-            <a href="javascript:void(0)"><i class="fa-solid fa-lock fs-5 text-success border px-2 py-2 rounded-pill bg-white"></i></a>
-          </li>
-          <li>
-            <a href="javascript:void(0)"><i class="fa-solid fa-cart-plus fs-5 text-dark border px-2 py-2 rounded-pill bg-white"></i></a>
-          </li>
+          <div class="d-flex mx-auto ">
+            <li>
+              <a href="index.html">home</a>
+            </li>
+            <li>
+              <a href="categories.html">Categeory</a>
+            </li>
+            <li>
+              <a href="About-Us.html">About us</a>
+            </li>
+            <li>
+              <a href="blog.html">Blogs</a>
+            </li>
+            <li>
+              <a href="Projects.html">Portfolio</a>
+            </li>
+            <li>
+              <a href="cart.html">Cart</a>
+            </li>
+            <li>
+              <a href="faq.html">FAQ's</a>
+            </li>
+
+          </div>
+          <div class="d-flex ">
+            <li>
+              <a href="profile.html"><i
+                  class="fa-solid fa-user  text-danger  px-2 py-2 rounded-circle bg-white"></i></a>
+            </li>
+            <li>
+              <a href="javascript:void(0)"><i
+                  class="fa-solid fa-lock  text-success border px-2 py-2 rounded-circle bg-white"></i></a>
+            </li>
+            <li>
+              <a href="cart.html"><i
+                  class="fa-solid fa-cart-plus  text-dark border px-2 py-2 rounded-circle bg-white"></i></a>
+            </li>
+          </div>
         </ul>
         <div class="text-center header-input-body mx-auto">
-          <input type="text" class="header-input" placeholder="Search Products" name="" id="">
-          <div  class="header-input-body-glass">
-            <a href=""><i class="fa-solid fa-magnifying-glass text-dark"></i></a>
+          <input type="text" class="header-input h-100" placeholder="Search Products" name="" id="">
+          <div class="header-input-body-glass">
+            <a href="" class="btn bg-danger"><i class="fa-solid fa-magnifying-glass text-white"></i></a>
           </div>
         </div>
       </div>
     </section>
   </header>
-
 
 
   <main role="main">
@@ -178,7 +187,7 @@
     <section class="add-to-bag-main-page">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 h-100">
             <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -246,12 +255,12 @@
             }
 
             .mySwiper2 {
-              height: 70%;
+              height: 55%;
               width: 100%;
             }
 
             .mySwiper {
-              height: 20%;
+              height: 15%;
               box-sizing: border-box;
               padding: 4px 0;
             }
@@ -273,7 +282,7 @@
               object-fit: cover;
             }
           </style>
-          <div class="col-lg-6  add-to-bag-body-content">
+          <div class="col-lg-6 h-auto add-to-bag-body-content">
             <h4 class="fw-bold mb-1"><span class="text-success">#</span> Check Black Kurta <span
                 class="text-success">#</span></h4>
             <h6 class="title-top-para"> Off-White Printed Kurta with Brands...</h6>
@@ -503,13 +512,15 @@
               <div class="form-group row">
                 <label for="inputName" class="col-lg-12 col-form-label " for="Name">Name</label>
                 <div class=" mb-2">
-                  <input type="text" class="form-control" id="inputName" id="Name" name="Name" placeholder=" Enter Name">
+                  <input type="text" class="form-control" id="inputName" id="Name" name="Name"
+                    placeholder=" Enter Name">
                 </div>
               </div>
               <div class="form-group row">
                 <label for="inputEmail" class="col-form-label " for="email">Email</label>
                 <div class=" mb-2">
-                  <input type="email" class="form-control" id="inputEmail" id="email" name="email" placeholder=" Enter Email">
+                  <input type="email" class="form-control" id="inputEmail" id="email" name="email"
+                    placeholder=" Enter Email">
                 </div>
               </div>
               <div class="form-group row">
@@ -553,17 +564,16 @@
 
         <div class="owl-carousel owl-theme">
           <div class="item">
-            <div class="card h-100">
+            <div class="card">
               <div class="inner">
-                <img  src="img/k1.webp" class=" img-fluid card-img-top inner" alt="">
+                <img src="img/k1.webp" class=" img-fluid  inner" alt="">
               </div>
               <div class="card-body text-center">
                 <h4 class="card-title"><i>Product1</i></h4>
                 <p class="card-text">Professionals work with a variety of all materials, in a variety of
                   settings–indoor and outdoor.</p>
                 <div class="card-btn text-center">
-                  <button class="btn  fw-bold">Read More <span><i
-                        class="fa-solid fa-arrow-right"></i></span></button>
+                  <button class="btn  fw-bold">Read More <span><i class="fa-solid fa-arrow-right"></i></span></button>
                 </div>
               </div>
             </div>
@@ -571,15 +581,14 @@
           <div class="item">
             <div class="card">
               <div class="inner">
-                <img src="img/k2.webp" class=" img-fluid card-img-top " alt="">
+                <img src="img/k2.webp" class=" img-fluid  " alt="">
               </div>
               <div class="card-body text-center">
                 <h4 class="card-title"><i>Product1</i></h4>
                 <p class="card-text">Professionals work with a variety of all materials, in a variety of
                   settings–indoor and outdoor.</p>
                 <div class="card-btn text-center">
-                  <button class="btn fw-bold">Read More <span><i
-                        class="fa-solid fa-arrow-right"></i></span></button>
+                  <button class="btn fw-bold">Read More <span><i class="fa-solid fa-arrow-right"></i></span></button>
                 </div>
               </div>
             </div>
@@ -587,15 +596,14 @@
           <div class="item">
             <div class="card">
               <div class="inner">
-                <img src="img/k3.webp" class=" img-fluid card-img-top inner" alt="">
+                <img src="img/k3.webp" class="img-fluid  inner" alt="">
               </div>
               <div class="card-body text-center">
                 <h4 class="card-title"><i>Product1</i></h4>
                 <p class="card-text">Professionals work with a variety of all materials, in a variety of
                   settings–indoor and outdoor.</p>
                 <div class="card-btn text-center">
-                  <button class="btn fw-bold">Read More <span><i
-                        class="fa-solid fa-arrow-right"></i></span></button>
+                  <button class="btn fw-bold">Read More <span><i class="fa-solid fa-arrow-right"></i></span></button>
                 </div>
               </div>
             </div>
@@ -603,15 +611,14 @@
           <div class="item">
             <div class="card">
               <div class="inner">
-                <img src="img/k4.webp" class=" img-fluid card-img-top inner" alt="">
+                <img src="img/k4.webp" class=" img-fluid  inner" alt="">
               </div>
               <div class="card-body text-center">
                 <h4 class="card-title"><i>Product1</i></h4>
                 <p class="card-text">Professionals work with a variety of all materials, in a variety of
                   settings–indoor and outdoor.</p>
                 <div class="card-btn text-center">
-                  <button class="btn  fw-bold">Read More <span><i
-                        class="fa-solid fa-arrow-right"></i></span></button>
+                  <button class="btn  fw-bold">Read More <span><i class="fa-solid fa-arrow-right"></i></span></button>
                 </div>
               </div>
             </div>
@@ -619,7 +626,7 @@
           <div class="item">
             <div class="card">
               <div class="inner">
-                <img src="img/k5.webp" class="card-img-top inner" alt="">
+                <img src="img/k5.webp" class="img-fluid inner" alt="">
               </div>
               <div class="card-body text-center">
                 <h4 class="card-title"><i>Product1</i></h4>
@@ -632,7 +639,6 @@
               </div>
             </div>
           </div>
-        
         </div>
       </div>
     </section>
@@ -653,7 +659,8 @@
             <img class="img-fluid d-block m-auto mb-3" src="homepageimages/vmart_store-logo.png" alt="" width="160px"
               height="200px">
             <p class="text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium fugit, sunt tenetur qui aperiam.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium fugit, sunt tenetur qui
+              aperiam.
             </p>
             <div class="left-socials-icons text-center">
               <a href="javascript:void(0)"><i class="fa-brands fa-facebook-f"></i></a>
@@ -670,13 +677,10 @@
             <div class="col-lg-6 col-6 footer-column-links">
               <ul class="nav flex-column">
                 <li class="nav-item">
-                  <a class="nav-link active" href="javascript:void(0)">Home</a>
+                  <a class="nav-link active" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="javascript:void(0)">ABOUT US</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="profile.html">Profile</a>
+                  <a class="nav-link active" href="About-Us.html">ABOUT US</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" href="blog.html">BLOGS</a>
@@ -695,10 +699,7 @@
                   <a class="nav-link active" href="gallery.html">Gallery</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="Registration.html">REGISTRATION</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="categories.html">Categories</a>
+                  <a class="nav-link active" href="Login-page.html">Login</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" href="Projects.html">Our Project</a>
@@ -751,18 +752,6 @@
             <a href="javascript:void(0)"> CABLES</a>
             <a href="javascript:void(0)"> SHIRT</a>
           </div>
-
-          <div class="footer-contact-details-body pt-2 ">
-            <ul class="footer-social-nav d-flex">
-              <li><a href="javascript:void(0)" class="btn btn-youtube text-white"><span><i
-                      class="fa-brands fa-youtube mx-1"></i></span>YouTube</a>
-              </li>
-              <li>
-                <a href="javascript:void(0)" class="btn btn-telegram text-white"><span><i
-                      class="fa-brands fa-telegram mx-1"></i></span>Telegram</a>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
     </div>
@@ -771,35 +760,35 @@
       <div class="footer-delevery-process text-white text-center">
         <div class="row justify-content-center">
           <div class="col-lg-2 col-6">
-            <i class="fa-solid fa-thumbs-up"></i>
+            <i class="fa-solid fa-thumbs-up fs-5 mb-2"></i>
             <h6>High Quality</h6>
             <p>
               Nullam sed sollicitudin mauris velit id venenatis morbi
             </p>
           </div>
           <div class="col-lg-2 col-10">
-            <i class="fa-solid fa-phone-volume"></i>
+            <i class="fa-solid fa-phone-volume fs-5 mb-2"></i>
             <h6>Awesome Support</h6>
             <p>
               Nullam sed sollicitudin mauris velit id venenatis morbi </p>
           </div>
 
           <div class="col-lg-2 col-6">
-            <i class="fa-solid fa-truck"></i>
+            <i class="fa-solid fa-truck fs-5 mb-2"></i>
             <h6>Really Fast Delivery</h6>
             <p>
               Nullam sed sollicitudin mauris velit id venenatis morbi
             </p>
           </div>
           <div class="col-lg-2 col-10">
-            <i class="fa-solid fa-right-left"></i>
+            <i class="fa-solid fa-right-left fs-5 mb-2"></i>
             <h6>14-Day Returns</h6>
             <p>
               Nullam sed sollicitudin mauris velit id venenatis morbi
             </p>
           </div>
           <div class="col-lg-2 col-6">
-            <i class="fa-solid fa-lock"></i>
+            <i class="fa-solid fa-lock fs-5 mb-2"></i>
             <h6>Secure Checkout</h6>
             <p>
               Nullam sed sollicitudin mauris velit id venenatis morbi
@@ -809,33 +798,31 @@
       </div>
     </div>
 
-    <div class="copyright-section pt-3">
-      <div class="row text-center">
-        <div class="col-lg-4 col-md-6 my-2 col-12">
-          <p>
-            © 2024 All rights reserved. Development by <a class="agency-copy"
-              href="javascript:void(0)">Vijaykumar.Yadav</a>
-          </p>
-        </div>
-        <div class="col-lg-4 mb-2 col-md-6 col-12">
-          <div class="footer-social-icons">
-            <a href="privacy-policy.html" class=" text-decoration-none">Privacy Policy</a> <span
-              class="text-white">|</span>
-            <a href="Terms-And-Condition.html" class=" text-decoration-none">Terms And Condition</a>
+    <div class="copyright-section">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-4 col-md-6 my-2 col-12">
+            <p>
+              © 2024 All rights reserved. Development by <a class="agency-copy"
+                href="javascript:void(0)">Vijaykumar.Yadav</a>
+            </p>
           </div>
-        </div>
-        <div class="col-lg-4 co-12">
-          <div class="footer-payment-icons">
-            <img class="img-fluid" src="homepageimages/payment.png" alt="" width="200">
+          <div class="col-lg-4 mb-2 col-md-6 col-12">
+            <div class="footer-social-icons">
+              <a href="privacy-policy.html" class=" text-decoration-none">Privacy Policy</a> <span
+                class="text-white">|</span>
+              <a href="Terms-And-Condition.html" class=" text-decoration-none">Terms And Condition</a>
+            </div>
+          </div>
+          <div class="col-lg-4 co-12">
+            <div class="footer-payment-icons">
+              <img class="img-fluid" src="homepageimages/payment.png" alt="" width="200">
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="window-top-bottom-scroll">
-      <button class=" btn" onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    </div>
   </footer>
-
 
 
   <!-- Swiper JS -->
