@@ -1,31 +1,26 @@
 
 /* contact-us-section */
 .contact-us-section{
-    padding: 30px 0px 30px;
+    padding: 20px 0px 20px;
     max-width: 1024px;
     margin: 0px auto;
+    font-family: "Poppins", sans-serif;
+
 }
 .contact-us-section .contact-top-info{
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
   line-height: 29px;
 }
 .contact-us-section .contact-additional-info li{
 list-style-type: none;
 font-size: 16px;
-font-family: "Poppins", sans-serif;
 font-weight: 400;
-}
-
-.contact-us-section .contact-additional-info i{
-font-family: "Poppins", sans-serif;
 }
 
 .contact-us-section .contact-additional-info a{
 text-decoration: none;
 color:#282727;
 font-weight: 400;
-font-family: "Poppins", sans-serif;
 }
 .contact-us-left-social {
   display: flex;
@@ -44,29 +39,15 @@ border: 2px solid #256a8f;;
   background-color:#256a8f;
   padding: 8px 40px;
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
   color: white;
   border-radius: 2px;
 }
-/* #userForm label{
-  font-size: 16px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
 
-} */
 input{ 
-  font-family: "Poppins", sans-serif;
 	width:100%; 
 	font-size: 16px; 
 	padding: 7px 10px; 
 } 
-  
-/* #userForm input{
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  padding: 10px;
-  font-weight: 400;
-} */
 
 .text-bottom-circle{
   background-color:yellow;

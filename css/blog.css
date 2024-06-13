@@ -35,6 +35,7 @@ list-style-type: none;
   font-weight: 400;
 }
 
+
 .blog-right-social .blog-social-icons li {
   margin-right: 14px;
   padding: 5px 10px;
@@ -43,11 +44,9 @@ list-style-type: none;
 .blog-right-social p{
   line-height: 26px;
 }
-
 .blog-right-social .blog-social-icons li a {
   color: white;
 }
-
 .blog-about-star-sec li {
   list-style-type: none;
   margin-right: 3px;
@@ -57,13 +56,12 @@ list-style-type: none;
   font-weight: 600;
 }
 .blog-right-categories li {
-  list-style-type: none;
+  list-style-type: square;
   margin-bottom: 4px;
 }
 .blog-right-categories li a {
   color: #0d0d0d;
   font-weight: 400;
-  text-decoration: none;
 }
 .latest-post h4 {
   font-size: 19px;
@@ -129,7 +127,7 @@ color: #0d0d0d;
 }
 .popular-tags li {
   list-style-type: none;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   display: inline-block;
 }
 .popular-tags a {
