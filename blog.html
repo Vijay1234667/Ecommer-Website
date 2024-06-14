@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <section class="navbar-section">
+        <section class="navbar-section fixed-top">
             <div class="container">
                 <div class="d-flex justify-content-between">
                     <a class="fs-3 hammer" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
@@ -155,7 +155,11 @@
                     </div>
                 </div>
             </div>
+            <div class="progress-container">
+                <div class="progress-bar" id="myBar"></div>
+              </div> 
         </section>
+    
     </header>
     
 
@@ -170,6 +174,19 @@
             font-family: "Lalezar";
             letter-spacing: 2px;
         }
+      
+        .progress-container {
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, #63586f, #453434bf); 
+          }
+          
+          .progress-bar {
+            height: 12px;
+            background: rgb(195, 208, 208);
+            width: 0%;
+          }
+          
     </style>
 
     <main role="main">
@@ -589,6 +606,18 @@
             </div>
         </div>
     </footer>
+
+
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        function myFunction() {
+          var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+          var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+          var scrolled = (winScroll / height) * 100;
+          document.getElementById("myBar").style.width = scrolled + "%";
+        }
+        </script>
     <script src="./fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/js/all.min.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
 </body>
