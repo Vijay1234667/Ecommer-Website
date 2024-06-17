@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="./fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 
-<body>
 
+<body>
     <header>
         <section class="navbar-section">
             <div class="container">
@@ -161,10 +160,34 @@
     </header>
 
 
+
+    <style>
+        .payment-summary-body table{
+            border: 2px solid rgb(75, 162, 139);
+            background-color:rgba(245, 222, 179, 0.311);
+            font-family: "Poppins", sans-serif;
+        }
+        .payment-summary-body table  tr td{
+            border: 2px solid rgb(75, 162, 139);
+            padding: 10px;
+            text-align: center;
+        }
+        .paysum-head{
+            font-family: "Poppins", sans-serif;
+            font-size: 26px;
+            letter-spacing: 1px;
+            color:rgba(83, 62, 23, 0.789);
+            margin-bottom: 20px;
+            text-decoration: underline;
+
+        }
+    </style>
+
+
     <section class="main-top-cart-delivery-section">
         <div class="container">
           <div class="row">
-            <div class="d-md-block d-none">
+            <div class="">
                 <table class="table table-bordered caption-top">
                     <caption>
                         <h6 class="fw-bold">CART</h6>
@@ -176,7 +199,6 @@
                             <th scope="col">Product</th>
                             <th scope="col">Price</th>
                             <th scope="col">Quantity</th>
-                            <th scope="col">SubTotal</th>
                         </tr>
                     </thead>
                     <tbody class="text-center">
@@ -185,18 +207,14 @@
                             <td><img class="img-fluid" src="/homepageimages/sh1.jpeg" width="50px" height="40px"
                                     alt="item1"></td>
                             <td>Slogan cotton print t-shirt</td>
-                            <td><span>&#8377;</span>70.00</td>
-                            <td><input type="number"></td>
-                            <td><span>&#8377;</span>70.00</td>
-                        </tr>
-                        <tr>
-                            <th>2</th>
-                            <td><img class="img-fluid" src="/homepageimages/addtocatc5.png" width="50px" height="40px"
-                                    alt="item2"></td>
-                            <td>Slogan cotton print t-shirt</td>
-                            <td><span>&#8377;</span>70.00</td>
-                            <td><input type="number"></td>
-                            <td><span>&#8377;</span>70.00</td>
+                            <td>
+                                <input id="priceone" class="px-3 bg-dark text-white"    value="200" type="button">
+                            </td>
+                            <td>
+                                <input id="decrease" id="plus" class="px-2" type="button" value="-">
+                                <input class="px-2" type="button" value="1">
+                                <input  id="increase" id="minus" class="px-2" type="button" value="+">
+                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -205,37 +223,35 @@
         </div>
     </section>
 
+    
+
+
+
     <section class="payment-summary-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <div class="shadow-md p-4 payment-summary-body  mb-4">
-                        <h5>Payment Summary</h5>
-                        <table class="table border border-2">
-                            <thead>
-                                <tr>
-                                    <th>Total Amount</th>
-                                    <th><span>&#8377;</span>158.15</th>
-                                </tr>
-                            </thead>
+                        <h5 class="paysum-head">Payment Summary</h5>
+                        <table class="table">
                             <tbody>
                                 <tr>
-                                    <td>Total Item</td>
-                                    <td>1</td>
+                                    <td class="">Total Item</td>
+                                    <td id="quantity">1</td>
                                 </tr>
                                 <tr>
                                     <td>Total Coupon Discount</td>
-                                    <td class="text-success"><span>&#8377;</span>0.00</td>
+                                    <td id="coupondiscount" class="text-success"><span>&#8377;</span>0.00</td>
                                 </tr>
                                 <tr>
                                     <td>Total GST</td>
-                                    <td><span>&#8377;</span>28</td>
+                                    <td id="gstadd"><span>&#8377;</span>0</td>
                                 </tr>
                                 <tr>
                                     <td><strong>
-                                            <h5>Amount Payable</h5>
+                                            <h5 class="text-success fw-bold">Total Amount</h5>
                                         </strong></td>
-                                    <td class="text-danger fw-bold"><span>&#8377;</span>158.15</td>
+                                    <td id="price" class="text-danger fw-bold"><span>&#8377;</span>250</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -247,6 +263,8 @@
             </div>
         </div>
     </section>
+
+
 
     <!-- footer-section -->
 
@@ -401,12 +419,12 @@
                     <div class="col-lg-4 col-md-6 my-2 col-12">
                         <p>
                             © 2024 All rights reserved. Development by <a class="agency-copy"
-                                href="javascript:void(0)">Vijaykumar.Yadav</a>
+                            href="javascript:void(0)">Vijaykumar.Yadav</a>
                         </p>
                     </div>
                     <div class="col-lg-4 mb-2 col-md-6 col-12">
                         <div class="footer-social-icons">
-                            <a href="privacy-policy.html" class=" text-decoration-none">Privacy Policy</a> <span
+                            <a href="privacy-policy.html" class=" text-decoration-none">Privacy Policy</a><span
                                 class="text-white">|</span>
                             <a href="Terms-And-Condition.html" class=" text-decoration-none">Terms And Condition</a>
                         </div>
@@ -421,6 +439,48 @@
         </div>
     </footer>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const priceElement    = document.getElementById('price');
+            const quantityElement = document.getElementById('quantity');
+            const increaseButton  = document.getElementById('increase');
+            const decreaseButton  = document.getElementById('decrease');
+            const gstincrease  = document.getElementById('gstadd');
+            const coupondis  = document.getElementById('coupondiscount');
+            const priceElementone  = document.getElementById('priceone');
+            console.log(priceElementone);
+            let price = 200;
+            let price1 = 200;
+            console.log(price1);
+            let quantity = 1;
+            let gstadd = 28;
+            let coupondiscount = 10;
+            const updateValues = () => {
+                priceElement.textContent = `Price: $${price}`;
+                priceElementone.value = `$${price}`;
+                quantityElement.textContent = `${quantity}`;
+                gstincrease.textContent= `${gstadd}`;
+                coupondis.textContent= `${coupondiscount}`;
+            };
+            increaseButton.addEventListener('click', () => {
+                price += 50;
+                price1 +=50;
+                quantity += 1;
+                gstadd += 1;
+                coupondiscount += 1;
+                updateValues();
+            });
+            decreaseButton.addEventListener('click', () => {
+                price -= 50;
+                price1-=50
+                quantity -= 1;
+                gstadd -= 1;
+                coupondiscount -= 1;
+                updateValues();
+            });
+            updateValues();
+        });
+    </script>
 
     <script src="js/script.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
