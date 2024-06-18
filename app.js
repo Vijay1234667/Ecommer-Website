@@ -37,7 +37,7 @@ db.collection('details').insertOne(data,function(err, collection){
 			
 	}); 
 		
-	return res.redirect('signup_success.html'); 
+	return res.redirect('successfull.html'); 
 }) 
 
 
