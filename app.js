@@ -1,52 +1,49 @@
-var express=require("express"); 
-var bodyParser=require("body-parser"); 
+const express = require("express");
+const bodyParser = require("body-parser");
+const mongoose = require("mongoose");
 
-const mongoose = require('mongoose'); 
-mongoose.connect('mongodb://localhost:27017/ecommercedb'); 
-var db=mongoose.connection; 
-db.on('error', console.log.bind(console, "connection error")); 
-db.once('open', function(callback){ 
-	console.log("connection succeeded"); 
-}) 
-
-var app=express() 
-
-app.use(bodyParser.json()); 
-app.use(express.static('public')); 
-app.use(bodyParser.urlencoded({ 
-	extended: true
-})); 
-
-app.post('/sign_up', function(req,res){ 
-	var name = req.body.name; 
-	var email =req.body.email; 
-	var pass = req.body.password; 
-	var phone =req.body.phone; 
-
-	var data = { 
-		"name": name, 
-		"email":email, 
-		"password":pass, 
-		"phone":phone 
-	} 
+const app = express();
 
 
-db.collection('details').insertOne(data,function(err, collection){ 
-		if (err) throw err; 
-		console.log("Record inserted Successfully"); 
-			
-	}); 
-		
-	return res.redirect('successfull.html'); 
-}) 
+mongoose.connect("mongodb://localhost:27017/Ecommerce_website", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
+
+const db = mongoose.connection;
+db.on("error", console.error.bind(console, "connection error:"));
+db.once("open", () => {
+  console.log("Database connection succeeded");
+});
 
 
-app.get('/',function(req,res){ 
-res.set({ 
-	'Access-control-Allow-Origin': '*'
-	}); 
-return res.redirect('contact-us.html'); 
-}).listen(3000) 
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 
-console.log("server listening at port 3000");
+app.post("/sign_up", async (req, res) => {
+  const { name, email, password, phone } = req.body;
+
+  const data = { name, email, password, phone };
+
+  try {
+    await db.collection("Ecom-Data").insertOne(data);
+    console.log("Record inserted successfully");
+    res.redirect("signup_success.html");
+  } catch (err) {
+    console.error("Error inserting record:", err);
+    res.status(500).send("An error occurred during sign-up.");
+  }
+});
+
+app.get("/", (req, res) => {
+  res.set({
+    "Access-Control-Allow-Origin": "*",
+  });
+  req.redirect("contact-us.html");
+});
+
+const PORT = 3000;
+app.listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}`);
+});
